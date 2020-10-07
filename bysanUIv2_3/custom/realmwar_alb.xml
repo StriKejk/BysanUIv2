@@ -170,19 +170,6 @@
 
 
         <ImageAreaDef>
-            <ControlId>1000</ControlId>
-            <Position>
-                <X>38</X>
-                <Y>128</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>warmap_pennine</TemplateName>
-        </ImageAreaDef>
-
-
-        <ImageAreaDef>
             <ControlId>1001</ControlId>
             <Position>
                 <X>38</X>
@@ -837,6 +824,22 @@
 
 
         <ImageAreaDef>
+<<<<<<< Updated upstream
+=======
+            <ControlId>1207</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>realmwar_siege</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+>>>>>>> Stashed changes
             <ControlId>1600</ControlId>
             <Position>
                 <X>0</X>
@@ -1204,6 +1207,7 @@
 
 
         <!--Medium Battles-->
+<<<<<<< Updated upstream
 
 
         <!--Large Battles-->
@@ -1265,6 +1269,27 @@
 
         <StatusIconDef>
             <ControlId>1303</ControlId>
+=======
+
+
+        <!--Large Battles-->
+
+
+        <!--Small Reports-->
+
+
+        <!--Medium Reports-->
+
+
+        <!--Large Reports-->
+
+
+        <!--Towers-->
+
+
+        <StatusIconDef>
+            <ControlId>1300</ControlId>
+>>>>>>> Stashed changes
             <Position>
                 <X>0</X>
                 <Y>0</Y>
@@ -1278,7 +1303,11 @@
 
 
         <StatusIconDef>
+<<<<<<< Updated upstream
             <ControlId>1304</ControlId>
+=======
+            <ControlId>1301</ControlId>
+>>>>>>> Stashed changes
             <Position>
                 <X>0</X>
                 <Y>0</Y>
@@ -1292,7 +1321,11 @@
 
 
         <StatusIconDef>
+<<<<<<< Updated upstream
             <ControlId>1305</ControlId>
+=======
+            <ControlId>1302</ControlId>
+>>>>>>> Stashed changes
             <Position>
                 <X>0</X>
                 <Y>0</Y>
@@ -1306,7 +1339,11 @@
 
 
         <StatusIconDef>
+<<<<<<< Updated upstream
             <ControlId>1306</ControlId>
+=======
+            <ControlId>1303</ControlId>
+>>>>>>> Stashed changes
             <Position>
                 <X>0</X>
                 <Y>0</Y>
@@ -1320,7 +1357,11 @@
 
 
         <StatusIconDef>
+<<<<<<< Updated upstream
             <ControlId>1307</ControlId>
+=======
+            <ControlId>1304</ControlId>
+>>>>>>> Stashed changes
             <Position>
                 <X>0</X>
                 <Y>0</Y>
@@ -1334,7 +1375,11 @@
 
 
         <StatusIconDef>
+<<<<<<< Updated upstream
             <ControlId>1308</ControlId>
+=======
+            <ControlId>1305</ControlId>
+>>>>>>> Stashed changes
             <Position>
                 <X>0</X>
                 <Y>0</Y>
@@ -1348,7 +1393,11 @@
 
 
         <StatusIconDef>
+<<<<<<< Updated upstream
             <ControlId>1309</ControlId>
+=======
+            <ControlId>1306</ControlId>
+>>>>>>> Stashed changes
             <Position>
                 <X>0</X>
                 <Y>0</Y>
@@ -1362,7 +1411,11 @@
 
 
         <StatusIconDef>
+<<<<<<< Updated upstream
             <ControlId>1310</ControlId>
+=======
+            <ControlId>1307</ControlId>
+>>>>>>> Stashed changes
             <Position>
                 <X>0</X>
                 <Y>0</Y>
@@ -1376,7 +1429,11 @@
 
 
         <StatusIconDef>
+<<<<<<< Updated upstream
             <ControlId>1311</ControlId>
+=======
+            <ControlId>1308</ControlId>
+>>>>>>> Stashed changes
             <Position>
                 <X>0</X>
                 <Y>0</Y>
@@ -1390,7 +1447,11 @@
 
 
         <StatusIconDef>
+<<<<<<< Updated upstream
             <ControlId>1312</ControlId>
+=======
+            <ControlId>1309</ControlId>
+>>>>>>> Stashed changes
             <Position>
                 <X>0</X>
                 <Y>0</Y>
@@ -1404,7 +1465,11 @@
 
 
         <StatusIconDef>
+<<<<<<< Updated upstream
             <ControlId>1313</ControlId>
+=======
+            <ControlId>1310</ControlId>
+>>>>>>> Stashed changes
             <Position>
                 <X>0</X>
                 <Y>0</Y>
@@ -1418,7 +1483,11 @@
 
 
         <StatusIconDef>
+<<<<<<< Updated upstream
             <ControlId>1314</ControlId>
+=======
+            <ControlId>1311</ControlId>
+>>>>>>> Stashed changes
             <Position>
                 <X>0</X>
                 <Y>0</Y>
@@ -1432,7 +1501,11 @@
 
 
         <StatusIconDef>
+<<<<<<< Updated upstream
             <ControlId>1315</ControlId>
+=======
+            <ControlId>1312</ControlId>
+>>>>>>> Stashed changes
             <Position>
                 <X>0</X>
                 <Y>0</Y>
@@ -1446,7 +1519,11 @@
 
 
         <StatusIconDef>
+<<<<<<< Updated upstream
             <ControlId>1316</ControlId>
+=======
+            <ControlId>1313</ControlId>
+>>>>>>> Stashed changes
             <Position>
                 <X>0</X>
                 <Y>0</Y>
@@ -1460,7 +1537,11 @@
 
 
         <StatusIconDef>
+<<<<<<< Updated upstream
             <ControlId>1317</ControlId>
+=======
+            <ControlId>1314</ControlId>
+>>>>>>> Stashed changes
             <Position>
                 <X>0</X>
                 <Y>0</Y>
@@ -1474,7 +1555,11 @@
 
 
         <StatusIconDef>
+<<<<<<< Updated upstream
             <ControlId>1318</ControlId>
+=======
+            <ControlId>1315</ControlId>
+>>>>>>> Stashed changes
             <Position>
                 <X>0</X>
                 <Y>0</Y>
@@ -1488,7 +1573,11 @@
 
 
         <StatusIconDef>
+<<<<<<< Updated upstream
             <ControlId>1319</ControlId>
+=======
+            <ControlId>1316</ControlId>
+>>>>>>> Stashed changes
             <Position>
                 <X>0</X>
                 <Y>0</Y>
@@ -1502,7 +1591,11 @@
 
 
         <StatusIconDef>
+<<<<<<< Updated upstream
             <ControlId>1320</ControlId>
+=======
+            <ControlId>1317</ControlId>
+>>>>>>> Stashed changes
             <Position>
                 <X>0</X>
                 <Y>0</Y>
@@ -1516,7 +1609,11 @@
 
 
         <StatusIconDef>
+<<<<<<< Updated upstream
             <ControlId>1321</ControlId>
+=======
+            <ControlId>1318</ControlId>
+>>>>>>> Stashed changes
             <Position>
                 <X>0</X>
                 <Y>0</Y>
@@ -1530,7 +1627,11 @@
 
 
         <StatusIconDef>
+<<<<<<< Updated upstream
             <ControlId>1322</ControlId>
+=======
+            <ControlId>1319</ControlId>
+>>>>>>> Stashed changes
             <Position>
                 <X>0</X>
                 <Y>0</Y>
@@ -1544,7 +1645,11 @@
 
 
         <StatusIconDef>
+<<<<<<< Updated upstream
             <ControlId>1323</ControlId>
+=======
+            <ControlId>1320</ControlId>
+>>>>>>> Stashed changes
             <Position>
                 <X>0</X>
                 <Y>0</Y>
@@ -1558,7 +1663,11 @@
 
 
         <StatusIconDef>
+<<<<<<< Updated upstream
             <ControlId>1324</ControlId>
+=======
+            <ControlId>1321</ControlId>
+>>>>>>> Stashed changes
             <Position>
                 <X>0</X>
                 <Y>0</Y>
@@ -1571,6 +1680,67 @@
         </StatusIconDef>
 
 
+        <StatusIconDef>
+<<<<<<< Updated upstream
+            <ControlId>1325</ControlId>
+=======
+            <ControlId>1322</ControlId>
+>>>>>>> Stashed changes
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>realmwar_tower</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+<<<<<<< Updated upstream
+            <ControlId>1326</ControlId>
+=======
+            <ControlId>1323</ControlId>
+>>>>>>> Stashed changes
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>realmwar_tower</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+<<<<<<< Updated upstream
+            <ControlId>1327</ControlId>
+=======
+            <ControlId>1324</ControlId>
+>>>>>>> Stashed changes
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>realmwar_tower</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+<<<<<<< Updated upstream
+        <!--Keeps-->
+
+
+        <StatusIconDef>
+            <ControlId>1400</ControlId>
+=======
         <StatusIconDef>
             <ControlId>1325</ControlId>
             <Position>
@@ -1587,6 +1757,7 @@
 
         <StatusIconDef>
             <ControlId>1326</ControlId>
+>>>>>>> Stashed changes
             <Position>
                 <X>0</X>
                 <Y>0</Y>
@@ -1594,6 +1765,8 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+<<<<<<< Updated upstream
+=======
             <TemplateName>realmwar_tower</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1625,6 +1798,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+>>>>>>> Stashed changes
             <TemplateName>realmwar_keep</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>

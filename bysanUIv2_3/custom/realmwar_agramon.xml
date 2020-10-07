@@ -343,6 +343,7 @@
                 <X>43</X>
                 <Y>3</Y>
             </Position>
+<<<<<<< Updated upstream
             <TemplateName>_witt_button_normal</TemplateName>
             <Label>Map Key</Label>
             <OnClickEvent>ToggleWarmapKey</OnClickEvent>
@@ -351,10 +352,25 @@
 
         <ButtonDef>
             <ControlId>2011</ControlId>
+=======
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>Map Key</Label>
+            <Width>62</Width>
+            <OnClickEvent>ToggleWarmapKey</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>2014</ControlId>
+>>>>>>> Stashed changes
             <Position>
                 <X>173</X>
                 <Y>3</Y>
             </Position>
+<<<<<<< Updated upstream
             <TemplateName>_witt_button_normal</TemplateName>
             <Label>Update</Label>
             <OnClickEvent>WarmapUpdateBattles</OnClickEvent>
@@ -362,11 +378,25 @@
 
 
         <ButtonDef>
+=======
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>Update</Label>
+            <Width>62</Width>
+            <OnClickEvent>WarmapUpdateBattles</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+>>>>>>> Stashed changes
             <ControlId>2012</ControlId>
             <Position>
                 <X>238</X>
                 <Y>3</Y>
             </Position>
+<<<<<<< Updated upstream
             <TemplateName>_witt_button_normal</TemplateName>
             <Label>Teleport</Label>
             <OnClickEvent>WarmapTeleportRequest</OnClickEvent>
@@ -374,14 +404,39 @@
 
 
         <ButtonDef>
+=======
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>Teleport</Label>
+            <Width>62</Width>
+            <OnClickEvent>WarmapTeleportRequest</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>2013</ControlId>
+>>>>>>> Stashed changes
             <Position>
                 <X>108</X>
                 <Y>3</Y>
             </Position>
+<<<<<<< Updated upstream
             <TemplateName>_witt_button_normal</TemplateName>
             <Label>Bonuses</Label>
             <OnClickEvent>WarmapUpdateBonuses</OnClickEvent>
         </ButtonDef>
+=======
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>Bonuses</Label>
+            <Width>62</Width>
+            <OnClickEvent>WarmapUpdateBonuses</OnClickEvent>
+        </HorizontalResizeButtonDef>
+>>>>>>> Stashed changes
 
 
         <ImageAreaDef>
