@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>clock</Name>
+        <WindowId>Clock</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>200</TitleWidth>
+        <TitleHeight>1</TitleHeight>
+        <Width>200</Width>
+        <Height>15</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>200</Width>
+            <Height>15</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>-4</X>
+                <Y>1</Y>
+            </Position>
+            <Alignment>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <Color>
+                <R>53</R>
+                <G>255</G>
+                <B>32</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>70</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <Adapter>game_time</Adapter>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>3</X>
+                <Y>1</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>130</Width>
+            <Height>15</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Bizquit</Data>
+            <Adapter>time_of_day</Adapter>
+        </LabelDef>
+
+
+        <InvisibleButtonDef>
+            <Position>
+                <X>0</X>
+                <Y>3</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>Realm</OnClickEvent>
+            <Width>200</Width>
+            <Height>9</Height>
+        </InvisibleButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

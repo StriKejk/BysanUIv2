@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>compass</Name>
+        <WindowId>Compass</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>1</TitleWidth>
+        <TitleHeight>1</TitleHeight>
+        <Width>70</Width>
+        <Height>76</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>2</X>
+                <Y>10</Y>
+            </Position>
+            <TemplateName>b_compbg</TemplateName>
+        </ImageAreaDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>compass_2d</TemplateName>
+            <AdapterName>compass_heading</AdapterName>
+        </StatusIconDef>
+
+
+        <InvisibleButtonDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+                <CenterVertically>true</CenterVertically>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>ToggleMap</OnClickEvent>
+            <Width>70</Width>
+            <Height>76</Height>
+        </InvisibleButtonDef>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>29</X>
+                <Y>-2</Y>
+            </Position>
+            <TemplateName>b_comparrow</TemplateName>
+        </ImageAreaDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

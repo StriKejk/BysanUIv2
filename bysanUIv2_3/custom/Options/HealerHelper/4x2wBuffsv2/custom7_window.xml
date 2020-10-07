@@ -1,0 +1,2077 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>custom7_window</Name>
+        <WindowId>custom7_window</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>387</Width>
+        <Height>158</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <!--                                 GROUP MEMBER GROUP MEMBER 1                                    -->
+
+
+        <StatusIconDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>hsi_bsnb</TemplateName>
+            <AdapterName>group_health0</AdapterName>
+        </StatusIconDef>
+
+
+        <IconSetDef>
+            <Position>
+                <X>0</X>
+                <Y>15</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>group_buffs_iconset</TemplateName>
+            <Rows>4</Rows>
+            <Columns>6</Columns>
+            <BaseAdapterName>group_0icon</BaseAdapterName>
+        </IconSetDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>80</X>
+                <Y>-1</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_status_mez6</TemplateName>
+            <AdapterName>group_status0</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>80</X>
+                <Y>-1</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_status_diz6</TemplateName>
+            <AdapterName>group_status0</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>80</X>
+                <Y>-1</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_status_psn6</TemplateName>
+            <AdapterName>group_status0</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>80</X>
+                <Y>-1</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_status_ns6</TemplateName>
+            <AdapterName>group_status0</AdapterName>
+        </StatusIconDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>2</X>
+                <Y>1</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9ds</FontName>
+            <Width>93</Width>
+            <Height>12</Height>
+            <MaxCharacters>31</MaxCharacters>
+            <ColorAdapter>group_color0</ColorAdapter>
+            <Adapter>group_name0</Adapter>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>2</X>
+                <Y>68</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9ds</FontName>
+            <Width>42</Width>
+            <Height>12</Height>
+            <MaxCharacters>11</MaxCharacters>
+            <ColorAdapter>group_color0</ColorAdapter>
+            <Adapter>group_class0</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>83</X>
+                <Y>68</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9ds</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>200</A>
+            </Color>
+            <Adapter>group_level0</Adapter>
+            <ColorAdapter>group_color0</ColorAdapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>2</X>
+                <Y>22</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>kr</FontName>
+            <Width>93</Width>
+            <Height>12</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>0</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_health0</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>-26</X>
+                <Y>40</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>kr</FontName>
+            <Width>93</Width>
+            <Height>12</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>23</R>
+                <G>255</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_endurance0</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>30</X>
+                <Y>40</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>kr</FontName>
+            <Width>93</Width>
+            <Height>12</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_power0</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <InvisibleButtonDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember0</OnClickEvent>
+            <Width>97</Width>
+            <Height>78</Height>
+        </InvisibleButtonDef>
+
+
+        <!--                                 GROUP MEMBER GROUP MEMBER 2                                 -->
+
+
+        <StatusIconDef>
+            <Position>
+                <X>98</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>hsi_bsnb</TemplateName>
+            <AdapterName>group_health1</AdapterName>
+        </StatusIconDef>
+
+
+        <IconSetDef>
+            <Position>
+                <X>98</X>
+                <Y>15</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>group_buffs_iconset</TemplateName>
+            <Rows>4</Rows>
+            <Columns>6</Columns>
+            <BaseAdapterName>group_1icon</BaseAdapterName>
+        </IconSetDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>178</X>
+                <Y>-1</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_status_mez6</TemplateName>
+            <AdapterName>group_status1</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>178</X>
+                <Y>-1</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_status_diz6</TemplateName>
+            <AdapterName>group_status1</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>178</X>
+                <Y>-1</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_status_psn6</TemplateName>
+            <AdapterName>group_status1</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>178</X>
+                <Y>-1</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_status_ns6</TemplateName>
+            <AdapterName>group_status1</AdapterName>
+        </StatusIconDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>100</X>
+                <Y>1</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9ds</FontName>
+            <Width>93</Width>
+            <Height>12</Height>
+            <MaxCharacters>31</MaxCharacters>
+            <ColorAdapter>group_color1</ColorAdapter>
+            <Adapter>group_name1</Adapter>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>100</X>
+                <Y>68</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9ds</FontName>
+            <Width>42</Width>
+            <Height>12</Height>
+            <MaxCharacters>11</MaxCharacters>
+            <ColorAdapter>group_color1</ColorAdapter>
+            <Adapter>group_class1</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>181</X>
+                <Y>68</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9ds</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>200</A>
+            </Color>
+            <Adapter>group_level1</Adapter>
+            <ColorAdapter>group_color1</ColorAdapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>100</X>
+                <Y>22</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>kr</FontName>
+            <Width>93</Width>
+            <Height>12</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>0</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_health1</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>72</X>
+                <Y>40</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>kr</FontName>
+            <Width>93</Width>
+            <Height>12</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>23</R>
+                <G>255</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_endurance1</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>128</X>
+                <Y>40</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>kr</FontName>
+            <Width>93</Width>
+            <Height>12</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_power1</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <InvisibleButtonDef>
+            <Position>
+                <X>98</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember1</OnClickEvent>
+            <Width>97</Width>
+            <Height>78</Height>
+        </InvisibleButtonDef>
+
+
+        <!--                                 GROUP MEMBER GROUP MEMBER 3                                 -->
+
+
+        <StatusIconDef>
+            <Position>
+                <X>196</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>hsi_bsnb</TemplateName>
+            <AdapterName>group_health2</AdapterName>
+        </StatusIconDef>
+
+
+        <IconSetDef>
+            <Position>
+                <X>196</X>
+                <Y>15</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>group_buffs_iconset</TemplateName>
+            <Rows>4</Rows>
+            <Columns>6</Columns>
+            <BaseAdapterName>group_2icon</BaseAdapterName>
+        </IconSetDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>276</X>
+                <Y>-1</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_status_mez6</TemplateName>
+            <AdapterName>group_status2</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>276</X>
+                <Y>-1</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_status_diz6</TemplateName>
+            <AdapterName>group_status2</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>276</X>
+                <Y>-1</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_status_psn6</TemplateName>
+            <AdapterName>group_status2</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>276</X>
+                <Y>-1</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_status_ns6</TemplateName>
+            <AdapterName>group_status2</AdapterName>
+        </StatusIconDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>198</X>
+                <Y>1</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9ds</FontName>
+            <Width>93</Width>
+            <Height>12</Height>
+            <MaxCharacters>31</MaxCharacters>
+            <ColorAdapter>group_color2</ColorAdapter>
+            <Adapter>group_name2</Adapter>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>198</X>
+                <Y>68</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9ds</FontName>
+            <Width>42</Width>
+            <Height>12</Height>
+            <MaxCharacters>11</MaxCharacters>
+            <ColorAdapter>group_color2</ColorAdapter>
+            <Adapter>group_class2</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>279</X>
+                <Y>68</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9ds</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>200</A>
+            </Color>
+            <Adapter>group_level2</Adapter>
+            <ColorAdapter>group_color2</ColorAdapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>198</X>
+                <Y>22</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>kr</FontName>
+            <Width>93</Width>
+            <Height>12</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>0</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_health2</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>170</X>
+                <Y>40</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>kr</FontName>
+            <Width>93</Width>
+            <Height>12</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>23</R>
+                <G>255</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_endurance2</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>226</X>
+                <Y>40</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>kr</FontName>
+            <Width>93</Width>
+            <Height>12</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_power2</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <InvisibleButtonDef>
+            <Position>
+                <X>196</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember2</OnClickEvent>
+            <Width>97</Width>
+            <Height>78</Height>
+        </InvisibleButtonDef>
+
+
+        <!--                                 GROUP MEMBER 4                                  -->
+
+
+        <StatusIconDef>
+            <Position>
+                <X>294</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>hsi_bsnb</TemplateName>
+            <AdapterName>group_health3</AdapterName>
+        </StatusIconDef>
+
+
+        <IconSetDef>
+            <Position>
+                <X>294</X>
+                <Y>15</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>group_buffs_iconset</TemplateName>
+            <Rows>4</Rows>
+            <Columns>6</Columns>
+            <BaseAdapterName>group_3icon</BaseAdapterName>
+        </IconSetDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>374</X>
+                <Y>-1</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_status_mez6</TemplateName>
+            <AdapterName>group_status3</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>374</X>
+                <Y>-1</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_status_diz6</TemplateName>
+            <AdapterName>group_status3</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>374</X>
+                <Y>-1</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_status_psn6</TemplateName>
+            <AdapterName>group_status3</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>374</X>
+                <Y>-1</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_status_ns6</TemplateName>
+            <AdapterName>group_status3</AdapterName>
+        </StatusIconDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>296</X>
+                <Y>1</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9ds</FontName>
+            <Width>93</Width>
+            <Height>12</Height>
+            <MaxCharacters>31</MaxCharacters>
+            <ColorAdapter>group_color3</ColorAdapter>
+            <Adapter>group_name3</Adapter>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>296</X>
+                <Y>68</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9ds</FontName>
+            <Width>42</Width>
+            <Height>12</Height>
+            <MaxCharacters>11</MaxCharacters>
+            <ColorAdapter>group_color3</ColorAdapter>
+            <Adapter>group_class3</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>377</X>
+                <Y>68</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9ds</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>200</A>
+            </Color>
+            <Adapter>group_level3</Adapter>
+            <ColorAdapter>group_color3</ColorAdapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>296</X>
+                <Y>22</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>kr</FontName>
+            <Width>93</Width>
+            <Height>12</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>0</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_health3</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>268</X>
+                <Y>40</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>kr</FontName>
+            <Width>93</Width>
+            <Height>12</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>23</R>
+                <G>255</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_endurance3</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>324</X>
+                <Y>40</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>kr</FontName>
+            <Width>93</Width>
+            <Height>12</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_power3</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <InvisibleButtonDef>
+            <Position>
+                <X>294</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember3</OnClickEvent>
+            <Width>97</Width>
+            <Height>78</Height>
+        </InvisibleButtonDef>
+
+
+        <!--                                 GROUP MEMBER 5                                  -->
+
+
+        <StatusIconDef>
+            <Position>
+                <X>0</X>
+                <Y>81</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>hsi_bsnb</TemplateName>
+            <AdapterName>group_health4</AdapterName>
+        </StatusIconDef>
+
+
+        <IconSetDef>
+            <Position>
+                <X>0</X>
+                <Y>96</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>group_buffs_iconset</TemplateName>
+            <Rows>4</Rows>
+            <Columns>6</Columns>
+            <BaseAdapterName>group_4icon</BaseAdapterName>
+        </IconSetDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>80</X>
+                <Y>80</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_status_mez6</TemplateName>
+            <AdapterName>group_status4</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>80</X>
+                <Y>80</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_status_diz6</TemplateName>
+            <AdapterName>group_status4</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>80</X>
+                <Y>80</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_status_psn6</TemplateName>
+            <AdapterName>group_status4</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>80</X>
+                <Y>80</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_status_ns6</TemplateName>
+            <AdapterName>group_status4</AdapterName>
+        </StatusIconDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>2</X>
+                <Y>82</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9ds</FontName>
+            <Width>93</Width>
+            <Height>12</Height>
+            <MaxCharacters>31</MaxCharacters>
+            <ColorAdapter>group_color4</ColorAdapter>
+            <Adapter>group_name4</Adapter>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>2</X>
+                <Y>149</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9ds</FontName>
+            <Width>42</Width>
+            <Height>12</Height>
+            <MaxCharacters>11</MaxCharacters>
+            <ColorAdapter>group_color4</ColorAdapter>
+            <Adapter>group_class4</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>83</X>
+                <Y>149</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9ds</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>200</A>
+            </Color>
+            <Adapter>group_level4</Adapter>
+            <ColorAdapter>group_color4</ColorAdapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>2</X>
+                <Y>103</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>kr</FontName>
+            <Width>93</Width>
+            <Height>12</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>0</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_health4</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>-26</X>
+                <Y>121</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>kr</FontName>
+            <Width>93</Width>
+            <Height>12</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>23</R>
+                <G>255</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_endurance4</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>30</X>
+                <Y>121</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>kr</FontName>
+            <Width>93</Width>
+            <Height>12</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_power4</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <InvisibleButtonDef>
+            <Position>
+                <X>0</X>
+                <Y>81</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember4</OnClickEvent>
+            <Width>97</Width>
+            <Height>78</Height>
+        </InvisibleButtonDef>
+
+
+        <!--                                 GROUP MEMBER GROUP MEMBER 6                                 -->
+
+
+        <StatusIconDef>
+            <Position>
+                <X>98</X>
+                <Y>81</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>hsi_bsnb</TemplateName>
+            <AdapterName>group_health5</AdapterName>
+        </StatusIconDef>
+
+
+        <IconSetDef>
+            <Position>
+                <X>98</X>
+                <Y>96</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>group_buffs_iconset</TemplateName>
+            <Rows>4</Rows>
+            <Columns>6</Columns>
+            <BaseAdapterName>group_5icon</BaseAdapterName>
+        </IconSetDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>178</X>
+                <Y>80</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_status_mez6</TemplateName>
+            <AdapterName>group_status5</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>178</X>
+                <Y>80</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_status_diz6</TemplateName>
+            <AdapterName>group_status5</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>178</X>
+                <Y>80</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_status_psn6</TemplateName>
+            <AdapterName>group_status5</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>178</X>
+                <Y>80</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_status_ns6</TemplateName>
+            <AdapterName>group_status5</AdapterName>
+        </StatusIconDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>100</X>
+                <Y>82</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9ds</FontName>
+            <Width>93</Width>
+            <Height>12</Height>
+            <MaxCharacters>31</MaxCharacters>
+            <ColorAdapter>group_color5</ColorAdapter>
+            <Adapter>group_name5</Adapter>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>100</X>
+                <Y>149</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9ds</FontName>
+            <Width>42</Width>
+            <Height>12</Height>
+            <MaxCharacters>11</MaxCharacters>
+            <ColorAdapter>group_color5</ColorAdapter>
+            <Adapter>group_class5</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>181</X>
+                <Y>149</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9ds</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>200</A>
+            </Color>
+            <Adapter>group_level5</Adapter>
+            <ColorAdapter>group_color5</ColorAdapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>100</X>
+                <Y>103</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>kr</FontName>
+            <Width>93</Width>
+            <Height>12</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>0</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_health5</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>72</X>
+                <Y>121</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>kr</FontName>
+            <Width>93</Width>
+            <Height>12</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>23</R>
+                <G>255</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_endurance5</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>128</X>
+                <Y>121</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>kr</FontName>
+            <Width>93</Width>
+            <Height>12</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_power5</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <InvisibleButtonDef>
+            <Position>
+                <X>98</X>
+                <Y>81</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember5</OnClickEvent>
+            <Width>97</Width>
+            <Height>78</Height>
+        </InvisibleButtonDef>
+
+
+        <!--                                 GROUP MEMBER GROUP MEMBER 7                                 -->
+
+
+        <StatusIconDef>
+            <Position>
+                <X>196</X>
+                <Y>81</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>hsi_bsnb</TemplateName>
+            <AdapterName>group_health6</AdapterName>
+        </StatusIconDef>
+
+
+        <IconSetDef>
+            <Position>
+                <X>196</X>
+                <Y>96</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>group_buffs_iconset</TemplateName>
+            <Rows>4</Rows>
+            <Columns>6</Columns>
+            <BaseAdapterName>group_6icon</BaseAdapterName>
+        </IconSetDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>276</X>
+                <Y>80</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_status_mez6</TemplateName>
+            <AdapterName>group_status6</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>276</X>
+                <Y>80</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_status_diz6</TemplateName>
+            <AdapterName>group_status6</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>276</X>
+                <Y>80</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_status_psn6</TemplateName>
+            <AdapterName>group_status6</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>276</X>
+                <Y>80</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_status_ns6</TemplateName>
+            <AdapterName>group_status6</AdapterName>
+        </StatusIconDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>198</X>
+                <Y>82</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9ds</FontName>
+            <Width>93</Width>
+            <Height>12</Height>
+            <MaxCharacters>31</MaxCharacters>
+            <ColorAdapter>group_color6</ColorAdapter>
+            <Adapter>group_name6</Adapter>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>198</X>
+                <Y>149</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9ds</FontName>
+            <Width>42</Width>
+            <Height>12</Height>
+            <MaxCharacters>11</MaxCharacters>
+            <ColorAdapter>group_color6</ColorAdapter>
+            <Adapter>group_class6</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>279</X>
+                <Y>149</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9ds</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>200</A>
+            </Color>
+            <Adapter>group_level6</Adapter>
+            <ColorAdapter>group_color6</ColorAdapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>198</X>
+                <Y>103</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>kr</FontName>
+            <Width>93</Width>
+            <Height>12</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>0</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_health6</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>170</X>
+                <Y>121</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>kr</FontName>
+            <Width>93</Width>
+            <Height>12</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>23</R>
+                <G>255</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_endurance6</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>226</X>
+                <Y>121</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>kr</FontName>
+            <Width>93</Width>
+            <Height>12</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_power6</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <InvisibleButtonDef>
+            <Position>
+                <X>196</X>
+                <Y>81</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember6</OnClickEvent>
+            <Width>97</Width>
+            <Height>78</Height>
+        </InvisibleButtonDef>
+
+
+        <!--                                 GROUP MEMBER GROUP MEMBER 8                                 -->
+
+
+        <StatusIconDef>
+            <Position>
+                <X>294</X>
+                <Y>81</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>hsi_bsnb</TemplateName>
+            <AdapterName>group_health7</AdapterName>
+        </StatusIconDef>
+
+
+        <IconSetDef>
+            <Position>
+                <X>294</X>
+                <Y>96</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>group_buffs_iconset</TemplateName>
+            <Rows>4</Rows>
+            <Columns>6</Columns>
+            <BaseAdapterName>group_7icon</BaseAdapterName>
+        </IconSetDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>374</X>
+                <Y>80</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_status_mez6</TemplateName>
+            <AdapterName>group_status7</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>374</X>
+                <Y>80</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_status_diz6</TemplateName>
+            <AdapterName>group_status7</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>374</X>
+                <Y>80</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_status_psn6</TemplateName>
+            <AdapterName>group_status7</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>374</X>
+                <Y>80</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>health_status_ns6</TemplateName>
+            <AdapterName>group_status7</AdapterName>
+        </StatusIconDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>296</X>
+                <Y>82</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9ds</FontName>
+            <Width>93</Width>
+            <Height>12</Height>
+            <MaxCharacters>31</MaxCharacters>
+            <ColorAdapter>group_color7</ColorAdapter>
+            <Adapter>group_name7</Adapter>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>296</X>
+                <Y>149</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9ds</FontName>
+            <Width>42</Width>
+            <Height>12</Height>
+            <MaxCharacters>11</MaxCharacters>
+            <ColorAdapter>group_color7</ColorAdapter>
+            <Adapter>group_class7</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>377</X>
+                <Y>149</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9ds</FontName>
+            <Width>32</Width>
+            <Height>32</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>200</A>
+            </Color>
+            <Adapter>group_level7</Adapter>
+            <ColorAdapter>group_color7</ColorAdapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>296</X>
+                <Y>103</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>kr</FontName>
+            <Width>93</Width>
+            <Height>12</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>0</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_health7</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>268</X>
+                <Y>121</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>kr</FontName>
+            <Width>93</Width>
+            <Height>12</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>23</R>
+                <G>255</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_endurance7</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>324</X>
+                <Y>121</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>kr</FontName>
+            <Width>93</Width>
+            <Height>12</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>0</B>
+                <A>196</A>
+            </Color>
+            <Adapter>group_power7</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <InvisibleButtonDef>
+            <Position>
+                <X>294</X>
+                <Y>81</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember7</OnClickEvent>
+            <Width>97</Width>
+            <Height>78</Height>
+        </InvisibleButtonDef>
+
+
+        <!--                                 GROUP SELECT BOX                                 -->
+
+
+        <ButtonDef>
+            <Position>
+                <X>-1</X>
+                <Y>-1</Y>
+            </Position>
+            <TemplateName>b_bg_h</TemplateName>
+            <OnClickEvent>SelectGroupMember0</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>97</X>
+                <Y>-1</Y>
+            </Position>
+            <TemplateName>b_bg_h</TemplateName>
+            <OnClickEvent>SelectGroupMember1</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>195</X>
+                <Y>-1</Y>
+            </Position>
+            <TemplateName>b_bg_h</TemplateName>
+            <OnClickEvent>SelectGroupMember2</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>293</X>
+                <Y>-1</Y>
+            </Position>
+            <TemplateName>b_bg_h</TemplateName>
+            <OnClickEvent>SelectGroupMember3</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>-1</X>
+                <Y>80</Y>
+            </Position>
+            <TemplateName>b_bg_h</TemplateName>
+            <OnClickEvent>SelectGroupMember4</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>97</X>
+                <Y>80</Y>
+            </Position>
+            <TemplateName>b_bg_h</TemplateName>
+            <OnClickEvent>SelectGroupMember5</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>195</X>
+                <Y>80</Y>
+            </Position>
+            <TemplateName>b_bg_h</TemplateName>
+            <OnClickEvent>SelectGroupMember6</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>293</X>
+                <Y>80</Y>
+            </Position>
+            <TemplateName>b_bg_h</TemplateName>
+            <OnClickEvent>SelectGroupMember7</OnClickEvent>
+        </ButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

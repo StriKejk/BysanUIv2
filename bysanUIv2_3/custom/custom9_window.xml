@@ -1,0 +1,345 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <!-- mlxp window -->
+
+
+    <WindowTemplate>
+        <Name>custom9_window</Name>
+        <WindowId>custom9_window</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>582</Width>
+        <Height>416</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>99</MinWidth>
+        <MinHeight>13</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>-3</Y>
+            </Position>
+            <TemplateName>dlg_background_0px</TemplateName>
+            <Width>584</Width>
+            <Height>23</Height>
+        </FullResizeImageDef>
+
+
+        <TabsDef>
+            <TemplateName>generic_tabs</TemplateName>
+            <Position>
+                <X>1</X>
+                <Y>0</Y>
+            </Position>
+            <Width>580</Width>
+            <Height>417</Height>
+        <Tab>
+            <Id>1</Id>
+            <Name>General</Name>
+        </Tab>
+        <Tab>
+            <Id>2</Id>
+            <Name>Alchemy</Name>
+        </Tab>
+        <Tab>
+            <Id>3</Id>
+            <Name>Armor</Name>
+        </Tab>
+        <Tab>
+            <Id>4</Id>
+            <Name>Fletching</Name>
+        </Tab>
+        <Tab>
+            <Id>5</Id>
+            <Name>Salvage</Name>
+        </Tab>
+        <Tab>
+            <Id>6</Id>
+            <Name>Spellcraft</Name>
+        </Tab>
+        <Tab>
+            <Id>7</Id>
+            <Name>Tailoring</Name>
+        </Tab>
+        <Tab>
+            <Id>8</Id>
+            <Name>Weapon</Name>
+        </Tab>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1001</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>2001</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>3001</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>4</TabId>
+                <ControlId>4001</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>5</TabId>
+                <ControlId>5001</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>6</TabId>
+                <ControlId>6001</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>7</TabId>
+                <ControlId>7001</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>8</TabId>
+                <ControlId>8001</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1002</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>2002</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>3002</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>4</TabId>
+                <ControlId>4002</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>5</TabId>
+                <ControlId>5002</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>6</TabId>
+                <ControlId>6002</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>7</TabId>
+                <ControlId>7002</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>8</TabId>
+                <ControlId>8002</ControlId>
+            </TabControl>
+        </TabsDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>1</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>button_tab</TemplateName>
+            <Label>Close</Label>
+            <OnClickEvent>ToggleCustom9</OnClickEvent>
+        </ButtonDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>4</X>
+                <Y>22</Y>
+            </Position>
+            <TemplateName>dlg_background_noborder</TemplateName>
+            <Width>580</Width>
+            <Height>377</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>2002</ControlId>
+            <Position>
+                <X>4</X>
+                <Y>22</Y>
+            </Position>
+            <TemplateName>dlg_background_noborder</TemplateName>
+            <Width>580</Width>
+            <Height>377</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>3002</ControlId>
+            <Position>
+                <X>4</X>
+                <Y>22</Y>
+            </Position>
+            <TemplateName>dlg_background_noborder</TemplateName>
+            <Width>580</Width>
+            <Height>377</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>4002</ControlId>
+            <Position>
+                <X>4</X>
+                <Y>22</Y>
+            </Position>
+            <TemplateName>dlg_background_noborder</TemplateName>
+            <Width>580</Width>
+            <Height>377</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>5002</ControlId>
+            <Position>
+                <X>4</X>
+                <Y>22</Y>
+            </Position>
+            <TemplateName>dlg_background_noborder</TemplateName>
+            <Width>580</Width>
+            <Height>377</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>6002</ControlId>
+            <Position>
+                <X>4</X>
+                <Y>22</Y>
+            </Position>
+            <TemplateName>dlg_background_noborder</TemplateName>
+            <Width>580</Width>
+            <Height>377</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>7002</ControlId>
+            <Position>
+                <X>4</X>
+                <Y>22</Y>
+            </Position>
+            <TemplateName>dlg_background_noborder</TemplateName>
+            <Width>580</Width>
+            <Height>377</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>8002</ControlId>
+            <Position>
+                <X>4</X>
+                <Y>22</Y>
+            </Position>
+            <TemplateName>dlg_background_noborder</TemplateName>
+            <Width>580</Width>
+            <Height>396</Height>
+        </FullResizeImageDef>
+
+
+        <ImageAreaDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>20</Y>
+            </Position>
+            <TemplateName>b_craft_gen</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId>2001</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>20</Y>
+            </Position>
+            <TemplateName>b_craft_alc</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId>3001</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>20</Y>
+            </Position>
+            <TemplateName>b_craft_arm</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId>4001</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>20</Y>
+            </Position>
+            <TemplateName>b_craft_fle</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId>5001</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>20</Y>
+            </Position>
+            <TemplateName>b_craft_sal</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId>6001</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>20</Y>
+            </Position>
+            <TemplateName>b_craft_spe</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId>7001</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>20</Y>
+            </Position>
+            <TemplateName>b_craft_tai</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId>8001</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>20</Y>
+            </Position>
+            <TemplateName>b_craft_wep</TemplateName>
+        </ImageAreaDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

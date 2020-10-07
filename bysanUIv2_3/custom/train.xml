@@ -1,0 +1,236 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>train</Name>
+        <WindowId>Train</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>256</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>256</Width>
+        <Height>400</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>100</MinWidth>
+        <MinHeight>256</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>256</Width>
+            <Height>400</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_witt_bg_100</TemplateName>
+            <Width>256</Width>
+            <Height>19</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId>1007</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>4</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>256</Width>
+            <Height>15</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>SPECIALIZATIONS</Data>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <ListBoxDef>
+            <ControlId>1004</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>18</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+            </Alignment>
+            <Width>256</Width>
+            <Height>88</Height>
+            <TemplateName>_witt_listbox_80</TemplateName>
+            <AdapterName>train_skills</AdapterName>
+            <Sorting>false</Sorting>
+            <Columns>2</Columns>
+            <IconTemplate></IconTemplate>
+            <ShowIndicator>false</ShowIndicator>
+            <ShowDefaultToolTips>false</ShowDefaultToolTips>
+            <OnHeaderClickEvent></OnHeaderClickEvent>
+            <OnClickEvent></OnClickEvent>
+        </ListBoxDef>
+
+
+        <LabelDef>
+            <ControlId>1009</ControlId>
+            <Position>
+                <X>176</X>
+                <Y>106</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>78</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>kwijiboe</Data>
+            <Adapter>train_skill_points</Adapter>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>121</Y>
+            </Position>
+            <TemplateName>_witt_bg_100</TemplateName>
+            <Width>256</Width>
+            <Height>19</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId>1011</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>125</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>256</Width>
+            <Height>15</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>REALM SKILLS</Data>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <ListBoxDef>
+            <ControlId>1005</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>139</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <Width>256</Width>
+            <Height>225</Height>
+            <TemplateName>_witt_listbox_80</TemplateName>
+            <AdapterName>train_realm</AdapterName>
+            <Sorting>false</Sorting>
+            <Columns>2</Columns>
+            <IconTemplate></IconTemplate>
+            <ShowIndicator>false</ShowIndicator>
+            <ShowDefaultToolTips>false</ShowDefaultToolTips>
+            <OnHeaderClickEvent></OnHeaderClickEvent>
+            <OnClickEvent></OnClickEvent>
+        </ListBoxDef>
+
+
+        <LabelDef>
+            <ControlId>1013</ControlId>
+            <Position>
+                <X>176</X>
+                <Y>363</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>78</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>kwijiboe</Data>
+            <Adapter>train_realm_skill_points</Adapter>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <ButtonDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>129</X>
+                <Y>1</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
+            <TemplateName>_witt_button_normal</TemplateName>
+            <Label>Train</Label>
+            <OnClickEvent>Train</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>65</X>
+                <Y>1</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
+            <TemplateName>_witt_button_normal</TemplateName>
+            <Label>Info</Label>
+            <OnClickEvent>Info</OnClickEvent>
+        </ButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

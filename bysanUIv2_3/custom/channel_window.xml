@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>channel</Name>
+        <WindowId>Channel</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>86</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>86</Width>
+        <Height>192</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <ControlId>BackgroundImage</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_witt_bg_80</TemplateName>
+            <Width>86</Width>
+            <Height>192</Height>
+        </FullResizeImageDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>3</Y>
+            </Position>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>/say</Label>
+            <Width>80</Width>
+            <OnClickEvent></OnClickEvent>
+            <LabelAlignment>
+                <CenterVertically>true</CenterVertically>
+            </LabelAlignment>
+            <LabelIndent>3</LabelIndent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>20</Y>
+            </Position>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>/emote</Label>
+            <Width>80</Width>
+            <OnClickEvent></OnClickEvent>
+            <LabelAlignment>
+                <CenterVertically>true</CenterVertically>
+            </LabelAlignment>
+            <LabelIndent>3</LabelIndent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>37</Y>
+            </Position>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>/broadcast</Label>
+            <Width>80</Width>
+            <OnClickEvent></OnClickEvent>
+            <LabelAlignment>
+                <CenterVertically>true</CenterVertically>
+            </LabelAlignment>
+            <LabelIndent>3</LabelIndent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>54</Y>
+            </Position>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>/group</Label>
+            <Width>80</Width>
+            <OnClickEvent></OnClickEvent>
+            <LabelAlignment>
+                <CenterVertically>true</CenterVertically>
+            </LabelAlignment>
+            <LabelIndent>3</LabelIndent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1004</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>71</Y>
+            </Position>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>/guild</Label>
+            <Width>80</Width>
+            <OnClickEvent></OnClickEvent>
+            <LabelAlignment>
+                <CenterVertically>true</CenterVertically>
+            </LabelAlignment>
+            <LabelIndent>3</LabelIndent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1005</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>88</Y>
+            </Position>
+            <ToolTipID>158</ToolTipID>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>/osend</Label>
+            <Width>80</Width>
+            <OnClickEvent></OnClickEvent>
+            <LabelAlignment>
+                <CenterVertically>true</CenterVertically>
+            </LabelAlignment>
+            <LabelIndent>3</LabelIndent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1006</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>105</Y>
+            </Position>
+            <ToolTipID>159</ToolTipID>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>/asend</Label>
+            <Width>80</Width>
+            <OnClickEvent></OnClickEvent>
+            <LabelAlignment>
+                <CenterVertically>true</CenterVertically>
+            </LabelAlignment>
+            <LabelIndent>3</LabelIndent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1007</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>122</Y>
+            </Position>
+            <ToolTipID>160</ToolTipID>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>/chat</Label>
+            <Width>80</Width>
+            <OnClickEvent></OnClickEvent>
+            <LabelAlignment>
+                <CenterVertically>true</CenterVertically>
+            </LabelAlignment>
+            <LabelIndent>3</LabelIndent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1008</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>139</Y>
+            </Position>
+            <ToolTipID>161</ToolTipID>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>/bchat</Label>
+            <Width>80</Width>
+            <OnClickEvent></OnClickEvent>
+            <LabelAlignment>
+                <CenterVertically>true</CenterVertically>
+            </LabelAlignment>
+            <LabelIndent>3</LabelIndent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1009</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>156</Y>
+            </Position>
+            <ToolTipID>162</ToolTipID>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>/send</Label>
+            <Width>80</Width>
+            <OnClickEvent></OnClickEvent>
+            <LabelAlignment>
+                <CenterVertically>true</CenterVertically>
+            </LabelAlignment>
+            <LabelIndent>3</LabelIndent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1010</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>173</Y>
+            </Position>
+            <ToolTipID>163</ToolTipID>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>/advice</Label>
+            <Width>80</Width>
+            <OnClickEvent></OnClickEvent>
+            <LabelAlignment>
+                <CenterVertically>true</CenterVertically>
+            </LabelAlignment>
+            <LabelIndent>3</LabelIndent>
+        </HorizontalResizeButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

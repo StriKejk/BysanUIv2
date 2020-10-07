@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <ImageAreaTemplate>
+        <Name>quest_title_right</Name>
+        <TextureName>page3</TextureName>
+        <Size>
+            <X>128</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>0</X>
+            <Y>36</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>quest_title_left</Name>
+        <TextureName>page3</TextureName>
+        <Size>
+            <X>128</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>0</X>
+            <Y>20</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>quest_title</Name>
+        <TextureName>page3</TextureName>
+        <Size>
+            <X>128</X>
+            <Y>20</Y>
+        </Size>
+        <TopLeft>
+            <X>0</X>
+            <Y>0</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <WindowTemplate>
+        <Name>quest</Name>
+        <WindowId>Quest</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>true</BottomRightResizeButton>
+        <BottomLeftResizeButton>true</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>512</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>512</Width>
+        <Height>256</Height>
+        <ResizeableWidth>6</ResizeableWidth>
+        <ResizeableHeight>6</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>200</MinWidth>
+        <MinHeight>50</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>dlg_background_1px</TemplateName>
+            <Width>512</Width>
+            <Height>256</Height>
+        </FullResizeImageDef>
+
+
+        <TextAreaDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>7</X>
+                <Y>28</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>generic_textarea</TemplateName>
+            <AdapterName>quest_text</AdapterName>
+            <HasHotspots>true</HasHotspots>
+            <HotspotDelineator>{</HotspotDelineator>
+            <MaxCharacters>32768</MaxCharacters>
+            <Width>500</Width>
+            <Height>200</Height>
+        </TextAreaDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>0</X>
+                <Y>6</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11b</FontName>
+            <Width>140</Width>
+            <Height>20</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>Quest Journal</Data>
+        </LabelDef>
+
+
+        <ButtonDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>5</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
+            <TemplateName>button_tab</TemplateName>
+            <Label>Remove</Label>
+            <OnClickEvent>RemoveQuest</OnClickEvent>
+        </ButtonDef>
+
+
+        <LabelDef>
+            <ControlId>1005</ControlId>
+            <Position>
+                <X>74</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>192</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>300</Width>
+            <Height>18</Height>
+            <MaxCharacters>256</MaxCharacters>
+            <Data>No Quest Selected</Data>
+        </LabelDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

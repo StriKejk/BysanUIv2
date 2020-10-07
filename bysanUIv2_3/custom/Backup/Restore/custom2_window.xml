@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>custom2_window</Name>
+        <WindowId>custom2_window</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+<!-- PowerbarWidth --><Width>176</Width>
+<!-- PowerbarHeight --><Height>9</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+<!-- PowerbarHeightTemplate --><TemplateName>floating_powerbar_9</TemplateName>
+            <AdapterName>summary_player_power</AdapterName>
+<!-- PowerbarWidth --><Width>176</Width>
+        </StatusBarDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>8</X>
+<!-- PowerFontPos --><Y>-2</Y>
+            </Position>
+<!-- PowerTextSize --><FontName>silkscreen</FontName>
+            <Width>25</Width>
+            <Height>16</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_player_power</Adapter>
+            <TextCentered>true</TextCentered>
+            <EndAligned>true</EndAligned>
+        </ScalarLabelDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

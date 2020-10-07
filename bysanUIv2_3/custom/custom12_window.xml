@@ -1,0 +1,1200 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>custom12_window</Name>
+        <WindowId>custom12_window</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>1002</Width>
+        <Height>366</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>10</MinWidth>
+        <MinHeight>10</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>dlg_background_4px</TemplateName>
+            <Width>1002</Width>
+            <Height>366</Height>
+        </FullResizeImageDef>
+
+
+        <!--Tabs-->
+
+
+        <TabsDef>
+            <TemplateName>generic_tabs_ph</TemplateName>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>1</Y>
+            </Position>
+            <Width>994</Width>
+            <Height>359</Height>
+        <Tab>
+            <Id>1</Id>
+            <Name>CMD</Name>
+        </Tab>
+        <Tab>
+            <Id>2</Id>
+            <Name>HIB</Name>
+        </Tab>
+        <Tab>
+            <Id>3</Id>
+            <Name>ALB</Name>
+        </Tab>
+        <Tab>
+            <Id>4</Id>
+            <Name>MID</Name>
+        </Tab>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1100</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1200</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1300</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>4</TabId>
+                <ControlId>1400</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1101</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1102</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1103</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1104</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1105</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1106</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1107</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1108</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1109</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1110</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1111</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1112</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1113</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1114</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1115</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1116</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1117</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1118</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1119</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1120</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1121</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1122</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1123</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1124</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1125</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1126</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1127</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1128</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1129</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1130</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1131</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1201</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1202</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1203</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1301</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1302</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1303</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>4</TabId>
+                <ControlId>1401</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>4</TabId>
+                <ControlId>1402</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>4</TabId>
+                <ControlId>1403</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1132</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1133</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1134</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1135</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1136</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1137</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1138</ControlId>
+            </TabControl>
+        </TabsDef>
+
+
+        <!--Commands-->
+
+
+        <LabelDef>
+            <ControlId>1100</ControlId>
+            <Position>
+                <X>9</X>
+                <Y>15</Y>
+            </Position>
+            <Color>
+                <R>82</R>
+                <G>217</G>
+                <B>94</B>
+                <A>255</A>
+            </Color>
+            <FontName>mini7</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Feathers</Data>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId>1101</ControlId>
+            <Position>
+                <X>9</X>
+                <Y>26</Y>
+            </Position>
+            <TemplateName>dlg_background_sep2</TemplateName>
+            <Width>53</Width>
+        </HorizontalResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId>1102</ControlId>
+            <Position>
+                <X>9</X>
+                <Y>123</Y>
+            </Position>
+            <Color>
+                <R>82</R>
+                <G>217</G>
+                <B>94</B>
+                <A>255</A>
+            </Color>
+            <FontName>mini7</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>COMMANDS</Data>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId>1103</ControlId>
+            <Position>
+                <X>9</X>
+                <Y>134</Y>
+            </Position>
+            <TemplateName>dlg_background_sep2</TemplateName>
+            <Width>56</Width>
+        </HorizontalResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId>1104</ControlId>
+            <Position>
+                <X>12</X>
+                <Y>30</Y>
+            </Position>
+            <Color>
+                <R>208</R>
+                <G>228</G>
+                <B>229</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>512</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Feathers is a form of currency that cannot be traded to other players.</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1105</ControlId>
+            <Position>
+                <X>12</X>
+                <Y>41</Y>
+            </Position>
+            <Color>
+                <R>208</R>
+                <G>228</G>
+                <B>229</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>512</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>With Feathers you can buy:</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1106</ControlId>
+            <Position>
+                <X>22</X>
+                <Y>52</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>512</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Respec Stones</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1107</ControlId>
+            <Position>
+                <X>22</X>
+                <Y>74</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>512</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Weapon Enamels</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1108</ControlId>
+            <Position>
+                <X>22</X>
+                <Y>63</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>512</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Tinctures</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1109</ControlId>
+            <Position>
+                <X>22</X>
+                <Y>85</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>512</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>High level boss items</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1110</ControlId>
+            <Position>
+                <X>22</X>
+                <Y>96</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>512</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Special crafting items</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1111</ControlId>
+            <Position>
+                <X>12</X>
+                <Y>107</Y>
+            </Position>
+            <Color>
+                <R>208</R>
+                <G>228</G>
+                <B>229</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Feathers drops from dragons, bosses and 60+ mobs in Epic Dungeons, Epic Zones, SI dungeons and RvR Zones.</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1112</ControlId>
+            <Position>
+                <X>12</X>
+                <Y>138</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>512</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>/train</Data>
+            <Adapter>/train</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1113</ControlId>
+            <Position>
+                <X>12</X>
+                <Y>149</Y>
+            </Position>
+            <Color>
+                <R>208</R>
+                <G>228</G>
+                <B>229</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Lets you train anywhere without seeing your trainer.</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1114</ControlId>
+            <Position>
+                <X>12</X>
+                <Y>160</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>512</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>/challenge</Data>
+            <Adapter>/challenge</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1115</ControlId>
+            <Position>
+                <X>12</X>
+                <Y>171</Y>
+            </Position>
+            <Color>
+                <R>208</R>
+                <G>228</G>
+                <B>229</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>760</Width>
+            <Height>16</Height>
+            <MaxCharacters>256</MaxCharacters>
+            <Data>Toggles challenge mode. Group leader command. Makes monsters harder, for a better</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1132</ControlId>
+            <Position>
+                <X>12</X>
+                <Y>182</Y>
+            </Position>
+            <Color>
+                <R>208</R>
+                <G>228</G>
+                <B>229</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>760</Width>
+            <Height>16</Height>
+            <MaxCharacters>256</MaxCharacters>
+            <Data>reward. Higher damage, increased movement speed, det9...</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1116</ControlId>
+            <Position>
+                <X>12</X>
+                <Y>195</Y>
+            </Position>
+            <Color>
+                <R>208</R>
+                <G>228</G>
+                <B>229</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Higher drop chance, base XP penalty lowered, base XP cap increased.</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1117</ControlId>
+            <Position>
+                <X>12</X>
+                <Y>206</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>/moveitem</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1118</ControlId>
+            <Position>
+                <X>12</X>
+                <Y>217</Y>
+            </Position>
+            <Color>
+                <R>208</R>
+                <G>228</G>
+                <B>229</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Commands to quickly move items:</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1119</ControlId>
+            <Position>
+                <X>22</X>
+                <Y>228</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>/moveitem &lt;source slot&gt; &lt;target slot&gt;</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1120</ControlId>
+            <Position>
+                <X>22</X>
+                <Y>239</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>/moveitem totarget &lt;amount&gt; &lt;item name&gt;</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1121</ControlId>
+            <Position>
+                <X>22</X>
+                <Y>250</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>/moveitem totarget #bag1|#bag2|#bag3|#bag4|#bag5</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1122</ControlId>
+            <Position>
+                <X>22</X>
+                <Y>261</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>/moveitem fromtarget &lt;amount&gt; &lt;item name&gt;</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1123</ControlId>
+            <Position>
+                <X>22</X>
+                <Y>272</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>/moveitem sell &lt;amount&gt; &lt;item name&gt;</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1124</ControlId>
+            <Position>
+                <X>22</X>
+                <Y>283</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>/moveitem sell #bag1|#bag2|#bag3|#bag4|#bag5</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1125</ControlId>
+            <Position>
+                <X>12</X>
+                <Y>294</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>/bg loot chest</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1126</ControlId>
+            <Position>
+                <X>12</X>
+                <Y>305</Y>
+            </Position>
+            <Color>
+                <R>208</R>
+                <G>228</G>
+                <B>229</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Various commands for endgame PvE raids.</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1127</ControlId>
+            <Position>
+                <X>434</X>
+                <Y>138</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>/random</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1128</ControlId>
+            <Position>
+                <X>434</X>
+                <Y>149</Y>
+            </Position>
+            <Color>
+                <R>208</R>
+                <G>228</G>
+                <B>229</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Various random commands:</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1129</ControlId>
+            <Position>
+                <X>444</X>
+                <Y>160</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>/random record &lt;number&gt;</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1130</ControlId>
+            <Position>
+                <X>444</X>
+                <Y>171</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>/random stop</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1131</ControlId>
+            <Position>
+                <X>444</X>
+                <Y>182</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>/random list</Data>
+        </LabelDef>
+
+
+        <VerticalResizeImageDef>
+            <ControlId>1133</ControlId>
+            <Position>
+                <X>428</X>
+                <Y>136</Y>
+            </Position>
+            <TemplateName>dlg_background_sep</TemplateName>
+            <Height>223</Height>
+        </VerticalResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId>1134</ControlId>
+            <Position>
+                <X>434</X>
+                <Y>193</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>/craftqueue</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1135</ControlId>
+            <Position>
+                <X>434</X>
+                <Y>204</Y>
+            </Position>
+            <Color>
+                <R>208</R>
+                <G>228</G>
+                <B>229</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Command to automatically repeat next recipe.</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1136</ControlId>
+            <Position>
+                <X>444</X>
+                <Y>215</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>/craftqueue &lt;times&gt;</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1137</ControlId>
+            <Position>
+                <X>444</X>
+                <Y>226</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>/craftqueue &lt;quality&gt;%</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1138</ControlId>
+            <Position>
+                <X>444</X>
+                <Y>237</Y>
+            </Position>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>550</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>/craftqueue buy (upto) &lt;n&gt;</Data>
+        </LabelDef>
+
+
+        <!--Hib-->
+
+
+        <FullResizeImageDef>
+            <ControlId>1200</ControlId>
+            <Position>
+                <X>6</X>
+                <Y>28</Y>
+            </Position>
+            <TemplateName>dlg_background_phnx</TemplateName>
+            <Width>990</Width>
+            <Height>330</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>1201</ControlId>
+            <Position>
+                <X>6</X>
+                <Y>16</Y>
+            </Position>
+            <TemplateName>dlg_background_phnx2</TemplateName>
+            <Width>990</Width>
+            <Height>11</Height>
+        </FullResizeImageDef>
+
+
+        <ImageAreaDef>
+            <ControlId>1202</ControlId>
+            <Position>
+                <X>9</X>
+                <Y>19</Y>
+            </Position>
+            <TemplateName>b_phnx_hib</TemplateName>
+        </ImageAreaDef>
+
+
+        <VerticalResizeImageDef>
+            <ControlId>1203</ControlId>
+            <Position>
+                <X>502</X>
+                <Y>16</Y>
+            </Position>
+            <TemplateName>dlg_background_sep</TemplateName>
+            <Height>343</Height>
+        </VerticalResizeImageDef>
+
+
+        <!--Alb-->
+
+
+        <FullResizeImageDef>
+            <ControlId>1300</ControlId>
+            <Position>
+                <X>6</X>
+                <Y>28</Y>
+            </Position>
+            <TemplateName>dlg_background_phnx</TemplateName>
+            <Width>990</Width>
+            <Height>330</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>1301</ControlId>
+            <Position>
+                <X>6</X>
+                <Y>16</Y>
+            </Position>
+            <TemplateName>dlg_background_phnx2</TemplateName>
+            <Width>990</Width>
+            <Height>11</Height>
+        </FullResizeImageDef>
+
+
+        <ImageAreaDef>
+            <ControlId>1302</ControlId>
+            <Position>
+                <X>9</X>
+                <Y>19</Y>
+            </Position>
+            <TemplateName>b_phnx_alb</TemplateName>
+        </ImageAreaDef>
+
+
+        <VerticalResizeImageDef>
+            <ControlId>1303</ControlId>
+            <Position>
+                <X>502</X>
+                <Y>16</Y>
+            </Position>
+            <TemplateName>dlg_background_sep</TemplateName>
+            <Height>343</Height>
+        </VerticalResizeImageDef>
+
+
+        <!--Mid-->
+
+
+        <FullResizeImageDef>
+            <ControlId>1400</ControlId>
+            <Position>
+                <X>6</X>
+                <Y>28</Y>
+            </Position>
+            <TemplateName>dlg_background_phnx</TemplateName>
+            <Width>990</Width>
+            <Height>330</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>1401</ControlId>
+            <Position>
+                <X>6</X>
+                <Y>16</Y>
+            </Position>
+            <TemplateName>dlg_background_phnx2</TemplateName>
+            <Width>990</Width>
+            <Height>11</Height>
+        </FullResizeImageDef>
+
+
+        <ImageAreaDef>
+            <ControlId>1402</ControlId>
+            <Position>
+                <X>9</X>
+                <Y>19</Y>
+            </Position>
+            <TemplateName>b_phnx_mid</TemplateName>
+        </ImageAreaDef>
+
+
+        <VerticalResizeImageDef>
+            <ControlId>1403</ControlId>
+            <Position>
+                <X>502</X>
+                <Y>16</Y>
+            </Position>
+            <TemplateName>dlg_background_sep</TemplateName>
+            <Height>343</Height>
+        </VerticalResizeImageDef>
+
+
+        <!--Exit-->
+
+
+        <ButtonDef>
+            <Position>
+                <X>3</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>button_tab_ph</TemplateName>
+            <Label>EXT</Label>
+            <Adapter>ToggleCustom12</Adapter>
+            <OnClickEvent>ToggleCustom12</OnClickEvent>
+        </ButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

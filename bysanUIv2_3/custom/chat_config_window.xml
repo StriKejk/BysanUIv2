@@ -1,0 +1,1795 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>chat_config</Name>
+        <WindowId>ChatConfig</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>286</TitleWidth>
+        <TitleHeight>8</TitleHeight>
+        <Width>286</Width>
+        <Height>337</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>333</MinWidth>
+        <MinHeight>436</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>286</Width>
+            <Height>337</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_witt_bg_100</TemplateName>
+            <Width>286</Width>
+            <Height>19</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId>1006</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>4</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>286</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>CHAT CONFIG</Data>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>3</X>
+                <Y>21</Y>
+            </Position>
+            <TemplateName>_witt_bg_80</TemplateName>
+            <Width>139</Width>
+            <Height>245</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>144</X>
+                <Y>21</Y>
+            </Position>
+            <TemplateName>_witt_bg_80</TemplateName>
+            <Width>139</Width>
+            <Height>245</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>3</X>
+                <Y>268</Y>
+            </Position>
+            <TemplateName>_witt_bg_80</TemplateName>
+            <Width>280</Width>
+            <Height>48</Height>
+        </FullResizeImageDef>
+
+
+        <ButtonDef>
+            <ControlId>2000</ControlId>
+            <Position>
+                <X>142</X>
+                <Y>318</Y>
+            </Position>
+            <TemplateName>_witt_buttons_tab</TemplateName>
+            <Label>ACCEPT</Label>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>2001</ControlId>
+            <Position>
+                <X>78</X>
+                <Y>318</Y>
+            </Position>
+            <TemplateName>_witt_buttons_tab</TemplateName>
+            <Label>CANCEL</Label>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4000</ControlId>
+            <Position>
+                <X>13</X>
+                <Y>275</Y>
+            </Position>
+            <TemplateName>color_button</TemplateName>
+            <ColorAdapter>index_color_0</ColorAdapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4000</ControlId>
+            <Position>
+                <X>12</X>
+                <Y>274</Y>
+            </Position>
+            <TemplateName>color_highlight_button</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4001</ControlId>
+            <Position>
+                <X>33</X>
+                <Y>275</Y>
+            </Position>
+            <TemplateName>color_button</TemplateName>
+            <ColorAdapter>index_color_1</ColorAdapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4001</ControlId>
+            <Position>
+                <X>32</X>
+                <Y>274</Y>
+            </Position>
+            <TemplateName>color_highlight_button</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4002</ControlId>
+            <Position>
+                <X>53</X>
+                <Y>275</Y>
+            </Position>
+            <TemplateName>color_button</TemplateName>
+            <ColorAdapter>index_color_2</ColorAdapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4002</ControlId>
+            <Position>
+                <X>52</X>
+                <Y>274</Y>
+            </Position>
+            <TemplateName>color_highlight_button</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4003</ControlId>
+            <Position>
+                <X>73</X>
+                <Y>275</Y>
+            </Position>
+            <TemplateName>color_button</TemplateName>
+            <ColorAdapter>index_color_3</ColorAdapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4003</ControlId>
+            <Position>
+                <X>72</X>
+                <Y>274</Y>
+            </Position>
+            <TemplateName>color_highlight_button</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4004</ControlId>
+            <Position>
+                <X>93</X>
+                <Y>275</Y>
+            </Position>
+            <TemplateName>color_button</TemplateName>
+            <ColorAdapter>index_color_4</ColorAdapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4004</ControlId>
+            <Position>
+                <X>92</X>
+                <Y>274</Y>
+            </Position>
+            <TemplateName>color_highlight_button</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4005</ControlId>
+            <Position>
+                <X>113</X>
+                <Y>275</Y>
+            </Position>
+            <TemplateName>color_button</TemplateName>
+            <ColorAdapter>index_color_5</ColorAdapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4005</ControlId>
+            <Position>
+                <X>112</X>
+                <Y>274</Y>
+            </Position>
+            <TemplateName>color_highlight_button</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4006</ControlId>
+            <Position>
+                <X>133</X>
+                <Y>275</Y>
+            </Position>
+            <TemplateName>color_button</TemplateName>
+            <ColorAdapter>index_color_6</ColorAdapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4006</ControlId>
+            <Position>
+                <X>132</X>
+                <Y>274</Y>
+            </Position>
+            <TemplateName>color_highlight_button</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4007</ControlId>
+            <Position>
+                <X>153</X>
+                <Y>275</Y>
+            </Position>
+            <TemplateName>color_button</TemplateName>
+            <ColorAdapter>index_color_7</ColorAdapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4007</ControlId>
+            <Position>
+                <X>152</X>
+                <Y>274</Y>
+            </Position>
+            <TemplateName>color_highlight_button</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4008</ControlId>
+            <Position>
+                <X>173</X>
+                <Y>275</Y>
+            </Position>
+            <TemplateName>color_button</TemplateName>
+            <ColorAdapter>index_color_8</ColorAdapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4008</ControlId>
+            <Position>
+                <X>172</X>
+                <Y>274</Y>
+            </Position>
+            <TemplateName>color_highlight_button</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4009</ControlId>
+            <Position>
+                <X>193</X>
+                <Y>275</Y>
+            </Position>
+            <TemplateName>color_button</TemplateName>
+            <ColorAdapter>index_color_9</ColorAdapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4009</ControlId>
+            <Position>
+                <X>192</X>
+                <Y>274</Y>
+            </Position>
+            <TemplateName>color_highlight_button</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4010</ControlId>
+            <Position>
+                <X>213</X>
+                <Y>275</Y>
+            </Position>
+            <TemplateName>color_button</TemplateName>
+            <ColorAdapter>index_color_10</ColorAdapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4010</ControlId>
+            <Position>
+                <X>212</X>
+                <Y>274</Y>
+            </Position>
+            <TemplateName>color_highlight_button</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4011</ControlId>
+            <Position>
+                <X>233</X>
+                <Y>275</Y>
+            </Position>
+            <TemplateName>color_button</TemplateName>
+            <ColorAdapter>index_color_11</ColorAdapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4011</ControlId>
+            <Position>
+                <X>232</X>
+                <Y>274</Y>
+            </Position>
+            <TemplateName>color_highlight_button</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4012</ControlId>
+            <Position>
+                <X>253</X>
+                <Y>275</Y>
+            </Position>
+            <TemplateName>color_button</TemplateName>
+            <ColorAdapter>index_color_12</ColorAdapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4012</ControlId>
+            <Position>
+                <X>252</X>
+                <Y>274</Y>
+            </Position>
+            <TemplateName>color_highlight_button</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4013</ControlId>
+            <Position>
+                <X>13</X>
+                <Y>295</Y>
+            </Position>
+            <TemplateName>color_button</TemplateName>
+            <ColorAdapter>index_color_13</ColorAdapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4013</ControlId>
+            <Position>
+                <X>12</X>
+                <Y>294</Y>
+            </Position>
+            <TemplateName>color_highlight_button</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4014</ControlId>
+            <Position>
+                <X>33</X>
+                <Y>295</Y>
+            </Position>
+            <TemplateName>color_button</TemplateName>
+            <ColorAdapter>index_color_14</ColorAdapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4014</ControlId>
+            <Position>
+                <X>32</X>
+                <Y>294</Y>
+            </Position>
+            <TemplateName>color_highlight_button</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4015</ControlId>
+            <Position>
+                <X>53</X>
+                <Y>295</Y>
+            </Position>
+            <TemplateName>color_button</TemplateName>
+            <ColorAdapter>index_color_15</ColorAdapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4015</ControlId>
+            <Position>
+                <X>52</X>
+                <Y>294</Y>
+            </Position>
+            <TemplateName>color_highlight_button</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4016</ControlId>
+            <Position>
+                <X>73</X>
+                <Y>295</Y>
+            </Position>
+            <TemplateName>color_button</TemplateName>
+            <ColorAdapter>index_color_16</ColorAdapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4016</ControlId>
+            <Position>
+                <X>72</X>
+                <Y>294</Y>
+            </Position>
+            <TemplateName>color_highlight_button</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4017</ControlId>
+            <Position>
+                <X>93</X>
+                <Y>295</Y>
+            </Position>
+            <TemplateName>color_button</TemplateName>
+            <ColorAdapter>index_color_17</ColorAdapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4017</ControlId>
+            <Position>
+                <X>92</X>
+                <Y>294</Y>
+            </Position>
+            <TemplateName>color_highlight_button</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4018</ControlId>
+            <Position>
+                <X>113</X>
+                <Y>295</Y>
+            </Position>
+            <TemplateName>color_button</TemplateName>
+            <ColorAdapter>index_color_18</ColorAdapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4018</ControlId>
+            <Position>
+                <X>112</X>
+                <Y>294</Y>
+            </Position>
+            <TemplateName>color_highlight_button</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4019</ControlId>
+            <Position>
+                <X>133</X>
+                <Y>295</Y>
+            </Position>
+            <TemplateName>color_button</TemplateName>
+            <ColorAdapter>index_color_19</ColorAdapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4019</ControlId>
+            <Position>
+                <X>132</X>
+                <Y>294</Y>
+            </Position>
+            <TemplateName>color_highlight_button</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4020</ControlId>
+            <Position>
+                <X>153</X>
+                <Y>295</Y>
+            </Position>
+            <TemplateName>color_button</TemplateName>
+            <ColorAdapter>index_color_20</ColorAdapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4020</ControlId>
+            <Position>
+                <X>152</X>
+                <Y>294</Y>
+            </Position>
+            <TemplateName>color_highlight_button</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4021</ControlId>
+            <Position>
+                <X>173</X>
+                <Y>295</Y>
+            </Position>
+            <TemplateName>color_button</TemplateName>
+            <ColorAdapter>index_color_21</ColorAdapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4021</ControlId>
+            <Position>
+                <X>172</X>
+                <Y>294</Y>
+            </Position>
+            <TemplateName>color_highlight_button</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4022</ControlId>
+            <Position>
+                <X>193</X>
+                <Y>295</Y>
+            </Position>
+            <TemplateName>color_button</TemplateName>
+            <ColorAdapter>index_color_22</ColorAdapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4022</ControlId>
+            <Position>
+                <X>192</X>
+                <Y>294</Y>
+            </Position>
+            <TemplateName>color_highlight_button</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4023</ControlId>
+            <Position>
+                <X>213</X>
+                <Y>295</Y>
+            </Position>
+            <TemplateName>color_button</TemplateName>
+            <ColorAdapter>index_color_23</ColorAdapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4023</ControlId>
+            <Position>
+                <X>212</X>
+                <Y>294</Y>
+            </Position>
+            <TemplateName>color_highlight_button</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4024</ControlId>
+            <Position>
+                <X>233</X>
+                <Y>295</Y>
+            </Position>
+            <TemplateName>color_button</TemplateName>
+            <ColorAdapter>index_color_24</ColorAdapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4024</ControlId>
+            <Position>
+                <X>232</X>
+                <Y>294</Y>
+            </Position>
+            <TemplateName>color_highlight_button</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4025</ControlId>
+            <Position>
+                <X>253</X>
+                <Y>295</Y>
+            </Position>
+            <TemplateName>color_button</TemplateName>
+            <ColorAdapter>index_color_25</ColorAdapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4025</ControlId>
+            <Position>
+                <X>252</X>
+                <Y>294</Y>
+            </Position>
+            <TemplateName>color_highlight_button</TemplateName>
+        </ButtonDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1016</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>23</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5016</ControlId>
+            <Position>
+                <X>21</X>
+                <Y>24</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Spell</Data>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1017</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>38</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5017</ControlId>
+            <Position>
+                <X>21</X>
+                <Y>39</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>You Hit</Data>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1018</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>53</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5018</ControlId>
+            <Position>
+                <X>21</X>
+                <Y>54</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>System</Data>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1019</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>68</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5019</ControlId>
+            <Position>
+                <X>21</X>
+                <Y>69</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Items</Data>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1020</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>83</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5020</ControlId>
+            <Position>
+                <X>21</X>
+                <Y>84</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Merchant</Data>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1021</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>98</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5021</ControlId>
+            <Position>
+                <X>21</X>
+                <Y>99</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Your Death</Data>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1022</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>113</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5022</ControlId>
+            <Position>
+                <X>21</X>
+                <Y>114</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Others' Death</Data>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1023</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>128</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5023</ControlId>
+            <Position>
+                <X>21</X>
+                <Y>129</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Others' Combat</Data>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1024</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>143</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5024</ControlId>
+            <Position>
+                <X>21</X>
+                <Y>144</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Resists Changed</Data>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1025</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>158</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5025</ControlId>
+            <Position>
+                <X>21</X>
+                <Y>159</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Spell Expires</Data>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1026</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>173</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5026</ControlId>
+            <Position>
+                <X>21</X>
+                <Y>174</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Loot</Data>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1027</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>188</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5027</ControlId>
+            <Position>
+                <X>21</X>
+                <Y>189</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Spell Resisted</Data>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1028</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>203</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5028</ControlId>
+            <Position>
+                <X>21</X>
+                <Y>204</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Important</Data>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1029</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>218</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5029</ControlId>
+            <Position>
+                <X>21</X>
+                <Y>219</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Damaged</Data>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1030</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>233</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5030</ControlId>
+            <Position>
+                <X>21</X>
+                <Y>234</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Action</Data>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1031</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>248</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5031</ControlId>
+            <Position>
+                <X>21</X>
+                <Y>249</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Spell Pulse</Data>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>146</X>
+                <Y>23</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5001</ControlId>
+            <Position>
+                <X>162</X>
+                <Y>24</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Say</Data>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>146</X>
+                <Y>38</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5002</ControlId>
+            <Position>
+                <X>162</X>
+                <Y>39</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Send</Data>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>146</X>
+                <Y>53</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5003</ControlId>
+            <Position>
+                <X>162</X>
+                <Y>54</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Group</Data>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1004</ControlId>
+            <Position>
+                <X>146</X>
+                <Y>68</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5004</ControlId>
+            <Position>
+                <X>162</X>
+                <Y>69</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Guild</Data>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1005</ControlId>
+            <Position>
+                <X>146</X>
+                <Y>83</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5005</ControlId>
+            <Position>
+                <X>162</X>
+                <Y>84</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Broadcast</Data>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1006</ControlId>
+            <Position>
+                <X>146</X>
+                <Y>98</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5006</ControlId>
+            <Position>
+                <X>162</X>
+                <Y>99</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Emote</Data>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1007</ControlId>
+            <Position>
+                <X>146</X>
+                <Y>113</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5007</ControlId>
+            <Position>
+                <X>162</X>
+                <Y>114</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Help</Data>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1008</ControlId>
+            <Position>
+                <X>146</X>
+                <Y>128</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5008</ControlId>
+            <Position>
+                <X>162</X>
+                <Y>129</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Chat</Data>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1009</ControlId>
+            <Position>
+                <X>146</X>
+                <Y>143</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5009</ControlId>
+            <Position>
+                <X>162</X>
+                <Y>144</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Advice</Data>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1010</ControlId>
+            <Position>
+                <X>146</X>
+                <Y>158</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5010</ControlId>
+            <Position>
+                <X>162</X>
+                <Y>159</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Officer</Data>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1011</ControlId>
+            <Position>
+                <X>146</X>
+                <Y>173</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5011</ControlId>
+            <Position>
+                <X>162</X>
+                <Y>174</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Alliance</Data>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1012</ControlId>
+            <Position>
+                <X>146</X>
+                <Y>188</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5012</ControlId>
+            <Position>
+                <X>162</X>
+                <Y>189</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Battle Group</Data>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1013</ControlId>
+            <Position>
+                <X>146</X>
+                <Y>203</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5013</ControlId>
+            <Position>
+                <X>162</X>
+                <Y>204</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Battle Group Leader</Data>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1014</ControlId>
+            <Position>
+                <X>146</X>
+                <Y>218</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5014</ControlId>
+            <Position>
+                <X>162</X>
+                <Y>219</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Looking For Group</Data>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1015</ControlId>
+            <Position>
+                <X>146</X>
+                <Y>233</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5015</ControlId>
+            <Position>
+                <X>162</X>
+                <Y>234</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Trade</Data>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

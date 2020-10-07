@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>mini_pet</Name>
+        <WindowId>MiniPet</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>15</TitleWidth>
+        <TitleHeight>15</TitleHeight>
+        <Width>245</Width>
+        <Height>60</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>245</MinWidth>
+        <MinHeight>60</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <!--BG-->
+
+
+        <ImageAreaDef>
+            <ControlId>pet_bar_bg</ControlId>
+            <Position>
+                <X>1</X>
+                <Y>1</Y>
+            </Position>
+            <TemplateName>b_bar_pet_bigsalmon_fixed_bg</TemplateName>
+        </ImageAreaDef>
+
+
+        <!--Pet Buffs-->
+
+
+        <IconDef>
+            <Position>
+                <X>125</X>
+                <Y>4</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>mini_pet_effect0</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>142</X>
+                <Y>4</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>mini_pet_effect1</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>159</X>
+                <Y>4</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>mini_pet_effect2</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>176</X>
+                <Y>4</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>mini_pet_effect3</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>193</X>
+                <Y>4</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>mini_pet_effect4</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>210</X>
+                <Y>4</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>mini_pet_effect5</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
+        </IconDef>
+
+
+        <!--Pet Life-->
+
+
+        <StatusBarDef>
+            <ControlId>pet_life_status</ControlId>
+            <Position>
+                <X>1</X>
+                <Y>1</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>b_bar_pet_bigsalmon_transparent</TemplateName>
+            <AdapterName>mini_pet_life</AdapterName>
+            <Width>244</Width>
+        </StatusBarDef>
+
+
+        <!--Pet Info-->
+
+
+        <ScalarLabelDef>
+            <ControlId>pet life percentage</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>6</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9b</FontName>
+            <Width>25</Width>
+            <Height>25</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>mini_pet_life</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>38</X>
+                <Y>6</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9b</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>15</MaxCharacters>
+            <Adapter>mini_pet_title</Adapter>
+        </LabelDef>
+
+
+        <!--Pet Status-->
+
+
+        <CheckBoxDef>
+            <ControlId>Attack Mode Checkbox</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>neca_upet_attack_mode_checkbox</TemplateName>
+            <AdapterName>mini_pet_combat1</AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>0</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>Aggressive Mode Checkbox</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>neca_upet_attack_mode_checkbox</TemplateName>
+            <AdapterName>mini_pet_combat0</AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>0</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>Aggressive Status Checkbox</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>neca_upet_aggressive_checkbox</TemplateName>
+            <AdapterName>mini_pet_combat0</AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>0</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>Defensive Status Checkbox</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>neca_upet_defensive_checkbox</TemplateName>
+            <AdapterName>mini_pet_combat1</AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>0</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>Passive Status Checkbox</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>neca_upet_passive_checkbox</TemplateName>
+            <AdapterName>mini_pet_combat2</AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>0</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>Follow Status Checkbox</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>neca_upet_follow_checkbox</TemplateName>
+            <AdapterName>mini_pet_movement0</AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>0</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>Stay Status Checkbox</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>neca_upet_stay_checkbox</TemplateName>
+            <AdapterName>mini_pet_movement1</AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>0</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>Here Status Checkbox</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>neca_upet_here_checkbox</TemplateName>
+            <AdapterName>mini_pet_movement3</AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>0</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>Goto Status Checkbox</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>neca_upet_goto_checkbox</TemplateName>
+            <AdapterName>mini_pet_movement2</AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>0</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <!--Pet Control-->
+
+
+        <ButtonDef>
+            <ControlId>1007</ControlId>
+            <Position>
+                <X>4</X>
+                <Y>23</Y>
+            </Position>
+            <TemplateName>neca_upet_attack_button</TemplateName>
+            <OnClickEvent>PetAttack</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1008</ControlId>
+            <Position>
+                <X>219</X>
+                <Y>23</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>neca_upet_release_button</TemplateName>
+            <OnClickEvent>PetRelease</OnClickEvent>
+        </ButtonDef>
+
+
+        <!--Pet Control Combat-->
+
+
+        <ButtonDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>38</X>
+                <Y>23</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>neca_upet_aggressive_button</TemplateName>
+            <OnClickEvent>PetSetCombatState</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>61</X>
+                <Y>23</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>neca_upet_defensive_button</TemplateName>
+            <OnClickEvent>PetSetCombatState</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>84</X>
+                <Y>23</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>neca_upet_passive_button</TemplateName>
+            <OnClickEvent>PetSetCombatState</OnClickEvent>
+        </ButtonDef>
+
+
+        <!--Pet Control Movement-->
+
+
+        <ButtonDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>116</X>
+                <Y>23</Y>
+            </Position>
+            <TemplateName>neca_upet_follow_button</TemplateName>
+            <OnClickEvent>PetSetMoveState</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1004</ControlId>
+            <Position>
+                <X>139</X>
+                <Y>23</Y>
+            </Position>
+            <TemplateName>neca_upet_stay_button</TemplateName>
+            <OnClickEvent>PetSetMoveState</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1006</ControlId>
+            <Position>
+                <X>162</X>
+                <Y>23</Y>
+            </Position>
+            <TemplateName>neca_upet_here_button</TemplateName>
+            <OnClickEvent>PetSetMoveState</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1005</ControlId>
+            <Position>
+                <X>185</X>
+                <Y>23</Y>
+            </Position>
+            <TemplateName>neca_upet_goto_button</TemplateName>
+            <OnClickEvent>PetSetMoveState</OnClickEvent>
+        </ButtonDef>
+
+
+        <!--Pet Target-->
+
+
+        <InvisibleButtonDef>
+            <ControlId>1009</ControlId>
+            <Position>
+                <X>1</X>
+                <Y>1</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>PetTarget</OnClickEvent>
+            <Width>244</Width>
+            <Height>21</Height>
+        </InvisibleButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

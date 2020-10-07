@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <ImageAreaTemplate>
+        <Name>master_title</Name>
+        <TextureName>page3</TextureName>
+        <Size>
+            <X>79</X>
+            <Y>25</Y>
+        </Size>
+        <TopLeft>
+            <X>0</X>
+            <Y>55</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <WindowTemplate>
+        <Name>master_level</Name>
+        <WindowId>MasterLevel</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>true</BottomRightResizeButton>
+        <BottomLeftResizeButton>true</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>200</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>200</Width>
+        <Height>134</Height>
+        <ResizeableWidth>5</ResizeableWidth>
+        <ResizeableHeight>5</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>200</MinWidth>
+        <MinHeight>133</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>200</Width>
+            <Height>134</Height>
+        </FullResizeImageDef>
+
+
+        <TextAreaDef>
+            <ControlId>2000</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>28</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>_witt_textarea</TemplateName>
+            <AdapterName>master_list</AdapterName>
+            <HasHotspots>false</HasHotspots>
+            <MaxCharacters>32768</MaxCharacters>
+            <Width>200</Width>
+            <Height>86</Height>
+        </TextAreaDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>5</X>
+                <Y>12</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>215</G>
+                <B>32</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>180</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Rank</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>5</X>
+                <Y>0</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>215</G>
+                <B>32</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>180</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Title</Data>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>55</X>
+                <Y>12</Y>
+            </Position>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>100</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>master_rank</Adapter>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>55</X>
+                <Y>0</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>100</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Adapter>master_title</Adapter>
+        </LabelDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>24</X>
+                <Y>1</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
+            <TemplateName>_witt_button_normal</TemplateName>
+            <Label>Previous</Label>
+            <OnClickEvent>MasterLevelPagePrevious</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>36</X>
+                <Y>1</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>_witt_button_normal</TemplateName>
+            <Label>Next</Label>
+            <OnClickEvent>MasterLevelPageNext</OnClickEvent>
+        </ButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

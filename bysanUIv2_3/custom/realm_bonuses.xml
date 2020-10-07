@@ -1,0 +1,1287 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>realm_bonuses</Name>
+        <WindowId></WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>300</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>300</Width>
+        <Height>430</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>300</Width>
+            <Height>430</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_witt_bg_100</TemplateName>
+            <Width>300</Width>
+            <Height>19</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>0</X>
+                <Y>4</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>300</Width>
+            <Height>15</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>REALM BONUSES</Data>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <!--Keeps-->
+
+
+        <LabelDef>
+            <Position>
+                <X>0</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>290</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <ColorAdapter>realm_color</ColorAdapter>
+            <Adapter>realm_keep_text</Adapter>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>8</X>
+                <Y>32</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Darkness Falls</Data>
+            <ColorAdapter>realm_df_color</ColorAdapter>
+            <Adapter>realm_df_text</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>8</X>
+                <Y>46</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>8 Keeps Owned</Data>
+            <ColorAdapter>realm_bonus_color8</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>108</X>
+                <Y>46</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>+3% to all coin drops</Data>
+            <ColorAdapter>realm_bonus_color8</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>8</X>
+                <Y>58</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>9 Keeps Owned</Data>
+            <ColorAdapter>realm_bonus_color9</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>108</X>
+                <Y>58</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>+3% to all experience earned</Data>
+            <ColorAdapter>realm_bonus_color9</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>8</X>
+                <Y>70</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>10 Keeps Owned</Data>
+            <ColorAdapter>realm_bonus_color10</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>108</X>
+                <Y>70</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>+3% to all bounty points earned</Data>
+            <ColorAdapter>realm_bonus_color10</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>8</X>
+                <Y>82</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>11 Keeps Owned</Data>
+            <ColorAdapter>realm_bonus_color11</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>108</X>
+                <Y>82</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>-3% to all crafting timers</Data>
+            <ColorAdapter>realm_bonus_color11</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>8</X>
+                <Y>94</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>12 Keeps Owned</Data>
+            <ColorAdapter>realm_bonus_color12</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>108</X>
+                <Y>94</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>+5% to all coin drops</Data>
+            <ColorAdapter>realm_bonus_color12</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>8</X>
+                <Y>106</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>13 Keeps Owned</Data>
+            <ColorAdapter>realm_bonus_color13</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>108</X>
+                <Y>106</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>+5% to all experience earned</Data>
+            <ColorAdapter>realm_bonus_color13</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>8</X>
+                <Y>118</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>14 Keeps Owned</Data>
+            <ColorAdapter>realm_bonus_color14</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>108</X>
+                <Y>118</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>+5% to all bounty points earned</Data>
+            <ColorAdapter>realm_bonus_color14</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>8</X>
+                <Y>130</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>15 Keeps Owned</Data>
+            <ColorAdapter>realm_bonus_color15</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>108</X>
+                <Y>130</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>-5% to all crafting timers</Data>
+            <ColorAdapter>realm_bonus_color15</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>8</X>
+                <Y>142</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>16 Keeps Owned</Data>
+            <ColorAdapter>realm_bonus_color16</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>108</X>
+                <Y>142</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>+5% to power pool</Data>
+            <ColorAdapter>realm_bonus_color16</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>8</X>
+                <Y>154</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>17 Keeps Owned</Data>
+            <ColorAdapter>realm_bonus_color17</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>108</X>
+                <Y>154</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>+5% to endurance pool</Data>
+            <ColorAdapter>realm_bonus_color17</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>8</X>
+                <Y>166</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>18 Keeps Owned</Data>
+            <ColorAdapter>realm_bonus_color18</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>108</X>
+                <Y>166</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>increased power regeneration</Data>
+            <ColorAdapter>realm_bonus_color18</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>8</X>
+                <Y>178</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>19 Keeps Owned</Data>
+            <ColorAdapter>realm_bonus_color19</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>108</X>
+                <Y>178</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>increased health regeneration</Data>
+            <ColorAdapter>realm_bonus_color19</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>8</X>
+                <Y>190</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>20 Keeps Owned</Data>
+            <ColorAdapter>realm_bonus_color20</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>108</X>
+                <Y>190</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>+5% chance to critical for melee</Data>
+            <ColorAdapter>realm_bonus_color20</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>8</X>
+                <Y>202</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>21 Keeps Owned</Data>
+            <ColorAdapter>realm_bonus_color21</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>108</X>
+                <Y>202</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>+5% chance to critical for spells</Data>
+            <ColorAdapter>realm_bonus_color21</ColorAdapter>
+        </LabelDef>
+
+
+        <!--Power Relics-->
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>220</Y>
+            </Position>
+            <TemplateName>_witt_bg_100</TemplateName>
+            <Width>300</Width>
+            <Height>19</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>0</X>
+                <Y>224</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>300</Width>
+            <Height>15</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>POWER RELICS</Data>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>0</X>
+                <Y>240</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>290</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <ColorAdapter>realm_color</ColorAdapter>
+            <Adapter>realm_power_text</Adapter>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>14</X>
+                <Y>252</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>your power relic</Data>
+            <ColorAdapter>realm_power_color0</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>14</X>
+                <Y>264</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>1 enemy relic</Data>
+            <ColorAdapter>realm_power_color1</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>114</X>
+                <Y>264</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>+10% magical strength</Data>
+            <ColorAdapter>realm_power_color1</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>14</X>
+                <Y>276</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>2 enemy relics</Data>
+            <ColorAdapter>realm_power_color2</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>114</X>
+                <Y>276</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>+20% magical strength</Data>
+            <ColorAdapter>realm_power_color2</ColorAdapter>
+        </LabelDef>
+
+
+        <!--Strength Relics-->
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>293</Y>
+            </Position>
+            <TemplateName>_witt_bg_100</TemplateName>
+            <Width>300</Width>
+            <Height>19</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>0</X>
+                <Y>297</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>300</Width>
+            <Height>15</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>STRENGTH RELICS</Data>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>0</X>
+                <Y>313</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>290</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <ColorAdapter>realm_color</ColorAdapter>
+            <Adapter>realm_strength_text</Adapter>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>14</X>
+                <Y>326</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>your strength relic</Data>
+            <ColorAdapter>realm_strength_color0</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>14</X>
+                <Y>338</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>1 enemy relic</Data>
+            <ColorAdapter>realm_strength_color1</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>14</X>
+                <Y>350</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>2 enemy relics</Data>
+            <ColorAdapter>realm_strength_color2</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>114</X>
+                <Y>338</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>+10% melee strength</Data>
+            <ColorAdapter>realm_strength_color1</ColorAdapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>114</X>
+                <Y>350</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>+20% melee strength</Data>
+            <ColorAdapter>realm_strength_color2</ColorAdapter>
+        </LabelDef>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>367</Y>
+            </Position>
+            <TemplateName>_witt_bg_100</TemplateName>
+            <Width>300</Width>
+            <Height>19</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>0</X>
+                <Y>371</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>300</Width>
+            <Height>15</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>POPULATION BONUSES</Data>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>14</X>
+                <Y>386</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>0</G>
+                <B>0</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Albion</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>14</X>
+                <Y>399</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>82</R>
+                <G>217</G>
+                <B>94</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Hibernia</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>14</X>
+                <Y>412</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>94</R>
+                <G>178</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Midgard</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>114</X>
+                <Y>386</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>0</G>
+                <B>0</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>None</Data>
+            <Adapter>alb_low_pop_rp_bonus</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>114</X>
+                <Y>399</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>82</R>
+                <G>217</G>
+                <B>94</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>None</Data>
+            <Adapter>hib_low_pop_rp_bonus</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>114</X>
+                <Y>412</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>94</R>
+                <G>178</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>None</Data>
+            <Adapter>mid_low_pop_rp_bonus</Adapter>
+        </LabelDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

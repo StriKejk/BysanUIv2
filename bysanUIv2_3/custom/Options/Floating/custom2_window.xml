@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>custom2_window</Name>
+        <WindowId>custom2_window</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>20</TitleWidth>
+        <TitleHeight>9</TitleHeight>
+        <Width>187</Width>
+        <Height>12</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>b_bar_power_bigyellow</TemplateName>
+            <AdapterName>summary_player_power</AdapterName>
+            <Width>187</Width>
+        </StatusBarDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>8</X>
+                <Y>1</Y>
+            </Position>
+            <FontName>arial9b</FontName>
+            <Width>25</Width>
+            <Height>16</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>245</R>
+                <G>227</G>
+                <B>80</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_player_power</Adapter>
+            <TextCentered>true</TextCentered>
+            <EndAligned>true</EndAligned>
+        </ScalarLabelDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

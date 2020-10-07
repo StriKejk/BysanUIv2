@@ -1,0 +1,1129 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>stats_attributes</Name>
+        <WindowId>StatsAttributes</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>198</Width>
+        <Height>380</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <!--&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;Height&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;390&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/Height&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;-->
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>198</Width>
+            <Height>380</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_witt_bg_100</TemplateName>
+            <Width>198</Width>
+            <Height>19</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>0</X>
+                <Y>4</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>198</Width>
+            <Height>15</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>OVERVIEW</Data>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>8</X>
+                <Y>23</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>215</G>
+                <B>32</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>8</MaxCharacters>
+            <Adapter>stats_name</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>0</X>
+                <Y>23</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>215</G>
+                <B>32</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>198</Width>
+            <Height>20</Height>
+            <MaxCharacters>8</MaxCharacters>
+            <Adapter>stats_race</Adapter>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>0</X>
+                <Y>23</Y>
+            </Position>
+            <Alignment>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>215</G>
+                <B>32</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>8</MaxCharacters>
+            <Adapter>stats_profession</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>8</X>
+                <Y>42</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>215</G>
+                <B>32</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <Data>Level:</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>8</X>
+                <Y>56</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>215</G>
+                <B>32</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <Data>WSkill:</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>8</X>
+                <Y>70</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>215</G>
+                <B>32</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <Data>WDmg:</Data>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>58</X>
+                <Y>42</Y>
+            </Position>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>stats_level</Adapter>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>58</X>
+                <Y>56</Y>
+            </Position>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>stats_weapon_skill</Adapter>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>58</X>
+                <Y>70</Y>
+            </Position>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>stats_weapon_skill</Adapter>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>99</X>
+                <Y>42</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>215</G>
+                <B>32</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <Data>RP:</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>99</X>
+                <Y>56</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>215</G>
+                <B>32</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <Data>HP:</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>99</X>
+                <Y>70</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>215</G>
+                <B>32</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <Data>AF:</Data>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>123</X>
+                <Y>42</Y>
+            </Position>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>stats_realm_points</Adapter>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>123</X>
+                <Y>56</Y>
+            </Position>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>stats_hitpoints</Adapter>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>123</X>
+                <Y>70</Y>
+            </Position>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>stats_armor_factor</Adapter>
+        </ScalarLabelDef>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>89</Y>
+            </Position>
+            <TemplateName>_witt_bg_100</TemplateName>
+            <Width>198</Width>
+            <Height>19</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>0</X>
+                <Y>93</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>198</Width>
+            <Height>15</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>STATS</Data>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>8</X>
+                <Y>112</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>215</G>
+                <B>32</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <Data>Str:</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>8</X>
+                <Y>126</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>215</G>
+                <B>32</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <Data>Con:</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>8</X>
+                <Y>140</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>215</G>
+                <B>32</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <Data>Dex:</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>8</X>
+                <Y>154</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>215</G>
+                <B>32</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <Data>Qui:</Data>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>43</X>
+                <Y>112</Y>
+            </Position>
+            <ToolTipID>1</ToolTipID>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>stats_strength</Adapter>
+            <ColorAdapter>stats_strength_color</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>43</X>
+                <Y>126</Y>
+            </Position>
+            <ToolTipID>3</ToolTipID>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>stats_constitution</Adapter>
+            <ColorAdapter>stats_constitution_color</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>43</X>
+                <Y>140</Y>
+            </Position>
+            <ToolTipID>2</ToolTipID>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>stats_dexterity</Adapter>
+            <ColorAdapter>stats_dexterity_color</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>43</X>
+                <Y>154</Y>
+            </Position>
+            <ToolTipID>4</ToolTipID>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>stats_quickness</Adapter>
+            <ColorAdapter>stats_quickness_color</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>121</X>
+                <Y>112</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>215</G>
+                <B>32</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <Data>Int:</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>121</X>
+                <Y>126</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>215</G>
+                <B>32</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <Data>Emp:</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>121</X>
+                <Y>140</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>215</G>
+                <B>32</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <Data>Pie:</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>121</X>
+                <Y>154</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>215</G>
+                <B>32</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <Data>Cha:</Data>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>157</X>
+                <Y>112</Y>
+            </Position>
+            <ToolTipID>5</ToolTipID>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>stats_intelligence</Adapter>
+            <ColorAdapter>stats_intelligence_color</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>157</X>
+                <Y>126</Y>
+            </Position>
+            <ToolTipID>7</ToolTipID>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>stats_empathy</Adapter>
+            <ColorAdapter>stats_empathy_color</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>157</X>
+                <Y>140</Y>
+            </Position>
+            <ToolTipID>6</ToolTipID>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>stats_piety</Adapter>
+            <ColorAdapter>stats_piety_color</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>157</X>
+                <Y>154</Y>
+            </Position>
+            <ToolTipID>8</ToolTipID>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>stats_charisma</Adapter>
+            <ColorAdapter>stats_charisma_color</ColorAdapter>
+        </ScalarLabelDef>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>173</Y>
+            </Position>
+            <TemplateName>_witt_bg_100</TemplateName>
+            <Width>198</Width>
+            <Height>19</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>0</X>
+                <Y>177</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>198</Width>
+            <Height>15</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>RESISTS</Data>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>8</X>
+                <Y>196</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>215</G>
+                <B>32</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <Data>Thr:</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>8</X>
+                <Y>210</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>215</G>
+                <B>32</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <Data>Cru:</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>8</X>
+                <Y>224</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>215</G>
+                <B>32</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <Data>Sla:</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>8</X>
+                <Y>238</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>215</G>
+                <B>32</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <Data>Hea:</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>43</X>
+                <Y>196</Y>
+            </Position>
+            <ToolTipID>11</ToolTipID>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <ColorAdapter>stats_thrust_color</ColorAdapter>
+            <Adapter>stats_thrust</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>43</X>
+                <Y>210</Y>
+            </Position>
+            <ToolTipID>9</ToolTipID>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <ColorAdapter>stats_crush_color</ColorAdapter>
+            <Adapter>stats_crush</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>43</X>
+                <Y>224</Y>
+            </Position>
+            <ToolTipID>10</ToolTipID>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <ColorAdapter>stats_slash_color</ColorAdapter>
+            <Adapter>stats_slash</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>43</X>
+                <Y>238</Y>
+            </Position>
+            <ToolTipID>12</ToolTipID>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <ColorAdapter>stats_heat_color</ColorAdapter>
+            <Adapter>stats_heat</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>121</X>
+                <Y>196</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>215</G>
+                <B>32</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <Data>Col:</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>121</X>
+                <Y>210</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>215</G>
+                <B>32</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <Data>Mat:</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>121</X>
+                <Y>224</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>215</G>
+                <B>32</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <Data>Ene:</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>121</X>
+                <Y>238</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>215</G>
+                <B>32</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <Data>Spi:</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>121</X>
+                <Y>252</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>215</G>
+                <B>32</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <Data>Bod:</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>157</X>
+                <Y>196</Y>
+            </Position>
+            <ToolTipID>13</ToolTipID>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <ColorAdapter>stats_cold_color</ColorAdapter>
+            <Adapter>stats_cold</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>157</X>
+                <Y>210</Y>
+            </Position>
+            <ToolTipID>14</ToolTipID>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <ColorAdapter>stats_matter_color</ColorAdapter>
+            <Adapter>stats_matter</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>157</X>
+                <Y>224</Y>
+            </Position>
+            <ToolTipID>17</ToolTipID>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <ColorAdapter>stats_energy_color</ColorAdapter>
+            <Adapter>stats_energy</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>157</X>
+                <Y>238</Y>
+            </Position>
+            <ToolTipID>16</ToolTipID>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <ColorAdapter>stats_spirit_color</ColorAdapter>
+            <Adapter>stats_spirit</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>157</X>
+                <Y>252</Y>
+            </Position>
+            <ToolTipID>15</ToolTipID>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>64</Width>
+            <Height>20</Height>
+            <MaxCharacters>10</MaxCharacters>
+            <ColorAdapter>stats_body_color</ColorAdapter>
+            <Adapter>stats_body</Adapter>
+        </LabelDef>
+
+
+        <ListBoxDef>
+            <Position>
+                <X>0</X>
+                <Y>270</Y>
+            </Position>
+            <Width>198</Width>
+            <Height>110</Height>
+            <TemplateName>_witt_listbox_80</TemplateName>
+            <AdapterName>stats_additional_info</AdapterName>
+            <Sorting>false</Sorting>
+            <Columns>2</Columns>
+            <IconTemplate></IconTemplate>
+            <ShowIndicator>false</ShowIndicator>
+            <ShowDefaultToolTips>false</ShowDefaultToolTips>
+            <OnHeaderClickEvent></OnHeaderClickEvent>
+            <OnClickEvent></OnClickEvent>
+        </ListBoxDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

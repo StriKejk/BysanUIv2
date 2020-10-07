@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>float_level_exp_window</Name>
+        <WindowId>float_level_exp</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>110</Width>
+        <Height>25</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <!-- XP Window -->
+
+
+        <StatusBarDef>
+            <ControlId>xp coarse</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>b_xp_line_blue2</TemplateName>
+            <AdapterName>summary_exp_coarse</AdapterName>
+            <Width>100</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>xp fine</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>11</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>b_xp_line_blue</TemplateName>
+            <AdapterName>summary_exp_fine</AdapterName>
+            <Width>100</Width>
+        </StatusBarDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>110</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9ds</FontName>
+            <Width>40</Width>
+            <Height>14</Height>
+            <MaxCharacters>3</MaxCharacters>
+            <Color>
+                <R>0</R>
+                <G>144</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_exp_coarse</Adapter>
+            <EndAligned>true</EndAligned>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>128</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9ds</FontName>
+            <Width>40</Width>
+            <Height>14</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>0</R>
+                <G>144</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_exp_fine</Adapter>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>57</X>
+                <Y>15</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9ds</FontName>
+            <Width>40</Width>
+            <Height>14</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>0</R>
+                <G>144</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>stats_level</Adapter>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <ControlId>lvl</ControlId>
+            <Position>
+                <X>36</X>
+                <Y>15</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>0</R>
+                <G>144</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9ds</FontName>
+            <Width>40</Width>
+            <Height>14</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>Lvl:</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>dash</ControlId>
+            <Position>
+                <X>123</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>0</R>
+                <G>144</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9ds</FontName>
+            <Width>10</Width>
+            <Height>14</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>-</Data>
+        </LabelDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

@@ -1,0 +1,886 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>options_window</Name>
+        <WindowId>Options</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>236</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>236</Width>
+        <Height>474</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>236</Width>
+            <Height>474</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_witt_bg_100</TemplateName>
+            <Width>236</Width>
+            <Height>19</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>0</X>
+                <Y>4</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>236</Width>
+            <Height>15</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>OPTIONS</Data>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>6</X>
+                <Y>22</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>215</G>
+                <B>32</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>200</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Names</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>13</X>
+                <Y>37</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>50</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Names</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>6</X>
+                <Y>56</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>215</G>
+                <B>32</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>200</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Sound Settings</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>13</X>
+                <Y>71</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Sound Effects</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>13</X>
+                <Y>88</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Music Volume</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>13</X>
+                <Y>105</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Ambient Sounds</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>13</X>
+                <Y>122</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>200</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Ambient Music</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>6</X>
+                <Y>141</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>215</G>
+                <B>32</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>200</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Graphic and Camera Settings</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>13</X>
+                <Y>156</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Spell Effects</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>13</X>
+                <Y>173</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Terrain Clip Plane</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>13</X>
+                <Y>190</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Figure Clip Plane</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>13</X>
+                <Y>207</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Shadows</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>13</X>
+                <Y>225</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Snapback</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>13</X>
+                <Y>242</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Show Facial Morphs</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>6</X>
+                <Y>260</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>215</G>
+                <B>32</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>200</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Display Names</Data>
+        </LabelDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1009</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>274</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>Monsters/NPCs</Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1013</ControlId>
+            <Position>
+                <X>128</X>
+                <Y>274</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>Groupmates</Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1010</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>289</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>Gravestones</Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1014</ControlId>
+            <Position>
+                <X>128</X>
+                <Y>289</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>Guildmates</Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1011</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>304</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>Players</Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1015</ControlId>
+            <Position>
+                <X>128</X>
+                <Y>304</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>Enemy Players</Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1012</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>319</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>Your Name</Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>6</X>
+                <Y>337</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>215</G>
+                <B>32</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>200</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Interface</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>13</X>
+                <Y>352</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>128</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Tooltip Transparency</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>13</X>
+                <Y>369</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>125</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Tooltip Delay</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>6</X>
+                <Y>388</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>215</G>
+                <B>32</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>200</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Quickbars</Data>
+        </LabelDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1017</ControlId>
+            <Position>
+                <X>12</X>
+                <Y>402</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>One</Data>
+            <LabelWidth>35</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1018</ControlId>
+            <Position>
+                <X>64</X>
+                <Y>402</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>Two (Alt)</Data>
+            <LabelWidth>70</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1019</ControlId>
+            <Position>
+                <X>138</X>
+                <Y>402</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>Three (Ctrl)</Data>
+            <LabelWidth>70</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>6</X>
+                <Y>421</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>215</G>
+                <B>32</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>200</Width>
+            <Height>15</Height>
+            <MaxCharacters>55</MaxCharacters>
+            <Data>Spell Effect Icons</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>7</X>
+                <Y>436</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>32</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Width</Data>
+        </LabelDef>
+
+
+        <ButtonDef>
+            <ControlId>1023</ControlId>
+            <Position>
+                <X>38</X>
+                <Y>439</Y>
+            </Position>
+            <TemplateName>_witt_button_left</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1024</ControlId>
+            <Position>
+                <X>66</X>
+                <Y>439</Y>
+            </Position>
+            <TemplateName>_witt_button_right</TemplateName>
+        </ButtonDef>
+
+
+        <LabelDef>
+            <ControlId>1025</ControlId>
+            <Position>
+                <X>45</X>
+                <Y>436</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>24</Width>
+            <Height>11</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>99</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>84</X>
+                <Y>435</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>30</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Height</Data>
+        </LabelDef>
+
+
+        <ButtonDef>
+            <ControlId>1026</ControlId>
+            <Position>
+                <X>118</X>
+                <Y>440</Y>
+            </Position>
+            <TemplateName>_witt_button_left</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1027</ControlId>
+            <Position>
+                <X>140</X>
+                <Y>439</Y>
+            </Position>
+            <TemplateName>_witt_button_right</TemplateName>
+        </ButtonDef>
+
+
+        <LabelDef>
+            <ControlId>1028</ControlId>
+            <Position>
+                <X>121</X>
+                <Y>436</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>24</Width>
+            <Height>11</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>99</Data>
+        </LabelDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1029</ControlId>
+            <Position>
+                <X>153</X>
+                <Y>434</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>Oldest First</Data>
+            <LabelWidth>150</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <ButtonDef>
+            <ControlId>1016</ControlId>
+            <Position>
+                <X>85</X>
+                <Y>455</Y>
+            </Position>
+            <TemplateName>_witt_button_normal</TemplateName>
+            <Label>OK</Label>
+        </ButtonDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1031</ControlId>
+            <Position>
+                <X>143</X>
+                <Y>369</Y>
+            </Position>
+            <TemplateName>_witt_combo2</TemplateName>
+        </ComboBoxDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1030</ControlId>
+            <Position>
+                <X>143</X>
+                <Y>352</Y>
+            </Position>
+            <TemplateName>_witt_combo2</TemplateName>
+        </ComboBoxDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1022</ControlId>
+            <Position>
+                <X>143</X>
+                <Y>241</Y>
+            </Position>
+            <TemplateName>_witt_combo2</TemplateName>
+        </ComboBoxDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1021</ControlId>
+            <Position>
+                <X>143</X>
+                <Y>224</Y>
+            </Position>
+            <TemplateName>_witt_combo2</TemplateName>
+        </ComboBoxDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1008</ControlId>
+            <Position>
+                <X>143</X>
+                <Y>207</Y>
+            </Position>
+            <TemplateName>_witt_combo2</TemplateName>
+        </ComboBoxDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1020</ControlId>
+            <Position>
+                <X>143</X>
+                <Y>190</Y>
+            </Position>
+            <TemplateName>_witt_combo2</TemplateName>
+        </ComboBoxDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1006</ControlId>
+            <Position>
+                <X>143</X>
+                <Y>173</Y>
+            </Position>
+            <TemplateName>_witt_combo2</TemplateName>
+        </ComboBoxDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1005</ControlId>
+            <Position>
+                <X>143</X>
+                <Y>156</Y>
+            </Position>
+            <TemplateName>_witt_combo2</TemplateName>
+        </ComboBoxDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1004</ControlId>
+            <Position>
+                <X>143</X>
+                <Y>122</Y>
+            </Position>
+            <TemplateName>_witt_combo2</TemplateName>
+        </ComboBoxDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>143</X>
+                <Y>105</Y>
+            </Position>
+            <TemplateName>_witt_combo2</TemplateName>
+        </ComboBoxDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>143</X>
+                <Y>88</Y>
+            </Position>
+            <TemplateName>_witt_combo2</TemplateName>
+        </ComboBoxDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>143</X>
+                <Y>71</Y>
+            </Position>
+            <TemplateName>_witt_combo2</TemplateName>
+        </ComboBoxDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>143</X>
+                <Y>37</Y>
+            </Position>
+            <TemplateName>_witt_combo2</TemplateName>
+        </ComboBoxDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

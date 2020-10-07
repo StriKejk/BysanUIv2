@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>mino_relic</Name>
+        <WindowId>MinoRelic</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>196</TitleWidth>
+        <TitleHeight>15</TitleHeight>
+        <Width>196</Width>
+        <Height>34</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <!-- Background -->
+
+
+        <FullResizeImageDef>
+            <ControlId>BackgroundImage</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>196</Width>
+            <Height>34</Height>
+        </FullResizeImageDef>
+
+
+        <!-- Title -->
+
+
+        <!-- Drop button -->
+
+
+        <ButtonDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>15</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <TemplateName>_witt_buttons_tab</TemplateName>
+            <Label>DROP</Label>
+            <OnClickEvent>MinoRelicDrop</OnClickEvent>
+        </ButtonDef>
+
+
+        <!-- Timer bar -->
+
+
+        <StatusBarDef>
+            <Position>
+                <X>3</X>
+                <Y>3</Y>
+            </Position>
+            <TemplateName>_witt_statusbar_medium_green</TemplateName>
+            <AdapterName>mino_relic_time_percent</AdapterName>
+            <Width>190</Width>
+        </StatusBarDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

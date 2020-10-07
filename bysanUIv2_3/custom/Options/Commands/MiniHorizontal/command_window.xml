@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>command</Name>
+        <WindowId>Command</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>125</TitleWidth>
+        <TitleHeight>3</TitleHeight>
+        <Width>314</Width>
+        <Height>20</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <!--Left Column Buttons-->
+
+
+        <ButtonDef>
+            <ControlId>0</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab</TemplateName>
+            <Label>Attack</Label>
+            <OnClickEvent>ToggleAttackMode</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1</ControlId>
+            <Position>
+                <X>126</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab</TemplateName>
+            <Label>Sprint</Label>
+            <OnClickEvent>Sprint</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>2</ControlId>
+            <Position>
+                <X>252</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab</TemplateName>
+            <Label>Sit</Label>
+            <OnClickEvent>ToggleSitting</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4</ControlId>
+            <Position>
+                <X>189</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab</TemplateName>
+            <Label>Stick</Label>
+            <OnClickEvent>Stick</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>6</ControlId>
+            <Position>
+                <X>63</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab</TemplateName>
+            <Label>Face</Label>
+            <OnClickEvent>Face</OnClickEvent>
+        </ButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

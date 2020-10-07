@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>main_menu_window</Name>
+        <WindowId>main_menu</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>166</TitleWidth>
+        <TitleHeight>16</TitleHeight>
+        <Width>166</Width>
+        <Height>118</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <ControlId>ImageBackground</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>166</Width>
+            <Height>118</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_witt_bg_100</TemplateName>
+            <Width>166</Width>
+            <Height>19</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>0</X>
+                <Y>4</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>166</Width>
+            <Height>15</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>MAIN MENU</Data>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>20</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>21</Y>
+            </Position>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>Help Window</Label>
+            <Width>160</Width>
+            <OnClickEvent>ToggleHelp</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>20</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>39</Y>
+            </Position>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>Interface Elements</Label>
+            <Width>160</Width>
+            <OnClickEvent>ToggleInterfaceElements</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>20</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>57</Y>
+            </Position>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>In-Game Options</Label>
+            <Width>160</Width>
+            <OnClickEvent>ToggleOptions</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>20</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>75</Y>
+            </Position>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>Configure Keyboard</Label>
+            <Width>160</Width>
+            <OnClickEvent>ShowKeyboardConfig</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>20</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>99</Y>
+            </Position>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>Quit</Label>
+            <Width>160</Width>
+            <OnClickEvent>Quit</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

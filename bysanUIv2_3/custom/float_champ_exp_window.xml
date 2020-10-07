@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>float_champ_exp_window</Name>
+        <WindowId>float_champ_exp</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>100</TitleWidth>
+        <TitleHeight>28</TitleHeight>
+        <Width>100</Width>
+        <Height>28</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <!-- XP Window -->
+
+
+        <StatusBarDef>
+            <ControlId>cl coarse</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_statusbar_xp_yellow</TemplateName>
+            <AdapterName>summary_champ_exp_coarse</AdapterName>
+            <Width>100</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>cl fine</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>10</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_statusbar_tiny_yellow</TemplateName>
+            <AdapterName>summary_champ_exp_fine</AdapterName>
+            <Width>100</Width>
+        </StatusBarDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>110</X>
+                <Y>2</Y>
+            </Position>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_champ_exp_coarse</Adapter>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <ControlId>dash</ControlId>
+            <Position>
+                <X>128</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>10</Width>
+            <Height>14</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>-</Data>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>138</X>
+                <Y>2</Y>
+            </Position>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_champ_exp_fine</Adapter>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>48</X>
+                <Y>16</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>40</Width>
+            <Height>14</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_champ_level</Adapter>
+            <Data>25</Data>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>26</X>
+                <Y>16</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>20</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>CL:</Data>
+        </LabelDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

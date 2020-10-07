@@ -1,0 +1,489 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>custom4_window</Name>
+        <WindowId>custom4_window</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>50</Width>
+        <Height>71</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>dlg_background_noborder</TemplateName>
+            <Width>50</Width>
+            <Height>71</Height>
+        </FullResizeImageDef>
+
+
+        <!-- Mini Stats Window -->
+
+
+        <LabelDef>
+            <ControlId>Thr</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>-2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>silkscreen</FontName>
+            <Width>35</Width>
+            <Height>12</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>Thr:</Data>
+            <ColorAdapter>stats_thrust_color</ColorAdapter>
+            <EndAligned>true</EndAligned>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>str_data</ControlId>
+            <Position>
+                <X>24</X>
+                <Y>-2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>silkscreen</FontName>
+            <Width>100</Width>
+            <Height>25</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <ColorAdapter>stats_thrust_color</ColorAdapter>
+            <Adapter>stats_thrust</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>Cru</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>5</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>silkscreen</FontName>
+            <Width>30</Width>
+            <Height>12</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>Cru: </Data>
+            <ColorAdapter>stats_crush_color</ColorAdapter>
+            <EndAligned>true</EndAligned>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>cru_data</ControlId>
+            <Position>
+                <X>24</X>
+                <Y>5</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>silkscreen</FontName>
+            <Width>100</Width>
+            <Height>25</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <ColorAdapter>stats_crush_color</ColorAdapter>
+            <Adapter>stats_crush</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>Sla</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>12</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>silkscreen</FontName>
+            <Width>30</Width>
+            <Height>16</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>Sla: </Data>
+            <ColorAdapter>stats_slash_color</ColorAdapter>
+            <EndAligned>true</EndAligned>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>sla_data</ControlId>
+            <Position>
+                <X>24</X>
+                <Y>12</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>silkscreen</FontName>
+            <Width>100</Width>
+            <Height>25</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <ColorAdapter>stats_slash_color</ColorAdapter>
+            <Adapter>stats_slash</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>Hea</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>22</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>silkscreen</FontName>
+            <Width>30</Width>
+            <Height>16</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>Hea: </Data>
+            <ColorAdapter>stats_heat_color</ColorAdapter>
+            <EndAligned>true</EndAligned>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>hea_data</ControlId>
+            <Position>
+                <X>24</X>
+                <Y>22</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>silkscreen</FontName>
+            <Width>100</Width>
+            <Height>25</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <ColorAdapter>stats_heat_color</ColorAdapter>
+            <Adapter>stats_heat</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>Col</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>29</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>silkscreen</FontName>
+            <Width>30</Width>
+            <Height>16</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>Col: </Data>
+            <ColorAdapter>stats_cold_color</ColorAdapter>
+            <EndAligned>true</EndAligned>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>col_data</ControlId>
+            <Position>
+                <X>24</X>
+                <Y>29</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>silkscreen</FontName>
+            <Width>100</Width>
+            <Height>25</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <ColorAdapter>stats_cold_color</ColorAdapter>
+            <Adapter>stats_cold</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>mat</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>36</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>silkscreen</FontName>
+            <Width>30</Width>
+            <Height>16</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>Mat: </Data>
+            <ColorAdapter>stats_matter_color</ColorAdapter>
+            <EndAligned>true</EndAligned>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>mat_data</ControlId>
+            <Position>
+                <X>24</X>
+                <Y>36</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>silkscreen</FontName>
+            <Width>100</Width>
+            <Height>25</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <ColorAdapter>stats_matter_color</ColorAdapter>
+            <Adapter>stats_matter</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>ene</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>46</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>silkscreen</FontName>
+            <Width>30</Width>
+            <Height>16</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>Ene:</Data>
+            <ColorAdapter>stats_energy_color</ColorAdapter>
+            <EndAligned>true</EndAligned>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>ene_data</ControlId>
+            <Position>
+                <X>24</X>
+                <Y>46</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>153</R>
+                <G>153</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>silkscreen</FontName>
+            <Width>100</Width>
+            <Height>25</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <ColorAdapter>stats_energy_color</ColorAdapter>
+            <Adapter>stats_energy</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>spi</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>53</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>silkscreen</FontName>
+            <Width>30</Width>
+            <Height>16</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>Spi:</Data>
+            <ColorAdapter>stats_spirit_color</ColorAdapter>
+            <EndAligned>true</EndAligned>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>spi_data</ControlId>
+            <Position>
+                <X>24</X>
+                <Y>53</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>153</R>
+                <G>153</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>silkscreen</FontName>
+            <Width>100</Width>
+            <Height>25</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <ColorAdapter>stats_spirit_color</ColorAdapter>
+            <Adapter>stats_spirit</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>Bod</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>60</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>silkscreen</FontName>
+            <Width>30</Width>
+            <Height>16</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>Bod:</Data>
+            <ColorAdapter>stats_body_color</ColorAdapter>
+            <EndAligned>true</EndAligned>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>bod_data</ControlId>
+            <Position>
+                <X>24</X>
+                <Y>60</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>153</R>
+                <G>153</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>silkscreen</FontName>
+            <Width>100</Width>
+            <Height>25</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <ColorAdapter>stats_body_color</ColorAdapter>
+            <Adapter>stats_body</Adapter>
+        </LabelDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

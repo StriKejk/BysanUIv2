@@ -1,0 +1,457 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <!-- Load Images -->
+
+
+    <Texture>
+        <Name>FloatingImages</Name>
+        <File>custom/Assets/Textures/FloatingBars.tga</File>
+    </Texture>
+
+
+    <!-- Define Templates -->
+
+
+    <ImageAreaTemplate>
+        <Name>FloatingBar_HashMarks</Name>
+        <TextureName>FloatingImages</TextureName>
+        <Size>
+            <X>185</X>
+            <Y>6</Y>
+        </Size>
+        <TopLeft>
+            <X>1</X>
+            <Y>108</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>FloatingBarHealth</Name>
+        <Height>21</Height>
+        <LeftWidth>0</LeftWidth>
+        <RepeatWidth>186</RepeatWidth>
+        <RightWidth>0</RightWidth>
+        <Texture>
+            <TextureName>floatingimages</TextureName>
+            <Left>
+                <X>0</X>
+                <Y>0</Y>
+            </Left>
+            <Repeat>
+                <X>211</X>
+                <Y>203</Y>
+            </Repeat>
+            <Right>
+                <X>0</X>
+                <Y>0</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>FloatingBarTarget</Name>
+        <Height>21</Height>
+        <LeftWidth>0</LeftWidth>
+        <RepeatWidth>186</RepeatWidth>
+        <RightWidth>0</RightWidth>
+        <Texture>
+            <TextureName>floatingimages</TextureName>
+            <Left>
+                <X>0</X>
+                <Y>0</Y>
+            </Left>
+            <Repeat>
+                <X>211</X>
+                <Y>182</Y>
+            </Repeat>
+            <Right>
+                <X>0</X>
+                <Y>0</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>FloatingBar_Power</Name>
+        <Height>12</Height>
+        <LeftWidth>0</LeftWidth>
+        <RepeatWidth>186</RepeatWidth>
+        <RightWidth>0</RightWidth>
+        <Texture>
+            <TextureName>floatingimages</TextureName>
+            <Left>
+                <X>0</X>
+                <Y>0</Y>
+            </Left>
+            <Repeat>
+                <X>211</X>
+                <Y>236</Y>
+            </Repeat>
+            <Right>
+                <X>0</X>
+                <Y>0</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>FloatingBar_End</Name>
+        <Height>12</Height>
+        <LeftWidth>0</LeftWidth>
+        <RepeatWidth>186</RepeatWidth>
+        <RightWidth>0</RightWidth>
+        <Texture>
+            <TextureName>floatingimages</TextureName>
+            <Left>
+                <X>0</X>
+                <Y>0</Y>
+            </Left>
+            <Repeat>
+                <X>211</X>
+                <Y>224</Y>
+            </Repeat>
+            <Right>
+                <X>0</X>
+                <Y>0</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>FloatingBar_SmallBG</Name>
+        <Height>12</Height>
+        <LeftWidth>0</LeftWidth>
+        <RepeatWidth>186</RepeatWidth>
+        <RightWidth>0</RightWidth>
+        <Texture>
+            <TextureName>floatingimages</TextureName>
+            <Left>
+                <X>0</X>
+                <Y>0</Y>
+            </Left>
+            <Repeat>
+                <X>211</X>
+                <Y>248</Y>
+            </Repeat>
+            <Right>
+                <X>0</X>
+                <Y>0</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>FloatingBar_SmallBG1</Name>
+        <Height>12</Height>
+        <LeftWidth>0</LeftWidth>
+        <RepeatWidth>186</RepeatWidth>
+        <RightWidth>0</RightWidth>
+        <Texture>
+            <TextureName>floatingimages</TextureName>
+            <Left>
+                <X>0</X>
+                <Y>0</Y>
+            </Left>
+            <Repeat>
+                <X>211</X>
+                <Y>260</Y>
+            </Repeat>
+            <Right>
+                <X>0</X>
+                <Y>0</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>FloatingBarBigBG</Name>
+        <Height>21</Height>
+        <LeftWidth>0</LeftWidth>
+        <RepeatWidth>186</RepeatWidth>
+        <RightWidth>0</RightWidth>
+        <Texture>
+            <TextureName>floatingimages</TextureName>
+            <Left>
+                <X>0</X>
+                <Y>0</Y>
+            </Left>
+            <Repeat>
+                <X>211</X>
+                <Y>293</Y>
+            </Repeat>
+            <Right>
+                <X>0</X>
+                <Y>0</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>FloatingBarBigBG1</Name>
+        <Height>21</Height>
+        <LeftWidth>0</LeftWidth>
+        <RepeatWidth>186</RepeatWidth>
+        <RightWidth>0</RightWidth>
+        <Texture>
+            <TextureName>floatingimages</TextureName>
+            <Left>
+                <X>0</X>
+                <Y>0</Y>
+            </Left>
+            <Repeat>
+                <X>211</X>
+                <Y>272</Y>
+            </Repeat>
+            <Right>
+                <X>0</X>
+                <Y>0</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <StatusIconTemplate>
+        <Name>attack_mode_blank</Name>
+        <TextureName>floatingimages</TextureName>
+        <TextureStart>
+            <X>189</X>
+            <Y>310</Y>
+        </TextureStart>
+        <Width>187</Width>
+        <Height>21</Height>
+        <MaxLevels>1</MaxLevels>
+        <Horizontal>false</Horizontal>
+    </StatusIconTemplate>
+
+
+    <!-- Load FloatingPlayerHealth Window -->
+
+
+    <WindowTemplate>
+        <Name>summary</Name>
+        <WindowId>Floating Player Health</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>393</Width>
+        <Height>42</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>200</MinWidth>
+        <MinHeight>25</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>1</X>
+                <Y>1</Y>
+            </Position>
+            <TemplateName>attack_mode_blank3</TemplateName>
+            <AdapterName>combat_mode</AdapterName>
+        </StatusIconDef>
+
+
+        <!--Player Health Controls-->
+
+
+        <StatusBarDef>
+            <Position>
+                <X>1</X>
+                <Y>1</Y>
+            </Position>
+            <TemplateName>b_bar_target_bigblue</TemplateName>
+            <AdapterName>summary_target_hits</AdapterName>
+            <Width>393</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>1</X>
+                <Y>21</Y>
+            </Position>
+            <TemplateName>b_bar_health_smallred</TemplateName>
+            <AdapterName>summary_player_hits</AdapterName>
+            <Width>393</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>197</X>
+                <Y>33</Y>
+            </Position>
+            <TemplateName>b_bar_power_mediumyellow</TemplateName>
+            <AdapterName>summary_player_power</AdapterName>
+            <Width>197</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>1</X>
+                <Y>33</Y>
+            </Position>
+            <TemplateName>b_bar_endo_mediumgreen</TemplateName>
+            <AdapterName>summary_player_end</AdapterName>
+            <Width>197</Width>
+        </StatusBarDef>
+
+
+        <!--Hash Marks-->
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>7</X>
+                <Y>7</Y>
+            </Position>
+            <FontName>kr</FontName>
+            <Width>25</Width>
+            <Height>16</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_target_hits</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <EndAligned>true</EndAligned>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>36</X>
+                <Y>7</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>kr</FontName>
+            <Width>145</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <ColorAdapter>summary_target_color</ColorAdapter>
+            <Adapter>summary_target</Adapter>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>5</X>
+                <Y>22</Y>
+            </Position>
+            <FontName>arial9b</FontName>
+            <Width>25</Width>
+            <Height>16</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_player_hits</Adapter>
+            <TextCentered>true</TextCentered>
+            <EndAligned>true</EndAligned>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>202</X>
+                <Y>32</Y>
+            </Position>
+            <FontName>arial9b</FontName>
+            <Width>25</Width>
+            <Height>16</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>245</R>
+                <G>227</G>
+                <B>80</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_player_power</Adapter>
+            <TextCentered>true</TextCentered>
+            <EndAligned>true</EndAligned>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>5</X>
+                <Y>32</Y>
+            </Position>
+            <FontName>arial9b</FontName>
+            <Width>25</Width>
+            <Height>16</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>0</R>
+                <G>235</G>
+                <B>0</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_player_end</Adapter>
+            <TextCentered>true</TextCentered>
+            <EndAligned>true</EndAligned>
+        </ScalarLabelDef>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>2</X>
+                <Y>2</Y>
+            </Position>
+            <TemplateName>b_target_border3</TemplateName>
+        </ImageAreaDef>
+
+
+        <StatusIconDef>
+            <ControlId>attackmode</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>attack_mode3</TemplateName>
+            <AdapterName>combat_mode</AdapterName>
+        </StatusIconDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

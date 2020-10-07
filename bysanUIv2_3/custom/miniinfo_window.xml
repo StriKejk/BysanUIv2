@@ -1,0 +1,295 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>mini_info</Name>
+        <WindowId>MiniInfo</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>209</TitleWidth>
+        <TitleHeight>4</TitleHeight>
+        <Width>209</Width>
+        <Height>142</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>209</Width>
+            <Height>142</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>1</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>175</Width>
+            <Height>26</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>MiniInfo0</Data>
+            <Adapter>mini_info_string0</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>39</X>
+                <Y>15</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>102</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>MiniInfo1</Data>
+            <Adapter>mini_info_string1</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>39</X>
+                <Y>27</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>102</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>MiniInfo2</Data>
+            <Adapter>mini_info_string2</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>39</X>
+                <Y>39</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>102</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>MiniInfo3</Data>
+            <Adapter>mini_info_string3</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1004</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>51</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>136</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>MiniInfo4</Data>
+            <Adapter>mini_info_string4</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1005</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>63</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>136</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>Mini Info 5</Data>
+            <Adapter>mini_info_string5</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1006</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>75</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>136</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>Mini Info6</Data>
+            <Adapter>mini_info_string6</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1007</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>87</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>136</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>Mini Info7</Data>
+            <Adapter>mini_info_string7</Adapter>
+        </LabelDef>
+
+
+        <IconDef>
+            <ControlId>2000</ControlId>
+            <Position>
+                <X>4</X>
+                <Y>18</Y>
+            </Position>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName></AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <ButtonDef>
+            <ControlId>1100</ControlId>
+            <Position>
+                <X>142</X>
+                <Y>33</Y>
+            </Position>
+            <TemplateName>_witt_buttons_tab</TemplateName>
+            <Label>Info</Label>
+            <OnClickEvent>Delve</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1101</ControlId>
+            <Position>
+                <X>142</X>
+                <Y>50</Y>
+            </Position>
+            <TemplateName>_witt_buttons_tab</TemplateName>
+            <Label>Repair</Label>
+            <OnClickEvent>Repair</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1102</ControlId>
+            <Position>
+                <X>142</X>
+                <Y>67</Y>
+            </Position>
+            <TemplateName>_witt_buttons_tab</TemplateName>
+            <Label>Craft</Label>
+            <OnClickEvent>Craft</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1103</ControlId>
+            <Position>
+                <X>142</X>
+                <Y>84</Y>
+            </Position>
+            <TemplateName>_witt_buttons_tab</TemplateName>
+            <Label>Salvage</Label>
+            <OnClickEvent>Salvage</OnClickEvent>
+        </ButtonDef>
+
+
+        <ListBoxDef>
+            <ControlId>1200</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>102</Y>
+            </Position>
+            <Width>209</Width>
+            <Height>40</Height>
+            <TemplateName>_witt_listbox_80</TemplateName>
+            <AdapterName>mini_info_use_list</AdapterName>
+            <Sorting>false</Sorting>
+            <Columns>2</Columns>
+            <IconTemplate>plain_icon_small</IconTemplate>
+            <ShowIndicator>false</ShowIndicator>
+            <ShowDefaultToolTips>false</ShowDefaultToolTips>
+            <OnHeaderClickEvent></OnHeaderClickEvent>
+            <OnClickEvent></OnClickEvent>
+        </ListBoxDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

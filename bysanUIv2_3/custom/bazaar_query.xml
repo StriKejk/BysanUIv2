@@ -1,0 +1,759 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <EditBoxTemplate>
+        <Name>generic_editbox</Name>
+        <LinePadding>0</LinePadding>
+        <BackgroundTemplate>dlg_background_0px</BackgroundTemplate>
+        <TextOffset>
+            <X>10</X>
+            <Y>5</Y>
+        </TextOffset>
+        <Font>
+            <Name>_whatisthisfont3</Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorActive>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorActive>
+        </Font>
+        <ScrollbarOffset>
+            <X>3</X>
+            <Y>2</Y>
+        </ScrollbarOffset>
+        <ScrollbarSizeOffset>
+            <X>0</X>
+            <Y>-4</Y>
+        </ScrollbarSizeOffset>
+    </EditBoxTemplate>
+
+
+    <WindowTemplate>
+        <Name>bazaar_query</Name>
+        <WindowId>BazaarQuery</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>252</TitleWidth>
+        <TitleHeight>16</TitleHeight>
+        <Width>252</Width>
+        <Height>312</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <!--background elements-->
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_witt_bg_80</TemplateName>
+            <Width>252</Width>
+            <Height>312</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_witt_bg_100</TemplateName>
+            <Width>252</Width>
+            <Height>19</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>0</X>
+                <Y>4</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>252</Width>
+            <Height>15</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>MARKET EXPLORER</Data>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <!--functional elements-->
+
+
+        <!--Accept-->
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1028</ControlId>
+            <Position>
+                <X>158</X>
+                <Y>293</Y>
+            </Position>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>ACCEPT</Label>
+            <Width>75</Width>
+            <OnClickEvent></OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <!--Reset-->
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1027</ControlId>
+            <Position>
+                <X>96</X>
+                <Y>293</Y>
+            </Position>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>RESET</Label>
+            <Width>60</Width>
+            <OnClickEvent></OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <!--Cancel-->
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1029</ControlId>
+            <Position>
+                <X>19</X>
+                <Y>293</Y>
+            </Position>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>CANCEL</Label>
+            <Width>75</Width>
+            <OnClickEvent></OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <!--Keyword-->
+
+
+        <LabelDef>
+            <Position>
+                <X>19</X>
+                <Y>23</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>50</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Keyword</Data>
+        </LabelDef>
+
+
+        <ClickableEditBoxDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>71</X>
+                <Y>21</Y>
+            </Position>
+            <TemplateName>_witt_editbox</TemplateName>
+            <Width>165</Width>
+            <Height>24</Height>
+            <MaxCharacters>32</MaxCharacters>
+        </ClickableEditBoxDef>
+
+
+        <!--Min Price-->
+
+
+        <LabelDef>
+            <Position>
+                <X>64</X>
+                <Y>163</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>60</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Min Price</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1012</ControlId>
+            <Position>
+                <X>144</X>
+                <Y>163</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>60</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>1c</Data>
+        </LabelDef>
+
+
+        <!--Max Price-->
+
+
+        <LabelDef>
+            <Position>
+                <X>64</X>
+                <Y>179</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>60</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Max Price</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1013</ControlId>
+            <Position>
+                <X>144</X>
+                <Y>179</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>72</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Don't Care</Data>
+        </LabelDef>
+
+
+        <!--Min Level-->
+
+
+        <LabelDef>
+            <Position>
+                <X>64</X>
+                <Y>223</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>90</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Min Level</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1022</ControlId>
+            <Position>
+                <X>152</X>
+                <Y>223</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>16</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>0</Data>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <ButtonDef>
+            <ControlId>1020</ControlId>
+            <Position>
+                <X>140</X>
+                <Y>226</Y>
+            </Position>
+            <TemplateName>_witt_button_left</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1021</ControlId>
+            <Position>
+                <X>171</X>
+                <Y>226</Y>
+            </Position>
+            <TemplateName>_witt_button_right</TemplateName>
+        </ButtonDef>
+
+
+        <!--Max Level-->
+
+
+        <LabelDef>
+            <Position>
+                <X>64</X>
+                <Y>239</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>60</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Max Level</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1025</ControlId>
+            <Position>
+                <X>152</X>
+                <Y>239</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>20</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>52+</Data>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <ButtonDef>
+            <ControlId>1023</ControlId>
+            <Position>
+                <X>140</X>
+                <Y>242</Y>
+            </Position>
+            <TemplateName>_witt_button_left</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1024</ControlId>
+            <Position>
+                <X>171</X>
+                <Y>242</Y>
+            </Position>
+            <TemplateName>_witt_button_right</TemplateName>
+        </ButtonDef>
+
+
+        <!--Min Quality-->
+
+
+        <LabelDef>
+            <Position>
+                <X>64</X>
+                <Y>201</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>72</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Min Quality</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1016</ControlId>
+            <Position>
+                <X>152</X>
+                <Y>201</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>16</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>99</Data>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <ButtonDef>
+            <ControlId>1014</ControlId>
+            <Position>
+                <X>141</X>
+                <Y>204</Y>
+            </Position>
+            <TemplateName>_witt_button_left</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1015</ControlId>
+            <Position>
+                <X>171</X>
+                <Y>204</Y>
+            </Position>
+            <TemplateName>_witt_button_right</TemplateName>
+        </ButtonDef>
+
+
+        <!--Logical AND Bonuses-->
+
+
+        <CheckBoxDef>
+            <ControlId>1040</ControlId>
+            <Position>
+                <X>60</X>
+                <Y>257</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>Match All Bonuses</Data>
+            <LabelWidth>120</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <!--Crafted-->
+
+
+        <CheckBoxDef>
+            <ControlId>1041</ControlId>
+            <Position>
+                <X>14</X>
+                <Y>273</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>Player crafted only</Data>
+            <LabelWidth>150</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <!--Visual Effects-->
+
+
+        <CheckBoxDef>
+            <ControlId>1042</ControlId>
+            <Position>
+                <X>145</X>
+                <Y>273</Y>
+            </Position>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>Visual Effects</Data>
+            <LabelWidth>120</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>176</X>
+                <Y>110</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>78</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Bonus 3</Data>
+        </LabelDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1035</ControlId>
+            <Position>
+                <X>173</X>
+                <Y>125</Y>
+            </Position>
+            <TemplateName>_witt_combo2</TemplateName>
+        </ComboBoxDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1034</ControlId>
+            <Position>
+                <X>173</X>
+                <Y>142</Y>
+            </Position>
+            <TemplateName>_witt_combo2</TemplateName>
+        </ComboBoxDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>91</X>
+                <Y>110</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>78</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Bonus 2</Data>
+        </LabelDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1033</ControlId>
+            <Position>
+                <X>88</X>
+                <Y>125</Y>
+            </Position>
+            <TemplateName>_witt_combo2</TemplateName>
+        </ComboBoxDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1032</ControlId>
+            <Position>
+                <X>88</X>
+                <Y>142</Y>
+            </Position>
+            <TemplateName>_witt_combo2</TemplateName>
+        </ComboBoxDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>6</X>
+                <Y>110</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>78</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Bonus 1</Data>
+        </LabelDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1031</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>125</Y>
+            </Position>
+            <TemplateName>_witt_combo2</TemplateName>
+        </ComboBoxDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1030</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>142</Y>
+            </Position>
+            <TemplateName>_witt_combo2</TemplateName>
+        </ComboBoxDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>138</X>
+                <Y>79</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>78</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Armor Class</Data>
+        </LabelDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1006</ControlId>
+            <Position>
+                <X>135</X>
+                <Y>94</Y>
+            </Position>
+            <TemplateName>_witt_combo2</TemplateName>
+        </ComboBoxDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>53</X>
+                <Y>79</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>78</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Damage Type</Data>
+        </LabelDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1005</ControlId>
+            <Position>
+                <X>50</X>
+                <Y>94</Y>
+            </Position>
+            <TemplateName>_witt_combo2</TemplateName>
+        </ComboBoxDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>138</X>
+                <Y>47</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>78</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Item Abilities</Data>
+        </LabelDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1007</ControlId>
+            <Position>
+                <X>135</X>
+                <Y>61</Y>
+            </Position>
+            <TemplateName>_witt_combo2</TemplateName>
+        </ComboBoxDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>53</X>
+                <Y>47</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>78</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Slot</Data>
+        </LabelDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>50</X>
+                <Y>62</Y>
+            </Position>
+            <TemplateName>_witt_combo2</TemplateName>
+        </ComboBoxDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

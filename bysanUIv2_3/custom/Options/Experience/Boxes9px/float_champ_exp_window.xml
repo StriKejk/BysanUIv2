@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>float_champ_exp_window</Name>
+        <WindowId>float_champ_exp</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>100</TitleWidth>
+        <TitleHeight>28</TitleHeight>
+        <Width>100</Width>
+        <Height>28</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <!-- XP Window -->
+
+
+        <StatusBarDef>
+            <ControlId>cl fine</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>11</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>b_xp_line_grey</TemplateName>
+            <AdapterName>summary_champ_exp_fine</AdapterName>
+            <Width>100</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>cl coarse</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>b_xp_line_grey2</TemplateName>
+            <AdapterName>summary_champ_exp_coarse</AdapterName>
+            <Width>100</Width>
+        </StatusBarDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>110</X>
+                <Y>2</Y>
+            </Position>
+            <FontName>arial9ds</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>208</R>
+                <G>228</G>
+                <B>229</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_champ_exp_coarse</Adapter>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <ControlId>dash</ControlId>
+            <Position>
+                <X>123</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>208</R>
+                <G>228</G>
+                <B>229</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9ds</FontName>
+            <Width>10</Width>
+            <Height>14</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>-</Data>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>128</X>
+                <Y>2</Y>
+            </Position>
+            <FontName>arial9ds</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>208</R>
+                <G>228</G>
+                <B>229</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_champ_exp_fine</Adapter>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>38</X>
+                <Y>15</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9ds</FontName>
+            <Width>40</Width>
+            <Height>14</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>208</R>
+                <G>228</G>
+                <B>229</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_champ_level</Adapter>
+            <TextCentered>true</TextCentered>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>36</X>
+                <Y>15</Y>
+            </Position>
+            <Color>
+                <R>208</R>
+                <G>228</G>
+                <B>229</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9ds</FontName>
+            <Width>20</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>CL:</Data>
+        </LabelDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

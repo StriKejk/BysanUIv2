@@ -1,0 +1,1824 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <!-- Context Arrow Image -->
+
+
+    <ImageAreaTemplate>
+        <Name>arrow</Name>
+        <TextureName>uielements</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>21</X>
+            <Y>133</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <!-- Context Check Mark -->
+
+
+    <ImageAreaTemplate>
+        <Name>check_mark</Name>
+        <TextureName>uielements</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>154</X>
+            <Y>133</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <!-- Base Context Window -->
+
+
+    <WindowTemplate>
+        <Name>context</Name>
+        <WindowId>Context</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>96</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>96</Width>
+        <Height>25</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+    </WindowTemplate>
+
+
+    <!-- Base Sub Context Window -->
+
+
+    <WindowTemplate>
+        <Name>context_sub</Name>
+        <WindowId>ContextSub</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>96</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>96</Width>
+        <Height>25</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+    </WindowTemplate>
+
+
+    <!-- Concrete Context Windows -->
+
+
+    <!-- Chat Context Window -->
+
+
+    <WindowTemplate>
+        <Name>chat_context</Name>
+        <WindowId>ContextChat</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>114</Width>
+        <Height>141</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <ControlId>BackgroundImage</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_witt_bg_80</TemplateName>
+            <Width>114</Width>
+            <Height>141</Height>
+        </FullResizeImageDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>3</Y>
+            </Position>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>Message/Channel</Label>
+            <Width>108</Width>
+            <OnClickEvent>ContextOnMessageAndChannel</OnClickEvent>
+            <LabelAlignment>
+                <CenterVertically>true</CenterVertically>
+            </LabelAlignment>
+            <LabelIndent>3</LabelIndent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>20</Y>
+            </Position>
+            <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>108</Width>
+            <ImageOffset>
+                <X>94</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Window Alpha</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextOnWindowAlpha</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>37</Y>
+            </Position>
+            <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>108</Width>
+            <ImageOffset>
+                <X>94</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Font Alpha</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextOnFontAlpha</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>54</Y>
+            </Position>
+            <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>108</Width>
+            <ImageOffset>
+                <X>94</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Font Size</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextOnFontSize</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1004</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>88</Y>
+            </Position>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>New Window</Label>
+            <Width>108</Width>
+            <OnClickEvent>ContextOnAddChatWindow</OnClickEvent>
+            <LabelAlignment>
+                <CenterVertically>true</CenterVertically>
+            </LabelAlignment>
+            <LabelIndent>3</LabelIndent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1005</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>105</Y>
+            </Position>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>Delete Window</Label>
+            <Width>108</Width>
+            <OnClickEvent>ContextOnDeleteChatWindow</OnClickEvent>
+            <LabelAlignment>
+                <CenterVertically>true</CenterVertically>
+            </LabelAlignment>
+            <LabelIndent>3</LabelIndent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1006</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>122</Y>
+            </Position>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>Rename Window</Label>
+            <Width>108</Width>
+            <OnClickEvent>ContextOnRenameChatWindow</OnClickEvent>
+            <LabelAlignment>
+                <CenterVertically>true</CenterVertically>
+            </LabelAlignment>
+            <LabelIndent>3</LabelIndent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1007</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>71</Y>
+            </Position>
+            <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>108</Width>
+            <ImageOffset>
+                <X>94</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Default Channel</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextOnDefaultChannel</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+    </WindowTemplate>
+
+
+    <!-- Chat Context Window Without New Window -->
+
+
+    <WindowTemplate>
+        <Name>chat_no_new_context</Name>
+        <WindowId>ContextChat</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>108</Width>
+        <Height>114</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_witt_bg_80</TemplateName>
+            <Width>114</Width>
+            <Height>124</Height>
+        </FullResizeImageDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>3</Y>
+            </Position>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>Message/Channel</Label>
+            <Width>108</Width>
+            <OnClickEvent>ContextOnMessageAndChannel</OnClickEvent>
+            <LabelAlignment>
+                <CenterVertically>true</CenterVertically>
+            </LabelAlignment>
+            <LabelIndent>3</LabelIndent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>20</Y>
+            </Position>
+            <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>108</Width>
+            <ImageOffset>
+                <X>94</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Window Alpha</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextOnWindowAlpha</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>37</Y>
+            </Position>
+            <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>108</Width>
+            <ImageOffset>
+                <X>94</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Font Alpha</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextOnFontAlpha</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>54</Y>
+            </Position>
+            <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>108</Width>
+            <ImageOffset>
+                <X>94</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Font Size</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextOnFontSize</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1007</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>71</Y>
+            </Position>
+            <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>108</Width>
+            <ImageOffset>
+                <X>94</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Default Channel</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextOnDefaultChannel</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1005</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>88</Y>
+            </Position>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>Delete Window</Label>
+            <Width>108</Width>
+            <OnClickEvent>ContextOnDeleteChatWindow</OnClickEvent>
+            <LabelAlignment>
+                <CenterVertically>true</CenterVertically>
+            </LabelAlignment>
+            <LabelIndent>3</LabelIndent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1006</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>105</Y>
+            </Position>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>Rename Window</Label>
+            <Width>108</Width>
+            <OnClickEvent>ContextOnRenameChatWindow</OnClickEvent>
+            <LabelAlignment>
+                <CenterVertically>true</CenterVertically>
+            </LabelAlignment>
+            <LabelIndent>3</LabelIndent>
+        </HorizontalResizeButtonDef>
+
+
+    </WindowTemplate>
+
+
+    <!-- Main Chat Context Window -->
+
+
+    <WindowTemplate>
+        <Name>main_chat_context</Name>
+        <WindowId>ContextChat</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>114</Width>
+        <Height>107</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_witt_bg_80</TemplateName>
+            <Width>114</Width>
+            <Height>107</Height>
+        </FullResizeImageDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>3</Y>
+            </Position>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>Message/Channel</Label>
+            <Width>108</Width>
+            <OnClickEvent>ContextOnMessageAndChannel</OnClickEvent>
+            <LabelAlignment>
+                <CenterVertically>true</CenterVertically>
+            </LabelAlignment>
+            <LabelIndent>3</LabelIndent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>20</Y>
+            </Position>
+            <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>108</Width>
+            <ImageOffset>
+                <X>94</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Window Alpha</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextOnWindowAlpha</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>37</Y>
+            </Position>
+            <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>108</Width>
+            <ImageOffset>
+                <X>94</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Font Alpha</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextOnFontAlpha</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>54</Y>
+            </Position>
+            <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>108</Width>
+            <ImageOffset>
+                <X>94</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Font Size</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextOnFontSize</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1007</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>71</Y>
+            </Position>
+            <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>108</Width>
+            <ImageOffset>
+                <X>94</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Default Channel</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextOnDefaultChannel</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1004</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>88</Y>
+            </Position>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>New Window</Label>
+            <Width>108</Width>
+            <OnClickEvent>ContextOnAddChatWindow</OnClickEvent>
+            <LabelAlignment>
+                <CenterVertically>true</CenterVertically>
+            </LabelAlignment>
+            <LabelIndent>3</LabelIndent>
+        </HorizontalResizeButtonDef>
+
+
+    </WindowTemplate>
+
+
+    <!-- Main Chat Context Window Without New Window -->
+
+
+    <WindowTemplate>
+        <Name>main_chat_no_new_context</Name>
+        <WindowId>ContextChat</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>114</Width>
+        <Height>89</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_witt_bg_80</TemplateName>
+            <Width>114</Width>
+            <Height>90</Height>
+        </FullResizeImageDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>3</Y>
+            </Position>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>Message/Channel</Label>
+            <Width>108</Width>
+            <OnClickEvent>ContextOnMessageAndChannel</OnClickEvent>
+            <LabelAlignment>
+                <CenterVertically>true</CenterVertically>
+            </LabelAlignment>
+            <LabelIndent>3</LabelIndent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>20</Y>
+            </Position>
+            <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>108</Width>
+            <ImageOffset>
+                <X>94</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Window Alpha</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextOnWindowAlpha</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>37</Y>
+            </Position>
+            <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>108</Width>
+            <ImageOffset>
+                <X>94</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Font Alpha</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextOnFontAlpha</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>54</Y>
+            </Position>
+            <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>108</Width>
+            <ImageOffset>
+                <X>94</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Font Size</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextOnFontSize</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1007</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>71</Y>
+            </Position>
+            <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>108</Width>
+            <ImageOffset>
+                <X>94</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Default Channel</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextOnDefaultChannel</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+    </WindowTemplate>
+
+
+    <!-- Emoticon Context Window -->
+
+
+    <WindowTemplate>
+        <Name>emoticon_context</Name>
+        <WindowId>ContextEmoticon</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>108</Width>
+        <Height>16</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>108</Width>
+            <ImageOffset>
+                <X>94</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Window Alpha</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextOnWindowAlpha</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+    </WindowTemplate>
+
+
+    <!-- Default Context Window -->
+
+
+    <WindowTemplate>
+        <Name>default_context</Name>
+        <WindowId></WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>114</Width>
+        <Height>39</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <ControlId>BackgroundImage</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_witt_bg_80</TemplateName>
+            <Width>114</Width>
+            <Height>39</Height>
+        </FullResizeImageDef>
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>3</Y>
+            </Position>
+            <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>108</Width>
+            <ImageOffset>
+                <X>94</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Window Alpha</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextOnWindowAlpha</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>20</Y>
+            </Position>
+            <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>108</Width>
+            <ImageOffset>
+                <X>94</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Font Alpha</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextOnFontAlpha</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+    </WindowTemplate>
+
+
+    <!-- Sub Context Window -->
+
+
+    <!-- Window Alpha -->
+
+
+    <WindowTemplate>
+        <Name>context_window_alpha</Name>
+        <WindowId>ContextWindowAlpha</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>16</Width>
+        <Height>149</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <LabelDef>
+            <Position>
+                <X>-4</X>
+                <Y>0</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>25</Width>
+            <Height>12</Height>
+            <MaxCharacters>1024</MaxCharacters>
+            <Adapter>window_alpha_value</Adapter>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <VerticalSliderDef>
+            <ControlId>2000</ControlId>
+            <Position>
+                <X>4</X>
+                <Y>15</Y>
+            </Position>
+            <Adaptername></Adaptername>
+            <Height>134</Height>
+            <Numticks>100</Numticks>
+            <OnClickEvent>ContextSetWindowAlpha</OnClickEvent>
+            <Templatename>_witt_vslider_nobutton_white</Templatename>
+        </VerticalSliderDef>
+
+
+    </WindowTemplate>
+
+
+    <!-- Font Alpha -->
+
+
+    <WindowTemplate>
+        <Name>context_font_alpha</Name>
+        <WindowId>ContextFontAlpha</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>16</Width>
+        <Height>149</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <LabelDef>
+            <Position>
+                <X>-4</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>25</Width>
+            <Height>16</Height>
+            <MaxCharacters>1024</MaxCharacters>
+            <Adapter>font_alpha_value</Adapter>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <VerticalSliderDef>
+            <ControlId>2001</ControlId>
+            <Position>
+                <X>4</X>
+                <Y>15</Y>
+            </Position>
+            <Adaptername></Adaptername>
+            <Height>134</Height>
+            <Numticks>100</Numticks>
+            <OnClickEvent>ContextSetFontAlpha</OnClickEvent>
+            <Templatename>_witt_vslider_nobutton_white</Templatename>
+        </VerticalSliderDef>
+
+
+    </WindowTemplate>
+
+
+    <!-- Font Size -->
+
+
+    <WindowTemplate>
+        <Name>context_font_size</Name>
+        <WindowId>ContextFontSize</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>44</Width>
+        <Height>175</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <ControlId>BackgroundImage</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>44</Width>
+            <Height>175</Height>
+        </FullResizeImageDef>
+
+
+        <!-- 9 -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2002</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>3</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>38</Width>
+            <ImageOffset>
+                <X>19</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>9</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>6</LabelIndent>
+            <Onclickevent>ContextSetFontSize</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <!-- 10 -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2003</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>20</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>38</Width>
+            <ImageOffset>
+                <X>19</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>10</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>6</LabelIndent>
+            <Onclickevent>ContextSetFontSize</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <!-- 11 -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2004</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>37</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>38</Width>
+            <ImageOffset>
+                <X>19</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>11</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>6</LabelIndent>
+            <Onclickevent>ContextSetFontSize</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <!-- 12 -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2005</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>54</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>38</Width>
+            <ImageOffset>
+                <X>19</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>12</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>6</LabelIndent>
+            <Onclickevent>ContextSetFontSize</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <!-- 13 -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2006</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>71</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>38</Width>
+            <ImageOffset>
+                <X>19</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>13</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>6</LabelIndent>
+            <Onclickevent>ContextSetFontSize</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <!-- 14 -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2007</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>88</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>38</Width>
+            <ImageOffset>
+                <X>19</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>14</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>6</LabelIndent>
+            <Onclickevent>ContextSetFontSize</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <!-- 15 -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2008</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>105</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>38</Width>
+            <ImageOffset>
+                <X>19</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>15</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>6</LabelIndent>
+            <Onclickevent>ContextSetFontSize</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <!-- 16 -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2009</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>122</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>38</Width>
+            <ImageOffset>
+                <X>19</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>16</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>6</LabelIndent>
+            <Onclickevent>ContextSetFontSize</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <!-- 18 -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2010</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>139</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>38</Width>
+            <ImageOffset>
+                <X>19</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>18</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>6</LabelIndent>
+            <Onclickevent>ContextSetFontSize</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <!-- 21 -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2011</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>156</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>38</Width>
+            <ImageOffset>
+                <X>19</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>21</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>6</LabelIndent>
+            <Onclickevent>ContextSetFontSize</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+    </WindowTemplate>
+
+
+    <!-- Default Channel Window -->
+
+
+    <WindowTemplate>
+        <Name>context_default_channel</Name>
+        <WindowId>ContextFontSize</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>114</Width>
+        <Height>141</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <ControlId>BackgroundImage</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_witt_bg_80</TemplateName>
+            <Width>114</Width>
+            <Height>141</Height>
+        </FullResizeImageDef>
+
+
+        <!-- None -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2012</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>3</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>108</Width>
+            <ImageOffset>
+                <X>94</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>None</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextSetDefaultChannel</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <!-- Say -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2013</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>20</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>108</Width>
+            <ImageOffset>
+                <X>94</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Say</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextSetDefaultChannel</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <!-- Group -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2014</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>37</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>108</Width>
+            <ImageOffset>
+                <X>94</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Group</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextSetDefaultChannel</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <!-- Guild -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2015</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>54</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>108</Width>
+            <ImageOffset>
+                <X>94</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Guild</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextSetDefaultChannel</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <!-- Officer -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2016</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>71</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>108</Width>
+            <ImageOffset>
+                <X>94</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Officer</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextSetDefaultChannel</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <!-- Alliance -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2017</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>88</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>108</Width>
+            <ImageOffset>
+                <X>94</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Alliance</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextSetDefaultChannel</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <!-- Chat Group -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2018</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>105</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>108</Width>
+            <ImageOffset>
+                <X>94</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Chat Group</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextSetDefaultChannel</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <!-- Battle Group -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2019</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>122</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>108</Width>
+            <ImageOffset>
+                <X>94</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Battle Group</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextSetDefaultChannel</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+    </WindowTemplate>
+
+
+    <WindowTemplate>
+        <Name>context_rename_chat</Name>
+        <WindowId>ContextFontSize</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>114</Width>
+        <Height>141</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <ControlId>BackgroundImage</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_witt_bg_80</TemplateName>
+            <Width>114</Width>
+            <Height>141</Height>
+        </FullResizeImageDef>
+
+
+        <!-- None -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2012</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>3</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>108</Width>
+            <ImageOffset>
+                <X>94</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>None</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextSetDefaultChannel</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <!-- Say -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2013</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>20</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>108</Width>
+            <ImageOffset>
+                <X>94</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Say</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextSetDefaultChannel</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <!-- Group -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2014</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>37</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>108</Width>
+            <ImageOffset>
+                <X>94</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Group</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextSetDefaultChannel</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <!-- Guild -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2015</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>54</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>108</Width>
+            <ImageOffset>
+                <X>94</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Guild</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextSetDefaultChannel</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <!-- Officer -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2016</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>71</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>108</Width>
+            <ImageOffset>
+                <X>94</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Officer</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextSetDefaultChannel</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <!-- Alliance -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2017</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>88</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>108</Width>
+            <ImageOffset>
+                <X>94</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Alliance</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextSetDefaultChannel</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <!-- Chat Group -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2018</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>105</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>108</Width>
+            <ImageOffset>
+                <X>94</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Chat Group</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextSetDefaultChannel</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+        <!-- Battle Group -->
+
+
+        <HorizontalResizeImageButtonDef>
+            <ControlId>2019</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>122</Y>
+            </Position>
+            <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
+            <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
+            <Width>108</Width>
+            <ImageOffset>
+                <X>94</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label>Battle Group</Label>
+            <Labelalignment>
+                <CenterVertically>true</CenterVertically>
+            </Labelalignment>
+            <LabelIndent>3</LabelIndent>
+            <Onclickevent>ContextSetDefaultChannel</Onclickevent>
+        </HorizontalResizeImageButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

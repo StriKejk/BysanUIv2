@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <EditBoxTemplate>
+        <Name>generic_editbox</Name>
+        <LinePadding>0</LinePadding>
+        <BackgroundTemplate>none</BackgroundTemplate>
+        <TextOffset>
+            <X>10</X>
+            <Y>5</Y>
+        </TextOffset>
+        <Font>
+            <Name>arial9</Name>
+            <ColorNormal>
+                <R>208</R>
+                <G>228</G>
+                <B>229</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorActive>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorActive>
+        </Font>
+        <ScrollbarOffset>
+            <X>3</X>
+            <Y>2</Y>
+        </ScrollbarOffset>
+        <ScrollbarSizeOffset>
+            <X>0</X>
+            <Y>-4</Y>
+        </ScrollbarSizeOffset>
+    </EditBoxTemplate>
+
+
+    <WindowTemplate>
+        <Name>ChatRename</Name>
+        <WindowId>chatRenameWindow</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>200</Width>
+        <Height>39</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>5</MinWidth>
+        <MinHeight>5</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>200</Width>
+            <Height>39</Height>
+        </FullResizeImageDef>
+
+
+        <EditBoxDef>
+            <ControlId>1004</ControlId>
+            <Position>
+                <X>4</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <TemplateName>_witt_editbox</TemplateName>
+            <AdapterName>RenameChatText</AdapterName>
+            <Width>196</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+        </EditBoxDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>2</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>_witt_buttons_tab</TemplateName>
+            <Label>Submit</Label>
+            <OnClickEvent>ChatRenameOK</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
+            <TemplateName>_witt_buttons_tab</TemplateName>
+            <Label>Cancel</Label>
+            <OnClickEvent>ChatRenameCancel</OnClickEvent>
+        </ButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

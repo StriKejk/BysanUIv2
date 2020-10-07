@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>custom0_window</Name>
+        <WindowId>custom0_window</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+<!-- HealthbarWidth --><Width>350</Width>
+<!-- HealthbarHeight --><Height>21</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+<!-- HealthbarHeightTemplate --><TemplateName>floating_healthbar_21</TemplateName>
+            <AdapterName>summary_player_hits</AdapterName>
+<!-- HealthbarWidth --><Width>350</Width>
+        </StatusBarDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>8</X>
+<!-- HealthFontPos --><Y>6</Y>
+            </Position>
+<!-- HealthTextSize --><FontName>kr</FontName>
+            <Width>25</Width>
+            <Height>16</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_player_hits</Adapter>
+            <TextCentered>true</TextCentered>
+            <EndAligned>true</EndAligned>
+        </ScalarLabelDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

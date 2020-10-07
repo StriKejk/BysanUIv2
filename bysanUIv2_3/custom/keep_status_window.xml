@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>keep_status</Name>
+        <WindowId></WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>170</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>175</Width>
+        <Height>103</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>175</Width>
+            <Height>103</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_witt_bg_100</TemplateName>
+            <Width>175</Width>
+            <Height>19</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>0</X>
+                <Y>4</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>175</Width>
+            <Height>15</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Adapter>keep_upgrade_title</Adapter>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <!--keep lord type-->
+
+
+        <LabelDef>
+            <Position>
+                <X>4</X>
+                <Y>18</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Keep Type</Data>
+            <Adapter>keep_status_type</Adapter>
+        </LabelDef>
+
+
+        <!--current level-->
+
+
+        <LabelDef>
+            <Position>
+                <X>4</X>
+                <Y>34</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>190</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Current Level</Data>
+            <Adapter>keep_status_level</Adapter>
+        </LabelDef>
+
+
+        <!--target level-->
+
+
+        <LabelDef>
+            <Position>
+                <X>4</X>
+                <Y>50</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>190</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Target Level</Data>
+            <Adapter>keep_status_target</Adapter>
+        </LabelDef>
+
+
+        <!--controlled by-->
+
+
+        <LabelDef>
+            <Position>
+                <X>4</X>
+                <Y>66</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>190</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Claiming Keep Name</Data>
+            <Adapter>keep_status_claimed</Adapter>
+        </LabelDef>
+
+
+        <!--repair and hookpoint buttons-->
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>16</X>
+                <Y>84</Y>
+            </Position>
+            <Alignment>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>Hookpoints</Label>
+            <Width>72</Width>
+            <OnClickEvent>KeepStatusHookpoints</OnClickEvent>
+            <LabelAlignment>
+                <CenterVertically>true</CenterVertically>
+            </LabelAlignment>
+            <LabelIndent>3</LabelIndent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>15</X>
+                <Y>84</Y>
+            </Position>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>Repair</Label>
+            <Width>70</Width>
+            <OnClickEvent>KeepStatusRepair</OnClickEvent>
+            <LabelAlignment>
+                <CenterVertically>true</CenterVertically>
+            </LabelAlignment>
+            <LabelIndent>16</LabelIndent>
+        </HorizontalResizeButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

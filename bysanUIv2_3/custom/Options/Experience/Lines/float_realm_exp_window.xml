@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>float_realm_exp_window</Name>
+        <WindowId>float_realm_exp</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>110</Width>
+        <Height>30</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <InvisibleButtonDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>ToggleCustom3</OnClickEvent>
+            <Width>110</Width>
+            <Height>30</Height>
+        </InvisibleButtonDef>
+
+
+        <!-- RP Window -->
+
+
+        <StatusBarDef>
+            <ControlId>rp coarse</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>b_xp_line_grey2</TemplateName>
+            <AdapterName>realm_exp_coarse</AdapterName>
+            <Width>100</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>rp fine</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>11</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>b_xp_line_grey</TemplateName>
+            <AdapterName>realm_exp_fine</AdapterName>
+            <Width>100</Width>
+        </StatusBarDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>44</X>
+                <Y>15</Y>
+            </Position>
+            <FontName>arial9ds</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>173</R>
+                <G>188</G>
+                <B>189</B>
+                <A>255</A>
+            </Color>
+            <Adapter>realm_rank</Adapter>
+            <Data>R</Data>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>57</X>
+                <Y>15</Y>
+            </Position>
+            <FontName>arial9ds</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>173</R>
+                <G>188</G>
+                <B>189</B>
+                <A>255</A>
+            </Color>
+            <Adapter>realm_level</Adapter>
+            <Data>L</Data>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>110</X>
+                <Y>2</Y>
+            </Position>
+            <FontName>arial9ds</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>173</R>
+                <G>188</G>
+                <B>189</B>
+                <A>255</A>
+            </Color>
+            <Adapter>realm_exp_coarse</Adapter>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <ControlId>dash</ControlId>
+            <Position>
+                <X>123</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>173</R>
+                <G>188</G>
+                <B>189</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9ds</FontName>
+            <Width>10</Width>
+            <Height>14</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>-</Data>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>128</X>
+                <Y>2</Y>
+            </Position>
+            <FontName>arial9ds</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>173</R>
+                <G>188</G>
+                <B>189</B>
+                <A>255</A>
+            </Color>
+            <Adapter>realm_exp_fine</Adapter>
+        </ScalarLabelDef>
+
+
+        <InvisibleButtonDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>ToggleCustom8</OnClickEvent>
+            <Width>110</Width>
+            <Height>30</Height>
+        </InvisibleButtonDef>
+		
+		
+    </WindowTemplate>
+
+
+</Root_Element>
