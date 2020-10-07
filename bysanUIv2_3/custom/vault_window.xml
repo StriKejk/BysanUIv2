@@ -9,7 +9,7 @@
         <Name>vault_blank</Name>
         <Width>16</Width>
         <TopHeight>1</TopHeight>
-        <RepeatHeight>16</RepeatHeight>
+        <RepeatHeight>17</RepeatHeight>
         <BottomHeight>1</BottomHeight>
         <Texture>
             <TextureName>_whatisthistexture</TextureName>
@@ -137,7 +137,7 @@
 
         <VerticalResizeImageDef>
             <Position>
-                <X>6</X>
+                <X>7</X>
                 <Y>23</Y>
             </Position>
             <Alignment>
