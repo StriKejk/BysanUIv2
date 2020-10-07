@@ -39,25 +39,6 @@
         </StatusBarDef>
 
 
-        <LabelDef>
-            <Position>
-                <X>0</X>
-                <Y>-16</Y>
-            </Position>
-            <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </Color>
-            <FontName>_whatisthisfont14pxst</FontName>
-            <Width>200</Width>
-            <Height>20</Height>
-            <MaxCharacters>64</MaxCharacters>
-            <Adapter>stats_name</Adapter>
-        </LabelDef>
-
-
         <ScalarLabelDef>
             <Position>
                 <X>0</X>
