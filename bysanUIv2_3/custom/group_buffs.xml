@@ -463,7 +463,7 @@
         </InvisibleButtonDef>
 
 
-        <!-- Group Member 0-->
+        <!-- Group Member 1-->
 
 
         <StatusIconDef>
@@ -898,6 +898,9 @@
         </InvisibleButtonDef>
 
 
+        <!-- Group Member 2-->
+
+
         <StatusIconDef>
             <Position>
                 <X>212</X>
@@ -926,9 +929,9 @@
             <Width>44</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
-            <Data>Group member 3</Data>
-            <ColorAdapter>group_color3</ColorAdapter>
-            <Adapter>group_name3</Adapter>
+            <Data>Group member 2</Data>
+            <ColorAdapter>group_color2</ColorAdapter>
+            <Adapter>group_name2</Adapter>
         </LabelDef>
 
 
@@ -950,8 +953,8 @@
             <Width>54</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
-            <Data>Group class 3</Data>
-            <Adapter>group_class3</Adapter>
+            <Data>Group class 2</Data>
+            <Adapter>group_class2</Adapter>
         </LabelDef>
 
 
@@ -1330,6 +1333,9 @@
         </InvisibleButtonDef>
 
 
+        <!-- Group Member 3-->
+
+
         <StatusIconDef>
             <Position>
                 <X>318</X>
@@ -1358,9 +1364,9 @@
             <Width>44</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
-            <Data>Group member 4</Data>
-            <ColorAdapter>group_color4</ColorAdapter>
-            <Adapter>group_name4</Adapter>
+            <Data>Group member 3</Data>
+            <ColorAdapter>group_color3</ColorAdapter>
+            <Adapter>group_name3</Adapter>
         </LabelDef>
 
 
@@ -1382,8 +1388,8 @@
             <Width>54</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
-            <Data>Group class 4</Data>
-            <Adapter>group_class4</Adapter>
+            <Data>Group class 3</Data>
+            <Adapter>group_class3</Adapter>
         </LabelDef>
 
 
@@ -1762,6 +1768,9 @@
         </InvisibleButtonDef>
 
 
+        <!-- Group Member 4-->
+
+
         <StatusIconDef>
             <Position>
                 <X>0</X>
@@ -1790,9 +1799,9 @@
             <Width>44</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
-            <Data>Group member 1</Data>
-            <ColorAdapter>group_color1</ColorAdapter>
-            <Adapter>group_name1</Adapter>
+            <Data>Group member 4</Data>
+            <ColorAdapter>group_color4</ColorAdapter>
+            <Adapter>group_name4</Adapter>
         </LabelDef>
 
 
@@ -1814,8 +1823,8 @@
             <Width>54</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
-            <Data>Group class 1</Data>
-            <Adapter>group_class1</Adapter>
+            <Data>Group class 4</Data>
+            <Adapter>group_class4</Adapter>
         </LabelDef>
 
 
@@ -2192,6 +2201,9 @@
             <Width>105</Width>
             <Height>85</Height>
         </InvisibleButtonDef>
+
+
+        <!-- Group Member 5-->
 
 
         <StatusIconDef>
@@ -2626,6 +2638,9 @@
         </InvisibleButtonDef>
 
 
+        <!-- Group Member 6-->
+
+
         <StatusIconDef>
             <Position>
                 <X>212</X>
@@ -2654,9 +2669,9 @@
             <Width>44</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
-            <Data>Group member 7</Data>
-            <ColorAdapter>group_color7</ColorAdapter>
-            <Adapter>group_name7</Adapter>
+            <Data>Group member 6</Data>
+            <ColorAdapter>group_color6</ColorAdapter>
+            <Adapter>group_name6</Adapter>
         </LabelDef>
 
 
@@ -2678,8 +2693,8 @@
             <Width>54</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
-            <Data>Group class 7</Data>
-            <Adapter>group_class7</Adapter>
+            <Data>Group class 6</Data>
+            <Adapter>group_class6</Adapter>
         </LabelDef>
 
 
@@ -3058,6 +3073,9 @@
         </InvisibleButtonDef>
 
 
+        <!-- Group Member 7-->
+
+
         <StatusIconDef>
             <Position>
                 <X>318</X>
@@ -3086,9 +3104,9 @@
             <Width>44</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
-            <Data>Group member 1</Data>
-            <ColorAdapter>group_color1</ColorAdapter>
-            <Adapter>group_name1</Adapter>
+            <Data>Group member 7</Data>
+            <ColorAdapter>group_color7</ColorAdapter>
+            <Adapter>group_name7</Adapter>
         </LabelDef>
 
 
@@ -3110,8 +3128,8 @@
             <Width>54</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
-            <Data>Group class 1</Data>
-            <Adapter>group_class1</Adapter>
+            <Data>Group class 7</Data>
+            <Adapter>group_class7</Adapter>
         </LabelDef>
 
 
