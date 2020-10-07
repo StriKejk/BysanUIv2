@@ -221,7 +221,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_statuseffects_mez</TemplateName>
+            <TemplateName>_witt_statuseffects_ns</TemplateName>
             <AdapterName>group_status0</AdapterName>
         </StatusIconDef>
 
