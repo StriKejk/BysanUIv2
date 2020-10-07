@@ -337,51 +337,68 @@
         <!--Buttons-->
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <ControlId>2010</ControlId>
             <Position>
                 <X>43</X>
                 <Y>3</Y>
             </Position>
-            <TemplateName>_witt_button_normal</TemplateName>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>Map Key</Label>
+            <Width>62</Width>
             <OnClickEvent>ToggleWarmapKey</OnClickEvent>
-        </ButtonDef>
+        </HorizontalResizeButtonDef>
 
 
-        <ButtonDef>
-            <ControlId>2011</ControlId>
+        <HorizontalResizeButtonDef>
+            <ControlId>2014</ControlId>
             <Position>
                 <X>173</X>
                 <Y>3</Y>
             </Position>
-            <TemplateName>_witt_button_normal</TemplateName>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>Update</Label>
+            <Width>62</Width>
             <OnClickEvent>WarmapUpdateBattles</OnClickEvent>
-        </ButtonDef>
+        </HorizontalResizeButtonDef>
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <ControlId>2012</ControlId>
             <Position>
                 <X>238</X>
                 <Y>3</Y>
             </Position>
-            <TemplateName>_witt_button_normal</TemplateName>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>Teleport</Label>
+            <Width>62</Width>
             <OnClickEvent>WarmapTeleportRequest</OnClickEvent>
-        </ButtonDef>
+        </HorizontalResizeButtonDef>
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
+            <ControlId>2013</ControlId>
             <Position>
                 <X>108</X>
                 <Y>3</Y>
             </Position>
-            <TemplateName>_witt_button_normal</TemplateName>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>Bonuses</Label>
+            <Width>62</Width>
             <OnClickEvent>WarmapUpdateBonuses</OnClickEvent>
-        </ButtonDef>
+        </HorizontalResizeButtonDef>
 
 
         <ImageAreaDef>
