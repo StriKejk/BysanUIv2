@@ -163,7 +163,7 @@
         </ListBoxDef>
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <Position>
                 <X>3</X>
                 <Y>280</Y>
@@ -171,13 +171,14 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_button_normal</TemplateName>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>CLEAR</Label>
+            <Width>62</Width>
             <OnClickEvent>InGameKeyConfigClearKey</OnClickEvent>
-        </ButtonDef>
+        </HorizontalResizeButtonDef>
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <Position>
                 <X>181</X>
                 <Y>280</Y>
@@ -185,13 +186,14 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_button_normal</TemplateName>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>RPG</Label>
+            <Width>62</Width>
             <OnClickEvent>InGameKeyConfigResetRPG</OnClickEvent>
-        </ButtonDef>
+        </HorizontalResizeButtonDef>
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <Position>
                 <X>245</X>
                 <Y>280</Y>
@@ -199,13 +201,14 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_button_normal</TemplateName>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>FPS</Label>
+            <Width>62</Width>
             <OnClickEvent>InGameKeyConfigResetFPS</OnClickEvent>
-        </ButtonDef>
+        </HorizontalResizeButtonDef>
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <Position>
                 <X>117</X>
                 <Y>280</Y>
@@ -213,13 +216,14 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_button_normal</TemplateName>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>MMO</Label>
+            <Width>62</Width>
             <OnClickEvent>InGameKeyConfigResetMMO</OnClickEvent>
-        </ButtonDef>
+        </HorizontalResizeButtonDef>
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <Position>
                 <X>92</X>
                 <Y>1</Y>
@@ -228,13 +232,14 @@
                 <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <TemplateName>_witt_button_normal</TemplateName>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>CANCEL</Label>
+            <Width>62</Width>
             <OnClickEvent>InGameKeyConfigCancel</OnClickEvent>
-        </ButtonDef>
+        </HorizontalResizeButtonDef>
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <Position>
                 <X>156</X>
                 <Y>1</Y>
@@ -243,10 +248,11 @@
                 <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <TemplateName>_witt_button_normal</TemplateName>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>ACCEPT</Label>
+            <Width>62</Width>
             <OnClickEvent>InGameKeyConfigAccept</OnClickEvent>
-        </ButtonDef>
+        </HorizontalResizeButtonDef>
 
 
         <CheckBoxDef>
