@@ -100,10 +100,6 @@
             <AdapterName>group_0icon0</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
-            <LabelAdapterName></LabelAdapterName>
-            <HideLabel>1</HideLabel>
         </IconDef>
 
 
@@ -1337,7 +1333,7 @@
         </InvisibleButtonDef>
 
 
-        <!--&lt;!--  Group Member 3 --&gt;-->
+        <!--  Group Member 3 -->
 
 
         <StatusIconDef>
@@ -1772,7 +1768,7 @@
         </InvisibleButtonDef>
 
 
-        <!--&lt;!--  Group Member 4 --&gt;-->
+        <!--  Group Member 4 -->
 
 
         <StatusIconDef>
@@ -2207,7 +2203,7 @@
         </InvisibleButtonDef>
 
 
-        <!--&lt;!--  Group Member 5 --&gt;-->
+        <!--  Group Member 5 -->
 
 
         <StatusIconDef>
@@ -2642,7 +2638,7 @@
         </InvisibleButtonDef>
 
 
-        <!--&lt;!--  Group Member 6 --&gt;-->
+        <!--  Group Member 6 -->
 
 
         <StatusIconDef>
@@ -3077,7 +3073,7 @@
         </InvisibleButtonDef>
 
 
-        <!--&lt;!--  Group Member 7 --&gt;-->
+        <!--  Group Member 7 -->
 
 
         <StatusIconDef>
