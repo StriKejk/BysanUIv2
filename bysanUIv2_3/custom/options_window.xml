@@ -739,15 +739,17 @@
         </CheckBoxDef>
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <ControlId>1016</ControlId>
             <Position>
                 <X>85</X>
                 <Y>455</Y>
             </Position>
-            <TemplateName>_witt_button_normal</TemplateName>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>OK</Label>
-        </ButtonDef>
+            <Width>62</Width>
+            <OnClickEvent></OnClickEvent>
+        </HorizontalResizeButtonDef>
 
 
         <ComboBoxDef>

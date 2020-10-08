@@ -114,7 +114,7 @@
         </TextAreaDef>
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <ControlId>1003</ControlId>
             <Position>
                 <X>86</X>
@@ -123,12 +123,14 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_button_normal</TemplateName>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>Set Title</Label>
-        </ButtonDef>
+            <Width>62</Width>
+            <OnClickEvent></OnClickEvent>
+        </HorizontalResizeButtonDef>
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <ControlId>1004</ControlId>
             <Position>
                 <X>235</X>
@@ -137,9 +139,11 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_button_normal</TemplateName>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>OK</Label>
-        </ButtonDef>
+            <Width>62</Width>
+            <OnClickEvent></OnClickEvent>
+        </HorizontalResizeButtonDef>
 
 
     </WindowTemplate>

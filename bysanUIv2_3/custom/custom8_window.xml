@@ -296,7 +296,7 @@
                 <TopLeft>true</TopLeft>
                 <OffsetRight>true</OffsetRight>
             </Alignment>
-            <TemplateName>_witt_button_normal</TemplateName>
+            <TemplateName>_witt_buttons_tab</TemplateName>
             <Label>OK</Label>
             <OnClickEvent>ToggleCustom8</OnClickEvent>
         </ButtonDef>

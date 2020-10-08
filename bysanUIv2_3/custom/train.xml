@@ -200,7 +200,7 @@
         </LabelDef>
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <ControlId>1000</ControlId>
             <Position>
                 <X>129</X>
@@ -209,13 +209,14 @@
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <TemplateName>_witt_button_normal</TemplateName>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>Train</Label>
+            <Width>62</Width>
             <OnClickEvent>Train</OnClickEvent>
-        </ButtonDef>
+        </HorizontalResizeButtonDef>
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <ControlId>1001</ControlId>
             <Position>
                 <X>65</X>
@@ -224,10 +225,11 @@
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <TemplateName>_witt_button_normal</TemplateName>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>Info</Label>
+            <Width>62</Width>
             <OnClickEvent>Info</OnClickEvent>
-        </ButtonDef>
+        </HorizontalResizeButtonDef>
 
 
     </WindowTemplate>
