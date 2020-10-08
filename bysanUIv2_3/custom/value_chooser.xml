@@ -71,9 +71,9 @@
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
             <FontName>_whatisthisfont3</FontName>
-            <Width>20</Width>
+            <Width>25</Width>
             <Height>12</Height>
-            <MaxCharacters>32</MaxCharacters>
+            <MaxCharacters>4</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
@@ -86,7 +86,7 @@
 
         <ButtonDef>
             <Position>
-                <X>45</X>
+                <X>44</X>
                 <Y>19</Y>
             </Position>
             <Alignment>
@@ -99,7 +99,7 @@
 
         <ButtonDef>
             <Position>
-                <X>74</X>
+                <X>75</X>
                 <Y>19</Y>
             </Position>
             <Alignment>
