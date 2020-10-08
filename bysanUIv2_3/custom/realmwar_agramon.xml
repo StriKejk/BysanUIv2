@@ -354,7 +354,7 @@
 
 
         <HorizontalResizeButtonDef>
-            <ControlId>2014</ControlId>
+            <ControlId>2011</ControlId>
             <Position>
                 <X>173</X>
                 <Y>3</Y>
@@ -386,7 +386,6 @@
 
 
         <HorizontalResizeButtonDef>
-            <ControlId>2013</ControlId>
             <Position>
                 <X>108</X>
                 <Y>3</Y>
