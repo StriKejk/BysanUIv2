@@ -85,7 +85,7 @@
             <ControlId>1005</ControlId>
             <Position>
                 <X>13</X>
-                <Y>4</Y>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
@@ -111,7 +111,7 @@
             <ControlId>1003</ControlId>
             <Position>
                 <X>54</X>
-                <Y>7</Y>
+                <Y>4</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
@@ -124,8 +124,8 @@
         <ButtonDef>
             <ControlId>1004</ControlId>
             <Position>
-                <X>4</X>
-                <Y>7</Y>
+                <X>5</X>
+                <Y>4</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
@@ -172,19 +172,21 @@
         </ListBoxDef>
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <ControlId>1002</ControlId>
             <Position>
                 <X>0</X>
-                <Y>4</Y>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <TemplateName>_witt_button_normal</TemplateName>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>Pages</Label>
-        </ButtonDef>
+            <Width>62</Width>
+            <OnClickEvent></OnClickEvent>
+        </HorizontalResizeButtonDef>
 
 
         <LabelDef>
@@ -193,6 +195,9 @@
                 <X>0</X>
                 <Y>4</Y>
             </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
             <Color>
                 <R>255</R>
                 <G>255</G>
