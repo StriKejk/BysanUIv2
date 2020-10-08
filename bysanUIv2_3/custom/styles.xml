@@ -17303,7 +17303,7 @@
         <Name>_witt_vslider_nobutton_white</Name>
         <ImageAreaTemplate>_witt_vslider_gutter_white</ImageAreaTemplate>
         <BackgroundVResizeTemplate>_witt_vscroll_gutter</BackgroundVResizeTemplate>
-        <Width>15</Width>
+        <Width>13</Width>
     </VerticalSliderTemplate>
 
 
