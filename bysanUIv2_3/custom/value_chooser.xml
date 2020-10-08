@@ -68,7 +68,7 @@
                 <Y>16</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
+                <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
             <FontName>_whatisthisfont3</FontName>
             <Width>20</Width>
@@ -86,7 +86,7 @@
 
         <ButtonDef>
             <Position>
-                <X>43</X>
+                <X>45</X>
                 <Y>19</Y>
             </Position>
             <Alignment>
@@ -99,7 +99,7 @@
 
         <ButtonDef>
             <Position>
-                <X>73</X>
+                <X>74</X>
                 <Y>19</Y>
             </Position>
             <Alignment>
@@ -113,26 +113,34 @@
         <!--Commit Buttons-->
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <Position>
                 <X>65</X>
                 <Y>32</Y>
             </Position>
-            <TemplateName>_witt_button_normal</TemplateName>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>Accept</Label>
+            <Width>62</Width>
             <OnClickEvent>ValueChooserAccept</OnClickEvent>
-        </ButtonDef>
+        </HorizontalResizeButtonDef>
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <Position>
                 <X>2</X>
                 <Y>32</Y>
             </Position>
-            <TemplateName>_witt_button_normal</TemplateName>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>Cancel</Label>
+            <Width>62</Width>
             <OnClickEvent>ValueChooserCancel</OnClickEvent>
-        </ButtonDef>
+        </HorizontalResizeButtonDef>
 
 
     </WindowTemplate>
