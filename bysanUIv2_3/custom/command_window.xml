@@ -31,7 +31,7 @@
         <!--Left Column Buttons-->
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <ControlId>0</ControlId>
             <Position>
                 <X>0</X>
@@ -40,13 +40,14 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_button_normal</TemplateName>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>Attack</Label>
+            <Width>62</Width>
             <OnClickEvent>ToggleAttackMode</OnClickEvent>
-        </ButtonDef>
+        </HorizontalResizeButtonDef>
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <ControlId>6</ControlId>
             <Position>
                 <X>0</X>
@@ -55,13 +56,14 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_button_normal</TemplateName>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>Face</Label>
+            <Width>62</Width>
             <OnClickEvent>Face</OnClickEvent>
-        </ButtonDef>
+        </HorizontalResizeButtonDef>
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <ControlId>1</ControlId>
             <Position>
                 <X>0</X>
@@ -70,13 +72,14 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_button_normal</TemplateName>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>Sprint</Label>
+            <Width>62</Width>
             <OnClickEvent>Sprint</OnClickEvent>
-        </ButtonDef>
+        </HorizontalResizeButtonDef>
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <ControlId>4</ControlId>
             <Position>
                 <X>0</X>
@@ -85,13 +88,14 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_button_normal</TemplateName>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>Stick</Label>
+            <Width>62</Width>
             <OnClickEvent>Stick</OnClickEvent>
-        </ButtonDef>
+        </HorizontalResizeButtonDef>
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <ControlId>2</ControlId>
             <Position>
                 <X>0</X>
@@ -100,10 +104,11 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_button_normal</TemplateName>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>Sit</Label>
+            <Width>62</Width>
             <OnClickEvent>ToggleSitting</OnClickEvent>
-        </ButtonDef>
+        </HorizontalResizeButtonDef>
 
 
     </WindowTemplate>
