@@ -149,13 +149,13 @@
         <ButtonDef>
             <ControlId>1002</ControlId>
             <Position>
-                <X>3</X>
+                <X>2</X>
                 <Y>259</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_button_normal</TemplateName>
+            <TemplateName>_witt_buttons_tab</TemplateName>
             <Label>Coin</Label>
             <OnClickEvent>HookpointStoreCoin</OnClickEvent>
         </ButtonDef>
@@ -164,13 +164,13 @@
         <ButtonDef>
             <ControlId>1003</ControlId>
             <Position>
-                <X>68</X>
+                <X>66</X>
                 <Y>259</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_button_normal</TemplateName>
+            <TemplateName>_witt_buttons_tab</TemplateName>
             <Label>BP</Label>
             <OnClickEvent>HookpointStoreBP</OnClickEvent>
         </ButtonDef>
@@ -179,13 +179,13 @@
         <ButtonDef>
             <ControlId>1004</ControlId>
             <Position>
-                <X>132</X>
+                <X>130</X>
                 <Y>259</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_button_normal</TemplateName>
+            <TemplateName>_witt_buttons_tab</TemplateName>
             <Label>GBP</Label>
             <OnClickEvent>HookpointStoreGBP</OnClickEvent>
         </ButtonDef>
@@ -194,13 +194,13 @@
         <ButtonDef>
             <ControlId>1005</ControlId>
             <Position>
-                <X>196</X>
+                <X>194</X>
                 <Y>259</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_button_normal</TemplateName>
+            <TemplateName>_witt_buttons_tab</TemplateName>
             <Label>Contract</Label>
             <OnClickEvent>HookpointStoreContract</OnClickEvent>
         </ButtonDef>
@@ -234,13 +234,13 @@
 
         <ButtonDef>
             <Position>
-                <X>196</X>
+                <X>194</X>
                 <Y>277</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_button_normal</TemplateName>
+            <TemplateName>_witt_buttons_tab</TemplateName>
             <Label>Buy</Label>
             <OnClickEvent>HookpointStoreBuy</OnClickEvent>
         </ButtonDef>
