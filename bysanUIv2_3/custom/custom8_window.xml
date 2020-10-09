@@ -48,6 +48,9 @@
                 <X>0</X>
                 <Y>4</Y>
             </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
             <Color>
                 <R>255</R>
                 <G>255</G>
@@ -286,7 +289,7 @@
         </TabsDef>
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <ControlId>1000</ControlId>
             <Position>
                 <X>2</X>
@@ -296,10 +299,11 @@
                 <TopLeft>true</TopLeft>
                 <OffsetRight>true</OffsetRight>
             </Alignment>
-            <TemplateName>_witt_buttons_tab</TemplateName>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>OK</Label>
+            <Width>62</Width>
             <OnClickEvent>ToggleCustom8</OnClickEvent>
-        </ButtonDef>
+        </HorizontalResizeButtonDef>
 
 
         <!--Resist-->

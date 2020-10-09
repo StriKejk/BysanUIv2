@@ -54,7 +54,7 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont2</FontName>
-            <Width>32</Width>
+            <Width>38</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
             <Data>P:999</Data>
@@ -99,7 +99,7 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont2</FontName>
-            <Width>32</Width>
+            <Width>38</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
             <Data>G:999</Data>
@@ -144,7 +144,7 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont2</FontName>
-            <Width>32</Width>
+            <Width>38</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
             <Data>S:999</Data>
@@ -189,7 +189,7 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont2</FontName>
-            <Width>32</Width>
+            <Width>38</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
             <Data>C:999</Data>

@@ -92,7 +92,7 @@
         </EditBoxDef>
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <Position>
                 <X>2</X>
                 <Y>0</Y>
@@ -101,24 +101,26 @@
                 <OffsetBottom>true</OffsetBottom>
                 <OffsetRight>true</OffsetRight>
             </Alignment>
-            <TemplateName>_witt_buttons_tab</TemplateName>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>Submit</Label>
+            <Width>62</Width>
             <OnClickEvent>ChatRenameOK</OnClickEvent>
-        </ButtonDef>
+        </HorizontalResizeButtonDef>
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <Position>
-                <X>0</X>
+                <X>2</X>
                 <Y>0</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <TemplateName>_witt_buttons_tab</TemplateName>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>Cancel</Label>
+            <Width>62</Width>
             <OnClickEvent>ChatRenameCancel</OnClickEvent>
-        </ButtonDef>
+        </HorizontalResizeButtonDef>
 
 
     </WindowTemplate>

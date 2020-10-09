@@ -77,39 +77,46 @@
         </LabelDef>
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <ControlId>1000</ControlId>
             <Position>
-                <X>116</X>
-                <Y>273</Y>
+                <X>127</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <TemplateName>_witt_buttons_tab</TemplateName>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>Accept</Label>
-        </ButtonDef>
+            <Width>62</Width>
+            <OnClickEvent></OnClickEvent>
+        </HorizontalResizeButtonDef>
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <ControlId>1001</ControlId>
             <Position>
-                <X>39</X>
-                <Y>273</Y>
+                <X>41</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <TemplateName>_witt_buttons_tab</TemplateName>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>Cancel</Label>
-        </ButtonDef>
+            <Width>62</Width>
+            <OnClickEvent></OnClickEvent>
+        </HorizontalResizeButtonDef>
 
 
         <LabelDef>
             <Position>
-                <X>42</X>
-                <Y>241</Y>
+                <X>40</X>
+                <Y>35</Y>
             </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
             <Color>
                 <R>255</R>
                 <G>255</G>
@@ -128,11 +135,12 @@
         <ButtonDef>
             <ControlId>1002</ControlId>
             <Position>
-                <X>38</X>
-                <Y>244</Y>
+                <X>33</X>
+                <Y>38</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_witt_button_left</TemplateName>
         </ButtonDef>
@@ -141,11 +149,12 @@
         <ButtonDef>
             <ControlId>1003</ControlId>
             <Position>
-                <X>96</X>
-                <Y>244</Y>
+                <X>102</X>
+                <Y>38</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_witt_button_right</TemplateName>
         </ButtonDef>
@@ -153,9 +162,12 @@
 
         <LabelDef>
             <Position>
-                <X>42</X>
-                <Y>256</Y>
+                <X>40</X>
+                <Y>20</Y>
             </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
             <Color>
                 <R>255</R>
                 <G>255</G>
@@ -174,11 +186,12 @@
         <ButtonDef>
             <ControlId>1004</ControlId>
             <Position>
-                <X>38</X>
-                <Y>259</Y>
+                <X>33</X>
+                <Y>23</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_witt_button_left</TemplateName>
         </ButtonDef>
@@ -187,11 +200,12 @@
         <ButtonDef>
             <ControlId>1005</ControlId>
             <Position>
-                <X>96</X>
-                <Y>259</Y>
+                <X>102</X>
+                <Y>23</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_witt_button_right</TemplateName>
         </ButtonDef>
@@ -199,9 +213,12 @@
 
         <LabelDef>
             <Position>
-                <X>120</X>
-                <Y>241</Y>
+                <X>127</X>
+                <Y>35</Y>
             </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
             <Color>
                 <R>255</R>
                 <G>255</G>
@@ -220,11 +237,12 @@
         <ButtonDef>
             <ControlId>1006</ControlId>
             <Position>
-                <X>107</X>
-                <Y>244</Y>
+                <X>119</X>
+                <Y>38</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_witt_button_left</TemplateName>
         </ButtonDef>
@@ -233,11 +251,12 @@
         <ButtonDef>
             <ControlId>1007</ControlId>
             <Position>
-                <X>182</X>
-                <Y>244</Y>
+                <X>188</X>
+                <Y>38</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_witt_button_right</TemplateName>
         </ButtonDef>
@@ -245,9 +264,12 @@
 
         <LabelDef>
             <Position>
-                <X>120</X>
-                <Y>256</Y>
+                <X>127</X>
+                <Y>20</Y>
             </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
             <Color>
                 <R>255</R>
                 <G>255</G>
@@ -266,11 +288,12 @@
         <ButtonDef>
             <ControlId>1008</ControlId>
             <Position>
-                <X>107</X>
-                <Y>259</Y>
+                <X>119</X>
+                <Y>23</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_witt_button_left</TemplateName>
         </ButtonDef>
@@ -279,11 +302,12 @@
         <ButtonDef>
             <ControlId>1009</ControlId>
             <Position>
-                <X>182</X>
-                <Y>259</Y>
+                <X>188</X>
+                <Y>23</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_witt_button_right</TemplateName>
         </ButtonDef>

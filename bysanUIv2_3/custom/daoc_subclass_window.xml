@@ -103,48 +103,53 @@
         </LabelDef>
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <ControlId>1100</ControlId>
             <Position>
-                <X>31</X>
-                <Y>1</Y>
+                <X>26</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <TemplateName>_witt_buttons_tab</TemplateName>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>Cancel</Label>
-        </ButtonDef>
+            <Width>62</Width>
+            <OnClickEvent></OnClickEvent>
+        </HorizontalResizeButtonDef>
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <ControlId>1101</ControlId>
             <Position>
-                <X>159</X>
-                <Y>1</Y>
+                <X>152</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <TemplateName>_witt_buttons_tab</TemplateName>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>Buy</Label>
+            <Width>62</Width>
             <OnClickEvent>Train</OnClickEvent>
-        </ButtonDef>
+        </HorizontalResizeButtonDef>
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <ControlId>1102</ControlId>
             <Position>
-                <X>95</X>
-                <Y>1</Y>
+                <X>0</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
+                <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <TemplateName>_witt_buttons_tab</TemplateName>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>Info</Label>
+            <Width>62</Width>
             <OnClickEvent>SubclassDelve</OnClickEvent>
-        </ButtonDef>
+        </HorizontalResizeButtonDef>
 
 
         <!--

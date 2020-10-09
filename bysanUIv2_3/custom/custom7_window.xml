@@ -43,8 +43,8 @@
 
         <LabelDef>
             <Position>
-                <X>7</X>
-                <Y>7</Y>
+                <X>3</X>
+                <Y>3</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -56,9 +56,9 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont2</FontName>
-            <Width>60</Width>
+            <Width>68</Width>
             <Height>16</Height>
-            <MaxCharacters>31</MaxCharacters>
+            <MaxCharacters>25</MaxCharacters>
             <ColorAdapter>group_color0</ColorAdapter>
             <Adapter>group_class0</Adapter>
         </LabelDef>
@@ -66,8 +66,8 @@
 
         <ScalarLabelDef>
             <Position>
-                <X>2</X>
-                <Y>32</Y>
+                <X>3</X>
+                <Y>17</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -91,8 +91,8 @@
 
         <LabelDef>
             <Position>
-                <X>19</X>
-                <Y>32</Y>
+                <X>3</X>
+                <Y>31</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -104,9 +104,9 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont11pxds</FontName>
-            <Width>60</Width>
-            <Height>15</Height>
-            <MaxCharacters>8</MaxCharacters>
+            <Width>68</Width>
+            <Height>16</Height>
+            <MaxCharacters>25</MaxCharacters>
             <ColorAdapter>group_color0</ColorAdapter>
             <Adapter>group_name0</Adapter>
         </LabelDef>
@@ -189,8 +189,8 @@
 
         <StatusIconDef>
             <Position>
-                <X>39</X>
-                <Y>19</Y>
+                <X>35</X>
+                <Y>16</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -202,8 +202,8 @@
 
         <StatusIconDef>
             <Position>
-                <X>39</X>
-                <Y>19</Y>
+                <X>35</X>
+                <Y>16</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -215,8 +215,8 @@
 
         <StatusIconDef>
             <Position>
-                <X>39</X>
-                <Y>19</Y>
+                <X>35</X>
+                <Y>16</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -228,8 +228,8 @@
 
         <StatusIconDef>
             <Position>
-                <X>39</X>
-                <Y>19</Y>
+                <X>35</X>
+                <Y>16</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -264,8 +264,8 @@
 
         <LabelDef>
             <Position>
-                <X>101</X>
-                <Y>7</Y>
+                <X>97</X>
+                <Y>3</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -277,9 +277,9 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont2</FontName>
-            <Width>60</Width>
+            <Width>68</Width>
             <Height>16</Height>
-            <MaxCharacters>31</MaxCharacters>
+            <MaxCharacters>25</MaxCharacters>
             <ColorAdapter>group_color1</ColorAdapter>
             <Adapter>group_class1</Adapter>
         </LabelDef>
@@ -287,8 +287,8 @@
 
         <ScalarLabelDef>
             <Position>
-                <X>96</X>
-                <Y>32</Y>
+                <X>97</X>
+                <Y>17</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -312,8 +312,8 @@
 
         <LabelDef>
             <Position>
-                <X>113</X>
-                <Y>32</Y>
+                <X>97</X>
+                <Y>31</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -325,9 +325,9 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont11pxds</FontName>
-            <Width>60</Width>
-            <Height>15</Height>
-            <MaxCharacters>8</MaxCharacters>
+            <Width>68</Width>
+            <Height>16</Height>
+            <MaxCharacters>25</MaxCharacters>
             <ColorAdapter>group_color1</ColorAdapter>
             <Adapter>group_name1</Adapter>
         </LabelDef>
@@ -410,8 +410,8 @@
 
         <StatusIconDef>
             <Position>
-                <X>133</X>
-                <Y>19</Y>
+                <X>129</X>
+                <Y>16</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -423,8 +423,8 @@
 
         <StatusIconDef>
             <Position>
-                <X>133</X>
-                <Y>19</Y>
+                <X>129</X>
+                <Y>16</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -436,8 +436,8 @@
 
         <StatusIconDef>
             <Position>
-                <X>133</X>
-                <Y>19</Y>
+                <X>129</X>
+                <Y>16</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -449,8 +449,8 @@
 
         <StatusIconDef>
             <Position>
-                <X>133</X>
-                <Y>19</Y>
+                <X>129</X>
+                <Y>16</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -485,8 +485,8 @@
 
         <LabelDef>
             <Position>
-                <X>195</X>
-                <Y>7</Y>
+                <X>191</X>
+                <Y>3</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -498,9 +498,9 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont2</FontName>
-            <Width>60</Width>
+            <Width>68</Width>
             <Height>16</Height>
-            <MaxCharacters>31</MaxCharacters>
+            <MaxCharacters>25</MaxCharacters>
             <ColorAdapter>group_color2</ColorAdapter>
             <Adapter>group_class2</Adapter>
         </LabelDef>
@@ -508,8 +508,8 @@
 
         <ScalarLabelDef>
             <Position>
-                <X>190</X>
-                <Y>32</Y>
+                <X>191</X>
+                <Y>17</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -533,8 +533,8 @@
 
         <LabelDef>
             <Position>
-                <X>207</X>
-                <Y>32</Y>
+                <X>191</X>
+                <Y>31</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -546,9 +546,9 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont11pxds</FontName>
-            <Width>60</Width>
-            <Height>15</Height>
-            <MaxCharacters>8</MaxCharacters>
+            <Width>68</Width>
+            <Height>16</Height>
+            <MaxCharacters>25</MaxCharacters>
             <ColorAdapter>group_color2</ColorAdapter>
             <Adapter>group_name2</Adapter>
         </LabelDef>
@@ -631,21 +631,8 @@
 
         <StatusIconDef>
             <Position>
-                <X>227</X>
-                <Y>19</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_witt_statuseffects_diz</TemplateName>
-            <AdapterName>group_status2</AdapterName>
-        </StatusIconDef>
-
-
-        <StatusIconDef>
-            <Position>
-                <X>227</X>
-                <Y>19</Y>
+                <X>223</X>
+                <Y>16</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -657,8 +644,21 @@
 
         <StatusIconDef>
             <Position>
-                <X>227</X>
-                <Y>19</Y>
+                <X>223</X>
+                <Y>16</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_statuseffects_diz</TemplateName>
+            <AdapterName>group_status2</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>223</X>
+                <Y>16</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -670,8 +670,8 @@
 
         <StatusIconDef>
             <Position>
-                <X>227</X>
-                <Y>19</Y>
+                <X>223</X>
+                <Y>16</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -706,8 +706,8 @@
 
         <LabelDef>
             <Position>
-                <X>289</X>
-                <Y>7</Y>
+                <X>285</X>
+                <Y>3</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -719,9 +719,9 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont2</FontName>
-            <Width>60</Width>
+            <Width>68</Width>
             <Height>16</Height>
-            <MaxCharacters>31</MaxCharacters>
+            <MaxCharacters>25</MaxCharacters>
             <ColorAdapter>group_color3</ColorAdapter>
             <Adapter>group_class3</Adapter>
         </LabelDef>
@@ -729,8 +729,8 @@
 
         <ScalarLabelDef>
             <Position>
-                <X>284</X>
-                <Y>32</Y>
+                <X>285</X>
+                <Y>17</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -754,8 +754,8 @@
 
         <LabelDef>
             <Position>
-                <X>301</X>
-                <Y>32</Y>
+                <X>285</X>
+                <Y>31</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -767,9 +767,9 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont11pxds</FontName>
-            <Width>60</Width>
-            <Height>15</Height>
-            <MaxCharacters>8</MaxCharacters>
+            <Width>68</Width>
+            <Height>16</Height>
+            <MaxCharacters>25</MaxCharacters>
             <ColorAdapter>group_color3</ColorAdapter>
             <Adapter>group_name3</Adapter>
         </LabelDef>
@@ -852,8 +852,8 @@
 
         <StatusIconDef>
             <Position>
-                <X>321</X>
-                <Y>19</Y>
+                <X>317</X>
+                <Y>16</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -865,8 +865,8 @@
 
         <StatusIconDef>
             <Position>
-                <X>321</X>
-                <Y>19</Y>
+                <X>317</X>
+                <Y>16</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -878,8 +878,8 @@
 
         <StatusIconDef>
             <Position>
-                <X>321</X>
-                <Y>19</Y>
+                <X>317</X>
+                <Y>16</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -891,8 +891,8 @@
 
         <StatusIconDef>
             <Position>
-                <X>321</X>
-                <Y>19</Y>
+                <X>317</X>
+                <Y>16</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -927,8 +927,8 @@
 
         <LabelDef>
             <Position>
-                <X>7</X>
-                <Y>54</Y>
+                <X>3</X>
+                <Y>50</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -940,9 +940,9 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont2</FontName>
-            <Width>60</Width>
+            <Width>68</Width>
             <Height>16</Height>
-            <MaxCharacters>31</MaxCharacters>
+            <MaxCharacters>25</MaxCharacters>
             <ColorAdapter>group_color4</ColorAdapter>
             <Adapter>group_class4</Adapter>
         </LabelDef>
@@ -950,8 +950,8 @@
 
         <ScalarLabelDef>
             <Position>
-                <X>2</X>
-                <Y>79</Y>
+                <X>3</X>
+                <Y>64</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -975,8 +975,8 @@
 
         <LabelDef>
             <Position>
-                <X>19</X>
-                <Y>79</Y>
+                <X>3</X>
+                <Y>78</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -988,9 +988,9 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont11pxds</FontName>
-            <Width>60</Width>
-            <Height>15</Height>
-            <MaxCharacters>8</MaxCharacters>
+            <Width>68</Width>
+            <Height>16</Height>
+            <MaxCharacters>25</MaxCharacters>
             <ColorAdapter>group_color4</ColorAdapter>
             <Adapter>group_name4</Adapter>
         </LabelDef>
@@ -1073,11 +1073,12 @@
 
         <StatusIconDef>
             <Position>
-                <X>39</X>
-                <Y>66</Y>
+                <X>35</X>
+                <Y>16</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_witt_statuseffects_diz</TemplateName>
             <AdapterName>group_status4</AdapterName>
@@ -1086,11 +1087,12 @@
 
         <StatusIconDef>
             <Position>
-                <X>39</X>
-                <Y>66</Y>
+                <X>35</X>
+                <Y>16</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_witt_statuseffects_mez</TemplateName>
             <AdapterName>group_status4</AdapterName>
@@ -1099,11 +1101,12 @@
 
         <StatusIconDef>
             <Position>
-                <X>39</X>
-                <Y>66</Y>
+                <X>35</X>
+                <Y>16</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_witt_statuseffects_ns</TemplateName>
             <AdapterName>group_status4</AdapterName>
@@ -1112,11 +1115,12 @@
 
         <StatusIconDef>
             <Position>
-                <X>39</X>
-                <Y>66</Y>
+                <X>35</X>
+                <Y>16</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_witt_statuseffects_psn</TemplateName>
             <AdapterName>group_status4</AdapterName>
@@ -1148,8 +1152,8 @@
 
         <LabelDef>
             <Position>
-                <X>101</X>
-                <Y>54</Y>
+                <X>97</X>
+                <Y>50</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1161,9 +1165,9 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont2</FontName>
-            <Width>60</Width>
+            <Width>68</Width>
             <Height>16</Height>
-            <MaxCharacters>31</MaxCharacters>
+            <MaxCharacters>25</MaxCharacters>
             <ColorAdapter>group_color5</ColorAdapter>
             <Adapter>group_class5</Adapter>
         </LabelDef>
@@ -1171,8 +1175,8 @@
 
         <ScalarLabelDef>
             <Position>
-                <X>96</X>
-                <Y>79</Y>
+                <X>97</X>
+                <Y>64</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1196,8 +1200,8 @@
 
         <LabelDef>
             <Position>
-                <X>113</X>
-                <Y>79</Y>
+                <X>97</X>
+                <Y>78</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1209,9 +1213,9 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont11pxds</FontName>
-            <Width>60</Width>
-            <Height>15</Height>
-            <MaxCharacters>8</MaxCharacters>
+            <Width>68</Width>
+            <Height>16</Height>
+            <MaxCharacters>25</MaxCharacters>
             <ColorAdapter>group_color5</ColorAdapter>
             <Adapter>group_name5</Adapter>
         </LabelDef>
@@ -1294,11 +1298,12 @@
 
         <StatusIconDef>
             <Position>
-                <X>133</X>
-                <Y>66</Y>
+                <X>129</X>
+                <Y>16</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_witt_statuseffects_diz</TemplateName>
             <AdapterName>group_status5</AdapterName>
@@ -1307,11 +1312,12 @@
 
         <StatusIconDef>
             <Position>
-                <X>133</X>
-                <Y>66</Y>
+                <X>129</X>
+                <Y>16</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_witt_statuseffects_mez</TemplateName>
             <AdapterName>group_status5</AdapterName>
@@ -1320,11 +1326,12 @@
 
         <StatusIconDef>
             <Position>
-                <X>133</X>
-                <Y>66</Y>
+                <X>129</X>
+                <Y>16</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_witt_statuseffects_ns</TemplateName>
             <AdapterName>group_status5</AdapterName>
@@ -1333,11 +1340,12 @@
 
         <StatusIconDef>
             <Position>
-                <X>133</X>
-                <Y>66</Y>
+                <X>129</X>
+                <Y>16</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_witt_statuseffects_psn</TemplateName>
             <AdapterName>group_status5</AdapterName>
@@ -1369,8 +1377,8 @@
 
         <LabelDef>
             <Position>
-                <X>195</X>
-                <Y>54</Y>
+                <X>191</X>
+                <Y>50</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1382,9 +1390,9 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont2</FontName>
-            <Width>60</Width>
+            <Width>68</Width>
             <Height>16</Height>
-            <MaxCharacters>31</MaxCharacters>
+            <MaxCharacters>25</MaxCharacters>
             <ColorAdapter>group_color6</ColorAdapter>
             <Adapter>group_class6</Adapter>
         </LabelDef>
@@ -1392,8 +1400,8 @@
 
         <ScalarLabelDef>
             <Position>
-                <X>190</X>
-                <Y>79</Y>
+                <X>191</X>
+                <Y>64</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1417,8 +1425,8 @@
 
         <LabelDef>
             <Position>
-                <X>207</X>
-                <Y>79</Y>
+                <X>191</X>
+                <Y>78</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1430,9 +1438,9 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont11pxds</FontName>
-            <Width>60</Width>
-            <Height>15</Height>
-            <MaxCharacters>8</MaxCharacters>
+            <Width>68</Width>
+            <Height>16</Height>
+            <MaxCharacters>25</MaxCharacters>
             <ColorAdapter>group_color6</ColorAdapter>
             <Adapter>group_name6</Adapter>
         </LabelDef>
@@ -1515,11 +1523,12 @@
 
         <StatusIconDef>
             <Position>
-                <X>227</X>
-                <Y>66</Y>
+                <X>223</X>
+                <Y>16</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_witt_statuseffects_diz</TemplateName>
             <AdapterName>group_status6</AdapterName>
@@ -1528,11 +1537,12 @@
 
         <StatusIconDef>
             <Position>
-                <X>227</X>
-                <Y>66</Y>
+                <X>223</X>
+                <Y>16</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_witt_statuseffects_mez</TemplateName>
             <AdapterName>group_status6</AdapterName>
@@ -1541,11 +1551,12 @@
 
         <StatusIconDef>
             <Position>
-                <X>227</X>
-                <Y>66</Y>
+                <X>223</X>
+                <Y>16</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_witt_statuseffects_ns</TemplateName>
             <AdapterName>group_status6</AdapterName>
@@ -1554,11 +1565,12 @@
 
         <StatusIconDef>
             <Position>
-                <X>227</X>
-                <Y>66</Y>
+                <X>223</X>
+                <Y>16</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_witt_statuseffects_psn</TemplateName>
             <AdapterName>group_status6</AdapterName>
@@ -1590,8 +1602,8 @@
 
         <LabelDef>
             <Position>
-                <X>289</X>
-                <Y>54</Y>
+                <X>285</X>
+                <Y>50</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1603,9 +1615,9 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont2</FontName>
-            <Width>60</Width>
+            <Width>68</Width>
             <Height>16</Height>
-            <MaxCharacters>31</MaxCharacters>
+            <MaxCharacters>25</MaxCharacters>
             <ColorAdapter>group_color7</ColorAdapter>
             <Adapter>group_class7</Adapter>
         </LabelDef>
@@ -1613,8 +1625,8 @@
 
         <ScalarLabelDef>
             <Position>
-                <X>284</X>
-                <Y>79</Y>
+                <X>285</X>
+                <Y>64</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1638,8 +1650,8 @@
 
         <LabelDef>
             <Position>
-                <X>301</X>
-                <Y>79</Y>
+                <X>285</X>
+                <Y>78</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1651,9 +1663,9 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont11pxds</FontName>
-            <Width>60</Width>
-            <Height>15</Height>
-            <MaxCharacters>8</MaxCharacters>
+            <Width>68</Width>
+            <Height>16</Height>
+            <MaxCharacters>25</MaxCharacters>
             <ColorAdapter>group_color7</ColorAdapter>
             <Adapter>group_name7</Adapter>
         </LabelDef>
@@ -1736,11 +1748,12 @@
 
         <StatusIconDef>
             <Position>
-                <X>321</X>
-                <Y>66</Y>
+                <X>317</X>
+                <Y>16</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_witt_statuseffects_diz</TemplateName>
             <AdapterName>group_status7</AdapterName>
@@ -1749,11 +1762,12 @@
 
         <StatusIconDef>
             <Position>
-                <X>321</X>
-                <Y>66</Y>
+                <X>317</X>
+                <Y>16</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_witt_statuseffects_mez</TemplateName>
             <AdapterName>group_status7</AdapterName>
@@ -1762,11 +1776,12 @@
 
         <StatusIconDef>
             <Position>
-                <X>321</X>
-                <Y>66</Y>
+                <X>317</X>
+                <Y>16</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_witt_statuseffects_ns</TemplateName>
             <AdapterName>group_status7</AdapterName>
@@ -1775,11 +1790,12 @@
 
         <StatusIconDef>
             <Position>
-                <X>321</X>
-                <Y>66</Y>
+                <X>317</X>
+                <Y>16</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_witt_statuseffects_psn</TemplateName>
             <AdapterName>group_status7</AdapterName>
