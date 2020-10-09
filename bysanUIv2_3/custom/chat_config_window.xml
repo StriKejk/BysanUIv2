@@ -57,6 +57,9 @@
                 <X>0</X>
                 <Y>4</Y>
             </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
             <Color>
                 <R>255</R>
                 <G>255</G>
@@ -105,26 +108,36 @@
         </FullResizeImageDef>
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <ControlId>2000</ControlId>
             <Position>
-                <X>142</X>
-                <Y>318</Y>
+                <X>144</X>
+                <Y>1</Y>
             </Position>
-            <TemplateName>_witt_buttons_tab</TemplateName>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>ACCEPT</Label>
-        </ButtonDef>
+            <Width>62</Width>
+            <OnClickEvent></OnClickEvent>
+        </HorizontalResizeButtonDef>
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <ControlId>2001</ControlId>
             <Position>
-                <X>78</X>
-                <Y>318</Y>
+                <X>80</X>
+                <Y>1</Y>
             </Position>
-            <TemplateName>_witt_buttons_tab</TemplateName>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>CANCEL</Label>
-        </ButtonDef>
+            <Width>62</Width>
+            <OnClickEvent></OnClickEvent>
+        </HorizontalResizeButtonDef>
 
 
         <ButtonDef>
