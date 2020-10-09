@@ -90,7 +90,7 @@
                 <Y>4</Y>
             </Position>
             <Alignment>
-                <GrowWidth>true</GrowWidth>
+                <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
             <Color>
                 <R>255</R>
@@ -146,7 +146,7 @@
 
         <HorizontalResizeImageDef>
             <Position>
-                <X>64</X>
+                <X>63</X>
                 <Y>-2</Y>
             </Position>
             <Alignment>
@@ -154,7 +154,7 @@
                 <GrowWidth>true</GrowWidth>
             </Alignment>
             <TemplateName>_witt_hr_normal</TemplateName>
-            <Width>326</Width>
+            <Width>327</Width>
         </HorizontalResizeImageDef>
 
 

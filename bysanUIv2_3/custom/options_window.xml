@@ -55,6 +55,9 @@
                 <X>0</X>
                 <Y>4</Y>
             </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
             <Color>
                 <R>255</R>
                 <G>255</G>
@@ -743,8 +746,12 @@
             <ControlId>1016</ControlId>
             <Position>
                 <X>85</X>
-                <Y>455</Y>
+                <Y>0</Y>
             </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>OK</Label>
             <Width>62</Width>

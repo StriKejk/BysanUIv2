@@ -56,6 +56,9 @@
                 <X>0</X>
                 <Y>4</Y>
             </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
             <Color>
                 <R>255</R>
                 <G>255</G>
@@ -102,6 +105,9 @@
                 <X>0</X>
                 <Y>171</Y>
             </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
             <Color>
                 <R>255</R>
                 <G>255</G>
@@ -625,6 +631,9 @@
                 <X>0</X>
                 <Y>287</Y>
             </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
             <Color>
                 <R>255</R>
                 <G>255</G>
@@ -897,22 +906,24 @@
         </IconDef>
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <ControlId>1003</ControlId>
             <Position>
-                <X>138</X>
+                <X>74</X>
                 <Y>1</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
+                <OffsetRight>true</OffsetRight>
             </Alignment>
-            <TemplateName>_witt_buttons_tab</TemplateName>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>FINISH</Label>
+            <Width>62</Width>
             <OnClickEvent>NewQuestFinish</OnClickEvent>
-        </ButtonDef>
+        </HorizontalResizeButtonDef>
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <ControlId>1004</ControlId>
             <Position>
                 <X>74</X>
@@ -921,10 +932,11 @@
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <TemplateName>_witt_buttons_tab</TemplateName>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>NOT YET</Label>
+            <Width>62</Width>
             <OnClickEvent>NewQuestContinue</OnClickEvent>
-        </ButtonDef>
+        </HorizontalResizeButtonDef>
 
 
     </WindowTemplate>
