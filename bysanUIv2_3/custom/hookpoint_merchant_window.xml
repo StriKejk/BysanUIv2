@@ -146,64 +146,70 @@
         </ListBoxDef>
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <ControlId>1002</ControlId>
             <Position>
-                <X>2</X>
-                <Y>259</Y>
+                <X>3</X>
+                <Y>19</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <TemplateName>_witt_buttons_tab</TemplateName>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>Coin</Label>
+            <Width>62</Width>
             <OnClickEvent>HookpointStoreCoin</OnClickEvent>
-        </ButtonDef>
+        </HorizontalResizeButtonDef>
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <ControlId>1003</ControlId>
             <Position>
-                <X>66</X>
-                <Y>259</Y>
+                <X>67</X>
+                <Y>19</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <TemplateName>_witt_buttons_tab</TemplateName>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>BP</Label>
+            <Width>62</Width>
             <OnClickEvent>HookpointStoreBP</OnClickEvent>
-        </ButtonDef>
+        </HorizontalResizeButtonDef>
 
 
-        <ButtonDef>
-            <ControlId>1004</ControlId>
+        <HorizontalResizeButtonDef>
+            <ControlId>1000</ControlId>
             <Position>
-                <X>130</X>
-                <Y>259</Y>
+                <X>68</X>
+                <Y>19</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
+                <OffsetRight>true</OffsetRight>
             </Alignment>
-            <TemplateName>_witt_buttons_tab</TemplateName>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>GBP</Label>
+            <Width>62</Width>
             <OnClickEvent>HookpointStoreGBP</OnClickEvent>
-        </ButtonDef>
+        </HorizontalResizeButtonDef>
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <ControlId>1005</ControlId>
             <Position>
-                <X>194</X>
-                <Y>259</Y>
+                <X>3</X>
+                <Y>19</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
+                <OffsetRight>true</OffsetRight>
             </Alignment>
-            <TemplateName>_witt_buttons_tab</TemplateName>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>Contract</Label>
+            <Width>62</Width>
             <OnClickEvent>HookpointStoreContract</OnClickEvent>
-        </ButtonDef>
+        </HorizontalResizeButtonDef>
 
 
         <!--Buy Button-->
@@ -232,18 +238,20 @@
         </LabelDef>
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <Position>
-                <X>194</X>
-                <Y>277</Y>
+                <X>3</X>
+                <Y>1</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
+                <OffsetRight>true</OffsetRight>
             </Alignment>
-            <TemplateName>_witt_buttons_tab</TemplateName>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>Buy</Label>
+            <Width>62</Width>
             <OnClickEvent>HookpointStoreBuy</OnClickEvent>
-        </ButtonDef>
+        </HorizontalResizeButtonDef>
 
 
         <!--Guild Bounty Points-->
@@ -273,7 +281,7 @@
 
         <ScalarLabelDef>
             <Position>
-                <X>161</X>
+                <X>170</X>
                 <Y>181</Y>
             </Position>
             <Alignment>
@@ -320,7 +328,7 @@
 
         <ScalarLabelDef>
             <Position>
-                <X>161</X>
+                <X>170</X>
                 <Y>195</Y>
             </Position>
             <Alignment>

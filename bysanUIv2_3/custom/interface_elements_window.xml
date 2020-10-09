@@ -49,6 +49,9 @@
                 <X>24</X>
                 <Y>22</Y>
             </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
             <TemplateName>_witt_iel</TemplateName>
         </ImageAreaDef>
 
@@ -70,6 +73,9 @@
                 <X>0</X>
                 <Y>4</Y>
             </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
             <Color>
                 <R>255</R>
                 <G>255</G>
@@ -670,6 +676,9 @@
                 <X>137</X>
                 <Y>92</Y>
             </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
             <Color>
                 <R>255</R>
                 <G>255</G>
@@ -730,6 +739,9 @@
                 <X>137</X>
                 <Y>186</Y>
             </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
             <Color>
                 <R>255</R>
                 <G>255</G>

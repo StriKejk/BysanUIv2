@@ -33,7 +33,7 @@
 
         <ScalarLabelDef>
             <Position>
-                <X>-10</X>
+                <X>-5</X>
                 <Y>16</Y>
             </Position>
             <Alignment>
@@ -57,7 +57,7 @@
 
         <ScalarLabelDef>
             <Position>
-                <X>50</X>
+                <X>45</X>
                 <Y>16</Y>
             </Position>
             <Alignment>
@@ -80,7 +80,7 @@
         <LabelDef>
             <ControlId>lvl</ControlId>
             <Position>
-                <X>28</X>
+                <X>23</X>
                 <Y>16</Y>
             </Position>
             <Alignment>

@@ -63,7 +63,7 @@
 
         <ScalarLabelDef>
             <Position>
-                <X>24</X>
+                <X>25</X>
                 <Y>16</Y>
             </Position>
             <FontName>_whatisthisfont2</FontName>
@@ -103,7 +103,7 @@
 
         <ScalarLabelDef>
             <Position>
-                <X>-10</X>
+                <X>-5</X>
                 <Y>16</Y>
             </Position>
             <Alignment>

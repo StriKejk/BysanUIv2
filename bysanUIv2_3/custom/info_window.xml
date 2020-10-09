@@ -64,6 +64,7 @@
             </Position>
             <Alignment>
                 <GrowWidth>true</GrowWidth>
+                <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
             <Color>
                 <R>255</R>
