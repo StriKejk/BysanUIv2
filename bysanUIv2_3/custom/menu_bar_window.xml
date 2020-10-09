@@ -84,7 +84,7 @@
 
         <LabelDef>
             <Position>
-                <X>200</X>
+                <X>212</X>
                 <Y>5</Y>
             </Position>
             <Alignment>
@@ -97,7 +97,7 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont11pxds</FontName>
-            <Width>32</Width>
+            <Width>35</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
             <Data> C:999</Data>
@@ -107,7 +107,7 @@
 
         <LabelDef>
             <Position>
-                <X>158</X>
+                <X>160</X>
                 <Y>5</Y>
             </Position>
             <Alignment>
@@ -120,7 +120,7 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont11pxds</FontName>
-            <Width>32</Width>
+            <Width>35</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
             <Data>S:999</Data>
@@ -143,7 +143,7 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont11pxds</FontName>
-            <Width>32</Width>
+            <Width>35</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
             <Data>G:999</Data>
@@ -166,7 +166,7 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont11pxds</FontName>
-            <Width>32</Width>
+            <Width>35</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
             <Data>P:999</Data>
@@ -189,7 +189,7 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont11pxds</FontName>
-            <Width>27</Width>
+            <Width>35</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
             <Data>M:999</Data>
@@ -199,7 +199,7 @@
 
         <ImageAreaDef>
             <Position>
-                <X>185</X>
+                <X>197</X>
                 <Y>9</Y>
             </Position>
             <Alignment>
@@ -211,7 +211,7 @@
 
         <ImageAreaDef>
             <Position>
-                <X>143</X>
+                <X>145</X>
                 <Y>9</Y>
             </Position>
             <Alignment>
@@ -257,15 +257,15 @@
         <InvisibleButtonDef>
             <Position>
                 <X>0</X>
-                <Y>3</Y>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Label></Label>
             <OnClickEvent>MenuBarWithdraw</OnClickEvent>
-            <Width>228</Width>
-            <Height>19</Height>
+            <Width>230</Width>
+            <Height>24</Height>
         </InvisibleButtonDef>
 
 

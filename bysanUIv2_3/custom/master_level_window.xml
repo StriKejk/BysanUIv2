@@ -155,7 +155,7 @@
 
         <HorizontalResizeButtonDef>
             <Position>
-                <X>24</X>
+                <X>37</X>
                 <Y>1</Y>
             </Position>
             <Alignment>
@@ -170,7 +170,7 @@
 
         <HorizontalResizeButtonDef>
             <Position>
-                <X>36</X>
+                <X>37</X>
                 <Y>1</Y>
             </Position>
             <Alignment>

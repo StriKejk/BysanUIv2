@@ -68,7 +68,6 @@
                 <Y>4</Y>
             </Position>
             <Alignment>
-                <GrowWidth>true</GrowWidth>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
             <Color>
@@ -229,49 +228,54 @@
         </ButtonDef>
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <ControlId>1002</ControlId>
             <Position>
-                <X>156</X>
+                <X>3</X>
                 <Y>0</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
+                <OffsetRight>true</OffsetRight>
             </Alignment>
-            <TemplateName>_witt_buttons_tab</TemplateName>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>BUY</Label>
-        </ButtonDef>
+            <Width>72</Width>
+            <OnClickEvent></OnClickEvent>
+        </HorizontalResizeButtonDef>
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <ControlId>1003</ControlId>
             <Position>
-                <X>83</X>
+                <X>0</X>
                 <Y>0</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
+                <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <TemplateName>_witt_buttons_tab</TemplateName>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>SELL</Label>
-        </ButtonDef>
+            <Width>72</Width>
+            <OnClickEvent></OnClickEvent>
+        </HorizontalResizeButtonDef>
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <ControlId>1004</ControlId>
             <Position>
-                <X>11</X>
+                <X>3</X>
                 <Y>0</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <TemplateName>_witt_buttons_tab</TemplateName>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>APPRAISE</Label>
-        </ButtonDef>
+            <Width>72</Width>
+            <OnClickEvent></OnClickEvent>
+        </HorizontalResizeButtonDef>
 
 
         <LabelDef>

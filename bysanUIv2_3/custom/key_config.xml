@@ -123,7 +123,7 @@
                 <Y>4</Y>
             </Position>
             <Alignment>
-                <GrowWidth>true</GrowWidth>
+                <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
             <Color>
                 <R>255</R>
@@ -195,11 +195,12 @@
 
         <HorizontalResizeButtonDef>
             <Position>
-                <X>245</X>
+                <X>3</X>
                 <Y>280</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
+                <OffsetRight>true</OffsetRight>
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>FPS</Label>
@@ -241,12 +242,12 @@
 
         <HorizontalResizeButtonDef>
             <Position>
-                <X>156</X>
+                <X>92</X>
                 <Y>1</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
+                <OffsetRight>true</OffsetRight>
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>ACCEPT</Label>

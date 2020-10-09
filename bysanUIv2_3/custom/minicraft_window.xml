@@ -71,10 +71,11 @@
             <ControlId>1000</ControlId>
             <Position>
                 <X>3</X>
-                <Y>17</Y>
+                <Y>1</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Repair</Label>
@@ -87,8 +88,11 @@
             <ControlId>1001</ControlId>
             <Position>
                 <X>67</X>
-                <Y>17</Y>
+                <Y>1</Y>
             </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Craft</Label>
             <Width>62</Width>
@@ -100,8 +104,11 @@
             <ControlId>1002</ControlId>
             <Position>
                 <X>131</X>
-                <Y>17</Y>
+                <Y>1</Y>
             </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Salvage</Label>
             <Width>62</Width>
