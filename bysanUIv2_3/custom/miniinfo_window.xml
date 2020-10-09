@@ -221,52 +221,68 @@
         </IconDef>
 
 
-        <ButtonDef>
+        <HorizontalResizeButtonDef>
             <ControlId>1100</ControlId>
             <Position>
-                <X>142</X>
+                <X>144</X>
                 <Y>33</Y>
             </Position>
-            <TemplateName>_witt_buttons_tab</TemplateName>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>Info</Label>
+            <Width>62</Width>
             <OnClickEvent>Delve</OnClickEvent>
-        </ButtonDef>
+        </HorizontalResizeButtonDef>
 
 
-        <ButtonDef>
-            <ControlId>1101</ControlId>
+        <HorizontalResizeButtonDef>
+            <ControlId>1001</ControlId>
             <Position>
-                <X>142</X>
+                <X>144</X>
                 <Y>50</Y>
             </Position>
-            <TemplateName>_witt_buttons_tab</TemplateName>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>Repair</Label>
+            <Width>62</Width>
             <OnClickEvent>Repair</OnClickEvent>
-        </ButtonDef>
+        </HorizontalResizeButtonDef>
 
 
-        <ButtonDef>
-            <ControlId>1102</ControlId>
+        <HorizontalResizeButtonDef>
+            <ControlId>1002</ControlId>
             <Position>
-                <X>142</X>
+                <X>144</X>
                 <Y>67</Y>
             </Position>
-            <TemplateName>_witt_buttons_tab</TemplateName>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>Craft</Label>
+            <Width>62</Width>
             <OnClickEvent>Craft</OnClickEvent>
-        </ButtonDef>
+        </HorizontalResizeButtonDef>
 
 
-        <ButtonDef>
-            <ControlId>1103</ControlId>
+        <HorizontalResizeButtonDef>
+            <ControlId>1003</ControlId>
             <Position>
-                <X>142</X>
+                <X>144</X>
                 <Y>84</Y>
             </Position>
-            <TemplateName>_witt_buttons_tab</TemplateName>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>Salvage</Label>
+            <Width>62</Width>
             <OnClickEvent>Salvage</OnClickEvent>
-        </ButtonDef>
+        </HorizontalResizeButtonDef>
 
 
         <ListBoxDef>
