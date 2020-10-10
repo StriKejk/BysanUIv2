@@ -188,8 +188,8 @@
         <HorizontalResizeButtonDef>
             <ControlId>1002</ControlId>
             <Position>
-                <X>15</X>
-                <Y>0</Y>
+                <X>17</X>
+                <Y>1</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
@@ -197,7 +197,7 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Hookpoints</Label>
-            <Width>72</Width>
+            <Width>70</Width>
             <OnClickEvent>KeepStatusHookpoints</OnClickEvent>
             <LabelIndent>3</LabelIndent>
         </HorizontalResizeButtonDef>
@@ -206,8 +206,8 @@
         <HorizontalResizeButtonDef>
             <ControlId>1002</ControlId>
             <Position>
-                <X>15</X>
-                <Y>0</Y>
+                <X>17</X>
+                <Y>1</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -215,7 +215,7 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Repair</Label>
-            <Width>72</Width>
+            <Width>70</Width>
             <OnClickEvent>KeepStatusRepair</OnClickEvent>
             <LabelIndent>16</LabelIndent>
         </HorizontalResizeButtonDef>

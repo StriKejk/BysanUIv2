@@ -92,6 +92,7 @@
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
+                <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Craft</Label>

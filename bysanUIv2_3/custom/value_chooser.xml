@@ -115,11 +115,12 @@
 
         <HorizontalResizeButtonDef>
             <Position>
-                <X>65</X>
-                <Y>32</Y>
+                <X>2</X>
+                <Y>-2</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
+                <OffsetRight>true</OffsetRight>
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Accept</Label>
@@ -131,10 +132,11 @@
         <HorizontalResizeButtonDef>
             <Position>
                 <X>2</X>
-                <Y>32</Y>
+                <Y>-2</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Cancel</Label>

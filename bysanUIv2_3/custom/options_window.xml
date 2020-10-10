@@ -746,7 +746,7 @@
             <ControlId>1016</ControlId>
             <Position>
                 <X>85</X>
-                <Y>0</Y>
+                <Y>1</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>

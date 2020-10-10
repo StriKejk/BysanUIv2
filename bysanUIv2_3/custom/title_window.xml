@@ -56,6 +56,9 @@
                 <X>0</X>
                 <Y>4</Y>
             </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
             <Color>
                 <R>255</R>
                 <G>255</G>
@@ -117,11 +120,12 @@
         <HorizontalResizeButtonDef>
             <ControlId>1003</ControlId>
             <Position>
-                <X>86</X>
-                <Y>180</Y>
+                <X>3</X>
+                <Y>1</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Set Title</Label>
@@ -133,11 +137,12 @@
         <HorizontalResizeButtonDef>
             <ControlId>1004</ControlId>
             <Position>
-                <X>235</X>
-                <Y>180</Y>
+                <X>3</X>
+                <Y>1</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
+                <OffsetRight>true</OffsetRight>
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>OK</Label>
