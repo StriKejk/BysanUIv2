@@ -224,11 +224,12 @@
         <HorizontalResizeButtonDef>
             <ControlId>1100</ControlId>
             <Position>
-                <X>144</X>
-                <Y>33</Y>
+                <X>2</X>
+                <Y>34</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
+                <OffsetRight>true</OffsetRight>
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Info</Label>
@@ -238,13 +239,14 @@
 
 
         <HorizontalResizeButtonDef>
-            <ControlId>1001</ControlId>
+            <ControlId>1101</ControlId>
             <Position>
-                <X>144</X>
-                <Y>50</Y>
+                <X>2</X>
+                <Y>51</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
+                <OffsetRight>true</OffsetRight>
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Repair</Label>
@@ -254,13 +256,14 @@
 
 
         <HorizontalResizeButtonDef>
-            <ControlId>1002</ControlId>
+            <ControlId>1102</ControlId>
             <Position>
-                <X>144</X>
-                <Y>67</Y>
+                <X>2</X>
+                <Y>68</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
+                <OffsetRight>true</OffsetRight>
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Craft</Label>
@@ -270,13 +273,13 @@
 
 
         <HorizontalResizeButtonDef>
-            <ControlId>1003</ControlId>
+            <ControlId>1103</ControlId>
             <Position>
-                <X>144</X>
-                <Y>84</Y>
+                <X>2</X>
+                <Y>85</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
+                <OffsetRight>true</OffsetRight>
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Salvage</Label>
