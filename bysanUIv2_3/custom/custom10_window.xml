@@ -17,14 +17,14 @@
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
         <TitleWidth>0</TitleWidth>
         <TitleHeight>0</TitleHeight>
-        <Width>100</Width>
+        <Width>137</Width>
         <Height>12</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>10</MinWidth>
-        <MinHeight>10</MinHeight>
+        <MinWidth>137</MinWidth>
+        <MinHeight>12</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
 

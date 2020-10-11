@@ -15,10 +15,10 @@
         <BottomLeftResizeButton>true</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>384</TitleWidth>
+        <TitleWidth>374</TitleWidth>
         <TitleHeight>18</TitleHeight>
-        <Width>384</Width>
-        <Height>320</Height>
+        <Width>374</Width>
+        <Height>300</Height>
         <ResizeableWidth>5</ResizeableWidth>
         <ResizeableHeight>5</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
@@ -39,8 +39,8 @@
                 <GrowHeight>true</GrowHeight>
             </Alignment>
             <TemplateName>_witt_bg_80</TemplateName>
-            <Width>384</Width>
-            <Height>320</Height>
+            <Width>374</Width>
+            <Height>300</Height>
         </FullResizeImageDef>
 
 
@@ -48,14 +48,14 @@
             <ControlId>1000</ControlId>
             <Position>
                 <X>10</X>
-                <Y>22</Y>
+                <Y>20</Y>
             </Position>
             <Alignment>
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <TemplateName>generic_textarea</TemplateName>
+            <TemplateName>_witt_textarea_bg</TemplateName>
             <AdapterName>interact_text</AdapterName>
             <HasHotspots>true</HasHotspots>
             <MaxCharacters>32768</MaxCharacters>
@@ -67,7 +67,7 @@
         <LabelDef>
             <Position>
                 <X>0</X>
-                <Y>5</Y>
+                <Y>4</Y>
             </Position>
             <Alignment>
                 <CenterHorizontally>true</CenterHorizontally>

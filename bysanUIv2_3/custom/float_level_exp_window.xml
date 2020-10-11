@@ -37,12 +37,11 @@
                 <Y>16</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
                 <OffsetRight>true</OffsetRight>
             </Alignment>
             <FontName>_whatisthisfont2</FontName>
-            <Width>42</Width>
-            <Height>14</Height>
+            <Width>40</Width>
+            <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
             <Color>
                 <R>255</R>

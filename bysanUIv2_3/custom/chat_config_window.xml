@@ -23,8 +23,8 @@
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>333</MinWidth>
-        <MinHeight>436</MinHeight>
+        <MinWidth>286</MinWidth>
+        <MinHeight>337</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
 
@@ -108,26 +108,25 @@
         </FullResizeImageDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>2000</ControlId>
             <Position>
-                <X>144</X>
+                <X>3</X>
                 <Y>1</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
+                <OffsetRight>true</OffsetRight>
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>ACCEPT</Label>
-            <Width>62</Width>
-            <OnClickEvent></OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>2001</ControlId>
             <Position>
-                <X>80</X>
+                <X>3</X>
                 <Y>1</Y>
             </Position>
             <Alignment>
@@ -135,9 +134,7 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>CANCEL</Label>
-            <Width>62</Width>
-            <OnClickEvent></OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
         <ButtonDef>

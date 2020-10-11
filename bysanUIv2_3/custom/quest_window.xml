@@ -96,7 +96,7 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>generic_textarea</TemplateName>
+            <TemplateName>_witt_textarea_80</TemplateName>
             <AdapterName>quest_text</AdapterName>
             <HasHotspots>true</HasHotspots>
             <HotspotDelineator>{</HotspotDelineator>

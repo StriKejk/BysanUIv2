@@ -113,7 +113,7 @@
         <!--Commit Buttons-->
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>2</X>
                 <Y>-2</Y>
@@ -124,12 +124,11 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Accept</Label>
-            <Width>62</Width>
             <OnClickEvent>ValueChooserAccept</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>2</X>
                 <Y>-2</Y>
@@ -140,9 +139,8 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Cancel</Label>
-            <Width>62</Width>
             <OnClickEvent>ValueChooserCancel</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
     </WindowTemplate>

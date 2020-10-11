@@ -228,7 +228,7 @@
         </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1002</ControlId>
             <Position>
                 <X>3</X>
@@ -240,12 +240,10 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>BUY</Label>
-            <Width>72</Width>
-            <OnClickEvent></OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1003</ControlId>
             <Position>
                 <X>0</X>
@@ -257,12 +255,10 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>SELL</Label>
-            <Width>72</Width>
-            <OnClickEvent></OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1004</ControlId>
             <Position>
                 <X>3</X>
@@ -273,9 +269,7 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>APPRAISE</Label>
-            <Width>72</Width>
-            <OnClickEvent></OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
         <LabelDef>

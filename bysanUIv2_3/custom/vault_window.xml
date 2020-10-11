@@ -172,7 +172,7 @@
         </ListBoxDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1002</ControlId>
             <Position>
                 <X>0</X>
@@ -184,13 +184,11 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Pages</Label>
-            <Width>62</Width>
-            <OnClickEvent></OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
         <LabelDef>
-            <ControlId>1007</ControlId>
+            <ControlId>1001</ControlId>
             <Position>
                 <X>0</X>
                 <Y>4</Y>

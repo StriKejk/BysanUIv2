@@ -16477,9 +16477,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>254</R>
-                <G>217</G>
-                <B>10</B>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
@@ -16496,10 +16496,10 @@
             </ColorDisabled>
         </Font>
         <Normal>_witt_hr_normal</Normal>
-        <Pressed>_witt_hr_pressed</Pressed>
-        <NormalHighlit>_witt_hr_pressed</NormalHighlit>
-        <PressedHighlit>_witt_hr_highlight</PressedHighlit>
-        <Disabled>none</Disabled>
+        <Pressed>_witt_hr_normal</Pressed>
+        <NormalHighlit>_witt_hr_highlight</NormalHighlit>
+        <PressedHighlit>_witt_hr_pressed</PressedHighlit>
+        <Disabled>_witt_hr_normal</Disabled>
 </HorizontalResizeButtonTemplate>
 
 
@@ -16529,7 +16529,7 @@
 
     <HorizontalResizeImageTemplate>
         <Name>_witt_hr_pressed</Name>
-        <Height>16</Height>
+        <Height>18</Height>
         <LeftWidth>1</LeftWidth>
         <RepeatWidth>5</RepeatWidth>
         <RightWidth>1</RightWidth>
@@ -16537,15 +16537,15 @@
             <TextureName>_whatisthistexture</TextureName>
             <Left>
                 <X>927</X>
-                <Y>47</Y>
+                <Y>26</Y>
             </Left>
             <Repeat>
                 <X>950</X>
-                <Y>47</Y>
+                <Y>26</Y>
             </Repeat>
             <Right>
                 <X>988</X>
-                <Y>47</Y>
+                <Y>26</Y>
             </Right>
         </Texture>
     </HorizontalResizeImageTemplate>
@@ -16553,7 +16553,7 @@
 
     <HorizontalResizeImageTemplate>
         <Name>_witt_hr_highlight</Name>
-        <Height>16</Height>
+        <Height>18</Height>
         <LeftWidth>1</LeftWidth>
         <RepeatWidth>5</RepeatWidth>
         <RightWidth>1</RightWidth>
@@ -16561,15 +16561,15 @@
             <TextureName>_whatisthistexture</TextureName>
             <Left>
                 <X>927</X>
-                <Y>26</Y>
+                <Y>47</Y>
             </Left>
             <Repeat>
                 <X>951</X>
-                <Y>26</Y>
+                <Y>47</Y>
             </Repeat>
             <Right>
                 <X>988</X>
-                <Y>26</Y>
+                <Y>47</Y>
             </Right>
         </Texture>
     </HorizontalResizeImageTemplate>
@@ -16586,7 +16586,7 @@
         </TextOffset>
         <ScrollbarOffset>
             <X>0</X>
-            <Y>3</Y>
+            <Y>0</Y>
         </ScrollbarOffset>
         <ScrollbarSizeOffset>
             <X>0</X>
@@ -18788,6 +18788,301 @@
             <Disabled>
                 <X>760</X>
                 <Y>964</Y>
+            </Disabled>
+        </Texture>
+    </ButtonTemplate>
+
+
+    <ButtonTemplate>
+        <Name>_witt_hr_button</Name>
+        <Size>
+            <X>62</X>
+            <Y>18</Y>
+        </Size>
+        <Font>
+            <Name>_whatisthisfont11pxds</Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorPressed>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorPressed>
+            <ColorHighlit>
+                <R>252</R>
+                <G>212</G>
+                <B>10</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorDisabled>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorDisabled>
+        </Font>
+        <Texture>
+            <TextureName>_whatisthistexture</TextureName>
+            <Normal>
+                <X>927</X>
+                <Y>5</Y>
+            </Normal>
+            <Pressed>
+                <X>927</X>
+                <Y>5</Y>
+            </Pressed>
+            <NormalHighlit>
+                <X>927</X>
+                <Y>47</Y>
+            </NormalHighlit>
+            <PressedHighlit>
+                <X>927</X>
+                <Y>26</Y>
+            </PressedHighlit>
+            <Disabled>
+                <X>927</X>
+                <Y>5</Y>
+            </Disabled>
+        </Texture>
+    </ButtonTemplate>
+
+
+    <ButtonTemplate>
+        <Name>_witt_hr72_button</Name>
+        <Size>
+            <X>72</X>
+            <Y>18</Y>
+        </Size>
+        <Font>
+            <Name>_whatisthisfont11pxds</Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorPressed>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorPressed>
+            <ColorHighlit>
+                <R>252</R>
+                <G>212</G>
+                <B>10</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorDisabled>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorDisabled>
+        </Font>
+        <Texture>
+            <TextureName>_whatisthistexture</TextureName>
+            <Normal>
+                <X>917</X>
+                <Y>131</Y>
+            </Normal>
+            <Pressed>
+                <X>917</X>
+                <Y>131</Y>
+            </Pressed>
+            <NormalHighlit>
+                <X>917</X>
+                <Y>173</Y>
+            </NormalHighlit>
+            <PressedHighlit>
+                <X>917</X>
+                <Y>152</Y>
+            </PressedHighlit>
+            <Disabled>
+                <X>917</X>
+                <Y>131</Y>
+            </Disabled>
+        </Texture>
+    </ButtonTemplate>
+
+
+    <ButtonTemplate>
+        <Name>_witt_hr99_button</Name>
+        <Size>
+            <X>99</X>
+            <Y>18</Y>
+        </Size>
+        <Font>
+            <Name>_whatisthisfont11pxds</Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorPressed>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorPressed>
+            <ColorHighlit>
+                <R>252</R>
+                <G>212</G>
+                <B>10</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorDisabled>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorDisabled>
+        </Font>
+        <Texture>
+            <TextureName>_whatisthistexture</TextureName>
+            <Normal>
+                <X>890</X>
+                <Y>194</Y>
+            </Normal>
+            <Pressed>
+                <X>890</X>
+                <Y>194</Y>
+            </Pressed>
+            <NormalHighlit>
+                <X>890</X>
+                <Y>236</Y>
+            </NormalHighlit>
+            <PressedHighlit>
+                <X>890</X>
+                <Y>215</Y>
+            </PressedHighlit>
+            <Disabled>
+                <X>890</X>
+                <Y>194</Y>
+            </Disabled>
+        </Texture>
+    </ButtonTemplate>
+
+
+    <ButtonTemplate>
+        <Name>_witt_hr108_button</Name>
+        <Size>
+            <X>108</X>
+            <Y>18</Y>
+        </Size>
+        <Font>
+            <Name>_whatisthisfont11pxds</Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorPressed>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorPressed>
+            <ColorHighlit>
+                <R>252</R>
+                <G>212</G>
+                <B>10</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorDisabled>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorDisabled>
+        </Font>
+        <Texture>
+            <TextureName>_whatisthistexture</TextureName>
+            <Normal>
+                <X>881</X>
+                <Y>257</Y>
+            </Normal>
+            <Pressed>
+                <X>881</X>
+                <Y>257</Y>
+            </Pressed>
+            <NormalHighlit>
+                <X>881</X>
+                <Y>299</Y>
+            </NormalHighlit>
+            <PressedHighlit>
+                <X>881</X>
+                <Y>278</Y>
+            </PressedHighlit>
+            <Disabled>
+                <X>881</X>
+                <Y>257</Y>
+            </Disabled>
+        </Texture>
+    </ButtonTemplate>
+
+
+    <ButtonTemplate>
+        <Name>_witt_hr160_button</Name>
+        <Size>
+            <X>160</X>
+            <Y>18</Y>
+        </Size>
+        <Font>
+            <Name>_whatisthisfont11pxds</Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorPressed>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorPressed>
+            <ColorHighlit>
+                <R>252</R>
+                <G>212</G>
+                <B>10</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorDisabled>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorDisabled>
+        </Font>
+        <Texture>
+            <TextureName>_whatisthistexture</TextureName>
+            <Normal>
+                <X>829</X>
+                <Y>320</Y>
+            </Normal>
+            <Pressed>
+                <X>829</X>
+                <Y>320</Y>
+            </Pressed>
+            <NormalHighlit>
+                <X>829</X>
+                <Y>362</Y>
+            </NormalHighlit>
+            <PressedHighlit>
+                <X>829</X>
+                <Y>341</Y>
+            </PressedHighlit>
+            <Disabled>
+                <X>829</X>
+                <Y>320</Y>
             </Disabled>
         </Texture>
     </ButtonTemplate>

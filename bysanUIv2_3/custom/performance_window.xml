@@ -73,7 +73,7 @@
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
         <TitleWidth>0</TitleWidth>
         <TitleHeight>0</TitleHeight>
-        <Width>85</Width>
+        <Width>95</Width>
         <Height>15</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
@@ -90,7 +90,7 @@
                 <Y>0</Y>
             </Position>
             <TemplateName>none</TemplateName>
-            <Width>85</Width>
+            <Width>95</Width>
             <Height>15</Height>
         </FullResizeImageDef>
 
@@ -174,7 +174,7 @@
             </Position>
             <Label></Label>
             <OnClickEvent>Relic</OnClickEvent>
-            <Width>85</Width>
+            <Width>95</Width>
             <Height>15</Height>
         </InvisibleButtonDef>
 

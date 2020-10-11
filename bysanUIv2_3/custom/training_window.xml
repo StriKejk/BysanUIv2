@@ -469,15 +469,15 @@
             <Height>308</Height>
         <Tab>
             <Id>1</Id>
-            <Name>Spec</Name>
+            <Name> Spec</Name>
         </Tab>
         <Tab>
             <Id>2</Id>
-            <Name>Summary</Name>
+            <Name> Summary</Name>
         </Tab>
         <Tab>
             <Id>3</Id>
-            <Name>RAs</Name>
+            <Name> RAs</Name>
         </Tab>
             <TabControl>
                 <TabId>1</TabId>
@@ -2444,7 +2444,7 @@
         </IconDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1212</ControlId>
             <Position>
                 <X>63</X>
@@ -2452,12 +2452,10 @@
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>PREV</Label>
-            <Width>62</Width>
-            <OnClickEvent></OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1213</ControlId>
             <Position>
                 <X>205</X>
@@ -2465,9 +2463,7 @@
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>NEXT</Label>
-            <Width>62</Width>
-            <OnClickEvent></OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
         <ScalarLabelDef>
@@ -2739,7 +2735,7 @@
         </IconDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1232</ControlId>
             <Position>
                 <X>63</X>
@@ -2747,12 +2743,10 @@
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>PREV</Label>
-            <Width>62</Width>
-            <OnClickEvent></OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1233</ControlId>
             <Position>
                 <X>205</X>
@@ -2760,9 +2754,7 @@
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>NEXT</Label>
-            <Width>62</Width>
-            <OnClickEvent></OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
         <ScalarLabelDef>
@@ -3034,7 +3026,7 @@
         </IconDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1252</ControlId>
             <Position>
                 <X>63</X>
@@ -3042,12 +3034,10 @@
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>PREV</Label>
-            <Width>62</Width>
-            <OnClickEvent></OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1253</ControlId>
             <Position>
                 <X>205</X>
@@ -3055,9 +3045,7 @@
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>NEXT</Label>
-            <Width>62</Width>
-            <OnClickEvent></OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
         <ScalarLabelDef>
@@ -3329,7 +3317,7 @@
         </IconDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1272</ControlId>
             <Position>
                 <X>63</X>
@@ -3337,12 +3325,10 @@
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>PREV</Label>
-            <Width>62</Width>
-            <OnClickEvent></OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1273</ControlId>
             <Position>
                 <X>205</X>
@@ -3350,9 +3336,7 @@
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>NEXT</Label>
-            <Width>62</Width>
-            <OnClickEvent></OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
         <ScalarLabelDef>
@@ -4738,23 +4722,23 @@
         <!--Bottom Buttons-->
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1900</ControlId>
             <Position>
-                <X>257</X>
+                <X>3</X>
                 <Y>0</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
+                <OffsetRight>true</OffsetRight>
             </Alignment>
-            <TemplateName>_witt_hr_button</TemplateName>
+            <TemplateName>_witt_hr99_button</TemplateName>
             <Label>TRAIN</Label>
-            <Width>100</Width>
             <OnClickEvent>NewTrain</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1901</ControlId>
             <Position>
                 <X>130</X>
@@ -4764,14 +4748,12 @@
                 <OffsetBottom>true</OffsetBottom>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <TemplateName>_witt_hr_button</TemplateName>
+            <TemplateName>_witt_hr99_button</TemplateName>
             <Label>RESET</Label>
-            <Width>100</Width>
-            <OnClickEvent></OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1902</ControlId>
             <Position>
                 <X>3</X>
@@ -4780,30 +4762,28 @@
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <TemplateName>_witt_hr_button</TemplateName>
+            <TemplateName>_witt_hr99_button</TemplateName>
             <Label>CANCEL</Label>
-            <Width>100</Width>
-            <OnClickEvent></OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1900</ControlId>
             <Position>
-                <X>257</X>
+                <X>3</X>
                 <Y>17</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
+                <OffsetRight>true</OffsetRight>
             </Alignment>
-            <TemplateName>_witt_hr_button</TemplateName>
+            <TemplateName>_witt_hr99_button</TemplateName>
             <Label>/RESPEC ALL</Label>
-            <Width>100</Width>
             <OnClickEvent>RespecAll</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1900</ControlId>
             <Position>
                 <X>3</X>
@@ -4812,14 +4792,13 @@
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <TemplateName>_witt_hr_button</TemplateName>
+            <TemplateName>_witt_hr99_button</TemplateName>
             <Label>/RESPEC BUY</Label>
-            <Width>100</Width>
             <OnClickEvent>RespecBuy</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1900</ControlId>
             <Position>
                 <X>130</X>
@@ -4829,11 +4808,10 @@
                 <OffsetBottom>true</OffsetBottom>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <TemplateName>_witt_hr_button</TemplateName>
+            <TemplateName>_witt_hr99_button</TemplateName>
             <Label>/RESPEC REALM</Label>
-            <Width>100</Width>
             <OnClickEvent>RespecRealm</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
     </WindowTemplate>

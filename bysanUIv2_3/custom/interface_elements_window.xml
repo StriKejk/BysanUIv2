@@ -23,8 +23,8 @@
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>0</MinWidth>
-        <MinHeight>0</MinHeight>
+        <MinWidth>395</MinWidth>
+        <MinHeight>306</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
 
@@ -133,7 +133,7 @@
         </LabelDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>2</X>
                 <Y>108</Y>
@@ -143,192 +143,176 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Health</Label>
-            <Width>62</Width>
             <OnClickEvent>ToggleCustom0</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>66</X>
                 <Y>108</Y>
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Target</Label>
-            <Width>62</Width>
             <OnClickEvent>ToggleFloatTarget</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>2</X>
                 <Y>125</Y>
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>End</Label>
-            <Width>62</Width>
             <OnClickEvent>ToggleCustom1</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>66</X>
                 <Y>125</Y>
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Power</Label>
-            <Width>62</Width>
             <OnClickEvent>ToggleCustom2</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>2</X>
                 <Y>142</Y>
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Summary</Label>
-            <Width>62</Width>
             <OnClickEvent>ToggleSummary</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>66</X>
                 <Y>142</Y>
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
-            <Label>HHeler</Label>
-            <Width>62</Width>
+            <Label>HHelper</Label>
             <OnClickEvent>ToggleCustom7</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>2</X>
                 <Y>159</Y>
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Small HH</Label>
-            <Width>62</Width>
             <OnClickEvent>ToggleMiniGroup</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>66</X>
                 <Y>159</Y>
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Pet</Label>
-            <Width>62</Width>
             <OnClickEvent>ToggleMiniPet</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>134</X>
                 <Y>108</Y>
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Conc</Label>
-            <Width>62</Width>
             <OnClickEvent>ToggleConcentration</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>198</X>
                 <Y>108</Y>
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Buffs</Label>
-            <Width>62</Width>
             <OnClickEvent>ToggleGroupBuffs</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>134</X>
                 <Y>125</Y>
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Resist</Label>
-            <Width>62</Width>
             <OnClickEvent>ToggleCustom4</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>198</X>
                 <Y>125</Y>
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Stats</Label>
-            <Width>62</Width>
             <OnClickEvent>ToggleCustom3</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>134</X>
                 <Y>142</Y>
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Quiver</Label>
-            <Width>62</Width>
             <OnClickEvent>ToggleQuiver</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>198</X>
                 <Y>142</Y>
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>ResistTbl.</Label>
-            <Width>62</Width>
             <OnClickEvent>ToggleCustom14</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>134</X>
                 <Y>159</Y>
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Pulse</Label>
-            <Width>62</Width>
             <OnClickEvent>ToggleCustom5</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>198</X>
                 <Y>159</Y>
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>MiniCash</Label>
-            <Width>62</Width>
             <OnClickEvent>ToggleCustom13</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>66</X>
                 <Y>108</Y>
@@ -338,12 +322,11 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>LVL XP</Label>
-            <Width>62</Width>
             <OnClickEvent>ToggleFloatLevelXP</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>2</X>
                 <Y>108</Y>
@@ -353,12 +336,11 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>RP XP</Label>
-            <Width>62</Width>
             <OnClickEvent>ToggleFloatRealmXP</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>66</X>
                 <Y>125</Y>
@@ -368,12 +350,11 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>CL XP</Label>
-            <Width>62</Width>
             <OnClickEvent>ToggleFloatChampXP</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>2</X>
                 <Y>125</Y>
@@ -383,12 +364,11 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Status</Label>
-            <Width>62</Width>
             <OnClickEvent>ToggleCustom10</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>66</X>
                 <Y>142</Y>
@@ -398,12 +378,11 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Clock</Label>
-            <Width>62</Width>
             <OnClickEvent>ToggleClock</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>2</X>
                 <Y>142</Y>
@@ -413,12 +392,11 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Ping</Label>
-            <Width>62</Width>
             <OnClickEvent>TogglePerformanceMeter</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>66</X>
                 <Y>159</Y>
@@ -428,156 +406,143 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Compass</Label>
-            <Width>62</Width>
             <OnClickEvent>ToggleCompass</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>2</X>
                 <Y>206</Y>
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>CMD</Label>
-            <Width>62</Width>
-            <OnClickEvent></OnClickEvent>
-        </HorizontalResizeButtonDef>
+            <OnClickEvent>ToggleCommandWindow</OnClickEvent>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>66</X>
                 <Y>206</Y>
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>RR/Info</Label>
-            <Width>62</Width>
             <OnClickEvent>ToggleCustom8</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>2</X>
                 <Y>223</Y>
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Friends</Label>
-            <Width>62</Width>
             <OnClickEvent>Friends</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>66</X>
                 <Y>223</Y>
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Social</Label>
-            <Width>62</Width>
             <OnClickEvent>Community</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>2</X>
                 <Y>240</Y>
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Bonuses</Label>
-            <Width>62</Width>
             <OnClickEvent>ToggleBonuses</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>66</X>
                 <Y>240</Y>
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Crafting</Label>
-            <Width>62</Width>
             <OnClickEvent>ToggleCustom9</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>2</X>
                 <Y>257</Y>
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Phoenix</Label>
-            <Width>62</Width>
             <OnClickEvent>ToggleCustom12</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>66</X>
                 <Y>257</Y>
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Menubar</Label>
-            <Width>62</Width>
             <OnClickEvent>ToggleMenuBar</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>134</X>
                 <Y>206</Y>
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Config</Label>
-            <Width>62</Width>
             <OnClickEvent>ShowKeyboardConfig</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>198</X>
                 <Y>206</Y>
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Options</Label>
-            <Width>62</Width>
             <OnClickEvent>ToggleOptions</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>134</X>
                 <Y>223</Y>
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>MasterLvl</Label>
-            <Width>62</Width>
             <OnClickEvent>ToggleMasterLevel</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>198</X>
                 <Y>223</Y>
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Quests</Label>
-            <Width>62</Width>
             <OnClickEvent>Journal</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>66</X>
                 <Y>206</Y>
@@ -587,12 +552,11 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Map</Label>
-            <Width>62</Width>
             <OnClickEvent>ToggleMap</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>2</X>
                 <Y>206</Y>
@@ -602,9 +566,8 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Warmap</Label>
-            <Width>62</Width>
             <OnClickEvent>ShowWarMap</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
         <LabelDef>
@@ -629,7 +592,7 @@
 
         <LabelDef>
             <Position>
-                <X>0</X>
+                <X>136</X>
                 <Y>92</Y>
             </Position>
             <Alignment>
@@ -695,7 +658,7 @@
 
         <LabelDef>
             <Position>
-                <X>137</X>
+                <X>136</X>
                 <Y>190</Y>
             </Position>
             <Alignment>

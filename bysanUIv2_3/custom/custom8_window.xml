@@ -289,7 +289,7 @@
         </TabsDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1000</ControlId>
             <Position>
                 <X>2</X>
@@ -301,9 +301,8 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>OK</Label>
-            <Width>62</Width>
             <OnClickEvent>ToggleCustom8</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
         <!--Resist-->

@@ -146,7 +146,7 @@
         </ListBoxDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1002</ControlId>
             <Position>
                 <X>3</X>
@@ -157,12 +157,11 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Coin</Label>
-            <Width>62</Width>
             <OnClickEvent>HookpointStoreCoin</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1003</ControlId>
             <Position>
                 <X>67</X>
@@ -173,12 +172,11 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>BP</Label>
-            <Width>62</Width>
             <OnClickEvent>HookpointStoreBP</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1000</ControlId>
             <Position>
                 <X>68</X>
@@ -190,12 +188,11 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>GBP</Label>
-            <Width>62</Width>
             <OnClickEvent>HookpointStoreGBP</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1005</ControlId>
             <Position>
                 <X>3</X>
@@ -207,9 +204,8 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Contract</Label>
-            <Width>62</Width>
             <OnClickEvent>HookpointStoreContract</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
         <!--Buy Button-->
@@ -238,7 +234,7 @@
         </LabelDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>3</X>
                 <Y>1</Y>
@@ -249,9 +245,8 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Buy</Label>
-            <Width>62</Width>
             <OnClickEvent>HookpointStoreBuy</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
         <!--Guild Bounty Points-->

@@ -67,7 +67,7 @@
         </LabelDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>0</X>
                 <Y>1</Y>
@@ -78,9 +78,8 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>REPAIR</Label>
-            <Width>62</Width>
             <OnClickEvent>KeepStatusRepair</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
     </WindowTemplate>

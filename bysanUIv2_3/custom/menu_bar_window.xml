@@ -84,7 +84,7 @@
 
         <LabelDef>
             <Position>
-                <X>212</X>
+                <X>194</X>
                 <Y>5</Y>
             </Position>
             <Alignment>
@@ -97,17 +97,17 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont11pxds</FontName>
-            <Width>35</Width>
+            <Width>30</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
-            <Data> C:999</Data>
+            <Data>C:999</Data>
             <Adapter>merchant_copper</Adapter>
         </LabelDef>
 
 
         <LabelDef>
             <Position>
-                <X>160</X>
+                <X>154</X>
                 <Y>5</Y>
             </Position>
             <Alignment>
@@ -120,7 +120,7 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont11pxds</FontName>
-            <Width>35</Width>
+            <Width>30</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
             <Data>S:999</Data>
@@ -130,7 +130,7 @@
 
         <LabelDef>
             <Position>
-                <X>109</X>
+                <X>104</X>
                 <Y>5</Y>
             </Position>
             <Alignment>
@@ -153,7 +153,7 @@
 
         <LabelDef>
             <Position>
-                <X>60</X>
+                <X>57</X>
                 <Y>5</Y>
             </Position>
             <Alignment>
@@ -176,7 +176,7 @@
 
         <LabelDef>
             <Position>
-                <X>18</X>
+                <X>15</X>
                 <Y>5</Y>
             </Position>
             <Alignment>
@@ -189,7 +189,7 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont11pxds</FontName>
-            <Width>35</Width>
+            <Width>30</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
             <Data>M:999</Data>
@@ -199,7 +199,7 @@
 
         <ImageAreaDef>
             <Position>
-                <X>197</X>
+                <X>182</X>
                 <Y>9</Y>
             </Position>
             <Alignment>
@@ -211,7 +211,7 @@
 
         <ImageAreaDef>
             <Position>
-                <X>145</X>
+                <X>142</X>
                 <Y>9</Y>
             </Position>
             <Alignment>
@@ -223,7 +223,7 @@
 
         <ImageAreaDef>
             <Position>
-                <X>94</X>
+                <X>92</X>
                 <Y>9</Y>
             </Position>
             <Alignment>
@@ -250,6 +250,9 @@
                 <X>3</X>
                 <Y>9</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>mithril_decal</TemplateName>
         </ImageAreaDef>
 
@@ -310,7 +313,7 @@
         </LabelDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>3</X>
                 <Y>4</Y>
@@ -318,41 +321,38 @@
             <Alignment>
                 <OffsetRight>true</OffsetRight>
             </Alignment>
-            <TemplateName>_witt_hr_button</TemplateName>
+            <TemplateName>_witt_hr72_button</TemplateName>
             <Label>bysanUI</Label>
-            <Width>70</Width>
             <OnClickEvent>ToggleInterfaceElements</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
-                <X>75</X>
+                <X>77</X>
                 <Y>4</Y>
             </Position>
             <Alignment>
                 <OffsetRight>true</OffsetRight>
             </Alignment>
-            <TemplateName>_witt_hr_button</TemplateName>
+            <TemplateName>_witt_hr72_button</TemplateName>
             <Label>Realm Map</Label>
-            <Width>70</Width>
             <OnClickEvent>ShowWarMap</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
-                <X>147</X>
+                <X>151</X>
                 <Y>4</Y>
             </Position>
             <Alignment>
                 <OffsetRight>true</OffsetRight>
             </Alignment>
-            <TemplateName>_witt_hr_button</TemplateName>
+            <TemplateName>_witt_hr72_button</TemplateName>
             <Label>Map</Label>
-            <Width>70</Width>
             <OnClickEvent>ToggleMap</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
     </WindowTemplate>

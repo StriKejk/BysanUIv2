@@ -6,25 +6,25 @@
 
 
     <EditBoxTemplate>
-        <Name>generic_editbox</Name>
+        <Name>EditBox_NewName</Name>
         <LinePadding>0</LinePadding>
-        <BackgroundTemplate>none</BackgroundTemplate>
+        <BackgroundTemplate>_witt_bg_80</BackgroundTemplate>
         <TextOffset>
             <X>10</X>
             <Y>5</Y>
         </TextOffset>
         <Font>
-            <Name>arial9</Name>
+            <Name>_whatisthisfont11pxds</Name>
             <ColorNormal>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
-                <A>255</A>
-            </ColorNormal>
-            <ColorActive>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorActive>
+                <R>252</R>
+                <G>212</G>
+                <B>10</B>
                 <A>255</A>
             </ColorActive>
         </Font>
@@ -57,8 +57,8 @@
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>5</MinWidth>
-        <MinHeight>5</MinHeight>
+        <MinWidth>200</MinWidth>
+        <MinHeight>39</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
 
@@ -88,11 +88,11 @@
             <AdapterName>RenameChatText</AdapterName>
             <Width>196</Width>
             <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
+            <MaxCharacters>50</MaxCharacters>
         </EditBoxDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>2</X>
                 <Y>0</Y>
@@ -103,12 +103,11 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Submit</Label>
-            <Width>62</Width>
             <OnClickEvent>ChatRenameOK</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>2</X>
                 <Y>0</Y>
@@ -118,9 +117,8 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Cancel</Label>
-            <Width>62</Width>
             <OnClickEvent>ChatRenameCancel</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
     </WindowTemplate>

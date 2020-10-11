@@ -74,7 +74,7 @@
         </LabelDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>20</ControlId>
             <Position>
                 <X>3</X>
@@ -83,14 +83,13 @@
             <Alignment>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <TemplateName>_witt_hr_button</TemplateName>
+            <TemplateName>_witt_hr160_button</TemplateName>
             <Label>Help Window</Label>
-            <Width>160</Width>
             <OnClickEvent>ToggleHelp</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>20</ControlId>
             <Position>
                 <X>3</X>
@@ -99,14 +98,13 @@
             <Alignment>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <TemplateName>_witt_hr_button</TemplateName>
+            <TemplateName>_witt_hr160_button</TemplateName>
             <Label>Interface Elements</Label>
-            <Width>160</Width>
             <OnClickEvent>ToggleInterfaceElements</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>20</ControlId>
             <Position>
                 <X>3</X>
@@ -115,14 +113,13 @@
             <Alignment>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <TemplateName>_witt_hr_button</TemplateName>
+            <TemplateName>_witt_hr160_button</TemplateName>
             <Label>In-Game Options</Label>
-            <Width>160</Width>
             <OnClickEvent>ToggleOptions</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>20</ControlId>
             <Position>
                 <X>3</X>
@@ -131,14 +128,13 @@
             <Alignment>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <TemplateName>_witt_hr_button</TemplateName>
+            <TemplateName>_witt_hr160_button</TemplateName>
             <Label>Configure Keyboard</Label>
-            <Width>160</Width>
             <OnClickEvent>ShowKeyboardConfig</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>20</ControlId>
             <Position>
                 <X>2</X>
@@ -148,11 +144,10 @@
                 <OffsetBottom>true</OffsetBottom>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <TemplateName>_witt_hr_button</TemplateName>
+            <TemplateName>_witt_hr160_button</TemplateName>
             <Label>Quit</Label>
-            <Width>160</Width>
             <OnClickEvent>Quit</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
     </WindowTemplate>

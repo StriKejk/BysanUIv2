@@ -83,26 +83,6 @@
 
         <ScalarLabelDef>
             <Position>
-                <X>49</X>
-                <Y>16</Y>
-            </Position>
-            <FontName>_whatisthisfont2</FontName>
-            <Width>150</Width>
-            <Height>15</Height>
-            <MaxCharacters>999</MaxCharacters>
-            <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </Color>
-            <Adapter>realm_level</Adapter>
-            <Data>L</Data>
-        </ScalarLabelDef>
-
-
-        <ScalarLabelDef>
-            <Position>
                 <X>-5</X>
                 <Y>16</Y>
             </Position>
@@ -121,6 +101,26 @@
             </Color>
             <Adapter>realm_exp_fine</Adapter>
             <Data>%</Data>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>49</X>
+                <Y>16</Y>
+            </Position>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>realm_level</Adapter>
+            <Data>L</Data>
         </ScalarLabelDef>
 
 

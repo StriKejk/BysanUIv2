@@ -128,7 +128,7 @@
         </TreeControlDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1000</ControlId>
             <Position>
                 <X>0</X>
@@ -139,9 +139,8 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Remove</Label>
-            <Width>62</Width>
             <OnClickEvent>RemoveQuest</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
         <HorizontalResizeImageDef>

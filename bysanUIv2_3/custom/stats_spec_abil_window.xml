@@ -127,6 +127,7 @@
             </Position>
             <Alignment>
                 <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
             </Alignment>
             <Width>198</Width>
             <Height>84</Height>

@@ -185,40 +185,36 @@
         <!--repair and hookpoint buttons-->
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1002</ControlId>
             <Position>
-                <X>17</X>
+                <X>3</X>
                 <Y>1</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
-                <OffsetRight>true</OffsetRight>
             </Alignment>
-            <TemplateName>_witt_hr_button</TemplateName>
+            <TemplateName>_witt_hr72_button</TemplateName>
             <Label>Hookpoints</Label>
-            <Width>70</Width>
             <OnClickEvent>KeepStatusHookpoints</OnClickEvent>
-            <LabelIndent>3</LabelIndent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1002</ControlId>
             <Position>
-                <X>17</X>
+                <X>3</X>
                 <Y>1</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
+                <OffsetRight>true</OffsetRight>
             </Alignment>
-            <TemplateName>_witt_hr_button</TemplateName>
+            <TemplateName>_witt_hr72_button</TemplateName>
             <Label>Repair</Label>
-            <Width>70</Width>
             <OnClickEvent>KeepStatusRepair</OnClickEvent>
-            <LabelIndent>16</LabelIndent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
     </WindowTemplate>

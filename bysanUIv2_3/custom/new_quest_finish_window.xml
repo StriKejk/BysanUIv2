@@ -906,10 +906,10 @@
         </IconDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1003</ControlId>
             <Position>
-                <X>76</X>
+                <X>3</X>
                 <Y>1</Y>
             </Position>
             <Alignment>
@@ -918,15 +918,14 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>FINISH</Label>
-            <Width>62</Width>
             <OnClickEvent>NewQuestFinish</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1004</ControlId>
             <Position>
-                <X>76</X>
+                <X>3</X>
                 <Y>1</Y>
             </Position>
             <Alignment>
@@ -934,9 +933,8 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>NOT YET</Label>
-            <Width>62</Width>
             <OnClickEvent>NewQuestContinue</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
     </WindowTemplate>

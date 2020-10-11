@@ -31,7 +31,7 @@
         <!--Left Column Buttons-->
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>0</ControlId>
             <Position>
                 <X>0</X>
@@ -42,12 +42,11 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Attack</Label>
-            <Width>62</Width>
             <OnClickEvent>ToggleAttackMode</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>6</ControlId>
             <Position>
                 <X>0</X>
@@ -58,12 +57,11 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Face</Label>
-            <Width>62</Width>
             <OnClickEvent>Face</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1</ControlId>
             <Position>
                 <X>0</X>
@@ -74,12 +72,11 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Sprint</Label>
-            <Width>62</Width>
             <OnClickEvent>Sprint</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>4</ControlId>
             <Position>
                 <X>0</X>
@@ -90,12 +87,11 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Stick</Label>
-            <Width>62</Width>
             <OnClickEvent>Stick</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>2</ControlId>
             <Position>
                 <X>0</X>
@@ -106,9 +102,8 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Sit</Label>
-            <Width>62</Width>
             <OnClickEvent>ToggleSitting</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
     </WindowTemplate>

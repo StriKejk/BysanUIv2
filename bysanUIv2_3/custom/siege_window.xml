@@ -44,7 +44,7 @@
         </FullResizeImageDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1101</ControlId>
             <Position>
                 <X>142</X>
@@ -55,12 +55,11 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Fire</Label>
-            <Width>62</Width>
             <OnClickEvent>SiegeFire</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1102</ControlId>
             <Position>
                 <X>142</X>
@@ -71,12 +70,11 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Aim</Label>
-            <Width>62</Width>
             <OnClickEvent>SiegeAim</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1100</ControlId>
             <Position>
                 <X>142</X>
@@ -87,12 +85,11 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Move</Label>
-            <Width>62</Width>
             <OnClickEvent>SiegeMove</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1104</ControlId>
             <Position>
                 <X>142</X>
@@ -103,12 +100,11 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Release</Label>
-            <Width>62</Width>
             <OnClickEvent>SiegeRelease</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>142</X>
                 <Y>111</Y>
@@ -118,12 +114,11 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Repair</Label>
-            <Width>62</Width>
             <OnClickEvent>SiegeRepair</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1103</ControlId>
             <Position>
                 <X>142</X>
@@ -134,9 +129,8 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Salvage</Label>
-            <Width>62</Width>
             <OnClickEvent>SiegeSalvage</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
         <LabelDef>

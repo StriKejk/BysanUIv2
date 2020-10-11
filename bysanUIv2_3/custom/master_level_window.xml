@@ -153,9 +153,9 @@
         </LabelDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
-                <X>37</X>
+                <X>3</X>
                 <Y>1</Y>
             </Position>
             <Alignment>
@@ -163,14 +163,13 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Previous</Label>
-            <Width>62</Width>
             <OnClickEvent>MasterLevelPagePrevious</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
-                <X>37</X>
+                <X>3</X>
                 <Y>1</Y>
             </Position>
             <Alignment>
@@ -179,9 +178,8 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Next</Label>
-            <Width>62</Width>
             <OnClickEvent>MasterLevelPageNext</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
     </WindowTemplate>

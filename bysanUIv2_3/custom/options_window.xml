@@ -8,7 +8,7 @@
     <WindowTemplate>
         <Name>options_window</Name>
         <WindowId>Options</WindowId>
-        <CloseButton>true</CloseButton>
+        <CloseButton>false</CloseButton>
         <MoveButton>false</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>
         <BottomRightResizeButton>false</BottomRightResizeButton>
@@ -742,21 +742,33 @@
         </CheckBoxDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1016</ControlId>
             <Position>
-                <X>85</X>
+                <X>3</X>
                 <Y>1</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
-                <CenterHorizontally>true</CenterHorizontally>
+                <OffsetRight>true</OffsetRight>
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>OK</Label>
-            <Width>62</Width>
-            <OnClickEvent></OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>3</X>
+                <Y>1</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>CLOSE</Label>
+            <OnClickEvent>ToggleOptions</OnClickEvent>
+        </ButtonDef>
 
 
         <ComboBoxDef>

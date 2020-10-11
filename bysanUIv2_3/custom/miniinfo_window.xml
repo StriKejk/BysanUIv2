@@ -221,7 +221,7 @@
         </IconDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1100</ControlId>
             <Position>
                 <X>2</X>
@@ -233,12 +233,11 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Info</Label>
-            <Width>62</Width>
             <OnClickEvent>Delve</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1101</ControlId>
             <Position>
                 <X>2</X>
@@ -250,12 +249,11 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Repair</Label>
-            <Width>62</Width>
             <OnClickEvent>Repair</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1102</ControlId>
             <Position>
                 <X>2</X>
@@ -267,12 +265,11 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Craft</Label>
-            <Width>62</Width>
             <OnClickEvent>Craft</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1103</ControlId>
             <Position>
                 <X>2</X>
@@ -283,9 +280,8 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Salvage</Label>
-            <Width>62</Width>
             <OnClickEvent>Salvage</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
         <ListBoxDef>

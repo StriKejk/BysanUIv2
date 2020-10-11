@@ -185,7 +185,7 @@
             <Width>20</Width>
             <ImageOffset>
                 <X>0</X>
-                <Y>0</Y>
+                <Y>-1</Y>
             </ImageOffset>
             <Label></Label>
             <Onclickevent></Onclickevent>
@@ -204,7 +204,7 @@
             <Width>20</Width>
             <ImageOffset>
                 <X>0</X>
-                <Y>0</Y>
+                <Y>-1</Y>
             </ImageOffset>
             <Label></Label>
             <Onclickevent></Onclickevent>

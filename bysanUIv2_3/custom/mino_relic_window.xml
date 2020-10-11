@@ -49,7 +49,7 @@
         <!-- Drop button -->
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1000</ControlId>
             <Position>
                 <X>0</X>
@@ -61,9 +61,8 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>DROP</Label>
-            <Width>62</Width>
             <OnClickEvent>MinoRelicDrop</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
         <!-- Timer bar -->

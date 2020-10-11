@@ -241,7 +241,7 @@
         </ScalarLabelDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <ControlId>1004</ControlId>
             <Position>
                 <X>0</X>
@@ -253,12 +253,11 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Release</Label>
-            <Width>62</Width>
             <OnClickEvent>KeepUpgradeRelease</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>3</X>
                 <Y>1</Y>
@@ -268,12 +267,11 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Cancel</Label>
-            <Width>62</Width>
             <OnClickEvent>KeepUpgradeCancel</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
-        <HorizontalResizeButtonDef>
+        <ButtonDef>
             <Position>
                 <X>3</X>
                 <Y>1</Y>
@@ -284,9 +282,8 @@
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Accept</Label>
-            <Width>62</Width>
             <OnClickEvent>KeepUpgradeAccept</OnClickEvent>
-        </HorizontalResizeButtonDef>
+        </ButtonDef>
 
 
         <ComboBoxDef>
