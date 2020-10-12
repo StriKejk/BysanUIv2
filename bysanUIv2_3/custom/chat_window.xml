@@ -57,30 +57,14 @@
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>312</MinWidth>
-        <MinHeight>120</MinHeight>
+        <MinWidth>350</MinWidth>
+        <MinHeight>200</MinHeight>
         <ContextTemplateName>chat_context</ContextTemplateName>
         <TabName>Main</TabName>
         <TabName>Broad</TabName>
         <TabName>Guild</TabName>
         <TabName>Group</TabName>
         <TabName>Chat</TabName>
-
-
-        <FullResizeImageDef>
-            <ControlId>Background</ControlId>
-            <Position>
-                <X>0</X>
-                <Y>0</Y>
-            </Position>
-            <Alignment>
-                <GrowWidth>true</GrowWidth>
-                <GrowHeight>true</GrowHeight>
-            </Alignment>
-            <TemplateName>none</TemplateName>
-            <Width>350</Width>
-            <Height>200</Height>
-        </FullResizeImageDef>
 
 
         <ChatControlDef>
@@ -90,16 +74,17 @@
                 <Y>14</Y>
             </Position>
             <Alignment>
+                <TopLeft>true</TopLeft>
                 <GrowWidth>true</GrowWidth>
             </Alignment>
             <TemplateName>chat</TemplateName>
-            <LinePadding>1</LinePadding>
+            <LinePadding>0</LinePadding>
             <TextOffset>
-                <X>6</X>
-                <Y>6</Y>
+                <X>3</X>
+                <Y>1</Y>
             </TextOffset>
             <Width>340</Width>
-            <Height>82</Height>
+            <Height>165</Height>
             <BufferName>chat</BufferName>
         </ChatControlDef>
 
@@ -111,21 +96,23 @@
                 <Y>0</Y>
             </Position>
             <Alignment>
+                <TopLeft>true</TopLeft>
                 <GrowWidth>true</GrowWidth>
             </Alignment>
             <TemplateName>_witt_bg_50</TemplateName>
             <Width>345</Width>
-            <Height>16</Height>
+            <Height>18</Height>
         </FullResizeImageDef>
 
 
         <LabelDef>
             <ControlId>1003</ControlId>
             <Position>
-                <X>15</X>
-                <Y>1</Y>
+                <X>3</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
+                <TopLeft>true</TopLeft>
                 <GrowWidth>true</GrowWidth>
             </Alignment>
             <Color>
@@ -135,35 +122,18 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont11pxds</FontName>
-            <Width>337</Width>
-            <Height>16</Height>
+            <Width>342</Width>
+            <Height>18</Height>
             <MaxCharacters>1024</MaxCharacters>
             <Adapter>chat_entry</Adapter>
             <EndAligned>true</EndAligned>
         </LabelDef>
 
 
-        <InvisibleButtonDef>
-            <ControlId>1005</ControlId>
-            <Position>
-                <X>5</X>
-                <Y>16</Y>
-            </Position>
-            <Alignment>
-                <GrowWidth>true</GrowWidth>
-                <GrowHeight>true</GrowHeight>
-            </Alignment>
-            <Label></Label>
-            <OnClickEvent></OnClickEvent>
-            <Width>340</Width>
-            <Height>98</Height>
-        </InvisibleButtonDef>
-
-
         <ButtonDef>
             <ControlId>TwoWayResizeTopRight</ControlId>
             <Position>
-                <X>-1</X>
+                <X>-3</X>
                 <Y>6</Y>
             </Position>
             <Alignment>
@@ -179,6 +149,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <ToolTipID>156</ToolTipID>
             <ImageAreaTemplateName>emote_button</ImageAreaTemplateName>
             <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
@@ -198,6 +171,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <ToolTipID>157</ToolTipID>
             <ImageAreaTemplateName>channel_button</ImageAreaTemplateName>
             <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>

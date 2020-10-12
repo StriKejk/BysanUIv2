@@ -19088,4 +19088,114 @@
     </ButtonTemplate>
 
 
+    <HorizontalResizeButtonTemplate>
+        <Name>_witt_hr2_button</Name>
+        <Height>22</Height>
+        <Font>
+            <Name>_whatisthisfont11pxds</Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorPressed>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorPressed>
+            <ColorHighlit>
+                <R>252</R>
+                <G>212</G>
+                <B>10</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorDisabled>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorDisabled>
+        </Font>
+        <Normal>_witt_hr2_normal</Normal>
+        <Pressed>_witt_hr2_normal</Pressed>
+        <NormalHighlit>_witt_hr2_highlight</NormalHighlit>
+        <PressedHighlit>_witt_hr2_pressed</PressedHighlit>
+        <Disabled>_witt_hr2_normal</Disabled>
+</HorizontalResizeButtonTemplate>
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>_witt_hr2_highlight</Name>
+        <Height>22</Height>
+        <LeftWidth>1</LeftWidth>
+        <RepeatWidth>5</RepeatWidth>
+        <RightWidth>1</RightWidth>
+        <Texture>
+            <TextureName>_whatisthistexture</TextureName>
+            <Left>
+                <X>874</X>
+                <Y>88</Y>
+            </Left>
+            <Repeat>
+                <X>881</X>
+                <Y>88</Y>
+            </Repeat>
+            <Right>
+                <X>893</X>
+                <Y>88</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>_witt_hr2_normal</Name>
+        <Height>22</Height>
+        <LeftWidth>1</LeftWidth>
+        <RepeatWidth>5</RepeatWidth>
+        <RightWidth>1</RightWidth>
+        <Texture>
+            <TextureName>_whatisthistexture</TextureName>
+            <Left>
+                <X>824</X>
+                <Y>88</Y>
+            </Left>
+            <Repeat>
+                <X>831</X>
+                <Y>88</Y>
+            </Repeat>
+            <Right>
+                <X>843</X>
+                <Y>88</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>_witt_hr2_pressed</Name>
+        <Height>22</Height>
+        <LeftWidth>1</LeftWidth>
+        <RepeatWidth>5</RepeatWidth>
+        <RightWidth>1</RightWidth>
+        <Texture>
+            <TextureName>_whatisthistexture</TextureName>
+            <Left>
+                <X>849</X>
+                <Y>88</Y>
+            </Left>
+            <Repeat>
+                <X>856</X>
+                <Y>88</Y>
+            </Repeat>
+            <Right>
+                <X>868</X>
+                <Y>88</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
 </Root_Element>

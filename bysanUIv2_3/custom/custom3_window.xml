@@ -15,9 +15,9 @@
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>120</TitleWidth>
-        <TitleHeight>18</TitleHeight>
-        <Width>70</Width>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>63</Width>
         <Height>123</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
@@ -34,7 +34,7 @@
                 <Y>0</Y>
             </Position>
             <TemplateName>_witt_bg_80</TemplateName>
-            <Width>70</Width>
+            <Width>63</Width>
             <Height>123</Height>
         </FullResizeImageDef>
 

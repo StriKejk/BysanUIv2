@@ -1046,7 +1046,7 @@
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
         <TitleWidth>0</TitleWidth>
         <TitleHeight>0</TitleHeight>
-        <Width>44</Width>
+        <Width>42</Width>
         <Height>175</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
@@ -1064,7 +1064,7 @@
                 <Y>0</Y>
             </Position>
             <TemplateName>_witt_bg_90</TemplateName>
-            <Width>44</Width>
+            <Width>42</Width>
             <Height>175</Height>
         </FullResizeImageDef>
 
@@ -1080,7 +1080,7 @@
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
             <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
-            <Width>38</Width>
+            <Width>36</Width>
             <ImageOffset>
                 <X>19</X>
                 <Y>0</Y>
@@ -1105,7 +1105,7 @@
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
             <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
-            <Width>38</Width>
+            <Width>36</Width>
             <ImageOffset>
                 <X>19</X>
                 <Y>0</Y>
@@ -1130,7 +1130,7 @@
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
             <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
-            <Width>38</Width>
+            <Width>36</Width>
             <ImageOffset>
                 <X>19</X>
                 <Y>0</Y>
@@ -1155,7 +1155,7 @@
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
             <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
-            <Width>38</Width>
+            <Width>36</Width>
             <ImageOffset>
                 <X>19</X>
                 <Y>0</Y>
@@ -1180,7 +1180,7 @@
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
             <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
-            <Width>38</Width>
+            <Width>36</Width>
             <ImageOffset>
                 <X>19</X>
                 <Y>0</Y>
@@ -1205,7 +1205,7 @@
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
             <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
-            <Width>38</Width>
+            <Width>36</Width>
             <ImageOffset>
                 <X>19</X>
                 <Y>0</Y>
@@ -1230,7 +1230,7 @@
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
             <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
-            <Width>38</Width>
+            <Width>36</Width>
             <ImageOffset>
                 <X>19</X>
                 <Y>0</Y>
@@ -1255,7 +1255,7 @@
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
             <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
-            <Width>38</Width>
+            <Width>36</Width>
             <ImageOffset>
                 <X>19</X>
                 <Y>0</Y>
@@ -1280,7 +1280,7 @@
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
             <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
-            <Width>38</Width>
+            <Width>36</Width>
             <ImageOffset>
                 <X>19</X>
                 <Y>0</Y>
@@ -1305,7 +1305,7 @@
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
             <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
-            <Width>38</Width>
+            <Width>36</Width>
             <ImageOffset>
                 <X>19</X>
                 <Y>0</Y>
@@ -1337,7 +1337,7 @@
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
         <TitleWidth>0</TitleWidth>
         <TitleHeight>0</TitleHeight>
-        <Width>114</Width>
+        <Width>98</Width>
         <Height>141</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
@@ -1355,7 +1355,7 @@
                 <Y>0</Y>
             </Position>
             <TemplateName>_witt_bg_80</TemplateName>
-            <Width>114</Width>
+            <Width>98</Width>
             <Height>141</Height>
         </FullResizeImageDef>
 
@@ -1371,9 +1371,9 @@
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
             <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
-            <Width>108</Width>
+            <Width>92</Width>
             <ImageOffset>
-                <X>94</X>
+                <X>78</X>
                 <Y>0</Y>
             </ImageOffset>
             <Label>None</Label>
@@ -1396,9 +1396,9 @@
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
             <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
-            <Width>108</Width>
+            <Width>92</Width>
             <ImageOffset>
-                <X>94</X>
+                <X>78</X>
                 <Y>0</Y>
             </ImageOffset>
             <Label>Say</Label>
@@ -1421,9 +1421,9 @@
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
             <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
-            <Width>108</Width>
+            <Width>92</Width>
             <ImageOffset>
-                <X>94</X>
+                <X>78</X>
                 <Y>0</Y>
             </ImageOffset>
             <Label>Group</Label>
@@ -1446,9 +1446,9 @@
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
             <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
-            <Width>108</Width>
+            <Width>92</Width>
             <ImageOffset>
-                <X>94</X>
+                <X>78</X>
                 <Y>0</Y>
             </ImageOffset>
             <Label>Guild</Label>
@@ -1471,9 +1471,9 @@
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
             <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
-            <Width>108</Width>
+            <Width>92</Width>
             <ImageOffset>
-                <X>94</X>
+                <X>78</X>
                 <Y>0</Y>
             </ImageOffset>
             <Label>Officer</Label>
@@ -1496,9 +1496,9 @@
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
             <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
-            <Width>108</Width>
+            <Width>92</Width>
             <ImageOffset>
-                <X>94</X>
+                <X>78</X>
                 <Y>0</Y>
             </ImageOffset>
             <Label>Alliance</Label>
@@ -1521,9 +1521,9 @@
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
             <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
-            <Width>108</Width>
+            <Width>92</Width>
             <ImageOffset>
-                <X>94</X>
+                <X>78</X>
                 <Y>0</Y>
             </ImageOffset>
             <Label>Chat Group</Label>
@@ -1546,9 +1546,9 @@
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
             <HRButtonTemplateName>_witt_hr_button</HRButtonTemplateName>
-            <Width>108</Width>
+            <Width>92</Width>
             <ImageOffset>
-                <X>94</X>
+                <X>78</X>
                 <Y>0</Y>
             </ImageOffset>
             <Label>Battle Group</Label>
