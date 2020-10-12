@@ -9,22 +9,22 @@
         <Name>interact</Name>
         <WindowId>Interact</WindowId>
         <CloseButton>true</CloseButton>
-        <MoveButton>false</MoveButton>
+        <MoveButton>true</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>
         <BottomRightResizeButton>true</BottomRightResizeButton>
-        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <BottomLeftResizeButton>true</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>384</TitleWidth>
-        <TitleHeight>20</TitleHeight>
-        <Width>384</Width>
-        <Height>320</Height>
+        <TitleWidth>374</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>374</Width>
+        <Height>300</Height>
         <ResizeableWidth>5</ResizeableWidth>
         <ResizeableHeight>5</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>80</MinWidth>
-        <MinHeight>80</MinHeight>
+        <MinWidth>120</MinWidth>
+        <MinHeight>120</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
 
@@ -39,8 +39,8 @@
                 <GrowHeight>true</GrowHeight>
             </Alignment>
             <TemplateName>_witt_bg_80</TemplateName>
-            <Width>384</Width>
-            <Height>320</Height>
+            <Width>374</Width>
+            <Height>300</Height>
         </FullResizeImageDef>
 
 
@@ -55,19 +55,20 @@
                 <GrowHeight>true</GrowHeight>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <TemplateName>_witt_textarea_80</TemplateName>
+            <TemplateName>_witt_textarea_bg</TemplateName>
             <AdapterName>interact_text</AdapterName>
             <HasHotspots>true</HasHotspots>
+            <HotspotDelineator></HotspotDelineator>
             <MaxCharacters>32768</MaxCharacters>
-            <Width>374</Width>
-            <Height>295</Height>
+            <Width>364</Width>
+            <Height>275</Height>
         </TextAreaDef>
 
 
         <LabelDef>
             <Position>
                 <X>0</X>
-                <Y>5</Y>
+                <Y>4</Y>
             </Position>
             <Alignment>
                 <CenterHorizontally>true</CenterHorizontally>
@@ -78,8 +79,8 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>_whatisthisfont2</FontName>
-            <Width>384</Width>
+            <FontName>arial11</FontName>
+            <Width>256</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
             <Data>update me!</Data>

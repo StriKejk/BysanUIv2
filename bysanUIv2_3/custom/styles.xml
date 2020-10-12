@@ -17489,19 +17489,19 @@
         <ScrollbarTemplate>_witt_scroll_nobutton</ScrollbarTemplate>
         <LinePadding>0</LinePadding>
         <TextOffset>
-            <X>3</X>
-            <Y>0</Y>
+            <X>6</X>
+            <Y>5</Y>
         </TextOffset>
         <ScrollbarOffset>
             <X>0</X>
-            <Y>0</Y>
+            <Y>3</Y>
         </ScrollbarOffset>
         <ScrollbarSizeOffset>
             <X>0</X>
             <Y>0</Y>
         </ScrollbarSizeOffset>
         <Font>
-            <Name>_whatisthisfont11pxds</Name>
+            <Name>_whatisthisfont2</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
