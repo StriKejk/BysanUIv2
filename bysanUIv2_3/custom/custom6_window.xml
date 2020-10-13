@@ -137,10 +137,6 @@
             <AdapterName>mini_pet_effect1</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
-            <LabelAdapterName></LabelAdapterName>
-            <HideLabel>1</HideLabel>
         </IconDef>
 
 
@@ -156,10 +152,6 @@
             <AdapterName>mini_pet_effect2</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
-            <LabelAdapterName></LabelAdapterName>
-            <HideLabel>1</HideLabel>
         </IconDef>
 
 
@@ -175,10 +167,6 @@
             <AdapterName>mini_pet_effect3</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
-            <LabelAdapterName></LabelAdapterName>
-            <HideLabel>1</HideLabel>
         </IconDef>
 
 
@@ -194,10 +182,6 @@
             <AdapterName>mini_pet_effect4</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
-            <LabelAdapterName></LabelAdapterName>
-            <HideLabel>1</HideLabel>
         </IconDef>
 
 
@@ -213,17 +197,13 @@
             <AdapterName>mini_pet_effect5</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
-            <LabelAdapterName></LabelAdapterName>
-            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <ButtonDef>
             <ControlId>1007</ControlId>
             <Position>
-                <X>0</X>
+                <X>22</X>
                 <Y>52</Y>
             </Position>
             <Alignment>
@@ -237,7 +217,7 @@
         <ButtonDef>
             <ControlId>1008</ControlId>
             <Position>
-                <X>183</X>
+                <X>206</X>
                 <Y>52</Y>
             </Position>
             <Alignment>
@@ -251,7 +231,7 @@
         <CheckBoxDef>
             <ControlId>1000</ControlId>
             <Position>
-                <X>26</X>
+                <X>48</X>
                 <Y>52</Y>
             </Position>
             <Alignment>
@@ -269,7 +249,7 @@
         <CheckBoxDef>
             <ControlId>1001</ControlId>
             <Position>
-                <X>47</X>
+                <X>69</X>
                 <Y>52</Y>
             </Position>
             <Alignment>
@@ -287,7 +267,7 @@
         <CheckBoxDef>
             <ControlId>1002</ControlId>
             <Position>
-                <X>68</X>
+                <X>90</X>
                 <Y>52</Y>
             </Position>
             <Alignment>
@@ -305,7 +285,7 @@
         <CheckBoxDef>
             <ControlId>1003</ControlId>
             <Position>
-                <X>94</X>
+                <X>116</X>
                 <Y>52</Y>
             </Position>
             <Alignment>
@@ -323,7 +303,7 @@
         <CheckBoxDef>
             <ControlId>1004</ControlId>
             <Position>
-                <X>115</X>
+                <X>137</X>
                 <Y>52</Y>
             </Position>
             <Alignment>
@@ -341,7 +321,7 @@
         <CheckBoxDef>
             <ControlId>1005</ControlId>
             <Position>
-                <X>136</X>
+                <X>158</X>
                 <Y>52</Y>
             </Position>
             <Alignment>
@@ -359,7 +339,7 @@
         <CheckBoxDef>
             <ControlId>1006</ControlId>
             <Position>
-                <X>157</X>
+                <X>179</X>
                 <Y>52</Y>
             </Position>
             <Alignment>
