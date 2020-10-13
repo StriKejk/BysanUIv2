@@ -118,10 +118,6 @@
             <AdapterName>mini_pet_effect0</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
-            <LabelAdapterName></LabelAdapterName>
-            <HideLabel>1</HideLabel>
         </IconDef>
 
 
@@ -203,7 +199,7 @@
         <ButtonDef>
             <ControlId>1007</ControlId>
             <Position>
-                <X>22</X>
+                <X>1</X>
                 <Y>52</Y>
             </Position>
             <Alignment>
@@ -217,7 +213,7 @@
         <ButtonDef>
             <ControlId>1008</ControlId>
             <Position>
-                <X>206</X>
+                <X>184</X>
                 <Y>52</Y>
             </Position>
             <Alignment>
@@ -231,7 +227,7 @@
         <CheckBoxDef>
             <ControlId>1000</ControlId>
             <Position>
-                <X>48</X>
+                <X>27</X>
                 <Y>52</Y>
             </Position>
             <Alignment>
@@ -242,14 +238,14 @@
             <TextAdapterName></TextAdapterName>
             <Data>Aggro</Data>
             <LabelWidth>16</LabelWidth>
-            <OnClickEvent></OnClickEvent>
+            <OnClickEvent>PetSetCombatState</OnClickEvent>
         </CheckBoxDef>
 
 
         <CheckBoxDef>
             <ControlId>1001</ControlId>
             <Position>
-                <X>69</X>
+                <X>48</X>
                 <Y>52</Y>
             </Position>
             <Alignment>
@@ -260,14 +256,14 @@
             <TextAdapterName></TextAdapterName>
             <Data>Defense</Data>
             <LabelWidth>16</LabelWidth>
-            <OnClickEvent></OnClickEvent>
+            <OnClickEvent>PetSetCombatState</OnClickEvent>
         </CheckBoxDef>
 
 
         <CheckBoxDef>
             <ControlId>1002</ControlId>
             <Position>
-                <X>90</X>
+                <X>69</X>
                 <Y>52</Y>
             </Position>
             <Alignment>
@@ -278,14 +274,14 @@
             <TextAdapterName></TextAdapterName>
             <Data>Passive</Data>
             <LabelWidth>16</LabelWidth>
-            <OnClickEvent></OnClickEvent>
+            <OnClickEvent>PetSetCombatState</OnClickEvent>
         </CheckBoxDef>
 
 
         <CheckBoxDef>
             <ControlId>1003</ControlId>
             <Position>
-                <X>116</X>
+                <X>95</X>
                 <Y>52</Y>
             </Position>
             <Alignment>
@@ -296,7 +292,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>Fo</Data>
             <LabelWidth>16</LabelWidth>
-            <OnClickEvent></OnClickEvent>
+            <OnClickEvent>PetSetMoveState</OnClickEvent>
         </CheckBoxDef>
 
 
@@ -314,7 +310,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>St</Data>
             <LabelWidth>16</LabelWidth>
-            <OnClickEvent></OnClickEvent>
+            <OnClickEvent>PetSetMoveState</OnClickEvent>
         </CheckBoxDef>
 
 
@@ -332,14 +328,14 @@
             <TextAdapterName></TextAdapterName>
             <Data>Go2</Data>
             <LabelWidth>16</LabelWidth>
-            <OnClickEvent></OnClickEvent>
+            <OnClickEvent>PetSetMoveState</OnClickEvent>
         </CheckBoxDef>
 
 
         <CheckBoxDef>
             <ControlId>1006</ControlId>
             <Position>
-                <X>179</X>
+                <X>116</X>
                 <Y>52</Y>
             </Position>
             <Alignment>
@@ -350,7 +346,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>He</Data>
             <LabelWidth>16</LabelWidth>
-            <OnClickEvent></OnClickEvent>
+            <OnClickEvent>PetSetMoveState</OnClickEvent>
         </CheckBoxDef>
 
 

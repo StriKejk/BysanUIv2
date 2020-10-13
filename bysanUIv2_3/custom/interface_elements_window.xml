@@ -219,8 +219,8 @@
                 <Y>159</Y>
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
-            <Label>Necropet</Label>
-            <OnClickEvent>ToggleCustom6</OnClickEvent>
+            <Label>Pet</Label>
+            <OnClickEvent>ToggleMiniPet</OnClickEvent>
         </ButtonDef>
 
 
@@ -407,20 +407,6 @@
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Compass</Label>
             <OnClickEvent>ToggleCompass</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>2</X>
-                <Y>159</Y>
-            </Position>
-            <Alignment>
-                <OffsetRight>true</OffsetRight>
-            </Alignment>
-            <TemplateName>_witt_hr_button</TemplateName>
-            <Label>MiniPet</Label>
-            <OnClickEvent>ToggleMiniPet</OnClickEvent>
         </ButtonDef>
 
 
