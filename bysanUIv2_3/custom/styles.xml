@@ -3084,7 +3084,7 @@
             <X>32</X>
             <Y>32</Y>
         </Size>
-        <FontName>arial11</FontName>
+        <FontName>_whatisthisfont11pxds</FontName>
         <FontColor>
             <R>255</R>
             <G>255</G>
@@ -3101,7 +3101,7 @@
             <X>16</X>
             <Y>16</Y>
         </Size>
-        <FontName>none</FontName>
+        <FontName>_whatisthisfont11pxds</FontName>
         <FontColor>
             <R>255</R>
             <G>255</G>
@@ -15278,15 +15278,15 @@
             </Pressed>
             <NormalHighlit>
                 <X>817</X>
-                <Y>957</Y>
+                <Y>992</Y>
             </NormalHighlit>
             <PressedHighlit>
                 <X>817</X>
                 <Y>992</Y>
             </PressedHighlit>
             <Disabled>
-                <X>752</X>
-                <Y>958</Y>
+                <X>748</X>
+                <Y>957</Y>
             </Disabled>
         </Texture>
     </CheckBoxTemplate>
@@ -15349,11 +15349,11 @@
             </NormalHighlit>
             <PressedHighlit>
                 <X>922</X>
-                <Y>957</Y>
+                <Y>992</Y>
             </PressedHighlit>
             <Disabled>
-                <X>752</X>
-                <Y>958</Y>
+                <X>748</X>
+                <Y>957</Y>
             </Disabled>
         </Texture>
     </CheckBoxTemplate>
@@ -15416,7 +15416,7 @@
             </NormalHighlit>
             <PressedHighlit>
                 <X>992</X>
-                <Y>957</Y>
+                <Y>992</Y>
             </PressedHighlit>
             <Disabled>
                 <X>748</X>
@@ -15483,7 +15483,7 @@
             </NormalHighlit>
             <PressedHighlit>
                 <X>887</X>
-                <Y>957</Y>
+                <Y>992</Y>
             </PressedHighlit>
             <Disabled>
                 <X>748</X>
@@ -15546,15 +15546,15 @@
             </Pressed>
             <NormalHighlit>
                 <X>852</X>
-                <Y>957</Y>
+                <Y>992</Y>
             </NormalHighlit>
             <PressedHighlit>
                 <X>852</X>
                 <Y>992</Y>
             </PressedHighlit>
             <Disabled>
-                <X>751</X>
-                <Y>958</Y>
+                <X>748</X>
+                <Y>957</Y>
             </Disabled>
         </Texture>
     </CheckBoxTemplate>
@@ -15613,15 +15613,15 @@
             </Pressed>
             <NormalHighlit>
                 <X>782</X>
-                <Y>957</Y>
+                <Y>992</Y>
             </NormalHighlit>
             <PressedHighlit>
                 <X>782</X>
                 <Y>992</Y>
             </PressedHighlit>
             <Disabled>
-                <X>752</X>
-                <Y>958</Y>
+                <X>748</X>
+                <Y>957</Y>
             </Disabled>
         </Texture>
     </CheckBoxTemplate>
@@ -15680,15 +15680,15 @@
             </Pressed>
             <NormalHighlit>
                 <X>957</X>
-                <Y>957</Y>
+                <Y>992</Y>
             </NormalHighlit>
             <PressedHighlit>
                 <X>957</X>
                 <Y>992</Y>
             </PressedHighlit>
             <Disabled>
-                <X>752</X>
-                <Y>958</Y>
+                <X>748</X>
+                <Y>957</Y>
             </Disabled>
         </Texture>
     </CheckBoxTemplate>
@@ -15818,14 +15818,14 @@
             </Pressed>
             <NormalHighlit>
                 <X>782</X>
-                <Y>957</Y>
+                <Y>992</Y>
             </NormalHighlit>
             <PressedHighlit>
                 <X>782</X>
                 <Y>992</Y>
             </PressedHighlit>
             <Disabled>
-                <X>749</X>
+                <X>748</X>
                 <Y>957</Y>
             </Disabled>
         </Texture>
@@ -16581,8 +16581,8 @@
         <ScrollbarTemplate>_witt_scroll_nobutton</ScrollbarTemplate>
         <LinePadding>0</LinePadding>
         <TextOffset>
-            <X>6</X>
-            <Y>5</Y>
+            <X>3</X>
+            <Y>0</Y>
         </TextOffset>
         <ScrollbarOffset>
             <X>0</X>
@@ -17313,7 +17313,7 @@
         <BackgroundTemplate>_witt_bg_80</BackgroundTemplate>
         <TextOffset>
             <X>3</X>
-            <Y>1</Y>
+            <Y>0</Y>
         </TextOffset>
         <Font>
             <Name>_whatisthisfont3</Name>
@@ -17501,7 +17501,7 @@
             <Y>0</Y>
         </ScrollbarSizeOffset>
         <Font>
-            <Name>_whatisthisfont11pxds</Name>
+            <Name>_whatisthisfont3</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -17524,12 +17524,12 @@
         <ScrollbarTemplate>_witt_scroll_nobutton</ScrollbarTemplate>
         <LinePadding>0</LinePadding>
         <TextOffset>
-            <X>6</X>
-            <Y>5</Y>
+            <X>3</X>
+            <Y>0</Y>
         </TextOffset>
         <ScrollbarOffset>
             <X>0</X>
-            <Y>3</Y>
+            <Y>0</Y>
         </ScrollbarOffset>
         <ScrollbarSizeOffset>
             <X>0</X>

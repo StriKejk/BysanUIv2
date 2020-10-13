@@ -220,7 +220,7 @@
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Necropet</Label>
-            <OnClickEvent>ToggleCustom15</OnClickEvent>
+            <OnClickEvent>ToggleCustom6</OnClickEvent>
         </ButtonDef>
 
 
@@ -419,7 +419,7 @@
                 <OffsetRight>true</OffsetRight>
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
-            <Label>Pet</Label>
+            <Label>MiniPet</Label>
             <OnClickEvent>ToggleMiniPet</OnClickEvent>
         </ButtonDef>
 

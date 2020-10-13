@@ -17,8 +17,8 @@
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
         <TitleWidth>0</TitleWidth>
         <TitleHeight>0</TitleHeight>
-        <Width>187</Width>
-        <Height>48</Height>
+        <Width>240</Width>
+        <Height>68</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
@@ -30,31 +30,31 @@
 
         <StatusBarDef>
             <Position>
-                <X>1</X>
-                <Y>1</Y>
+                <X>0</X>
+                <Y>21</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_statusbar_medium_red</TemplateName>
+            <TemplateName>_witt_statusbar_mediumbig_red</TemplateName>
             <AdapterName>mini_pet_life</AdapterName>
-            <Width>187</Width>
+            <Width>240</Width>
         </StatusBarDef>
 
 
         <ScalarLabelDef>
             <ControlId>pet life percentage</ControlId>
             <Position>
-                <X>8</X>
-                <Y>-7</Y>
+                <X>0</X>
+                <Y>26</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>_whatisthisfont2</FontName>
-            <Width>100</Width>
-            <Height>25</Height>
-            <MaxCharacters>999</MaxCharacters>
+            <FontName>_whatisthisfont14pxst</FontName>
+            <Width>48</Width>
+            <Height>20</Height>
+            <MaxCharacters>4</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
@@ -62,14 +62,17 @@
                 <A>255</A>
             </Color>
             <Adapter>mini_pet_life</Adapter>
+            <TextCentered>true</TextCentered>
             <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <EndAligned>true</EndAligned>
         </ScalarLabelDef>
 
 
         <LabelDef>
             <Position>
-                <X>30</X>
-                <Y>-7</Y>
+                <X>0</X>
+                <Y>26</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -77,11 +80,13 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>_whatisthisfont2</FontName>
-            <Width>160</Width>
-            <Height>16</Height>
+            <FontName>_whatisthisfont14pxst</FontName>
+            <Width>240</Width>
+            <Height>20</Height>
             <MaxCharacters>64</MaxCharacters>
             <Adapter>mini_pet_title</Adapter>
+            <TextCentered>true</TextCentered>
+            <EndAligned>true</EndAligned>
         </LabelDef>
 
 
@@ -96,15 +101,15 @@
             </Alignment>
             <Label></Label>
             <OnClickEvent>PetTarget</OnClickEvent>
-            <Width>186</Width>
-            <Height>11</Height>
+            <Width>240</Width>
+            <Height>47</Height>
         </InvisibleButtonDef>
 
 
         <IconDef>
             <Position>
-                <X>39</X>
-                <Y>32</Y>
+                <X>0</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -113,13 +118,17 @@
             <AdapterName>mini_pet_effect0</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <IconDef>
             <Position>
-                <X>58</X>
-                <Y>32</Y>
+                <X>21</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -128,13 +137,17 @@
             <AdapterName>mini_pet_effect1</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <IconDef>
             <Position>
-                <X>77</X>
-                <Y>32</Y>
+                <X>42</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -143,13 +156,17 @@
             <AdapterName>mini_pet_effect2</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <IconDef>
             <Position>
-                <X>96</X>
-                <Y>32</Y>
+                <X>63</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -158,13 +175,17 @@
             <AdapterName>mini_pet_effect3</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <IconDef>
             <Position>
-                <X>115</X>
-                <Y>32</Y>
+                <X>84</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -173,13 +194,17 @@
             <AdapterName>mini_pet_effect4</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <IconDef>
             <Position>
-                <X>134</X>
-                <Y>32</Y>
+                <X>105</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -188,14 +213,18 @@
             <AdapterName>mini_pet_effect5</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <ButtonDef>
             <ControlId>1007</ControlId>
             <Position>
-                <X>6</X>
-                <Y>13</Y>
+                <X>0</X>
+                <Y>52</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -208,8 +237,8 @@
         <ButtonDef>
             <ControlId>1008</ControlId>
             <Position>
-                <X>24</X>
-                <Y>13</Y>
+                <X>183</X>
+                <Y>52</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -222,8 +251,8 @@
         <CheckBoxDef>
             <ControlId>1000</ControlId>
             <Position>
-                <X>48</X>
-                <Y>13</Y>
+                <X>26</X>
+                <Y>52</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -240,8 +269,8 @@
         <CheckBoxDef>
             <ControlId>1001</ControlId>
             <Position>
-                <X>67</X>
-                <Y>13</Y>
+                <X>47</X>
+                <Y>52</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -258,8 +287,8 @@
         <CheckBoxDef>
             <ControlId>1002</ControlId>
             <Position>
-                <X>86</X>
-                <Y>13</Y>
+                <X>68</X>
+                <Y>52</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -276,8 +305,8 @@
         <CheckBoxDef>
             <ControlId>1003</ControlId>
             <Position>
-                <X>110</X>
-                <Y>13</Y>
+                <X>94</X>
+                <Y>52</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -294,8 +323,8 @@
         <CheckBoxDef>
             <ControlId>1004</ControlId>
             <Position>
-                <X>148</X>
-                <Y>13</Y>
+                <X>115</X>
+                <Y>52</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -312,8 +341,8 @@
         <CheckBoxDef>
             <ControlId>1005</ControlId>
             <Position>
-                <X>167</X>
-                <Y>13</Y>
+                <X>136</X>
+                <Y>52</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -330,8 +359,8 @@
         <CheckBoxDef>
             <ControlId>1006</ControlId>
             <Position>
-                <X>129</X>
-                <Y>13</Y>
+                <X>157</X>
+                <Y>52</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>

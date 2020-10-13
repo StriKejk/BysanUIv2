@@ -63,6 +63,7 @@
             </Color>
             <Adapter>mini_pet_life</Adapter>
             <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
 
 
