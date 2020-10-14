@@ -16830,8 +16830,8 @@
             </ColorNormal>
             <ColorPressed>
                 <R>255</R>
-                <G>215</G>
-                <B>32</B>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
@@ -16855,15 +16855,15 @@
             </Normal>
             <Pressed>
                 <X>848</X>
-                <Y>5</Y>
+                <Y>25</Y>
             </Pressed>
             <NormalHighlit>
                 <X>848</X>
-                <Y>5</Y>
+                <Y>25</Y>
             </NormalHighlit>
             <PressedHighlit>
                 <X>848</X>
-                <Y>5</Y>
+                <Y>25</Y>
             </PressedHighlit>
             <Disabled>
                 <X>737</X>
@@ -17556,8 +17556,8 @@
     <ComboBoxTemplate>
         <Name>_witt_combo2</Name>
         <Menuoffset>
-            <X>1</X>
-            <Y>1</Y>
+            <X>0</X>
+            <Y>0</Y>
         </Menuoffset>
         <DownButtonTemplate>none</DownButtonTemplate>
         <LabelButtonTemplate>_witt_combo_label</LabelButtonTemplate>
@@ -17589,11 +17589,11 @@
             <TextureName>_whatisthistexture</TextureName>
             <Normal>
                 <X>824</X>
-                <Y>67</Y>
+                <Y>47</Y>
             </Normal>
             <Highlit>
                 <X>824</X>
-                <Y>47</Y>
+                <Y>67</Y>
             </Highlit>
         </Texture>
         <ScrollbarTemplate>_witt_scroll_nobutton</ScrollbarTemplate>
