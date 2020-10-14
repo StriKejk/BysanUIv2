@@ -124,8 +124,8 @@
                 <Y>1</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
+                <OffsetRight>true</OffsetRight>
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Set Title</Label>
@@ -140,7 +140,6 @@
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
-                <OffsetRight>true</OffsetRight>
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>OK</Label>

@@ -750,7 +750,6 @@
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
-                <OffsetRight>true</OffsetRight>
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>OK</Label>
@@ -764,6 +763,7 @@
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
+                <OffsetRight>true</OffsetRight>
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>CLOSE</Label>

@@ -8,7 +8,7 @@
     <WindowTemplate>
         <Name>custom8_window</Name>
         <WindowId>custom8_window</WindowId>
-        <CloseButton>true</CloseButton>
+        <CloseButton>false</CloseButton>
         <MoveButton>false</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>
         <BottomRightResizeButton>false</BottomRightResizeButton>
@@ -300,7 +300,7 @@
                 <OffsetRight>true</OffsetRight>
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
-            <Label>OK</Label>
+            <Label>CLOSE</Label>
             <OnClickEvent>ToggleCustom8</OnClickEvent>
         </ButtonDef>
 

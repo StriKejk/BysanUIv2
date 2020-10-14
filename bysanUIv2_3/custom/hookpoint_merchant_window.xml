@@ -214,11 +214,12 @@
         <LabelDef>
             <ControlId>1001</ControlId>
             <Position>
-                <X>7</X>
-                <Y>278</Y>
+                <X>0</X>
+                <Y>2</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
+                <OffsetRight>true</OffsetRight>
             </Alignment>
             <Color>
                 <R>255</R>
@@ -227,10 +228,11 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont3</FontName>
-            <Width>300</Width>
+            <Width>100</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
             <Data>Buy with &lt;type&gt;</Data>
+            <EndAligned>true</EndAligned>
         </LabelDef>
 
 
@@ -241,7 +243,6 @@
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
-                <OffsetRight>true</OffsetRight>
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Buy</Label>

@@ -264,6 +264,7 @@
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
+                <OffsetRight>true</OffsetRight>
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Cancel</Label>
@@ -278,7 +279,6 @@
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
-                <OffsetRight>true</OffsetRight>
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Accept</Label>

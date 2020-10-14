@@ -8,7 +8,7 @@
     <WindowTemplate>
         <Name>help</Name>
         <WindowId>Help</WindowId>
-        <CloseButton>true</CloseButton>
+        <CloseButton>false</CloseButton>
         <MoveButton>false</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>
         <BottomRightResizeButton>true</BottomRightResizeButton>
@@ -129,7 +129,7 @@
                 <OffsetRight>true</OffsetRight>
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
-            <Label>OK</Label>
+            <Label>CLOSE</Label>
         </ButtonDef>
 
 

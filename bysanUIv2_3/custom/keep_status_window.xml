@@ -186,13 +186,13 @@
 
 
         <ButtonDef>
-            <ControlId>1002</ControlId>
             <Position>
                 <X>3</X>
                 <Y>1</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
+                <OffsetRight>true</OffsetRight>
             </Alignment>
             <TemplateName>_witt_hr72_button</TemplateName>
             <Label>Hookpoints</Label>
@@ -201,7 +201,6 @@
 
 
         <ButtonDef>
-            <ControlId>1002</ControlId>
             <Position>
                 <X>3</X>
                 <Y>1</Y>
@@ -209,7 +208,6 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
-                <OffsetRight>true</OffsetRight>
             </Alignment>
             <TemplateName>_witt_hr72_button</TemplateName>
             <Label>Repair</Label>

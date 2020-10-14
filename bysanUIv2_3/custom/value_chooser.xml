@@ -18,7 +18,7 @@
         <TitleWidth>129</TitleWidth>
         <TitleHeight>18</TitleHeight>
         <Width>129</Width>
-        <Height>48</Height>
+        <Height>50</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
@@ -116,11 +116,10 @@
         <ButtonDef>
             <Position>
                 <X>2</X>
-                <Y>-2</Y>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
-                <OffsetRight>true</OffsetRight>
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Accept</Label>
@@ -131,11 +130,11 @@
         <ButtonDef>
             <Position>
                 <X>2</X>
-                <Y>-2</Y>
+                <Y>0</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
+                <OffsetRight>true</OffsetRight>
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Cancel</Label>
