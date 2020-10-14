@@ -189,52 +189,13 @@
 
         <StatusIconDef>
             <Position>
-                <X>35</X>
-                <Y>16</Y>
+                <X>0</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_statuseffects_diz</TemplateName>
-            <AdapterName>group_status0</AdapterName>
-        </StatusIconDef>
-
-
-        <StatusIconDef>
-            <Position>
-                <X>35</X>
-                <Y>16</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_witt_statuseffects_mez</TemplateName>
-            <AdapterName>group_status0</AdapterName>
-        </StatusIconDef>
-
-
-        <StatusIconDef>
-            <Position>
-                <X>35</X>
-                <Y>16</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_witt_statuseffects_ns</TemplateName>
-            <AdapterName>group_status0</AdapterName>
-        </StatusIconDef>
-
-
-        <StatusIconDef>
-            <Position>
-                <X>35</X>
-                <Y>16</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_witt_statuseffects_psn</TemplateName>
+            <TemplateName>_witt_statuseffects_all</TemplateName>
             <AdapterName>group_status0</AdapterName>
         </StatusIconDef>
 
@@ -410,52 +371,13 @@
 
         <StatusIconDef>
             <Position>
-                <X>129</X>
-                <Y>16</Y>
+                <X>94</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_statuseffects_diz</TemplateName>
-            <AdapterName>group_status1</AdapterName>
-        </StatusIconDef>
-
-
-        <StatusIconDef>
-            <Position>
-                <X>129</X>
-                <Y>16</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_witt_statuseffects_mez</TemplateName>
-            <AdapterName>group_status1</AdapterName>
-        </StatusIconDef>
-
-
-        <StatusIconDef>
-            <Position>
-                <X>129</X>
-                <Y>16</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_witt_statuseffects_ns</TemplateName>
-            <AdapterName>group_status1</AdapterName>
-        </StatusIconDef>
-
-
-        <StatusIconDef>
-            <Position>
-                <X>129</X>
-                <Y>16</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_witt_statuseffects_psn</TemplateName>
+            <TemplateName>_witt_statuseffects_all</TemplateName>
             <AdapterName>group_status1</AdapterName>
         </StatusIconDef>
 
@@ -631,52 +553,13 @@
 
         <StatusIconDef>
             <Position>
-                <X>223</X>
-                <Y>16</Y>
+                <X>188</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_statuseffects_mez</TemplateName>
-            <AdapterName>group_status2</AdapterName>
-        </StatusIconDef>
-
-
-        <StatusIconDef>
-            <Position>
-                <X>223</X>
-                <Y>16</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_witt_statuseffects_diz</TemplateName>
-            <AdapterName>group_status2</AdapterName>
-        </StatusIconDef>
-
-
-        <StatusIconDef>
-            <Position>
-                <X>223</X>
-                <Y>16</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_witt_statuseffects_ns</TemplateName>
-            <AdapterName>group_status2</AdapterName>
-        </StatusIconDef>
-
-
-        <StatusIconDef>
-            <Position>
-                <X>223</X>
-                <Y>16</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_witt_statuseffects_psn</TemplateName>
+            <TemplateName>_witt_statuseffects_all</TemplateName>
             <AdapterName>group_status2</AdapterName>
         </StatusIconDef>
 
@@ -852,52 +735,13 @@
 
         <StatusIconDef>
             <Position>
-                <X>317</X>
-                <Y>16</Y>
+                <X>282</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_statuseffects_diz</TemplateName>
-            <AdapterName>group_status3</AdapterName>
-        </StatusIconDef>
-
-
-        <StatusIconDef>
-            <Position>
-                <X>317</X>
-                <Y>16</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_witt_statuseffects_mez</TemplateName>
-            <AdapterName>group_status3</AdapterName>
-        </StatusIconDef>
-
-
-        <StatusIconDef>
-            <Position>
-                <X>317</X>
-                <Y>16</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_witt_statuseffects_ns</TemplateName>
-            <AdapterName>group_status3</AdapterName>
-        </StatusIconDef>
-
-
-        <StatusIconDef>
-            <Position>
-                <X>317</X>
-                <Y>16</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_witt_statuseffects_psn</TemplateName>
+            <TemplateName>_witt_statuseffects_all</TemplateName>
             <AdapterName>group_status3</AdapterName>
         </StatusIconDef>
 
@@ -1073,56 +917,14 @@
 
         <StatusIconDef>
             <Position>
-                <X>35</X>
-                <Y>16</Y>
+                <X>0</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <TemplateName>_witt_statuseffects_diz</TemplateName>
-            <AdapterName>group_status4</AdapterName>
-        </StatusIconDef>
-
-
-        <StatusIconDef>
-            <Position>
-                <X>35</X>
-                <Y>16</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-                <OffsetBottom>true</OffsetBottom>
-            </Alignment>
-            <TemplateName>_witt_statuseffects_mez</TemplateName>
-            <AdapterName>group_status4</AdapterName>
-        </StatusIconDef>
-
-
-        <StatusIconDef>
-            <Position>
-                <X>35</X>
-                <Y>16</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-                <OffsetBottom>true</OffsetBottom>
-            </Alignment>
-            <TemplateName>_witt_statuseffects_ns</TemplateName>
-            <AdapterName>group_status4</AdapterName>
-        </StatusIconDef>
-
-
-        <StatusIconDef>
-            <Position>
-                <X>35</X>
-                <Y>16</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-                <OffsetBottom>true</OffsetBottom>
-            </Alignment>
-            <TemplateName>_witt_statuseffects_psn</TemplateName>
+            <TemplateName>_witt_statuseffects_all</TemplateName>
             <AdapterName>group_status4</AdapterName>
         </StatusIconDef>
 
@@ -1298,56 +1100,14 @@
 
         <StatusIconDef>
             <Position>
-                <X>129</X>
-                <Y>16</Y>
+                <X>94</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <TemplateName>_witt_statuseffects_diz</TemplateName>
-            <AdapterName>group_status5</AdapterName>
-        </StatusIconDef>
-
-
-        <StatusIconDef>
-            <Position>
-                <X>129</X>
-                <Y>16</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-                <OffsetBottom>true</OffsetBottom>
-            </Alignment>
-            <TemplateName>_witt_statuseffects_mez</TemplateName>
-            <AdapterName>group_status5</AdapterName>
-        </StatusIconDef>
-
-
-        <StatusIconDef>
-            <Position>
-                <X>129</X>
-                <Y>16</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-                <OffsetBottom>true</OffsetBottom>
-            </Alignment>
-            <TemplateName>_witt_statuseffects_ns</TemplateName>
-            <AdapterName>group_status5</AdapterName>
-        </StatusIconDef>
-
-
-        <StatusIconDef>
-            <Position>
-                <X>129</X>
-                <Y>16</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-                <OffsetBottom>true</OffsetBottom>
-            </Alignment>
-            <TemplateName>_witt_statuseffects_psn</TemplateName>
+            <TemplateName>_witt_statuseffects_all</TemplateName>
             <AdapterName>group_status5</AdapterName>
         </StatusIconDef>
 
@@ -1523,56 +1283,14 @@
 
         <StatusIconDef>
             <Position>
-                <X>223</X>
-                <Y>16</Y>
+                <X>188</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <TemplateName>_witt_statuseffects_diz</TemplateName>
-            <AdapterName>group_status6</AdapterName>
-        </StatusIconDef>
-
-
-        <StatusIconDef>
-            <Position>
-                <X>223</X>
-                <Y>16</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-                <OffsetBottom>true</OffsetBottom>
-            </Alignment>
-            <TemplateName>_witt_statuseffects_mez</TemplateName>
-            <AdapterName>group_status6</AdapterName>
-        </StatusIconDef>
-
-
-        <StatusIconDef>
-            <Position>
-                <X>223</X>
-                <Y>16</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-                <OffsetBottom>true</OffsetBottom>
-            </Alignment>
-            <TemplateName>_witt_statuseffects_ns</TemplateName>
-            <AdapterName>group_status6</AdapterName>
-        </StatusIconDef>
-
-
-        <StatusIconDef>
-            <Position>
-                <X>223</X>
-                <Y>16</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-                <OffsetBottom>true</OffsetBottom>
-            </Alignment>
-            <TemplateName>_witt_statuseffects_psn</TemplateName>
+            <TemplateName>_witt_statuseffects_all</TemplateName>
             <AdapterName>group_status6</AdapterName>
         </StatusIconDef>
 
@@ -1748,56 +1466,14 @@
 
         <StatusIconDef>
             <Position>
-                <X>317</X>
-                <Y>16</Y>
+                <X>282</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <TemplateName>_witt_statuseffects_diz</TemplateName>
-            <AdapterName>group_status7</AdapterName>
-        </StatusIconDef>
-
-
-        <StatusIconDef>
-            <Position>
-                <X>317</X>
-                <Y>16</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-                <OffsetBottom>true</OffsetBottom>
-            </Alignment>
-            <TemplateName>_witt_statuseffects_mez</TemplateName>
-            <AdapterName>group_status7</AdapterName>
-        </StatusIconDef>
-
-
-        <StatusIconDef>
-            <Position>
-                <X>317</X>
-                <Y>16</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-                <OffsetBottom>true</OffsetBottom>
-            </Alignment>
-            <TemplateName>_witt_statuseffects_ns</TemplateName>
-            <AdapterName>group_status7</AdapterName>
-        </StatusIconDef>
-
-
-        <StatusIconDef>
-            <Position>
-                <X>317</X>
-                <Y>16</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-                <OffsetBottom>true</OffsetBottom>
-            </Alignment>
-            <TemplateName>_witt_statuseffects_psn</TemplateName>
+            <TemplateName>_witt_statuseffects_all</TemplateName>
             <AdapterName>group_status7</AdapterName>
         </StatusIconDef>
 

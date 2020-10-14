@@ -665,4 +665,10 @@
     </Texture>
 
 
+    <Texture>
+        <Name>_whatisthisstatuseffects2</Name>
+        <File>custom/Assets/Textures/whatisthisstatuseffects2.tga</File>
+    </Texture>
+
+
 </Root_Element>
