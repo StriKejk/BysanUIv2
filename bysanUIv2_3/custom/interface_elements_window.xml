@@ -731,7 +731,7 @@
             <Width>395</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
-            <Data>Version 0.4 of bysanUI v2. Expect things to not work.</Data>
+            <Data>Beta 0.4 of BysanUI v2 edit by StriKejk. Expect things to not work.</Data>
             <TextCentered>true</TextCentered>
         </LabelDef>
 
