@@ -921,7 +921,6 @@
                 <Y>0</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_witt_statuseffects_all</TemplateName>
@@ -1104,7 +1103,6 @@
                 <Y>0</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_witt_statuseffects_all</TemplateName>
@@ -1120,19 +1118,6 @@
             <TemplateName>_witt_hh_standard_buttons</TemplateName>
             <OnClickEvent>SelectGroupMember5</OnClickEvent>
         </ButtonDef>
-
-
-        <StatusIconDef>
-            <Position>
-                <X>188</X>
-                <Y>47</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_witt_hh_standard</TemplateName>
-            <AdapterName>group_health6</AdapterName>
-        </StatusIconDef>
 
 
         <LabelDef>
@@ -1181,6 +1166,19 @@
             <DontDrawWhenZero>true</DontDrawWhenZero>
             <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>188</X>
+                <Y>47</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_hh_standard</TemplateName>
+            <AdapterName>group_health6</AdapterName>
+        </StatusIconDef>
 
 
         <LabelDef>
@@ -1287,7 +1285,6 @@
                 <Y>0</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_witt_statuseffects_all</TemplateName>
@@ -1470,7 +1467,6 @@
                 <Y>0</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_witt_statuseffects_all</TemplateName>
