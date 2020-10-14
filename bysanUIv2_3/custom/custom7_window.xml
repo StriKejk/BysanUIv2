@@ -205,6 +205,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>_witt_hh_standard_buttons</TemplateName>
             <OnClickEvent>SelectGroupMember0</OnClickEvent>
         </ButtonDef>
@@ -387,6 +390,9 @@
                 <X>94</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>_witt_hh_standard_buttons</TemplateName>
             <OnClickEvent>SelectGroupMember1</OnClickEvent>
         </ButtonDef>
@@ -569,6 +575,9 @@
                 <X>188</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>_witt_hh_standard_buttons</TemplateName>
             <OnClickEvent>SelectGroupMember2</OnClickEvent>
         </ButtonDef>
@@ -751,6 +760,9 @@
                 <X>282</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>_witt_hh_standard_buttons</TemplateName>
             <OnClickEvent>SelectGroupMember3</OnClickEvent>
         </ButtonDef>
@@ -918,10 +930,10 @@
         <StatusIconDef>
             <Position>
                 <X>0</X>
-                <Y>0</Y>
+                <Y>47</Y>
             </Position>
             <Alignment>
-                <OffsetBottom>true</OffsetBottom>
+                <TopLeft>true</TopLeft>
             </Alignment>
             <TemplateName>_witt_statuseffects_all</TemplateName>
             <AdapterName>group_status4</AdapterName>
@@ -933,6 +945,9 @@
                 <X>0</X>
                 <Y>47</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>_witt_hh_standard_buttons</TemplateName>
             <OnClickEvent>SelectGroupMember4</OnClickEvent>
         </ButtonDef>
@@ -1100,10 +1115,10 @@
         <StatusIconDef>
             <Position>
                 <X>94</X>
-                <Y>0</Y>
+                <Y>47</Y>
             </Position>
             <Alignment>
-                <OffsetBottom>true</OffsetBottom>
+                <TopLeft>true</TopLeft>
             </Alignment>
             <TemplateName>_witt_statuseffects_all</TemplateName>
             <AdapterName>group_status5</AdapterName>
@@ -1115,6 +1130,9 @@
                 <X>94</X>
                 <Y>47</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>_witt_hh_standard_buttons</TemplateName>
             <OnClickEvent>SelectGroupMember5</OnClickEvent>
         </ButtonDef>
@@ -1282,10 +1300,10 @@
         <StatusIconDef>
             <Position>
                 <X>188</X>
-                <Y>0</Y>
+                <Y>47</Y>
             </Position>
             <Alignment>
-                <OffsetBottom>true</OffsetBottom>
+                <TopLeft>true</TopLeft>
             </Alignment>
             <TemplateName>_witt_statuseffects_all</TemplateName>
             <AdapterName>group_status6</AdapterName>
@@ -1297,6 +1315,9 @@
                 <X>188</X>
                 <Y>47</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>_witt_hh_standard_buttons</TemplateName>
             <OnClickEvent>SelectGroupMember6</OnClickEvent>
         </ButtonDef>
@@ -1464,10 +1485,10 @@
         <StatusIconDef>
             <Position>
                 <X>282</X>
-                <Y>0</Y>
+                <Y>47</Y>
             </Position>
             <Alignment>
-                <OffsetBottom>true</OffsetBottom>
+                <TopLeft>true</TopLeft>
             </Alignment>
             <TemplateName>_witt_statuseffects_all</TemplateName>
             <AdapterName>group_status7</AdapterName>
@@ -1479,6 +1500,9 @@
                 <X>282</X>
                 <Y>47</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>_witt_hh_standard_buttons</TemplateName>
             <OnClickEvent>SelectGroupMember7</OnClickEvent>
         </ButtonDef>
