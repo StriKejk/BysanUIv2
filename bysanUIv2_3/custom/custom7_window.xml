@@ -921,7 +921,6 @@
                 <Y>0</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_witt_statuseffects_all</TemplateName>
@@ -1104,7 +1103,6 @@
                 <Y>0</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_witt_statuseffects_all</TemplateName>
@@ -1287,7 +1285,6 @@
                 <Y>0</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_witt_statuseffects_all</TemplateName>
@@ -1470,7 +1467,6 @@
                 <Y>0</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_witt_statuseffects_all</TemplateName>
