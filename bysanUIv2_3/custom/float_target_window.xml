@@ -85,7 +85,7 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont14pxst</FontName>
-            <Width>200</Width>
+            <Width>160</Width>
             <Height>20</Height>
             <MaxCharacters>64</MaxCharacters>
             <ColorAdapter>summary_target_color</ColorAdapter>
