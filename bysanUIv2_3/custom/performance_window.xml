@@ -73,8 +73,8 @@
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
         <TitleWidth>0</TitleWidth>
         <TitleHeight>0</TitleHeight>
-        <Width>95</Width>
-        <Height>15</Height>
+        <Width>82</Width>
+        <Height>16</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
@@ -104,6 +104,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>performance_icon_large</TemplateName>
             <AdapterName>performance_meter</AdapterName>
         </StatusIconDef>
@@ -112,11 +115,11 @@
         <StatusIconDef>
             <ControlId>1001</ControlId>
             <Position>
-                <X>0</X>
+                <X>30</X>
                 <Y>0</Y>
             </Position>
             <Alignment>
-                <CenterHorizontally>true</CenterHorizontally>
+                <TopLeft>true</TopLeft>
             </Alignment>
             <TemplateName>lag_icon_large</TemplateName>
             <AdapterName>lag_meter</AdapterName>
@@ -126,11 +129,11 @@
         <StatusIconDef>
             <ControlId>1002</ControlId>
             <Position>
-                <X>0</X>
+                <X>60</X>
                 <Y>0</Y>
             </Position>
             <Alignment>
-                <OffsetRight>true</OffsetRight>
+                <TopLeft>true</TopLeft>
             </Alignment>
             <TemplateName>framerate_icon_large</TemplateName>
             <AdapterName>framerate_meter</AdapterName>
@@ -157,11 +160,11 @@
         <StatusIconDef>
             <ControlId>2001</ControlId>
             <Position>
-                <X>0</X>
+                <X>30</X>
                 <Y>0</Y>
             </Position>
             <Alignment>
-                <CenterHorizontally>true</CenterHorizontally>
+                <TopLeft>true</TopLeft>
             </Alignment>
             <TemplateName>lag_icon_large</TemplateName>
             <AdapterName>lag_meter</AdapterName>
@@ -171,11 +174,11 @@
         <StatusIconDef>
             <ControlId>2002</ControlId>
             <Position>
-                <X>0</X>
+                <X>60</X>
                 <Y>0</Y>
             </Position>
             <Alignment>
-                <OffsetRight>true</OffsetRight>
+                <TopLeft>true</TopLeft>
             </Alignment>
             <TemplateName>framerate_icon_large</TemplateName>
             <AdapterName>framerate_meter</AdapterName>
@@ -189,8 +192,8 @@
             </Position>
             <Label></Label>
             <OnClickEvent>Relic</OnClickEvent>
-            <Width>95</Width>
-            <Height>15</Height>
+            <Width>82</Width>
+            <Height>16</Height>
         </InvisibleButtonDef>
 
 
