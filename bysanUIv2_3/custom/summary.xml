@@ -344,7 +344,6 @@
             <Height>14</Height>
             <MaxCharacters>64</MaxCharacters>
             <Adapter>stats_name</Adapter>
-            <TextCentered>true</TextCentered>
         </LabelDef>
 
 
@@ -368,7 +367,6 @@
             <MaxCharacters>64</MaxCharacters>
             <ColorAdapter>summary_target_color</ColorAdapter>
             <Adapter>summary_target</Adapter>
-            <TextCentered>true</TextCentered>
         </LabelDef>
 
 
