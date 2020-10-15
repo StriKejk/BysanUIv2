@@ -65,7 +65,6 @@
             <TextCentered>true</TextCentered>
             <DontDrawWhenZero>true</DontDrawWhenZero>
             <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
-            <EndAligned>true</EndAligned>
         </ScalarLabelDef>
 
 
@@ -74,6 +73,9 @@
                 <X>0</X>
                 <Y>26</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Color>
                 <R>255</R>
                 <G>255</G>
@@ -86,7 +88,6 @@
             <MaxCharacters>64</MaxCharacters>
             <Adapter>mini_pet_title</Adapter>
             <TextCentered>true</TextCentered>
-            <EndAligned>true</EndAligned>
         </LabelDef>
 
 
@@ -118,6 +119,10 @@
             <AdapterName>mini_pet_effect0</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
@@ -133,6 +138,10 @@
             <AdapterName>mini_pet_effect1</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
@@ -148,6 +157,10 @@
             <AdapterName>mini_pet_effect2</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
@@ -163,6 +176,10 @@
             <AdapterName>mini_pet_effect3</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
@@ -178,6 +195,10 @@
             <AdapterName>mini_pet_effect4</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
@@ -193,6 +214,10 @@
             <AdapterName>mini_pet_effect5</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
