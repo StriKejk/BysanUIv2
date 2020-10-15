@@ -72,7 +72,7 @@
 
         <LabelDef>
             <Position>
-                <X>0</X>
+                <X>40</X>
                 <Y>5</Y>
             </Position>
             <Alignment>
@@ -85,7 +85,7 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont14pxst</FontName>
-            <Width>240</Width>
+            <Width>200</Width>
             <Height>20</Height>
             <MaxCharacters>64</MaxCharacters>
             <ColorAdapter>summary_target_color</ColorAdapter>
@@ -103,7 +103,7 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <FontName>_whatisthisfont14pxst</FontName>
-            <Width>48</Width>
+            <Width>40</Width>
             <Height>20</Height>
             <MaxCharacters>4</MaxCharacters>
             <Color>

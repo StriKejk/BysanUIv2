@@ -338,7 +338,6 @@
 
 
         <ButtonDef>
-            <ControlId>2010</ControlId>
             <Position>
                 <X>43</X>
                 <Y>3</Y>
@@ -353,7 +352,6 @@
 
 
         <ButtonDef>
-            <ControlId>2011</ControlId>
             <Position>
                 <X>173</X>
                 <Y>3</Y>
@@ -368,7 +366,6 @@
 
 
         <ButtonDef>
-            <ControlId>2012</ControlId>
             <Position>
                 <X>238</X>
                 <Y>3</Y>
@@ -377,8 +374,8 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
-            <Label>Teleport</Label>
-            <OnClickEvent>WarmapTeleportRequest</OnClickEvent>
+            <Label>Close</Label>
+            <OnClickEvent>ShowWarMap</OnClickEvent>
         </ButtonDef>
 
 

@@ -506,7 +506,6 @@
 
 
         <ButtonDef>
-            <ControlId>2011</ControlId>
             <Position>
                 <X>165</X>
                 <Y>256</Y>
@@ -521,7 +520,6 @@
 
 
         <ButtonDef>
-            <ControlId>2012</ControlId>
             <Position>
                 <X>228</X>
                 <Y>256</Y>
@@ -550,7 +548,6 @@
 
 
         <ButtonDef>
-            <ControlId>2012</ControlId>
             <Position>
                 <X>228</X>
                 <Y>273</Y>
