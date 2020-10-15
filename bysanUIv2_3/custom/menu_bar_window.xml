@@ -43,8 +43,8 @@
         <StatusIconDef>
             <ControlId>2000</ControlId>
             <Position>
-                <X>234</X>
-                <Y>4</Y>
+                <X>230</X>
+                <Y>5</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -57,8 +57,8 @@
         <StatusIconDef>
             <ControlId>2001</ControlId>
             <Position>
-                <X>264</X>
-                <Y>4</Y>
+                <X>260</X>
+                <Y>5</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -71,8 +71,8 @@
         <StatusIconDef>
             <ControlId>2002</ControlId>
             <Position>
-                <X>294</X>
-                <Y>4</Y>
+                <X>290</X>
+                <Y>5</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
