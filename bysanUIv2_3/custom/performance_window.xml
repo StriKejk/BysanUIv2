@@ -101,8 +101,8 @@
         <StatusIconDef>
             <ControlId>1000</ControlId>
             <Position>
-                <X>2</X>
-                <Y>-1</Y>
+                <X>0</X>
+                <Y>0</Y>
             </Position>
             <TemplateName>performance_icon_large</TemplateName>
             <AdapterName>performance_meter</AdapterName>
@@ -112,9 +112,12 @@
         <StatusIconDef>
             <ControlId>1001</ControlId>
             <Position>
-                <X>33</X>
-                <Y>-1</Y>
+                <X>0</X>
+                <Y>0</Y>
             </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
             <TemplateName>lag_icon_large</TemplateName>
             <AdapterName>lag_meter</AdapterName>
         </StatusIconDef>
@@ -123,9 +126,12 @@
         <StatusIconDef>
             <ControlId>1002</ControlId>
             <Position>
-                <X>69</X>
-                <Y>-1</Y>
+                <X>0</X>
+                <Y>0</Y>
             </Position>
+            <Alignment>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
             <TemplateName>framerate_icon_large</TemplateName>
             <AdapterName>framerate_meter</AdapterName>
         </StatusIconDef>
@@ -137,9 +143,12 @@
         <StatusIconDef>
             <ControlId>2000</ControlId>
             <Position>
-                <X>2</X>
-                <Y>-1</Y>
+                <X>0</X>
+                <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>performance_icon_large</TemplateName>
             <AdapterName>performance_meter</AdapterName>
         </StatusIconDef>
@@ -148,9 +157,12 @@
         <StatusIconDef>
             <ControlId>2001</ControlId>
             <Position>
-                <X>31</X>
-                <Y>-1</Y>
+                <X>0</X>
+                <Y>0</Y>
             </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
             <TemplateName>lag_icon_large</TemplateName>
             <AdapterName>lag_meter</AdapterName>
         </StatusIconDef>
@@ -159,9 +171,12 @@
         <StatusIconDef>
             <ControlId>2002</ControlId>
             <Position>
-                <X>61</X>
-                <Y>-1</Y>
+                <X>0</X>
+                <Y>0</Y>
             </Position>
+            <Alignment>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
             <TemplateName>framerate_icon_large</TemplateName>
             <AdapterName>framerate_meter</AdapterName>
         </StatusIconDef>
