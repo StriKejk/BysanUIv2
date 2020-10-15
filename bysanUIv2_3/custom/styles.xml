@@ -16648,23 +16648,23 @@
 
     <HorizontalResizeImageTemplate>
         <Name>_witt_statusbar_medium_bg</Name>
-        <Height>10</Height>
+        <Height>13</Height>
         <LeftWidth>1</LeftWidth>
-        <RepeatWidth>5</RepeatWidth>
+        <RepeatWidth>4</RepeatWidth>
         <RightWidth>1</RightWidth>
         <Texture>
             <TextureName>_whatisthistexture</TextureName>
             <Left>
-                <X>0</X>
-                <Y>0</Y>
+                <X>43</X>
+                <Y>29</Y>
             </Left>
             <Repeat>
-                <X>6</X>
+                <X>44</X>
                 <Y>29</Y>
             </Repeat>
             <Right>
-                <X>0</X>
-                <Y>0</Y>
+                <X>48</X>
+                <Y>29</Y>
             </Right>
         </Texture>
     </HorizontalResizeImageTemplate>
@@ -16672,22 +16672,22 @@
 
     <HorizontalResizeImageTemplate>
         <Name>_witt_statusbar_medium_greenfg</Name>
-        <Height>10</Height>
+        <Height>13</Height>
         <LeftWidth>1</LeftWidth>
-        <RepeatWidth>5</RepeatWidth>
+        <RepeatWidth>4</RepeatWidth>
         <RightWidth>1</RightWidth>
         <Texture>
             <TextureName>_whatisthistexture</TextureName>
             <Left>
-                <X>0</X>
+                <X>74</X>
                 <Y>0</Y>
             </Left>
             <Repeat>
-                <X>11</X>
+                <X>87</X>
                 <Y>0</Y>
             </Repeat>
             <Right>
-                <X>0</X>
+                <X>74</X>
                 <Y>0</Y>
             </Right>
         </Texture>
@@ -16698,7 +16698,7 @@
         <Name>_witt_statusbar_medium_green</Name>
         <ForegroundHResizeTemplate>_witt_statusbar_medium_greenfg</ForegroundHResizeTemplate>
         <BackgroundHResizeTemplate>_witt_statusbar_medium_bg</BackgroundHResizeTemplate>
-        <Height>10</Height>
+        <Height>13</Height>
         <ForegroundOffset>
             <X>0</X>
             <Y>0</Y>
@@ -16744,22 +16744,22 @@
 
     <HorizontalResizeImageTemplate>
         <Name>_witt_statusbar_medium_yellowfg</Name>
-        <Height>10</Height>
+        <Height>13</Height>
         <LeftWidth>1</LeftWidth>
-        <RepeatWidth>5</RepeatWidth>
+        <RepeatWidth>4</RepeatWidth>
         <RightWidth>1</RightWidth>
         <Texture>
             <TextureName>_whatisthistexture</TextureName>
             <Left>
-                <X>0</X>
+                <X>74</X>
                 <Y>0</Y>
             </Left>
             <Repeat>
-                <X>26</X>
+                <X>83</X>
                 <Y>0</Y>
             </Repeat>
             <Right>
-                <X>0</X>
+                <X>74</X>
                 <Y>0</Y>
             </Right>
         </Texture>
@@ -16770,7 +16770,7 @@
         <Name>_witt_statusbar_medium_yellow</Name>
         <ForegroundHResizeTemplate>_witt_statusbar_medium_yellowfg</ForegroundHResizeTemplate>
         <BackgroundHResizeTemplate>_witt_statusbar_medium_bg</BackgroundHResizeTemplate>
-        <Height>10</Height>
+        <Height>13</Height>
         <ForegroundOffset>
             <X>0</X>
             <Y>0</Y>

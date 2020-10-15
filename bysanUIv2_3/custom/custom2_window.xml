@@ -18,7 +18,7 @@
         <TitleWidth>0</TitleWidth>
         <TitleHeight>0</TitleHeight>
         <Width>240</Width>
-        <Height>10</Height>
+        <Height>13</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
@@ -48,11 +48,11 @@
         <ScalarLabelDef>
             <Position>
                 <X>0</X>
-                <Y>-1</Y>
+                <Y>0</Y>
             </Position>
             <FontName>_whatisthisfont2</FontName>
-            <Width>48</Width>
-            <Height>20</Height>
+            <Width>40</Width>
+            <Height>13</Height>
             <MaxCharacters>4</MaxCharacters>
             <Color>
                 <R>255</R>
@@ -62,7 +62,6 @@
             </Color>
             <Adapter>summary_player_power</Adapter>
             <TextCentered>true</TextCentered>
-            <EndAligned>true</EndAligned>
         </ScalarLabelDef>
 
 

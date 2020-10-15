@@ -44,7 +44,7 @@
             <ControlId>2000</ControlId>
             <Position>
                 <X>230</X>
-                <Y>5</Y>
+                <Y>4</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -58,7 +58,7 @@
             <ControlId>2001</ControlId>
             <Position>
                 <X>260</X>
-                <Y>5</Y>
+                <Y>4</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -72,7 +72,7 @@
             <ControlId>2002</ControlId>
             <Position>
                 <X>290</X>
-                <Y>5</Y>
+                <Y>4</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
