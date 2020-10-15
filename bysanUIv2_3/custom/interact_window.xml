@@ -99,7 +99,7 @@
             <TemplateName>_witt_textarea_80</TemplateName>
             <AdapterName>interact_text</AdapterName>
             <HasHotspots>true</HasHotspots>
-            <HotspotDelineator></HotspotDelineator>
+            <HotspotDelineator>0</HotspotDelineator>
             <MaxCharacters>32768</MaxCharacters>
             <Width>370</Width>
             <Height>296</Height>
