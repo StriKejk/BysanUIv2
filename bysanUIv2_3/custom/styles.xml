@@ -15027,22 +15027,22 @@
 
     <VerticalResizeImageTemplate>
         <Name>_witt_vscroll_gutter</Name>
-        <Width>6</Width>
-        <TopHeight>1</TopHeight>
-        <RepeatHeight>14</RepeatHeight>
-        <BottomHeight>1</BottomHeight>
+        <Width>8</Width>
+        <TopHeight>2</TopHeight>
+        <RepeatHeight>16</RepeatHeight>
+        <BottomHeight>2</BottomHeight>
         <Texture>
             <TextureName>_whatisthistexture</TextureName>
             <Top>
-                <X>989</X>
-                <Y>934</Y>
+                <X>988</X>
+                <Y>933</Y>
             </Top>
             <Repeat>
-                <X>989</X>
-                <Y>936</Y>
+                <X>988</X>
+                <Y>935</Y>
             </Repeat>
             <Bottom>
-                <X>989</X>
+                <X>988</X>
                 <Y>951</Y>
             </Bottom>
         </Texture>
@@ -15051,22 +15051,22 @@
 
     <VerticalResizeImageTemplate>
         <Name>_witt_vscroll_thumb</Name>
-        <Width>4</Width>
-        <TopHeight>1</TopHeight>
+        <Width>6</Width>
+        <TopHeight>2</TopHeight>
         <RepeatHeight>14</RepeatHeight>
-        <BottomHeight>1</BottomHeight>
+        <BottomHeight>2</BottomHeight>
         <Texture>
             <TextureName>_whatisthistexture</TextureName>
             <Top>
-                <X>884</X>
-                <Y>934</Y>
+                <X>883</X>
+                <Y>933</Y>
             </Top>
             <Repeat>
-                <X>884</X>
+                <X>883</X>
                 <Y>936</Y>
             </Repeat>
             <Bottom>
-                <X>884</X>
+                <X>883</X>
                 <Y>951</Y>
             </Bottom>
         </Texture>
@@ -15075,22 +15075,22 @@
 
     <VerticalResizeImageTemplate>
         <Name>_witt_vscroll_thumb_white</Name>
-        <Width>4</Width>
-        <TopHeight>1</TopHeight>
+        <Width>6</Width>
+        <TopHeight>2</TopHeight>
         <RepeatHeight>14</RepeatHeight>
-        <BottomHeight>1</BottomHeight>
+        <BottomHeight>2</BottomHeight>
         <Texture>
             <TextureName>_whatisthistexture</TextureName>
             <Top>
-                <X>863</X>
-                <Y>934</Y>
+                <X>862</X>
+                <Y>933</Y>
             </Top>
             <Repeat>
-                <X>863</X>
+                <X>862</X>
                 <Y>936</Y>
             </Repeat>
             <Bottom>
-                <X>863</X>
+                <X>862</X>
                 <Y>951</Y>
             </Bottom>
         </Texture>
@@ -15103,7 +15103,7 @@
         <DownButtonTemplate>none</DownButtonTemplate>
         <ThumbVResizeTemplate>_witt_vscroll_thumb</ThumbVResizeTemplate>
         <GutterVResizeTemplate>_witt_vscroll_gutter</GutterVResizeTemplate>
-        <Width>6</Width>
+        <Width>8</Width>
         <UpButtonOffset>
             <X>0</X>
             <Y>0</Y>
@@ -15129,7 +15129,7 @@
         <DownButtonTemplate>none</DownButtonTemplate>
         <ThumbVResizeTemplate>_witt_vscroll_thumb_white</ThumbVResizeTemplate>
         <GutterVResizeTemplate>_witt_vscroll_gutter</GutterVResizeTemplate>
-        <Width>6</Width>
+        <Width>8</Width>
         <UpButtonOffset>
             <X>0</X>
             <Y>0</Y>
@@ -15155,14 +15155,14 @@
         <DownButtonTemplate>_witt_scroll_down</DownButtonTemplate>
         <ThumbVResizeTemplate>_witt_vscroll_thumb</ThumbVResizeTemplate>
         <GutterVResizeTemplate>_witt_vscroll_gutter</GutterVResizeTemplate>
-        <Width>6</Width>
+        <Width>8</Width>
         <UpButtonOffset>
-            <X>0</X>
-            <Y>-7</Y>
+            <X>-1</X>
+            <Y>-8</Y>
         </UpButtonOffset>
         <DownButtonOffset>
-            <X>0</X>
-            <Y>-7</Y>
+            <X>-1</X>
+            <Y>-8</Y>
         </DownButtonOffset>
         <ThumbOffset>
             <X>1</X>
@@ -15697,8 +15697,8 @@
     <ButtonTemplate>
         <Name>_witt_scroll_up</Name>
         <Size>
-            <X>7</X>
-            <Y>6</Y>
+            <X>9</X>
+            <Y>8</Y>
         </Size>
         <Font>
             <Name></Name>
@@ -15730,20 +15730,20 @@
         <Texture>
             <TextureName>_whatisthistexture</TextureName>
             <Normal>
-                <X>947</X>
-                <Y>938</Y>
+                <X>946</X>
+                <Y>937</Y>
             </Normal>
             <Pressed>
-                <X>947</X>
-                <Y>938</Y>
+                <X>946</X>
+                <Y>937</Y>
             </Pressed>
             <NormalHighlit>
-                <X>821</X>
-                <Y>938</Y>
+                <X>820</X>
+                <Y>937</Y>
             </NormalHighlit>
             <PressedHighlit>
-                <X>779</X>
-                <Y>938</Y>
+                <X>778</X>
+                <Y>937</Y>
             </PressedHighlit>
             <Disabled>
                 <X>760</X>
@@ -16388,7 +16388,7 @@
         <Name>_witt_vslider_nobutton</Name>
         <ImageAreaTemplate>_witt_vslider_gutter</ImageAreaTemplate>
         <BackgroundVResizeTemplate>_witt_vscroll_gutter</BackgroundVResizeTemplate>
-        <Width>6</Width>
+        <Width>8</Width>
     </VerticalSliderTemplate>
 
 
@@ -16396,12 +16396,12 @@
         <Name>_witt_vslider_gutter</Name>
         <TextureName>_whatisthistexture</TextureName>
         <Size>
-            <X>4</X>
-            <Y>18</Y>
+            <X>6</X>
+            <Y>20</Y>
         </Size>
         <TopLeft>
-            <X>884</X>
-            <Y>934</Y>
+            <X>883</X>
+            <Y>933</Y>
         </TopLeft>
     </ImageAreaTemplate>
 
@@ -17289,12 +17289,12 @@
         <Name>_witt_vslider_gutter_white</Name>
         <TextureName>_whatisthistexture</TextureName>
         <Size>
-            <X>4</X>
-            <Y>18</Y>
+            <X>6</X>
+            <Y>20</Y>
         </Size>
         <TopLeft>
-            <X>863</X>
-            <Y>934</Y>
+            <X>862</X>
+            <Y>933</Y>
         </TopLeft>
     </ImageAreaTemplate>
 
@@ -17303,7 +17303,7 @@
         <Name>_witt_vslider_nobutton_white</Name>
         <ImageAreaTemplate>_witt_vslider_gutter_white</ImageAreaTemplate>
         <BackgroundVResizeTemplate>_witt_vscroll_gutter</BackgroundVResizeTemplate>
-        <Width>6</Width>
+        <Width>8</Width>
     </VerticalSliderTemplate>
 
 
@@ -19215,8 +19215,8 @@
     <ButtonTemplate>
         <Name>_witt_scroll_down</Name>
         <Size>
-            <X>7</X>
-            <Y>6</Y>
+            <X>9</X>
+            <Y>8</Y>
         </Size>
         <Font>
             <Name></Name>
@@ -19248,20 +19248,20 @@
         <Texture>
             <TextureName>_whatisthistexture</TextureName>
             <Normal>
-                <X>967</X>
-                <Y>942</Y>
+                <X>966</X>
+                <Y>941</Y>
             </Normal>
             <Pressed>
-                <X>967</X>
-                <Y>942</Y>
+                <X>966</X>
+                <Y>941</Y>
             </Pressed>
             <NormalHighlit>
-                <X>841</X>
-                <Y>942</Y>
+                <X>840</X>
+                <Y>941</Y>
             </NormalHighlit>
             <PressedHighlit>
-                <X>799</X>
-                <Y>942</Y>
+                <X>798</X>
+                <Y>941</Y>
             </PressedHighlit>
             <Disabled>
                 <X>760</X>
