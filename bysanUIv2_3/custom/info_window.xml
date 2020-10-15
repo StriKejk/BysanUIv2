@@ -12,15 +12,15 @@
         <MoveButton>false</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>
         <BottomRightResizeButton>true</BottomRightResizeButton>
-        <BottomLeftResizeButton>true</BottomLeftResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>300</TitleWidth>
-        <TitleHeight>18</TitleHeight>
+        <TitleWidth>280</TitleWidth>
+        <TitleHeight>20</TitleHeight>
         <Width>280</Width>
-        <Height>319</Height>
-        <ResizeableWidth>2</ResizeableWidth>
-        <ResizeableHeight>4</ResizeableHeight>
+        <Height>320</Height>
+        <ResizeableWidth>5</ResizeableWidth>
+        <ResizeableHeight>5</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
         <MinWidth>80</MinWidth>
@@ -29,31 +29,35 @@
 
 
         <FullResizeImageDef>
+            <ControlId>Title Background</ControlId>
             <Position>
                 <X>0</X>
                 <Y>0</Y>
             </Position>
             <Alignment>
+                <TopLeft>true</TopLeft>
                 <GrowWidth>true</GrowWidth>
             </Alignment>
             <TemplateName>_witt_bg_100</TemplateName>
             <Width>280</Width>
-            <Height>19</Height>
+            <Height>20</Height>
         </FullResizeImageDef>
 
 
         <FullResizeImageDef>
+            <ControlId>Window Background</ControlId>
             <Position>
                 <X>0</X>
-                <Y>18</Y>
+                <Y>0</Y>
             </Position>
             <Alignment>
+                <TopLeft>true</TopLeft>
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>_witt_bg_90</TemplateName>
+            <TemplateName>_witt_bg_80</TemplateName>
             <Width>280</Width>
-            <Height>301</Height>
+            <Height>320</Height>
         </FullResizeImageDef>
 
 
@@ -74,7 +78,7 @@
             </Color>
             <FontName>_whatisthisfont2</FontName>
             <Width>280</Width>
-            <Height>15</Height>
+            <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
             <Adapter>info_title</Adapter>
             <TextCentered>true</TextCentered>
@@ -84,20 +88,20 @@
         <TextAreaDef>
             <ControlId>1001</ControlId>
             <Position>
-                <X>0</X>
-                <Y>18</Y>
+                <X>5</X>
+                <Y>20</Y>
             </Position>
             <Alignment>
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <TemplateName>_witt_textarea</TemplateName>
+            <TemplateName>_witt_textarea_80</TemplateName>
             <AdapterName>info_text</AdapterName>
             <HasHotspots>false</HasHotspots>
             <MaxCharacters>32768</MaxCharacters>
-            <Width>280</Width>
-            <Height>300</Height>
+            <Width>270</Width>
+            <Height>295</Height>
         </TextAreaDef>
 
 
