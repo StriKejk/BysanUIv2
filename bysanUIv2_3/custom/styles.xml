@@ -14986,8 +14986,8 @@
         <LabelLength>128</LabelLength>
         <ScrollbarTemplate>_witt_scroll_nobutton</ScrollbarTemplate>
         <DrawScroll>true</DrawScroll>
-        <ScrollbarTopOffset>4</ScrollbarTopOffset>
-        <ScrollbarBottomOffset>4</ScrollbarBottomOffset>
+        <ScrollbarTopOffset>0</ScrollbarTopOffset>
+        <ScrollbarBottomOffset>0</ScrollbarBottomOffset>
         <ScrollbarRightOffset>0</ScrollbarRightOffset>
         <Sorting>false</Sorting>
         <BackgroundTemplate>_witt_bg_100</BackgroundTemplate>
@@ -16585,7 +16585,7 @@
             <Y>3</Y>
         </TextOffset>
         <ScrollbarOffset>
-            <X>0</X>
+            <X>1</X>
             <Y>0</Y>
         </ScrollbarOffset>
         <ScrollbarSizeOffset>
@@ -17398,8 +17398,8 @@
         <LabelLength>128</LabelLength>
         <ScrollbarTemplate>_witt_scroll_nobutton</ScrollbarTemplate>
         <DrawScroll>true</DrawScroll>
-        <ScrollbarTopOffset>4</ScrollbarTopOffset>
-        <ScrollbarBottomOffset>4</ScrollbarBottomOffset>
+        <ScrollbarTopOffset>0</ScrollbarTopOffset>
+        <ScrollbarBottomOffset>0</ScrollbarBottomOffset>
         <ScrollbarRightOffset>0</ScrollbarRightOffset>
         <Sorting>false</Sorting>
         <BackgroundTemplate>_witt_bg_80</BackgroundTemplate>
@@ -17444,8 +17444,8 @@
         <LabelLength>128</LabelLength>
         <ScrollbarTemplate>_witt_scroll_nobutton</ScrollbarTemplate>
         <DrawScroll>true</DrawScroll>
-        <ScrollbarTopOffset>4</ScrollbarTopOffset>
-        <ScrollbarBottomOffset>4</ScrollbarBottomOffset>
+        <ScrollbarTopOffset>0</ScrollbarTopOffset>
+        <ScrollbarBottomOffset>0</ScrollbarBottomOffset>
         <ScrollbarRightOffset>0</ScrollbarRightOffset>
         <Sorting>false</Sorting>
         <BackgroundTemplate>_witt_bg_90</BackgroundTemplate>
@@ -17493,7 +17493,7 @@
             <Y>3</Y>
         </TextOffset>
         <ScrollbarOffset>
-            <X>0</X>
+            <X>1</X>
             <Y>0</Y>
         </ScrollbarOffset>
         <ScrollbarSizeOffset>
@@ -17528,7 +17528,7 @@
             <Y>3</Y>
         </TextOffset>
         <ScrollbarOffset>
-            <X>0</X>
+            <X>1</X>
             <Y>0</Y>
         </ScrollbarOffset>
         <ScrollbarSizeOffset>

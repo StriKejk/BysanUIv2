@@ -89,7 +89,7 @@
             <ControlId>1001</ControlId>
             <Position>
                 <X>5</X>
-                <Y>20</Y>
+                <Y>19</Y>
             </Position>
             <Alignment>
                 <GrowWidth>true</GrowWidth>
@@ -101,7 +101,7 @@
             <HasHotspots>false</HasHotspots>
             <MaxCharacters>32768</MaxCharacters>
             <Width>270</Width>
-            <Height>295</Height>
+            <Height>296</Height>
         </TextAreaDef>
 
 

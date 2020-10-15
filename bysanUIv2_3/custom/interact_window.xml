@@ -89,7 +89,7 @@
             <ControlId>1000</ControlId>
             <Position>
                 <X>5</X>
-                <Y>20</Y>
+                <Y>19</Y>
             </Position>
             <Alignment>
                 <GrowWidth>true</GrowWidth>
@@ -102,7 +102,7 @@
             <HotspotDelineator></HotspotDelineator>
             <MaxCharacters>32768</MaxCharacters>
             <Width>370</Width>
-            <Height>295</Height>
+            <Height>296</Height>
         </TextAreaDef>
 
 
