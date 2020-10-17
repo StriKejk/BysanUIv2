@@ -55,7 +55,7 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>_witt_bg_80</TemplateName>
+            <TemplateName>_witt_bg_90</TemplateName>
             <Width>280</Width>
             <Height>320</Height>
         </FullResizeImageDef>
@@ -96,7 +96,7 @@
                 <GrowHeight>true</GrowHeight>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <TemplateName>_witt_textarea_80</TemplateName>
+            <TemplateName>_witt_textarea</TemplateName>
             <AdapterName>info_text</AdapterName>
             <HasHotspots>false</HasHotspots>
             <MaxCharacters>32768</MaxCharacters>

@@ -671,4 +671,16 @@
     </Texture>
 
 
+    <Texture>
+        <Name>_whatisthishe</Name>
+        <File>custom/Assets/Textures/whatisthishe.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>_whatisthishp</Name>
+        <File>custom/Assets/Textures/whatisthishp.tga</File>
+    </Texture>
+
+
 </Root_Element>

@@ -14981,14 +14981,14 @@
 
     <ListBoxTemplate>
         <Name>_witt_listbox_bg</Name>
-        <LinePadding>1</LinePadding>
-        <CellPadding>3</CellPadding>
+        <LinePadding>0</LinePadding>
+        <CellPadding>0</CellPadding>
         <LabelLength>128</LabelLength>
         <ScrollbarTemplate>_witt_scroll_nobutton</ScrollbarTemplate>
         <DrawScroll>true</DrawScroll>
         <ScrollbarTopOffset>0</ScrollbarTopOffset>
         <ScrollbarBottomOffset>0</ScrollbarBottomOffset>
-        <ScrollbarRightOffset>0</ScrollbarRightOffset>
+        <ScrollbarRightOffset>-1</ScrollbarRightOffset>
         <Sorting>false</Sorting>
         <BackgroundTemplate>_witt_bg_100</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
@@ -15002,20 +15002,20 @@
             </ColorNormal>
             <ColorHighlit>
                 <R>255</R>
-                <G>255</G>
-                <B>255</B>
+                <G>214</G>
+                <B>33</B>
                 <A>255</A>
             </ColorHighlit>
             <ColorGreyed>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
                 <A>255</A>
             </ColorGreyed>
-            <TextTopOffset>4</TextTopOffset>
-            <TextBottomOffset>4</TextBottomOffset>
-            <TextLeftOffset>4</TextLeftOffset>
-            <TextRightOffset>4</TextRightOffset>
+            <TextTopOffset>3</TextTopOffset>
+            <TextBottomOffset>3</TextBottomOffset>
+            <TextLeftOffset>3</TextLeftOffset>
+            <TextRightOffset>3</TextRightOffset>
             <LineOffset>0</LineOffset>
         </TextFont>
             <IconSize>
@@ -15755,8 +15755,8 @@
 
     <TreeControlTemplate>
         <Name>_witt_listbox_noscroll</Name>
-        <BackgroundTemplate>_witt_bg_80</BackgroundTemplate>
-        <ScrollbarTemplate>_witt_scroll_nobutton</ScrollbarTemplate>
+        <BackgroundTemplate>none</BackgroundTemplate>
+        <ScrollbarTemplate>_witt_scroll_nobutton_treeonly</ScrollbarTemplate>
         <CheckBoxTemplate>_witt_checkbox_inverted</CheckBoxTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <FontName>_whatisthisfont11pxds</FontName>
@@ -15766,10 +15766,10 @@
             <B>255</B>
             <A>255</A>
         </FontColor>
-        <LinePadding>1</LinePadding>
-        <OffsetX>3</OffsetX>
-        <OffsetY>3</OffsetY>
-        <TextOffset>3</TextOffset>
+        <LinePadding>2</LinePadding>
+        <OffsetX>2</OffsetX>
+        <OffsetY>1</OffsetY>
+        <TextOffset>4</TextOffset>
     </TreeControlTemplate>
 
 
@@ -16577,12 +16577,12 @@
 
     <TextAreaTemplate>
         <Name>_witt_textarea</Name>
-        <BackgroundTemplate>none</BackgroundTemplate>
+        <BackgroundTemplate>_witt_bg_0</BackgroundTemplate>
         <ScrollbarTemplate>_witt_scroll_nobutton</ScrollbarTemplate>
         <LinePadding>0</LinePadding>
         <TextOffset>
-            <X>6</X>
-            <Y>3</Y>
+            <X>4</X>
+            <Y>1</Y>
         </TextOffset>
         <ScrollbarOffset>
             <X>1</X>
@@ -16593,7 +16593,7 @@
             <Y>0</Y>
         </ScrollbarSizeOffset>
         <Font>
-            <Name>_whatisthisfont3</Name>
+            <Name>_whatisthisfont11pxds</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -17146,7 +17146,7 @@
         <Texture>
             <TextureName>_whatisthistexture</TextureName>
             <Left>
-                <X>47</X>
+                <X>53</X>
                 <Y>0</Y>
             </Left>
             <Repeat>
@@ -17170,7 +17170,7 @@
         <Texture>
             <TextureName>_whatisthistexture</TextureName>
             <Left>
-                <X>47</X>
+                <X>53</X>
                 <Y>0</Y>
             </Left>
             <Repeat>
@@ -17236,7 +17236,7 @@
     <StatusBarTemplate>
         <Name>_witt_statusbar_tiny_green</Name>
         <ForegroundHResizeTemplate>_witt_statusbar_tiny_greenfg</ForegroundHResizeTemplate>
-        <BackgroundHResizeTemplate>_witt_statusbar_tiny_bg</BackgroundHResizeTemplate>
+        <BackgroundHResizeTemplate>_witt_statusbard_tiny_backgroundh</BackgroundHResizeTemplate>
         <Height>5</Height>
         <ForegroundOffset>
             <X>0</X>
@@ -17248,7 +17248,7 @@
     <StatusBarTemplate>
         <Name>_witt_statusbar_tiny_yellow</Name>
         <ForegroundHResizeTemplate>_witt_statusbar_tiny_yellowfg</ForegroundHResizeTemplate>
-        <BackgroundHResizeTemplate>_witt_statusbar_tiny_bg</BackgroundHResizeTemplate>
+        <BackgroundHResizeTemplate>_witt_statusbard_tiny_backgroundh</BackgroundHResizeTemplate>
         <Height>5</Height>
         <ForegroundOffset>
             <X>0</X>
@@ -17310,10 +17310,10 @@
     <EditBoxTemplate>
         <Name>_witt_editbox</Name>
         <LinePadding>0</LinePadding>
-        <BackgroundTemplate>_witt_bg_80</BackgroundTemplate>
+        <BackgroundTemplate>_witt_bg_0</BackgroundTemplate>
         <TextOffset>
-            <X>6</X>
-            <Y>3</Y>
+            <X>4</X>
+            <Y>1</Y>
         </TextOffset>
         <Font>
             <Name>_whatisthisfont3</Name>
@@ -17393,14 +17393,14 @@
 
     <ListBoxTemplate>
         <Name>_witt_listbox_80</Name>
-        <LinePadding>1</LinePadding>
-        <CellPadding>3</CellPadding>
+        <LinePadding>0</LinePadding>
+        <CellPadding>0</CellPadding>
         <LabelLength>128</LabelLength>
         <ScrollbarTemplate>_witt_scroll_nobutton</ScrollbarTemplate>
         <DrawScroll>true</DrawScroll>
         <ScrollbarTopOffset>0</ScrollbarTopOffset>
         <ScrollbarBottomOffset>0</ScrollbarBottomOffset>
-        <ScrollbarRightOffset>0</ScrollbarRightOffset>
+        <ScrollbarRightOffset>-1</ScrollbarRightOffset>
         <Sorting>false</Sorting>
         <BackgroundTemplate>_witt_bg_80</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
@@ -17424,10 +17424,10 @@
                 <B>204</B>
                 <A>255</A>
             </ColorGreyed>
-            <TextTopOffset>4</TextTopOffset>
-            <TextBottomOffset>4</TextBottomOffset>
-            <TextLeftOffset>4</TextLeftOffset>
-            <TextRightOffset>4</TextRightOffset>
+            <TextTopOffset>3</TextTopOffset>
+            <TextBottomOffset>3</TextBottomOffset>
+            <TextLeftOffset>3</TextLeftOffset>
+            <TextRightOffset>3</TextRightOffset>
             <LineOffset>0</LineOffset>
         </TextFont>
             <IconSize>
@@ -17439,14 +17439,14 @@
 
     <ListBoxTemplate>
         <Name>_witt_listbox_90</Name>
-        <LinePadding>1</LinePadding>
-        <CellPadding>3</CellPadding>
+        <LinePadding>0</LinePadding>
+        <CellPadding>0</CellPadding>
         <LabelLength>128</LabelLength>
         <ScrollbarTemplate>_witt_scroll_nobutton</ScrollbarTemplate>
         <DrawScroll>true</DrawScroll>
         <ScrollbarTopOffset>0</ScrollbarTopOffset>
         <ScrollbarBottomOffset>0</ScrollbarBottomOffset>
-        <ScrollbarRightOffset>0</ScrollbarRightOffset>
+        <ScrollbarRightOffset>-1</ScrollbarRightOffset>
         <Sorting>false</Sorting>
         <BackgroundTemplate>_witt_bg_90</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
@@ -17470,10 +17470,10 @@
                 <B>204</B>
                 <A>255</A>
             </ColorGreyed>
-            <TextTopOffset>4</TextTopOffset>
-            <TextBottomOffset>4</TextBottomOffset>
-            <TextLeftOffset>4</TextLeftOffset>
-            <TextRightOffset>4</TextRightOffset>
+            <TextTopOffset>3</TextTopOffset>
+            <TextBottomOffset>3</TextBottomOffset>
+            <TextLeftOffset>3</TextLeftOffset>
+            <TextRightOffset>3</TextRightOffset>
             <LineOffset>0</LineOffset>
         </TextFont>
             <IconSize>
@@ -17489,8 +17489,8 @@
         <ScrollbarTemplate>_witt_scroll_nobutton</ScrollbarTemplate>
         <LinePadding>0</LinePadding>
         <TextOffset>
-            <X>6</X>
-            <Y>3</Y>
+            <X>4</X>
+            <Y>1</Y>
         </TextOffset>
         <ScrollbarOffset>
             <X>1</X>
@@ -17501,7 +17501,7 @@
             <Y>0</Y>
         </ScrollbarSizeOffset>
         <Font>
-            <Name>_whatisthisfont3</Name>
+            <Name>_whatisthisfont11pxds</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -17524,8 +17524,8 @@
         <ScrollbarTemplate>_witt_scroll_nobutton</ScrollbarTemplate>
         <LinePadding>0</LinePadding>
         <TextOffset>
-            <X>6</X>
-            <Y>3</Y>
+            <X>4</X>
+            <Y>1</Y>
         </TextOffset>
         <ScrollbarOffset>
             <X>1</X>
@@ -17536,7 +17536,7 @@
             <Y>0</Y>
         </ScrollbarSizeOffset>
         <Font>
-            <Name>_whatisthisfont3</Name>
+            <Name>_whatisthisfont11pxds</Name>
             <ColorNormal>
                 <R>255</R>
                 <G>255</G>
@@ -17716,10 +17716,10 @@
         <TextureName>_whatisthishh</TextureName>
         <TextureStart>
             <X>0</X>
-            <Y>82</Y>
+            <Y>87</Y>
         </TextureStart>
         <Width>93</Width>
-        <Height>46</Height>
+        <Height>36</Height>
         <MaxLevels>31</MaxLevels>
         <Horizontal>true</Horizontal>
     </StatusIconTemplate>
@@ -17971,7 +17971,7 @@
         <Name>_witt_statusbar_v_yellow</Name>
         <ForegroundImage>_witt_statusbar_v_yellowfg</ForegroundImage>
         <BackgroundImage>_witt_statusbar_v_bg</BackgroundImage>
-        <Width>6</Width>
+        <Width>36</Width>
         <ForegroundOffset>
             <X>0</X>
             <Y>0</Y>
@@ -19269,6 +19269,239 @@
             </Disabled>
         </Texture>
     </ButtonTemplate>
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>_witt_statusbard_tiny_backgroundH</Name>
+        <Height>1</Height>
+        <LeftWidth>5</LeftWidth>
+        <RepeatWidth>5</RepeatWidth>
+        <RightWidth>5</RightWidth>
+        <Texture>
+            <TextureName>_whatisthishh2</TextureName>
+            <Left>
+                <X>10</X>
+                <Y>40</Y>
+            </Left>
+            <Repeat>
+                <X>10</X>
+                <Y>40</Y>
+            </Repeat>
+            <Right>
+                <X>10</X>
+                <Y>40</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <VerticalResizeImageTemplate>
+        <Name>_witt_statusbard_tiny_backgroundV</Name>
+        <Width>1</Width>
+        <TopHeight>5</TopHeight>
+        <RepeatHeight>5</RepeatHeight>
+        <BottomHeight>5</BottomHeight>
+        <Texture>
+            <TextureName>_whatisthishh2</TextureName>
+            <Top>
+                <X>10</X>
+                <Y>40</Y>
+            </Top>
+            <Repeat>
+                <X>10</X>
+                <Y>40</Y>
+            </Repeat>
+            <Bottom>
+                <X>10</X>
+                <Y>40</Y>
+            </Bottom>
+        </Texture>
+    </VerticalResizeImageTemplate>
+
+
+    <StatusIconTemplate>
+        <Name>_witt_hh_endu</Name>
+        <TextureName>_whatisthishe</TextureName>
+        <TextureStart>
+            <X>0</X>
+            <Y>123</Y>
+        </TextureStart>
+        <Width>93</Width>
+        <Height>5</Height>
+        <MaxLevels>31</MaxLevels>
+        <Horizontal>true</Horizontal>
+    </StatusIconTemplate>
+
+
+    <StatusIconTemplate>
+        <Name>_witt_hh_power</Name>
+        <TextureName>_whatisthishp</TextureName>
+        <TextureStart>
+            <X>0</X>
+            <Y>123</Y>
+        </TextureStart>
+        <Width>93</Width>
+        <Height>5</Height>
+        <MaxLevels>31</MaxLevels>
+        <Horizontal>true</Horizontal>
+    </StatusIconTemplate>
+
+
+    <FullResizeImageTemplate>
+        <Name>_witt_bg_0</Name>
+        <TopHeight>5</TopHeight>
+        <MiddleHeight>5</MiddleHeight>
+        <BottomHeight>5</BottomHeight>
+        <LeftWidth>5</LeftWidth>
+        <MiddleWidth>5</MiddleWidth>
+        <RightWidth>5</RightWidth>
+        <Texture>
+            <TextureName>_whatisthistexture</TextureName>
+            <TopLeft>
+                <X>992</X>
+                <Y>128</Y>
+            </TopLeft>
+            <TopMiddle>
+                <X>1006</X>
+                <Y>128</Y>
+            </TopMiddle>
+            <TopRight>
+                <X>1019</X>
+                <Y>128</Y>
+            </TopRight>
+            <MiddleLeft>
+                <X>992</X>
+                <Y>142</Y>
+            </MiddleLeft>
+            <MiddleMiddle>
+                <X>1006</X>
+                <Y>142</Y>
+            </MiddleMiddle>
+            <MiddleRight>
+                <X>1019</X>
+                <Y>142</Y>
+            </MiddleRight>
+            <BottomLeft>
+                <X>992</X>
+                <Y>155</Y>
+            </BottomLeft>
+            <BottomMiddle>
+                <X>1006</X>
+                <Y>155</Y>
+            </BottomMiddle>
+            <BottomRight>
+                <X>1019</X>
+                <Y>155</Y>
+            </BottomRight>
+        </Texture>
+    </FullResizeImageTemplate>
+
+
+    <ListBoxTemplate>
+        <Name>_witt_listbox_0</Name>
+        <LinePadding>2</LinePadding>
+        <CellPadding>4</CellPadding>
+        <LabelLength>128</LabelLength>
+        <ScrollbarTemplate>_witt_scroll_nobutton</ScrollbarTemplate>
+        <DrawScroll>true</DrawScroll>
+        <ScrollbarTopOffset>0</ScrollbarTopOffset>
+        <ScrollbarBottomOffset>0</ScrollbarBottomOffset>
+        <ScrollbarRightOffset>-1</ScrollbarRightOffset>
+        <Sorting>false</Sorting>
+        <BackgroundTemplate>none</BackgroundTemplate>
+        <IconTemplate>plain_icon_small</IconTemplate>
+        <TextFont>
+            <Name>_whatisthisfont11pxds</Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorHighlit>
+                <R>255</R>
+                <G>214</G>
+                <B>33</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorGreyed>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
+                <A>255</A>
+            </ColorGreyed>
+            <TextTopOffset>3</TextTopOffset>
+            <TextBottomOffset>3</TextBottomOffset>
+            <TextLeftOffset>1</TextLeftOffset>
+            <TextRightOffset>1</TextRightOffset>
+            <LineOffset>0</LineOffset>
+        </TextFont>
+            <IconSize>
+                <X>16</X>
+                <Y>16</Y>
+            </IconSize>
+    </ListBoxTemplate>
+
+
+    <TextAreaTemplate>
+        <Name>_witt_textarea_90</Name>
+        <BackgroundTemplate>_witt_bg_90</BackgroundTemplate>
+        <ScrollbarTemplate>_witt_scroll_nobutton</ScrollbarTemplate>
+        <LinePadding>0</LinePadding>
+        <TextOffset>
+            <X>4</X>
+            <Y>1</Y>
+        </TextOffset>
+        <ScrollbarOffset>
+            <X>1</X>
+            <Y>0</Y>
+        </ScrollbarOffset>
+        <ScrollbarSizeOffset>
+            <X>0</X>
+            <Y>0</Y>
+        </ScrollbarSizeOffset>
+        <Font>
+            <Name>_whatisthisfont11pxds</Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorActive>
+                <R>252</R>
+                <G>212</G>
+                <B>10</B>
+                <A>255</A>
+            </ColorActive>
+        </Font>
+    </TextAreaTemplate>
+
+
+    <VerticalScrollbarTemplate>
+        <Name>_witt_scroll_nobutton_treeonly</Name>
+        <UpButtonTemplate>none</UpButtonTemplate>
+        <DownButtonTemplate>none</DownButtonTemplate>
+        <ThumbVResizeTemplate>_witt_vscroll_thumb</ThumbVResizeTemplate>
+        <GutterVResizeTemplate>_witt_vscroll_gutter</GutterVResizeTemplate>
+        <Width>7</Width>
+        <UpButtonOffset>
+            <X>0</X>
+            <Y>0</Y>
+        </UpButtonOffset>
+        <DownButtonOffset>
+            <X>0</X>
+            <Y>0</Y>
+        </DownButtonOffset>
+        <ThumbOffset>
+            <X>1</X>
+            <Y>0</Y>
+        </ThumbOffset>
+        <ActiveZoneOffset>
+            <X>9999</X>
+            <Y>9999</Y>
+        </ActiveZoneOffset>
+    </VerticalScrollbarTemplate>
 
 
 </Root_Element>

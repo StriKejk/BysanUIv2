@@ -36,15 +36,41 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <TemplateName>_witt_hh_endu</TemplateName>
+            <AdapterName>group_endurance0</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>0</X>
+                <Y>5</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>_witt_hh_standard</TemplateName>
             <AdapterName>group_health0</AdapterName>
         </StatusIconDef>
 
 
+        <StatusIconDef>
+            <Position>
+                <X>0</X>
+                <Y>41</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_hh_power</TemplateName>
+            <AdapterName>group_power0</AdapterName>
+        </StatusIconDef>
+
+
         <LabelDef>
             <Position>
-                <X>3</X>
-                <Y>3</Y>
+                <X>4</X>
+                <Y>4</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -91,8 +117,8 @@
 
         <LabelDef>
             <Position>
-                <X>3</X>
-                <Y>31</Y>
+                <X>4</X>
+                <Y>30</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -125,12 +151,12 @@
             <Height>32</Height>
             <MaxCharacters>4</MaxCharacters>
             <Color>
-                <R>255</R>
-                <G>32</G>
-                <B>32</B>
-                <A>196</A>
+                <R>65</R>
+                <G>204</G>
+                <B>61</B>
+                <A>255</A>
             </Color>
-            <Adapter>group_health0</Adapter>
+            <Adapter>group_endurance0</Adapter>
             <TextCentered>true</TextCentered>
             <DontDrawWhenZero>true</DontDrawWhenZero>
             <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
@@ -150,12 +176,12 @@
             <Height>32</Height>
             <MaxCharacters>4</MaxCharacters>
             <Color>
-                <R>65</R>
-                <G>204</G>
-                <B>61</B>
-                <A>255</A>
+                <R>255</R>
+                <G>32</G>
+                <B>32</B>
+                <A>196</A>
             </Color>
-            <Adapter>group_endurance0</Adapter>
+            <Adapter>group_health0</Adapter>
             <TextCentered>true</TextCentered>
             <DontDrawWhenZero>true</DontDrawWhenZero>
             <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
@@ -221,15 +247,41 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <TemplateName>_witt_hh_endu</TemplateName>
+            <AdapterName>group_endurance1</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>94</X>
+                <Y>5</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>_witt_hh_standard</TemplateName>
             <AdapterName>group_health1</AdapterName>
         </StatusIconDef>
 
 
+        <StatusIconDef>
+            <Position>
+                <X>94</X>
+                <Y>41</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_hh_power</TemplateName>
+            <AdapterName>group_power1</AdapterName>
+        </StatusIconDef>
+
+
         <LabelDef>
             <Position>
-                <X>97</X>
-                <Y>3</Y>
+                <X>98</X>
+                <Y>4</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -276,8 +328,8 @@
 
         <LabelDef>
             <Position>
-                <X>97</X>
-                <Y>31</Y>
+                <X>98</X>
+                <Y>30</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -310,12 +362,12 @@
             <Height>32</Height>
             <MaxCharacters>4</MaxCharacters>
             <Color>
-                <R>255</R>
-                <G>32</G>
-                <B>32</B>
-                <A>196</A>
+                <R>65</R>
+                <G>204</G>
+                <B>61</B>
+                <A>255</A>
             </Color>
-            <Adapter>group_health1</Adapter>
+            <Adapter>group_endurance1</Adapter>
             <TextCentered>true</TextCentered>
             <DontDrawWhenZero>true</DontDrawWhenZero>
             <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
@@ -335,12 +387,12 @@
             <Height>32</Height>
             <MaxCharacters>4</MaxCharacters>
             <Color>
-                <R>65</R>
-                <G>204</G>
-                <B>61</B>
-                <A>255</A>
+                <R>255</R>
+                <G>32</G>
+                <B>32</B>
+                <A>196</A>
             </Color>
-            <Adapter>group_endurance1</Adapter>
+            <Adapter>group_health1</Adapter>
             <TextCentered>true</TextCentered>
             <DontDrawWhenZero>true</DontDrawWhenZero>
             <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
@@ -406,15 +458,41 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <TemplateName>_witt_hh_endu</TemplateName>
+            <AdapterName>group_endurance2</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>188</X>
+                <Y>5</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>_witt_hh_standard</TemplateName>
             <AdapterName>group_health2</AdapterName>
         </StatusIconDef>
 
 
+        <StatusIconDef>
+            <Position>
+                <X>188</X>
+                <Y>41</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_hh_power</TemplateName>
+            <AdapterName>group_power2</AdapterName>
+        </StatusIconDef>
+
+
         <LabelDef>
             <Position>
-                <X>191</X>
-                <Y>3</Y>
+                <X>192</X>
+                <Y>4</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -461,8 +539,8 @@
 
         <LabelDef>
             <Position>
-                <X>191</X>
-                <Y>31</Y>
+                <X>192</X>
+                <Y>30</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -495,12 +573,12 @@
             <Height>32</Height>
             <MaxCharacters>4</MaxCharacters>
             <Color>
-                <R>255</R>
-                <G>32</G>
-                <B>32</B>
-                <A>196</A>
+                <R>65</R>
+                <G>204</G>
+                <B>61</B>
+                <A>255</A>
             </Color>
-            <Adapter>group_health2</Adapter>
+            <Adapter>group_endurance2</Adapter>
             <TextCentered>true</TextCentered>
             <DontDrawWhenZero>true</DontDrawWhenZero>
             <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
@@ -520,12 +598,12 @@
             <Height>32</Height>
             <MaxCharacters>4</MaxCharacters>
             <Color>
-                <R>65</R>
-                <G>204</G>
-                <B>61</B>
-                <A>255</A>
+                <R>255</R>
+                <G>32</G>
+                <B>32</B>
+                <A>196</A>
             </Color>
-            <Adapter>group_endurance2</Adapter>
+            <Adapter>group_health2</Adapter>
             <TextCentered>true</TextCentered>
             <DontDrawWhenZero>true</DontDrawWhenZero>
             <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
@@ -591,15 +669,41 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <TemplateName>_witt_hh_endu</TemplateName>
+            <AdapterName>group_endurance3</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>282</X>
+                <Y>5</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>_witt_hh_standard</TemplateName>
             <AdapterName>group_health3</AdapterName>
         </StatusIconDef>
 
 
+        <StatusIconDef>
+            <Position>
+                <X>282</X>
+                <Y>41</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_hh_power</TemplateName>
+            <AdapterName>group_power3</AdapterName>
+        </StatusIconDef>
+
+
         <LabelDef>
             <Position>
-                <X>285</X>
-                <Y>3</Y>
+                <X>286</X>
+                <Y>4</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -646,8 +750,8 @@
 
         <LabelDef>
             <Position>
-                <X>285</X>
-                <Y>31</Y>
+                <X>286</X>
+                <Y>30</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -680,12 +784,12 @@
             <Height>32</Height>
             <MaxCharacters>4</MaxCharacters>
             <Color>
-                <R>255</R>
-                <G>32</G>
-                <B>32</B>
-                <A>196</A>
+                <R>65</R>
+                <G>204</G>
+                <B>61</B>
+                <A>255</A>
             </Color>
-            <Adapter>group_health3</Adapter>
+            <Adapter>group_endurance3</Adapter>
             <TextCentered>true</TextCentered>
             <DontDrawWhenZero>true</DontDrawWhenZero>
             <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
@@ -705,12 +809,12 @@
             <Height>32</Height>
             <MaxCharacters>4</MaxCharacters>
             <Color>
-                <R>65</R>
-                <G>204</G>
-                <B>61</B>
-                <A>255</A>
+                <R>255</R>
+                <G>32</G>
+                <B>32</B>
+                <A>196</A>
             </Color>
-            <Adapter>group_endurance3</Adapter>
+            <Adapter>group_health3</Adapter>
             <TextCentered>true</TextCentered>
             <DontDrawWhenZero>true</DontDrawWhenZero>
             <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
@@ -776,14 +880,40 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <TemplateName>_witt_hh_endu</TemplateName>
+            <AdapterName>group_endurance4</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>0</X>
+                <Y>52</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>_witt_hh_standard</TemplateName>
             <AdapterName>group_health4</AdapterName>
         </StatusIconDef>
 
 
+        <StatusIconDef>
+            <Position>
+                <X>0</X>
+                <Y>88</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_hh_power</TemplateName>
+            <AdapterName>group_power4</AdapterName>
+        </StatusIconDef>
+
+
         <LabelDef>
             <Position>
-                <X>3</X>
+                <X>4</X>
                 <Y>50</Y>
             </Position>
             <Alignment>
@@ -831,8 +961,8 @@
 
         <LabelDef>
             <Position>
-                <X>3</X>
-                <Y>78</Y>
+                <X>4</X>
+                <Y>77</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -865,12 +995,12 @@
             <Height>32</Height>
             <MaxCharacters>4</MaxCharacters>
             <Color>
-                <R>255</R>
-                <G>32</G>
-                <B>32</B>
-                <A>196</A>
+                <R>65</R>
+                <G>204</G>
+                <B>61</B>
+                <A>255</A>
             </Color>
-            <Adapter>group_health4</Adapter>
+            <Adapter>group_endurance4</Adapter>
             <TextCentered>true</TextCentered>
             <DontDrawWhenZero>true</DontDrawWhenZero>
             <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
@@ -890,12 +1020,12 @@
             <Height>32</Height>
             <MaxCharacters>4</MaxCharacters>
             <Color>
-                <R>65</R>
-                <G>204</G>
-                <B>61</B>
-                <A>255</A>
+                <R>255</R>
+                <G>32</G>
+                <B>32</B>
+                <A>196</A>
             </Color>
-            <Adapter>group_endurance4</Adapter>
+            <Adapter>group_health4</Adapter>
             <TextCentered>true</TextCentered>
             <DontDrawWhenZero>true</DontDrawWhenZero>
             <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
@@ -961,14 +1091,40 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <TemplateName>_witt_hh_endu</TemplateName>
+            <AdapterName>group_endurance5</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>94</X>
+                <Y>52</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>_witt_hh_standard</TemplateName>
             <AdapterName>group_health5</AdapterName>
         </StatusIconDef>
 
 
+        <StatusIconDef>
+            <Position>
+                <X>94</X>
+                <Y>88</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_hh_power</TemplateName>
+            <AdapterName>group_power5</AdapterName>
+        </StatusIconDef>
+
+
         <LabelDef>
             <Position>
-                <X>97</X>
+                <X>98</X>
                 <Y>50</Y>
             </Position>
             <Alignment>
@@ -1016,8 +1172,8 @@
 
         <LabelDef>
             <Position>
-                <X>97</X>
-                <Y>78</Y>
+                <X>98</X>
+                <Y>77</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1050,12 +1206,12 @@
             <Height>32</Height>
             <MaxCharacters>4</MaxCharacters>
             <Color>
-                <R>255</R>
-                <G>32</G>
-                <B>32</B>
-                <A>196</A>
+                <R>65</R>
+                <G>204</G>
+                <B>61</B>
+                <A>255</A>
             </Color>
-            <Adapter>group_health5</Adapter>
+            <Adapter>group_endurance5</Adapter>
             <TextCentered>true</TextCentered>
             <DontDrawWhenZero>true</DontDrawWhenZero>
             <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
@@ -1075,12 +1231,12 @@
             <Height>32</Height>
             <MaxCharacters>4</MaxCharacters>
             <Color>
-                <R>65</R>
-                <G>204</G>
-                <B>61</B>
-                <A>255</A>
+                <R>255</R>
+                <G>32</G>
+                <B>32</B>
+                <A>196</A>
             </Color>
-            <Adapter>group_endurance5</Adapter>
+            <Adapter>group_health5</Adapter>
             <TextCentered>true</TextCentered>
             <DontDrawWhenZero>true</DontDrawWhenZero>
             <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
@@ -1146,14 +1302,40 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <TemplateName>_witt_hh_endu</TemplateName>
+            <AdapterName>group_endurance6</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>188</X>
+                <Y>52</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>_witt_hh_standard</TemplateName>
             <AdapterName>group_health6</AdapterName>
         </StatusIconDef>
 
 
+        <StatusIconDef>
+            <Position>
+                <X>188</X>
+                <Y>88</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_hh_power</TemplateName>
+            <AdapterName>group_power6</AdapterName>
+        </StatusIconDef>
+
+
         <LabelDef>
             <Position>
-                <X>191</X>
+                <X>192</X>
                 <Y>50</Y>
             </Position>
             <Alignment>
@@ -1201,8 +1383,8 @@
 
         <LabelDef>
             <Position>
-                <X>191</X>
-                <Y>78</Y>
+                <X>192</X>
+                <Y>77</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1235,12 +1417,12 @@
             <Height>32</Height>
             <MaxCharacters>4</MaxCharacters>
             <Color>
-                <R>255</R>
-                <G>32</G>
-                <B>32</B>
-                <A>196</A>
+                <R>65</R>
+                <G>204</G>
+                <B>61</B>
+                <A>255</A>
             </Color>
-            <Adapter>group_health6</Adapter>
+            <Adapter>group_endurance6</Adapter>
             <TextCentered>true</TextCentered>
             <DontDrawWhenZero>true</DontDrawWhenZero>
             <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
@@ -1260,12 +1442,12 @@
             <Height>32</Height>
             <MaxCharacters>4</MaxCharacters>
             <Color>
-                <R>65</R>
-                <G>204</G>
-                <B>61</B>
-                <A>255</A>
+                <R>255</R>
+                <G>32</G>
+                <B>32</B>
+                <A>196</A>
             </Color>
-            <Adapter>group_endurance6</Adapter>
+            <Adapter>group_health6</Adapter>
             <TextCentered>true</TextCentered>
             <DontDrawWhenZero>true</DontDrawWhenZero>
             <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
@@ -1331,8 +1513,34 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <TemplateName>_witt_hh_endu</TemplateName>
+            <AdapterName>group_endurance7</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>282</X>
+                <Y>52</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>_witt_hh_standard</TemplateName>
             <AdapterName>group_health7</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <Position>
+                <X>282</X>
+                <Y>88</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_hh_power</TemplateName>
+            <AdapterName>group_power7</AdapterName>
         </StatusIconDef>
 
 
@@ -1387,7 +1595,7 @@
         <LabelDef>
             <Position>
                 <X>285</X>
-                <Y>78</Y>
+                <Y>77</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1420,12 +1628,12 @@
             <Height>32</Height>
             <MaxCharacters>4</MaxCharacters>
             <Color>
-                <R>255</R>
-                <G>32</G>
-                <B>32</B>
-                <A>196</A>
+                <R>65</R>
+                <G>204</G>
+                <B>61</B>
+                <A>255</A>
             </Color>
-            <Adapter>group_health7</Adapter>
+            <Adapter>group_endurance7</Adapter>
             <TextCentered>true</TextCentered>
             <DontDrawWhenZero>true</DontDrawWhenZero>
             <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
@@ -1445,12 +1653,12 @@
             <Height>32</Height>
             <MaxCharacters>4</MaxCharacters>
             <Color>
-                <R>65</R>
-                <G>204</G>
-                <B>61</B>
-                <A>255</A>
+                <R>255</R>
+                <G>32</G>
+                <B>32</B>
+                <A>196</A>
             </Color>
-            <Adapter>group_endurance7</Adapter>
+            <Adapter>group_health7</Adapter>
             <TextCentered>true</TextCentered>
             <DontDrawWhenZero>true</DontDrawWhenZero>
             <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
