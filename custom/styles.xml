@@ -15766,10 +15766,10 @@
             <B>255</B>
             <A>255</A>
         </FontColor>
-        <LinePadding>0</LinePadding>
-        <OffsetX>1</OffsetX>
-        <OffsetY>0</OffsetY>
-        <TextOffset>3</TextOffset>
+        <LinePadding>2</LinePadding>
+        <OffsetX>2</OffsetX>
+        <OffsetY>1</OffsetY>
+        <TextOffset>4</TextOffset>
     </TreeControlTemplate>
 
 
@@ -19399,8 +19399,8 @@
 
     <ListBoxTemplate>
         <Name>_witt_listbox_0</Name>
-        <LinePadding>0</LinePadding>
-        <CellPadding>0</CellPadding>
+        <LinePadding>2</LinePadding>
+        <CellPadding>4</CellPadding>
         <LabelLength>128</LabelLength>
         <ScrollbarTemplate>_witt_scroll_nobutton</ScrollbarTemplate>
         <DrawScroll>true</DrawScroll>
@@ -19408,7 +19408,7 @@
         <ScrollbarBottomOffset>0</ScrollbarBottomOffset>
         <ScrollbarRightOffset>-1</ScrollbarRightOffset>
         <Sorting>false</Sorting>
-        <BackgroundTemplate>_witt_bg_0</BackgroundTemplate>
+        <BackgroundTemplate>none</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
         <TextFont>
             <Name>_whatisthisfont11pxds</Name>
@@ -19432,8 +19432,8 @@
             </ColorGreyed>
             <TextTopOffset>3</TextTopOffset>
             <TextBottomOffset>3</TextBottomOffset>
-            <TextLeftOffset>3</TextLeftOffset>
-            <TextRightOffset>3</TextRightOffset>
+            <TextLeftOffset>1</TextLeftOffset>
+            <TextRightOffset>1</TextRightOffset>
             <LineOffset>0</LineOffset>
         </TextFont>
             <IconSize>

@@ -7,9 +7,9 @@
 
     <VerticalResizeImageTemplate>
         <Name>vault_blank</Name>
-        <Width>16</Width>
+        <Width>18</Width>
         <TopHeight>1</TopHeight>
-        <RepeatHeight>17</RepeatHeight>
+        <RepeatHeight>18</RepeatHeight>
         <BottomHeight>1</BottomHeight>
         <Texture>
             <TextureName>_whatisthistexture</TextureName>
@@ -18,8 +18,8 @@
                 <Y>969</Y>
             </Top>
             <Repeat>
-                <X>1005</X>
-                <Y>868</Y>
+                <X>1004</X>
+                <Y>867</Y>
             </Repeat>
             <Bottom>
                 <X>753</X>
@@ -39,8 +39,8 @@
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>260</TitleWidth>
-        <TitleHeight>20</TitleHeight>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
         <Width>260</Width>
         <Height>400</Height>
         <ResizeableWidth>0</ResizeableWidth>
@@ -53,6 +53,7 @@
 
 
         <FullResizeImageDef>
+            <ControlId>Background</ControlId>
             <Position>
                 <X>0</X>
                 <Y>0</Y>
@@ -61,13 +62,14 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>_witt_bg_90</TemplateName>
+            <TemplateName>_witt_bg_80</TemplateName>
             <Width>260</Width>
             <Height>400</Height>
         </FullResizeImageDef>
 
 
         <FullResizeImageDef>
+            <ControlId>Titel</ControlId>
             <Position>
                 <X>0</X>
                 <Y>0</Y>
@@ -78,6 +80,46 @@
             <TemplateName>_witt_bg_100</TemplateName>
             <Width>260</Width>
             <Height>20</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>4</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>260</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>VAULT</Data>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>Inner Window</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>19</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>250</Width>
+            <Height>362</Height>
         </FullResizeImageDef>
 
 
@@ -105,6 +147,43 @@
             <Adapter>vault_page</Adapter>
             <TextCentered>true</TextCentered>
         </LabelDef>
+
+
+        <ListBoxDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>19</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <Width>250</Width>
+            <Height>362</Height>
+            <TemplateName>_witt_listbox_0</TemplateName>
+            <AdapterName>vault_items</AdapterName>
+            <Sorting>false</Sorting>
+            <Columns>2</Columns>
+            <IconTemplate></IconTemplate>
+            <ShowIndicator>false</ShowIndicator>
+            <ShowDefaultToolTips>false</ShowDefaultToolTips>
+            <OnHeaderClickEvent></OnHeaderClickEvent>
+            <OnClickEvent></OnClickEvent>
+        </ListBoxDef>
+
+
+        <VerticalResizeImageDef>
+            <Position>
+                <X>9</X>
+                <Y>22</Y>
+            </Position>
+            <Alignment>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>vault_blank</TemplateName>
+            <Height>357</Height>
+        </VerticalResizeImageDef>
 
 
         <ButtonDef>
@@ -135,43 +214,6 @@
         </ButtonDef>
 
 
-        <VerticalResizeImageDef>
-            <Position>
-                <X>12</X>
-                <Y>23</Y>
-            </Position>
-            <Alignment>
-                <GrowHeight>true</GrowHeight>
-            </Alignment>
-            <TemplateName>vault_blank</TemplateName>
-            <Height>355</Height>
-        </VerticalResizeImageDef>
-
-
-        <ListBoxDef>
-            <ControlId>1000</ControlId>
-            <Position>
-                <X>5</X>
-                <Y>19</Y>
-            </Position>
-            <Alignment>
-                <GrowWidth>true</GrowWidth>
-                <GrowHeight>true</GrowHeight>
-            </Alignment>
-            <Width>250</Width>
-            <Height>362</Height>
-            <TemplateName>_witt_listbox_80</TemplateName>
-            <AdapterName>vault_items</AdapterName>
-            <Sorting>false</Sorting>
-            <Columns>2</Columns>
-            <IconTemplate></IconTemplate>
-            <ShowIndicator>false</ShowIndicator>
-            <ShowDefaultToolTips>false</ShowDefaultToolTips>
-            <OnHeaderClickEvent></OnHeaderClickEvent>
-            <OnClickEvent></OnClickEvent>
-        </ListBoxDef>
-
-
         <ButtonDef>
             <ControlId>1002</ControlId>
             <Position>
@@ -184,30 +226,6 @@
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Pages</Label>
         </ButtonDef>
-
-
-        <LabelDef>
-            <ControlId>1001</ControlId>
-            <Position>
-                <X>0</X>
-                <Y>4</Y>
-            </Position>
-            <Alignment>
-                <CenterHorizontally>true</CenterHorizontally>
-            </Alignment>
-            <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </Color>
-            <FontName>_whatisthisfont2</FontName>
-            <Width>260</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
-            <Data>VAULT</Data>
-            <TextCentered>true</TextCentered>
-        </LabelDef>
 
 
     </WindowTemplate>

@@ -29,7 +29,7 @@
 
 
         <FullResizeImageDef>
-            <ControlId>Window</ControlId>
+            <ControlId>Background</ControlId>
             <Position>
                 <X>0</X>
                 <Y>0</Y>
@@ -76,7 +76,7 @@
 
 
         <FullResizeImageDef>
-            <ControlId>InnerWindow</ControlId>
+            <ControlId>Inner Window</ControlId>
             <Position>
                 <X>5</X>
                 <Y>19</Y>
