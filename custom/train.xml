@@ -29,6 +29,7 @@
 
 
         <FullResizeImageDef>
+            <ControlId>Background</ControlId>
             <Position>
                 <X>0</X>
                 <Y>0</Y>
@@ -40,6 +41,7 @@
 
 
         <FullResizeImageDef>
+            <ControlId>Title</ControlId>
             <Position>
                 <X>0</X>
                 <Y>0</Y>
@@ -70,6 +72,42 @@
             <Height>15</Height>
             <MaxCharacters>128</MaxCharacters>
             <Data>SPECIALIZATIONS</Data>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>Title2</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>121</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <TemplateName>_witt_bg_100</TemplateName>
+            <Width>256</Width>
+            <Height>19</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId>1011</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>125</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>256</Width>
+            <Height>15</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>REALM SKILLS</Data>
             <TextCentered>true</TextCentered>
         </LabelDef>
 
@@ -118,41 +156,6 @@
             <MaxCharacters>64</MaxCharacters>
             <Data>kwijiboe</Data>
             <Adapter>train_skill_points</Adapter>
-            <TextCentered>true</TextCentered>
-        </LabelDef>
-
-
-        <FullResizeImageDef>
-            <Position>
-                <X>0</X>
-                <Y>121</Y>
-            </Position>
-            <Alignment>
-                <CenterHorizontally>true</CenterHorizontally>
-            </Alignment>
-            <TemplateName>_witt_bg_100</TemplateName>
-            <Width>256</Width>
-            <Height>19</Height>
-        </FullResizeImageDef>
-
-
-        <LabelDef>
-            <ControlId>1011</ControlId>
-            <Position>
-                <X>0</X>
-                <Y>125</Y>
-            </Position>
-            <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </Color>
-            <FontName>_whatisthisfont2</FontName>
-            <Width>256</Width>
-            <Height>15</Height>
-            <MaxCharacters>128</MaxCharacters>
-            <Data>REALM SKILLS</Data>
             <TextCentered>true</TextCentered>
         </LabelDef>
 
