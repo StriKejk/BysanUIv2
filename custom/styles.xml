@@ -17146,7 +17146,7 @@
         <Texture>
             <TextureName>_whatisthistexture</TextureName>
             <Left>
-                <X>47</X>
+                <X>53</X>
                 <Y>0</Y>
             </Left>
             <Repeat>
@@ -17170,7 +17170,7 @@
         <Texture>
             <TextureName>_whatisthistexture</TextureName>
             <Left>
-                <X>47</X>
+                <X>53</X>
                 <Y>0</Y>
             </Left>
             <Repeat>
@@ -17236,7 +17236,7 @@
     <StatusBarTemplate>
         <Name>_witt_statusbar_tiny_green</Name>
         <ForegroundHResizeTemplate>_witt_statusbar_tiny_greenfg</ForegroundHResizeTemplate>
-        <BackgroundHResizeTemplate>_witt_statusbar_tiny_bg</BackgroundHResizeTemplate>
+        <BackgroundHResizeTemplate>_witt_statusbard_tiny_backgroundh</BackgroundHResizeTemplate>
         <Height>5</Height>
         <ForegroundOffset>
             <X>0</X>
@@ -17248,7 +17248,7 @@
     <StatusBarTemplate>
         <Name>_witt_statusbar_tiny_yellow</Name>
         <ForegroundHResizeTemplate>_witt_statusbar_tiny_yellowfg</ForegroundHResizeTemplate>
-        <BackgroundHResizeTemplate>_witt_statusbar_tiny_bg</BackgroundHResizeTemplate>
+        <BackgroundHResizeTemplate>_witt_statusbard_tiny_backgroundh</BackgroundHResizeTemplate>
         <Height>5</Height>
         <ForegroundOffset>
             <X>0</X>
@@ -17971,7 +17971,7 @@
         <Name>_witt_statusbar_v_yellow</Name>
         <ForegroundImage>_witt_statusbar_v_yellowfg</ForegroundImage>
         <BackgroundImage>_witt_statusbar_v_bg</BackgroundImage>
-        <Width>6</Width>
+        <Width>36</Width>
         <ForegroundOffset>
             <X>0</X>
             <Y>0</Y>
@@ -19269,6 +19269,54 @@
             </Disabled>
         </Texture>
     </ButtonTemplate>
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>_witt_statusbard_tiny_backgroundH</Name>
+        <Height>1</Height>
+        <LeftWidth>5</LeftWidth>
+        <RepeatWidth>5</RepeatWidth>
+        <RightWidth>5</RightWidth>
+        <Texture>
+            <TextureName>_whatisthishh2</TextureName>
+            <Left>
+                <X>10</X>
+                <Y>40</Y>
+            </Left>
+            <Repeat>
+                <X>10</X>
+                <Y>40</Y>
+            </Repeat>
+            <Right>
+                <X>10</X>
+                <Y>40</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <VerticalResizeImageTemplate>
+        <Name>_witt_statusbard_tiny_backgroundV</Name>
+        <Width>1</Width>
+        <TopHeight>5</TopHeight>
+        <RepeatHeight>5</RepeatHeight>
+        <BottomHeight>5</BottomHeight>
+        <Texture>
+            <TextureName>_whatisthishh2</TextureName>
+            <Top>
+                <X>10</X>
+                <Y>40</Y>
+            </Top>
+            <Repeat>
+                <X>10</X>
+                <Y>40</Y>
+            </Repeat>
+            <Bottom>
+                <X>10</X>
+                <Y>40</Y>
+            </Bottom>
+        </Texture>
+    </VerticalResizeImageTemplate>
 
 
 </Root_Element>
