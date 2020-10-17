@@ -15755,7 +15755,7 @@
 
     <TreeControlTemplate>
         <Name>_witt_listbox_noscroll</Name>
-        <BackgroundTemplate>_witt_bg_0</BackgroundTemplate>
+        <BackgroundTemplate>none</BackgroundTemplate>
         <ScrollbarTemplate>_witt_scroll_nobutton_treeonly</ScrollbarTemplate>
         <CheckBoxTemplate>_witt_checkbox_inverted</CheckBoxTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
