@@ -15,20 +15,21 @@
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>129</TitleWidth>
-        <TitleHeight>18</TitleHeight>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
         <Width>129</Width>
         <Height>50</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>0</MinWidth>
-        <MinHeight>0</MinHeight>
+        <MinWidth>129</MinWidth>
+        <MinHeight>50</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
+            <ControlId>Background</ControlId>
             <Position>
                 <X>0</X>
                 <Y>0</Y>
@@ -57,8 +58,8 @@
             <Width>112</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
-            <Data>update me!</Data>
             <Adapter>value_item_title</Adapter>
+            <TextCentered>true</TextCentered>
         </LabelDef>
 
 
@@ -81,6 +82,7 @@
                 <A>255</A>
             </Color>
             <Adapter>value_chooser_qty</Adapter>
+            <TextCentered>true</TextCentered>
         </ScalarLabelDef>
 
 
@@ -108,9 +110,6 @@
             <TemplateName>_witt_button_right</TemplateName>
             <OnClickEvent>ValueChooserIncrease</OnClickEvent>
         </ButtonDef>
-
-
-        <!--Commit Buttons-->
 
 
         <ButtonDef>

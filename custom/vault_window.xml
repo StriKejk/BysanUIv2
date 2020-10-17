@@ -77,7 +77,7 @@
             <Alignment>
                 <GrowWidth>true</GrowWidth>
             </Alignment>
-            <TemplateName>_witt_bg_100</TemplateName>
+            <TemplateName>_witt_bg_90</TemplateName>
             <Width>260</Width>
             <Height>20</Height>
         </FullResizeImageDef>
@@ -123,30 +123,17 @@
         </FullResizeImageDef>
 
 
-        <LabelDef>
-            <ControlId>1005</ControlId>
+        <VerticalResizeImageDef>
             <Position>
-                <X>18</X>
-                <Y>1</Y>
+                <X>9</X>
+                <Y>22</Y>
             </Position>
             <Alignment>
-                <OffsetBottom>true</OffsetBottom>
-                <OffsetRight>true</OffsetRight>
+                <GrowHeight>true</GrowHeight>
             </Alignment>
-            <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </Color>
-            <FontName>_whatisthisfont3</FontName>
-            <Width>42</Width>
-            <Height>16</Height>
-            <MaxCharacters>64</MaxCharacters>
-            <Data>Page Number</Data>
-            <Adapter>vault_page</Adapter>
-            <TextCentered>true</TextCentered>
-        </LabelDef>
+            <TemplateName>vault_blank</TemplateName>
+            <Height>357</Height>
+        </VerticalResizeImageDef>
 
 
         <ListBoxDef>
@@ -173,17 +160,30 @@
         </ListBoxDef>
 
 
-        <VerticalResizeImageDef>
+        <LabelDef>
+            <ControlId>1005</ControlId>
             <Position>
-                <X>9</X>
-                <Y>22</Y>
+                <X>18</X>
+                <Y>1</Y>
             </Position>
             <Alignment>
-                <GrowHeight>true</GrowHeight>
+                <OffsetBottom>true</OffsetBottom>
+                <OffsetRight>true</OffsetRight>
             </Alignment>
-            <TemplateName>vault_blank</TemplateName>
-            <Height>357</Height>
-        </VerticalResizeImageDef>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont3</FontName>
+            <Width>42</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>Page Number</Data>
+            <Adapter>vault_page</Adapter>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
 
 
         <ButtonDef>
