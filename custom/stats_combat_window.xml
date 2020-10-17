@@ -29,6 +29,18 @@
 
 
         <FullResizeImageDef>
+            <ControlId>Window</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_witt_bg_80</TemplateName>
+            <Width>198</Width>
+            <Height>380</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
             <ControlId>Titel</ControlId>
             <Position>
                 <X>0</X>
@@ -37,30 +49,6 @@
             <TemplateName>_witt_bg_100</TemplateName>
             <Width>198</Width>
             <Height>20</Height>
-        </FullResizeImageDef>
-
-
-        <FullResizeImageDef>
-            <ControlId>Window</ControlId>
-            <Position>
-                <X>0</X>
-                <Y>19</Y>
-            </Position>
-            <TemplateName>_witt_bg_80</TemplateName>
-            <Width>198</Width>
-            <Height>361</Height>
-        </FullResizeImageDef>
-
-
-        <FullResizeImageDef>
-            <ControlId>InnerWindow</ControlId>
-            <Position>
-                <X>5</X>
-                <Y>19</Y>
-            </Position>
-            <TemplateName>_witt_bg_90</TemplateName>
-            <Width>188</Width>
-            <Height>356</Height>
         </FullResizeImageDef>
 
 
@@ -85,6 +73,18 @@
             <Data>STYLES</Data>
             <TextCentered>true</TextCentered>
         </LabelDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>InnerWindow</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>19</Y>
+            </Position>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>188</Width>
+            <Height>356</Height>
+        </FullResizeImageDef>
 
 
         <TreeControlDef>
