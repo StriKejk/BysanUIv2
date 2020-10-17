@@ -17716,10 +17716,10 @@
         <TextureName>_whatisthishh</TextureName>
         <TextureStart>
             <X>0</X>
-            <Y>82</Y>
+            <Y>87</Y>
         </TextureStart>
         <Width>93</Width>
-        <Height>46</Height>
+        <Height>36</Height>
         <MaxLevels>31</MaxLevels>
         <Horizontal>true</Horizontal>
     </StatusIconTemplate>
@@ -19317,6 +19317,34 @@
             </Bottom>
         </Texture>
     </VerticalResizeImageTemplate>
+
+
+    <StatusIconTemplate>
+        <Name>_witt_hh_endu</Name>
+        <TextureName>_whatisthishe</TextureName>
+        <TextureStart>
+            <X>0</X>
+            <Y>123</Y>
+        </TextureStart>
+        <Width>93</Width>
+        <Height>5</Height>
+        <MaxLevels>31</MaxLevels>
+        <Horizontal>true</Horizontal>
+    </StatusIconTemplate>
+
+
+    <StatusIconTemplate>
+        <Name>_witt_hh_power</Name>
+        <TextureName>_whatisthishp</TextureName>
+        <TextureStart>
+            <X>0</X>
+            <Y>123</Y>
+        </TextureStart>
+        <Width>93</Width>
+        <Height>5</Height>
+        <MaxLevels>31</MaxLevels>
+        <Horizontal>true</Horizontal>
+    </StatusIconTemplate>
 
 
 </Root_Element>
