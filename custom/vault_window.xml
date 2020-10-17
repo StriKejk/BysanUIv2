@@ -69,7 +69,7 @@
 
 
         <FullResizeImageDef>
-            <ControlId>Titel</ControlId>
+            <ControlId>Title</ControlId>
             <Position>
                 <X>0</X>
                 <Y>0</Y>
