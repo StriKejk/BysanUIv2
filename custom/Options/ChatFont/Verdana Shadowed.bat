@@ -20,7 +20,7 @@ copy Verdana-Shadowed\VerdanaBold11px.tga ..\..\Assets\Fonts\whatisthisfont5.tga
 copy Verdana-Shadowed\Verdana11px.tga ..\..\Assets\Fonts\whatisthisfont11px.tga
 copy Verdana-Shadowed\Verdana14px.tga ..\..\Assets\Fonts\whatisthisfont14px.tga
 copy Verdana-Shadowed\Verdana11px.tga ..\..\Assets\Fonts\whatisthisfontstest.tga
-copy Verdana-Shadowed\Verdana11px.tga ..\..\Assets\Fonts\arial09_cl.tga
+copy Verdana-Shadowed\Verdana9px.tga ..\..\Assets\Fonts\arial09_cl.tga
 
 
 echo.
