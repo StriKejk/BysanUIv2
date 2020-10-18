@@ -17716,10 +17716,10 @@
         <TextureName>_whatisthishh</TextureName>
         <TextureStart>
             <X>0</X>
-            <Y>87</Y>
+            <Y>82</Y>
         </TextureStart>
         <Width>93</Width>
-        <Height>36</Height>
+        <Height>46</Height>
         <MaxLevels>31</MaxLevels>
         <Horizontal>true</Horizontal>
     </StatusIconTemplate>
@@ -18037,15 +18037,15 @@
             <TextureName>_whatisthishh2</TextureName>
             <Top>
                 <X>14</X>
-                <Y>0</Y>
+                <Y>30</Y>
             </Top>
             <Repeat>
                 <X>14</X>
-                <Y>1</Y>
+                <Y>31</Y>
             </Repeat>
             <Bottom>
                 <X>14</X>
-                <Y>25</Y>
+                <Y>55</Y>
             </Bottom>
         </Texture>
     </VerticalResizeImageTemplate>

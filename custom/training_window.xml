@@ -1880,8 +1880,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>spec_icon_desc0</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -1900,8 +1898,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>spec_icon_desc1</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -1920,8 +1916,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>spec_icon_desc2</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -1940,8 +1934,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>spec_icon_desc3</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -1960,8 +1952,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>spec_icon_desc4</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -1980,8 +1970,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>spec_icon_desc5</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2000,8 +1988,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>spec_icon_desc6</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2020,8 +2006,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>spec_icon_desc7</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2040,8 +2024,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>spec_icon_desc8</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2060,8 +2042,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>spec_icon_desc9</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2080,8 +2060,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>spec_icon_desc10</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2100,8 +2078,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>spec_icon_desc11</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2120,8 +2096,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>spec_icon_desc12</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2140,8 +2114,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>spec_icon_desc13</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2160,8 +2132,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>spec_icon_desc14</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2180,8 +2150,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>spec_icon_desc15</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2200,8 +2168,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>spec_icon_desc16</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2220,8 +2186,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>spec_icon_desc17</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2240,8 +2204,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>spec_icon_desc18</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2260,8 +2222,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>spec_icon_desc19</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2349,8 +2309,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc00</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2369,8 +2327,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc01</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2389,8 +2345,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc02</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2409,8 +2363,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc03</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2429,8 +2381,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc04</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2449,8 +2399,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc05</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2469,8 +2417,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc06</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2489,8 +2435,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc07</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2509,8 +2453,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc08</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2658,8 +2600,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc10</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2678,8 +2618,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc11</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2698,8 +2636,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc12</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2718,8 +2654,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc13</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2738,8 +2672,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc14</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2758,8 +2690,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc15</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2778,8 +2708,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc16</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2798,8 +2726,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc17</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2818,8 +2744,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc18</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2967,8 +2891,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc20</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2987,8 +2909,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc21</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -3007,8 +2927,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc22</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -3027,8 +2945,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc23</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -3047,8 +2963,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc24</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -3067,8 +2981,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc25</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -3087,8 +2999,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc26</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -3107,8 +3017,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc27</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -3127,8 +3035,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc28</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -3276,8 +3182,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc30</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -3296,8 +3200,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc31</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -3316,8 +3218,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc32</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -3336,8 +3236,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc33</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -3356,8 +3254,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc34</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -3376,8 +3272,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc35</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -3396,8 +3290,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc36</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -3416,8 +3308,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc37</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -3436,8 +3326,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc38</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -3517,7 +3405,7 @@
             </Position>
             <Adaptername>summary_slider</Adaptername>
             <Height>395</Height>
-            <Numticks>10</Numticks>
+            <Numticks>0</Numticks>
             <OnClickEvent></OnClickEvent>
             <Templatename>_witt_vslider_nobutton</Templatename>
         </VerticalSliderDef>
@@ -4839,7 +4727,7 @@
             </Position>
             <Adaptername>realm_slider</Adaptername>
             <Height>395</Height>
-            <Numticks>10</Numticks>
+            <Numticks>0</Numticks>
             <OnClickEvent></OnClickEvent>
             <Templatename>_witt_vslider_nobutton</Templatename>
         </VerticalSliderDef>
