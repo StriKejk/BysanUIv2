@@ -15053,12 +15053,12 @@
         <Name>_witt_vscroll_thumb</Name>
         <Width>6</Width>
         <TopHeight>2</TopHeight>
-        <RepeatHeight>14</RepeatHeight>
+        <RepeatHeight>15</RepeatHeight>
         <BottomHeight>1</BottomHeight>
         <Texture>
             <TextureName>_whatisthistexture</TextureName>
             <Top>
-                <X>883</X>
+                <X>989</X>
                 <Y>933</Y>
             </Top>
             <Repeat>
@@ -15066,8 +15066,8 @@
                 <Y>936</Y>
             </Repeat>
             <Bottom>
-                <X>883</X>
-                <Y>951</Y>
+                <X>989</X>
+                <Y>934</Y>
             </Bottom>
         </Texture>
     </VerticalResizeImageTemplate>
