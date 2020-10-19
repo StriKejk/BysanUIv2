@@ -12,24 +12,24 @@
         <MoveButton>false</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>
         <BottomRightResizeButton>false</BottomRightResizeButton>
-        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <BottomLeftResizeButton>true</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>64</TitleWidth>
-        <TitleHeight>18</TitleHeight>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
         <Width>100</Width>
-        <Height>64</Height>
-        <ResizeableWidth>5</ResizeableWidth>
-        <ResizeableHeight>5</ResizeableHeight>
+        <Height>65</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>78</MinWidth>
-        <MinHeight>64</MinHeight>
+        <MinWidth>100</MinWidth>
+        <MinHeight>65</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
 
-        <TextAreaDef>
-            <ControlId>1009</ControlId>
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
             <Position>
                 <X>0</X>
                 <Y>0</Y>
@@ -38,12 +38,28 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>_witt_textarea_80</TemplateName>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>100</Width>
+            <Height>65</Height>
+        </FullResizeImageDef>
+
+
+        <TextAreaDef>
+            <ControlId>1009</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>-1</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>_witt_textarea</TemplateName>
             <AdapterName>mini_friends_text</AdapterName>
             <HasHotspots>false</HasHotspots>
             <MaxCharacters>32768</MaxCharacters>
             <Width>100</Width>
-            <Height>65</Height>
+            <Height>67</Height>
         </TextAreaDef>
 
 

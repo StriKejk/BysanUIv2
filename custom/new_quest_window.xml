@@ -15,39 +15,28 @@
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>278</TitleWidth>
-        <TitleHeight>18</TitleHeight>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
         <Width>278</Width>
-        <Height>359</Height>
+        <Height>358</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>0</MinWidth>
-        <MinHeight>0</MinHeight>
+        <MinWidth>278</MinWidth>
+        <MinHeight>358</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
-            <ControlId>BackgroundImage</ControlId>
+            <ControlId>Title1</ControlId>
             <Position>
                 <X>0</X>
                 <Y>0</Y>
             </Position>
             <TemplateName>_witt_bg_90</TemplateName>
             <Width>278</Width>
-            <Height>359</Height>
-        </FullResizeImageDef>
-
-
-        <FullResizeImageDef>
-            <Position>
-                <X>0</X>
-                <Y>0</Y>
-            </Position>
-            <TemplateName>_witt_bg_100</TemplateName>
-            <Width>278</Width>
-            <Height>19</Height>
+            <Height>20</Height>
         </FullResizeImageDef>
 
 
@@ -67,11 +56,23 @@
             </Color>
             <FontName>_whatisthisfont2</FontName>
             <Width>278</Width>
-            <Height>15</Height>
+            <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
             <Adapter>new_quest_title</Adapter>
             <TextCentered>true</TextCentered>
         </LabelDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background1</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>19</Y>
+            </Position>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>278</Width>
+            <Height>149</Height>
+        </FullResizeImageDef>
 
 
         <TextAreaDef>
@@ -85,18 +86,19 @@
             <HasHotspots>false</HasHotspots>
             <MaxCharacters>32768</MaxCharacters>
             <Width>278</Width>
-            <Height>150</Height>
+            <Height>151</Height>
         </TextAreaDef>
 
 
         <FullResizeImageDef>
+            <ControlId>Title2</ControlId>
             <Position>
                 <X>0</X>
                 <Y>167</Y>
             </Position>
-            <TemplateName>_witt_bg_100</TemplateName>
+            <TemplateName>_witt_bg_90</TemplateName>
             <Width>278</Width>
-            <Height>19</Height>
+            <Height>20</Height>
         </FullResizeImageDef>
 
 
@@ -116,11 +118,23 @@
             </Color>
             <FontName>_whatisthisfont2</FontName>
             <Width>278</Width>
-            <Height>15</Height>
+            <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
             <Data>Basic Rewards</Data>
             <TextCentered>true</TextCentered>
         </LabelDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background2</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>186</Y>
+            </Position>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>278</Width>
+            <Height>98</Height>
+        </FullResizeImageDef>
 
 
         <!-- Basic reward frames -->
@@ -616,13 +630,14 @@
 
 
         <FullResizeImageDef>
+            <ControlId>Title3</ControlId>
             <Position>
                 <X>0</X>
                 <Y>283</Y>
             </Position>
-            <TemplateName>_witt_bg_100</TemplateName>
+            <TemplateName>_witt_bg_90</TemplateName>
             <Width>278</Width>
-            <Height>19</Height>
+            <Height>20</Height>
         </FullResizeImageDef>
 
 
@@ -642,11 +657,23 @@
             </Color>
             <FontName>_whatisthisfont2</FontName>
             <Width>278</Width>
-            <Height>15</Height>
+            <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
             <Data>Optional Rewards</Data>
             <TextCentered>true</TextCentered>
         </LabelDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background3</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>302</Y>
+            </Position>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>278</Width>
+            <Height>56</Height>
+        </FullResizeImageDef>
 
 
         <LabelDef>
@@ -909,8 +936,8 @@
         <ButtonDef>
             <ControlId>1003</ControlId>
             <Position>
-                <X>3</X>
-                <Y>1</Y>
+                <X>2</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
@@ -924,8 +951,8 @@
         <ButtonDef>
             <ControlId>1004</ControlId>
             <Position>
-                <X>3</X>
-                <Y>1</Y>
+                <X>2</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>

@@ -144,7 +144,7 @@
         <Name>realmwar_mid</Name>
         <WindowId></WindowId>
         <CloseButton>false</CloseButton>
-        <MoveButton>true</MoveButton>
+        <MoveButton>false</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>
         <BottomRightResizeButton>false</BottomRightResizeButton>
         <BottomLeftResizeButton>false</BottomLeftResizeButton>

@@ -15,16 +15,16 @@
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>209</TitleWidth>
-        <TitleHeight>4</TitleHeight>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
         <Width>209</Width>
         <Height>142</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>0</MinWidth>
-        <MinHeight>0</MinHeight>
+        <MinWidth>209</MinWidth>
+        <MinHeight>142</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
 
@@ -288,11 +288,11 @@
             <ControlId>1200</ControlId>
             <Position>
                 <X>0</X>
-                <Y>102</Y>
+                <Y>101</Y>
             </Position>
             <Width>209</Width>
-            <Height>40</Height>
-            <TemplateName>_witt_listbox_80</TemplateName>
+            <Height>42</Height>
+            <TemplateName>_witt_listbox_0</TemplateName>
             <AdapterName>mini_info_use_list</AdapterName>
             <Sorting>false</Sorting>
             <Columns>2</Columns>

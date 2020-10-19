@@ -11,13 +11,13 @@
         <CloseButton>true</CloseButton>
         <MoveButton>false</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>
-        <BottomRightResizeButton>true</BottomRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
         <TitleWidth>0</TitleWidth>
         <TitleHeight>0</TitleHeight>
-        <Width>100</Width>
+        <Width>120</Width>
         <Height>40</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
@@ -39,7 +39,7 @@
                 <GrowHeight>true</GrowHeight>
             </Alignment>
             <TemplateName>_witt_bg_90</TemplateName>
-            <Width>100</Width>
+            <Width>120</Width>
             <Height>40</Height>
         </FullResizeImageDef>
 
@@ -59,7 +59,7 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont2</FontName>
-            <Width>100</Width>
+            <Width>120</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
             <Data>Keep Name</Data>

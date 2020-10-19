@@ -15,38 +15,28 @@
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>236</TitleWidth>
-        <TitleHeight>20</TitleHeight>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
         <Width>236</Width>
         <Height>474</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>0</MinWidth>
-        <MinHeight>0</MinHeight>
+        <MinWidth>236</MinWidth>
+        <MinHeight>474</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
+            <ControlId>Title</ControlId>
             <Position>
                 <X>0</X>
                 <Y>0</Y>
             </Position>
             <TemplateName>_witt_bg_90</TemplateName>
             <Width>236</Width>
-            <Height>474</Height>
-        </FullResizeImageDef>
-
-
-        <FullResizeImageDef>
-            <Position>
-                <X>0</X>
-                <Y>0</Y>
-            </Position>
-            <TemplateName>_witt_bg_100</TemplateName>
-            <Width>236</Width>
-            <Height>19</Height>
+            <Height>20</Height>
         </FullResizeImageDef>
 
 
@@ -71,6 +61,18 @@
             <Data>OPTIONS</Data>
             <TextCentered>true</TextCentered>
         </LabelDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>19</Y>
+            </Position>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>236</Width>
+            <Height>455</Height>
+        </FullResizeImageDef>
 
 
         <LabelDef>
@@ -768,8 +770,8 @@
         <ButtonDef>
             <ControlId>1016</ControlId>
             <Position>
-                <X>3</X>
-                <Y>1</Y>
+                <X>2</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
@@ -781,8 +783,8 @@
 
         <ButtonDef>
             <Position>
-                <X>3</X>
-                <Y>1</Y>
+                <X>2</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>

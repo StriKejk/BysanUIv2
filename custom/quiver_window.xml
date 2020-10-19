@@ -17,26 +17,26 @@
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
         <TitleWidth>0</TitleWidth>
         <TitleHeight>0</TitleHeight>
-        <Width>133</Width>
-        <Height>49</Height>
+        <Width>138</Width>
+        <Height>50</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>0</MinWidth>
-        <MinHeight>0</MinHeight>
+        <MinWidth>138</MinWidth>
+        <MinHeight>50</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
-            <ControlId>5000</ControlId>
+            <ControlId>Background</ControlId>
             <Position>
-                <X>1</X>
-                <Y>1</Y>
+                <X>0</X>
+                <Y>0</Y>
             </Position>
-            <TemplateName>_witt_bg_80</TemplateName>
-            <Width>34</Width>
-            <Height>46</Height>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>138</Width>
+            <Height>50</Height>
         </FullResizeImageDef>
 
 
@@ -56,13 +56,17 @@
             <AdapterName>quiver_icon0</AdapterName>
             <IconId>234</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <LabelDef>
             <Position>
-                <X>4</X>
-                <Y>32</Y>
+                <X>1</X>
+                <Y>35</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -74,8 +78,8 @@
                 <A>192</A>
             </Color>
             <FontName>_whatisthisfont3</FontName>
-            <Width>28</Width>
-            <Height>16</Height>
+            <Width>34</Width>
+            <Height>15</Height>
             <MaxCharacters>4</MaxCharacters>
             <Adapter>quiver_count_string0</Adapter>
             <TextCentered>true</TextCentered>
@@ -93,14 +97,14 @@
             <Label></Label>
             <OnClickEvent>QuiverSelect0</OnClickEvent>
             <Width>34</Width>
-            <Height>33</Height>
+            <Height>34</Height>
         </InvisibleButtonDef>
 
 
         <InvisibleButtonDef>
             <Position>
                 <X>1</X>
-                <Y>34</Y>
+                <Y>35</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -108,7 +112,7 @@
             <Label></Label>
             <OnClickEvent>QuiverAdd0</OnClickEvent>
             <Width>34</Width>
-            <Height>12</Height>
+            <Height>15</Height>
         </InvisibleButtonDef>
 
 
@@ -118,7 +122,7 @@
         <IconDef>
             <ControlId>1001</ControlId>
             <Position>
-                <X>35</X>
+                <X>36</X>
                 <Y>2</Y>
             </Position>
             <Alignment>
@@ -128,13 +132,17 @@
             <AdapterName>quiver_icon1</AdapterName>
             <IconId>235</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <LabelDef>
             <Position>
                 <X>37</X>
-                <Y>32</Y>
+                <Y>35</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -146,8 +154,8 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont3</FontName>
-            <Width>28</Width>
-            <Height>16</Height>
+            <Width>34</Width>
+            <Height>15</Height>
             <MaxCharacters>4</MaxCharacters>
             <Adapter>quiver_count_string1</Adapter>
             <TextCentered>true</TextCentered>
@@ -156,7 +164,7 @@
 
         <InvisibleButtonDef>
             <Position>
-                <X>34</X>
+                <X>35</X>
                 <Y>1</Y>
             </Position>
             <Alignment>
@@ -165,14 +173,14 @@
             <Label></Label>
             <OnClickEvent>QuiverSelect1</OnClickEvent>
             <Width>34</Width>
-            <Height>33</Height>
+            <Height>34</Height>
         </InvisibleButtonDef>
 
 
         <InvisibleButtonDef>
             <Position>
-                <X>34</X>
-                <Y>34</Y>
+                <X>35</X>
+                <Y>35</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -180,7 +188,7 @@
             <Label></Label>
             <OnClickEvent>QuiverAdd1</OnClickEvent>
             <Width>34</Width>
-            <Height>12</Height>
+            <Height>15</Height>
         </InvisibleButtonDef>
 
 
@@ -190,7 +198,7 @@
         <IconDef>
             <ControlId>1002</ControlId>
             <Position>
-                <X>68</X>
+                <X>70</X>
                 <Y>2</Y>
             </Position>
             <Alignment>
@@ -200,13 +208,17 @@
             <AdapterName>quiver_icon2</AdapterName>
             <IconId>236</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <LabelDef>
             <Position>
                 <X>70</X>
-                <Y>32</Y>
+                <Y>35</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -218,8 +230,8 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont3</FontName>
-            <Width>28</Width>
-            <Height>16</Height>
+            <Width>34</Width>
+            <Height>15</Height>
             <MaxCharacters>4</MaxCharacters>
             <Adapter>quiver_count_string2</Adapter>
             <TextCentered>true</TextCentered>
@@ -228,7 +240,7 @@
 
         <InvisibleButtonDef>
             <Position>
-                <X>67</X>
+                <X>69</X>
                 <Y>1</Y>
             </Position>
             <Alignment>
@@ -237,14 +249,14 @@
             <Label></Label>
             <OnClickEvent>QuiverSelect2</OnClickEvent>
             <Width>34</Width>
-            <Height>33</Height>
+            <Height>34</Height>
         </InvisibleButtonDef>
 
 
         <InvisibleButtonDef>
             <Position>
-                <X>67</X>
-                <Y>34</Y>
+                <X>69</X>
+                <Y>35</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -252,7 +264,7 @@
             <Label></Label>
             <OnClickEvent>QuiverAdd2</OnClickEvent>
             <Width>34</Width>
-            <Height>12</Height>
+            <Height>15</Height>
         </InvisibleButtonDef>
 
 
@@ -262,7 +274,7 @@
         <IconDef>
             <ControlId>1003</ControlId>
             <Position>
-                <X>101</X>
+                <X>104</X>
                 <Y>2</Y>
             </Position>
             <Alignment>
@@ -272,13 +284,17 @@
             <AdapterName>quiver_icon3</AdapterName>
             <IconId>237</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <LabelDef>
             <Position>
                 <X>103</X>
-                <Y>32</Y>
+                <Y>35</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -290,8 +306,8 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont3</FontName>
-            <Width>28</Width>
-            <Height>16</Height>
+            <Width>34</Width>
+            <Height>15</Height>
             <MaxCharacters>4</MaxCharacters>
             <Adapter>quiver_count_string3</Adapter>
             <TextCentered>true</TextCentered>
@@ -300,7 +316,7 @@
 
         <InvisibleButtonDef>
             <Position>
-                <X>100</X>
+                <X>103</X>
                 <Y>1</Y>
             </Position>
             <Alignment>
@@ -309,14 +325,14 @@
             <Label></Label>
             <OnClickEvent>QuiverSelect3</OnClickEvent>
             <Width>34</Width>
-            <Height>33</Height>
+            <Height>34</Height>
         </InvisibleButtonDef>
 
 
         <InvisibleButtonDef>
             <Position>
-                <X>100</X>
-                <Y>34</Y>
+                <X>103</X>
+                <Y>35</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -324,7 +340,7 @@
             <Label></Label>
             <OnClickEvent>QuiverAdd3</OnClickEvent>
             <Width>34</Width>
-            <Height>12</Height>
+            <Height>15</Height>
         </InvisibleButtonDef>
 
 
