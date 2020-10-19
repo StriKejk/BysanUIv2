@@ -11,20 +11,20 @@
         <CloseButton>true</CloseButton>
         <MoveButton>false</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>
-        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomRightResizeButton>true</BottomRightResizeButton>
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>101</TitleWidth>
-        <TitleHeight>10</TitleHeight>
-        <Width>101</Width>
-        <Height>38</Height>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>100</Width>
+        <Height>40</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>0</MinWidth>
-        <MinHeight>0</MinHeight>
+        <MinWidth>100</MinWidth>
+        <MinHeight>40</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
 
@@ -39,15 +39,15 @@
                 <GrowHeight>true</GrowHeight>
             </Alignment>
             <TemplateName>_witt_bg_90</TemplateName>
-            <Width>101</Width>
-            <Height>38</Height>
+            <Width>100</Width>
+            <Height>40</Height>
         </FullResizeImageDef>
 
 
         <LabelDef>
             <Position>
                 <X>0</X>
-                <Y>3</Y>
+                <Y>4</Y>
             </Position>
             <Alignment>
                 <CenterHorizontally>true</CenterHorizontally>
@@ -59,18 +59,19 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont2</FontName>
-            <Width>101</Width>
+            <Width>100</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
             <Data>Keep Name</Data>
             <Adapter>siegetower_status_title</Adapter>
+            <TextCentered>true</TextCentered>
         </LabelDef>
 
 
         <ButtonDef>
             <Position>
                 <X>0</X>
-                <Y>1</Y>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>

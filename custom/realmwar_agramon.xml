@@ -35,32 +35,17 @@
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>270</TitleWidth>
+        <TitleWidth>0</TitleWidth>
         <TitleHeight>0</TitleHeight>
-        <Width>308</Width>
-        <Height>288</Height>
+        <Width>294</Width>
+        <Height>383</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>0</MinWidth>
-        <MinHeight>0</MinHeight>
+        <MinWidth>294</MinWidth>
+        <MinHeight>383</MinHeight>
         <ContextTemplateName></ContextTemplateName>
-
-
-        <FullResizeImageDef>
-            <Position>
-                <X>40</X>
-                <Y>0</Y>
-            </Position>
-            <Alignment>
-                <GrowWidth>true</GrowWidth>
-                <GrowHeight>true</GrowHeight>
-            </Alignment>
-            <TemplateName>_witt_bg_80</TemplateName>
-            <Width>263</Width>
-            <Height>288</Height>
-        </FullResizeImageDef>
 
 
         <!--Images-->
@@ -192,8 +177,8 @@
         <ImageAreaDef>
             <ControlId>1000</ControlId>
             <Position>
-                <X>43</X>
-                <Y>25</Y>
+                <X>38</X>
+                <Y>0</Y>
             </Position>
             <TemplateName>warmap_agramon</TemplateName>
         </ImageAreaDef>
@@ -202,10 +187,22 @@
         <!--Mini Info-->
 
 
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>100</X>
+                <Y>256</Y>
+            </Position>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>129</Width>
+            <Height>127</Height>
+        </FullResizeImageDef>
+
+
         <LabelDef>
             <Position>
-                <X>43</X>
-                <Y>290</Y>
+                <X>108</X>
+                <Y>293</Y>
             </Position>
             <Color>
                 <R>254</R>
@@ -214,8 +211,8 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont2</FontName>
-            <Width>128</Width>
-            <Height>16</Height>
+            <Width>110</Width>
+            <Height>15</Height>
             <MaxCharacters>64</MaxCharacters>
             <Data>Keep Name</Data>
             <ColorAdapter>realmwar_info_agramon</ColorAdapter>
@@ -225,8 +222,8 @@
 
         <LabelDef>
             <Position>
-                <X>43</X>
-                <Y>304</Y>
+                <X>110</X>
+                <Y>306</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -235,8 +232,8 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont3</FontName>
-            <Width>128</Width>
-            <Height>16</Height>
+            <Width>110</Width>
+            <Height>15</Height>
             <MaxCharacters>64</MaxCharacters>
             <Data>Realm</Data>
             <ColorAdapter>realmwar_info_agramon</ColorAdapter>
@@ -246,8 +243,8 @@
 
         <LabelDef>
             <Position>
-                <X>43</X>
-                <Y>320</Y>
+                <X>110</X>
+                <Y>321</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -256,8 +253,8 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont3</FontName>
-            <Width>128</Width>
-            <Height>16</Height>
+            <Width>110</Width>
+            <Height>15</Height>
             <MaxCharacters>64</MaxCharacters>
             <Data>Claimed by:</Data>
             <ColorAdapter>realmwar_info_agramon</ColorAdapter>
@@ -267,7 +264,7 @@
 
         <LabelDef>
             <Position>
-                <X>43</X>
+                <X>110</X>
                 <Y>336</Y>
             </Position>
             <Color>
@@ -277,8 +274,8 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont3</FontName>
-            <Width>128</Width>
-            <Height>16</Height>
+            <Width>110</Width>
+            <Height>15</Height>
             <MaxCharacters>64</MaxCharacters>
             <Data>Claiming Guild</Data>
             <ColorAdapter>realmwar_info_agramon</ColorAdapter>
@@ -288,8 +285,8 @@
 
         <LabelDef>
             <Position>
-                <X>43</X>
-                <Y>352</Y>
+                <X>110</X>
+                <Y>351</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -298,8 +295,8 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont3</FontName>
-            <Width>128</Width>
-            <Height>16</Height>
+            <Width>110</Width>
+            <Height>15</Height>
             <MaxCharacters>64</MaxCharacters>
             <Data>Under Siege</Data>
             <ColorAdapter>realmwar_info_agramon</ColorAdapter>
@@ -309,8 +306,8 @@
 
         <LabelDef>
             <Position>
-                <X>43</X>
-                <Y>368</Y>
+                <X>110</X>
+                <Y>366</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -319,8 +316,8 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont3</FontName>
-            <Width>128</Width>
-            <Height>16</Height>
+            <Width>110</Width>
+            <Height>15</Height>
             <MaxCharacters>64</MaxCharacters>
             <Data>More Stuff Here</Data>
             <ColorAdapter>realmwar_info_agramon</ColorAdapter>
@@ -339,8 +336,8 @@
 
         <ButtonDef>
             <Position>
-                <X>43</X>
-                <Y>3</Y>
+                <X>165</X>
+                <Y>258</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -353,8 +350,8 @@
 
         <ButtonDef>
             <Position>
-                <X>173</X>
-                <Y>3</Y>
+                <X>165</X>
+                <Y>275</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -367,8 +364,8 @@
 
         <ButtonDef>
             <Position>
-                <X>238</X>
-                <Y>3</Y>
+                <X>102</X>
+                <Y>258</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -381,8 +378,8 @@
 
         <ButtonDef>
             <Position>
-                <X>108</X>
-                <Y>3</Y>
+                <X>102</X>
+                <Y>275</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>

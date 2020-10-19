@@ -23,21 +23,9 @@
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>0</MinWidth>
-        <MinHeight>0</MinHeight>
+        <MinWidth>198</MinWidth>
+        <MinHeight>380</MinHeight>
         <ContextTemplateName></ContextTemplateName>
-
-
-        <FullResizeImageDef>
-            <ControlId>Background</ControlId>
-            <Position>
-                <X>0</X>
-                <Y>0</Y>
-            </Position>
-            <TemplateName>_witt_bg_80</TemplateName>
-            <Width>198</Width>
-            <Height>380</Height>
-        </FullResizeImageDef>
 
 
         <FullResizeImageDef>
@@ -46,7 +34,7 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
-            <TemplateName>_witt_bg_100</TemplateName>
+            <TemplateName>_witt_bg_90</TemplateName>
             <Width>198</Width>
             <Height>20</Height>
         </FullResizeImageDef>
@@ -76,30 +64,30 @@
 
 
         <FullResizeImageDef>
-            <ControlId>Inner Window</ControlId>
+            <ControlId>Background</ControlId>
             <Position>
-                <X>5</X>
+                <X>0</X>
                 <Y>19</Y>
             </Position>
             <TemplateName>_witt_bg_90</TemplateName>
-            <Width>188</Width>
-            <Height>356</Height>
+            <Width>198</Width>
+            <Height>361</Height>
         </FullResizeImageDef>
 
 
         <TreeControlDef>
             <ControlId>1000</ControlId>
             <Position>
-                <X>5</X>
-                <Y>19</Y>
+                <X>0</X>
+                <Y>18</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
             <TemplateName>_witt_listbox_noscroll</TemplateName>
             <AdapterName>stats_combat</AdapterName>
-            <Width>188</Width>
-            <Height>356</Height>
+            <Width>198</Width>
+            <Height>363</Height>
             <Column1Width>100</Column1Width>
             <Column1Offset>10</Column1Offset>
             <Column2Width>100</Column2Width>

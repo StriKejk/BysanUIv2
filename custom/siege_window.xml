@@ -11,126 +11,37 @@
         <CloseButton>true</CloseButton>
         <MoveButton>false</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>
-        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomRightResizeButton>true</BottomRightResizeButton>
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>207</TitleWidth>
-        <TitleHeight>8</TitleHeight>
-        <Width>207</Width>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>208</Width>
         <Height>145</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>0</MinWidth>
-        <MinHeight>0</MinHeight>
+        <MinWidth>208</MinWidth>
+        <MinHeight>145</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
-            <ControlId>BackgroundImage</ControlId>
+            <ControlId>Background</ControlId>
             <Position>
-                <X>1</X>
-                <Y>2</Y>
+                <X>0</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
             <TemplateName>_witt_bg_90</TemplateName>
-            <Width>206</Width>
+            <Width>208</Width>
             <Height>145</Height>
         </FullResizeImageDef>
-
-
-        <ButtonDef>
-            <ControlId>1101</ControlId>
-            <Position>
-                <X>142</X>
-                <Y>30</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_witt_hr_button</TemplateName>
-            <Label>Fire</Label>
-            <OnClickEvent>SiegeFire</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <ControlId>1102</ControlId>
-            <Position>
-                <X>142</X>
-                <Y>60</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_witt_hr_button</TemplateName>
-            <Label>Aim</Label>
-            <OnClickEvent>SiegeAim</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <ControlId>1100</ControlId>
-            <Position>
-                <X>142</X>
-                <Y>77</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_witt_hr_button</TemplateName>
-            <Label>Move</Label>
-            <OnClickEvent>SiegeMove</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <ControlId>1104</ControlId>
-            <Position>
-                <X>142</X>
-                <Y>94</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_witt_hr_button</TemplateName>
-            <Label>Release</Label>
-            <OnClickEvent>SiegeRelease</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>142</X>
-                <Y>111</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_witt_hr_button</TemplateName>
-            <Label>Repair</Label>
-            <OnClickEvent>SiegeRepair</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <ControlId>1103</ControlId>
-            <Position>
-                <X>142</X>
-                <Y>128</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_witt_hr_button</TemplateName>
-            <Label>Salvage</Label>
-            <OnClickEvent>SiegeSalvage</OnClickEvent>
-        </ButtonDef>
 
 
         <LabelDef>
@@ -160,7 +71,7 @@
             <ControlId>1001</ControlId>
             <Position>
                 <X>4</X>
-                <Y>18</Y>
+                <Y>17</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -210,15 +121,15 @@
         <ListBoxDef>
             <ControlId>1000</ControlId>
             <Position>
-                <X>4</X>
-                <Y>60</Y>
+                <X>1</X>
+                <Y>58</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <Width>135</Width>
-            <Height>84</Height>
-            <TemplateName>_witt_listbox_80</TemplateName>
+            <Width>142</Width>
+            <Height>88</Height>
+            <TemplateName>_witt_listbox_0</TemplateName>
             <AdapterName>siege_ammo</AdapterName>
             <Sorting>false</Sorting>
             <Columns>2</Columns>
@@ -228,6 +139,95 @@
             <OnHeaderClickEvent></OnHeaderClickEvent>
             <OnClickEvent></OnClickEvent>
         </ListBoxDef>
+
+
+        <ButtonDef>
+            <ControlId>1101</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>31</Y>
+            </Position>
+            <Alignment>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>Fire</Label>
+            <OnClickEvent>SiegeFire</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1102</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>59</Y>
+            </Position>
+            <Alignment>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>Aim</Label>
+            <OnClickEvent>SiegeAim</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1100</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>76</Y>
+            </Position>
+            <Alignment>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>Move</Label>
+            <OnClickEvent>SiegeMove</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1104</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>93</Y>
+            </Position>
+            <Alignment>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>Release</Label>
+            <OnClickEvent>SiegeRelease</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>2</X>
+                <Y>110</Y>
+            </Position>
+            <Alignment>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>Repair</Label>
+            <OnClickEvent>SiegeRepair</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1103</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>127</Y>
+            </Position>
+            <Alignment>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>Salvage</Label>
+            <OnClickEvent>SiegeSalvage</OnClickEvent>
+        </ButtonDef>
 
 
     </WindowTemplate>
