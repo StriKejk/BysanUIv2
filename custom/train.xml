@@ -80,7 +80,7 @@
             <ControlId>1004</ControlId>
             <Position>
                 <X>0</X>
-                <Y>19</Y>
+                <Y>18</Y>
             </Position>
             <Alignment>
                 <GrowWidth>true</GrowWidth>
@@ -178,7 +178,7 @@
             <ControlId>1005</ControlId>
             <Position>
                 <X>0</X>
-                <Y>140</Y>
+                <Y>139</Y>
             </Position>
             <Alignment>
                 <GrowWidth>true</GrowWidth>

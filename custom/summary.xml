@@ -252,14 +252,14 @@
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
         <TitleWidth>0</TitleWidth>
         <TitleHeight>0</TitleHeight>
-        <Width>720</Width>
-        <Height>26</Height>
+        <Width>240</Width>
+        <Height>75</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>720</MinWidth>
-        <MinHeight>26</MinHeight>
+        <MinWidth>240</MinWidth>
+        <MinHeight>75</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
 
@@ -274,20 +274,6 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_statusbar_mediumbig_blue</TemplateName>
-            <AdapterName>summary_player_hits</AdapterName>
-            <Width>240</Width>
-        </StatusBarDef>
-
-
-        <StatusBarDef>
-            <Position>
-                <X>480</X>
-                <Y>0</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <TemplateName>_witt_statusbar_mediumbig_red</TemplateName>
             <AdapterName>summary_target_hits</AdapterName>
             <Width>240</Width>
@@ -296,22 +282,22 @@
 
         <StatusBarDef>
             <Position>
-                <X>240</X>
-                <Y>13</Y>
+                <X>0</X>
+                <Y>25</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_statusbar_medium_yellow</TemplateName>
-            <AdapterName>summary_player_power</AdapterName>
+            <TemplateName>_witt_statusbar_mediumbig_blue</TemplateName>
+            <AdapterName>summary_player_hits</AdapterName>
             <Width>240</Width>
         </StatusBarDef>
 
 
         <StatusBarDef>
             <Position>
-                <X>240</X>
-                <Y>0</Y>
+                <X>0</X>
+                <Y>50</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -322,85 +308,28 @@
         </StatusBarDef>
 
 
+        <StatusBarDef>
+            <Position>
+                <X>0</X>
+                <Y>62</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_statusbar_medium_yellow</TemplateName>
+            <AdapterName>summary_player_power</AdapterName>
+            <Width>240</Width>
+        </StatusBarDef>
+
+
         <!--Hash Marks-->
 
 
-        <LabelDef>
-            <Position>
-                <X>0</X>
-                <Y>-16</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </Color>
-            <FontName>_whatisthisfont14pxst</FontName>
-            <Width>240</Width>
-            <Height>14</Height>
-            <MaxCharacters>64</MaxCharacters>
-            <Adapter>stats_name</Adapter>
-        </LabelDef>
-
-
-        <LabelDef>
-            <Position>
-                <X>480</X>
-                <Y>-16</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </Color>
-            <FontName>_whatisthisfont14pxst</FontName>
-            <Width>240</Width>
-            <Height>14</Height>
-            <MaxCharacters>64</MaxCharacters>
-            <ColorAdapter>summary_target_color</ColorAdapter>
-            <Adapter>summary_target</Adapter>
-        </LabelDef>
-
-
         <ScalarLabelDef>
             <Position>
                 <X>0</X>
                 <Y>5</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <FontName>_whatisthisfont14pxst</FontName>
-            <Width>40</Width>
-            <Height>20</Height>
-            <MaxCharacters>4</MaxCharacters>
-            <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </Color>
-            <Adapter>summary_player_hits</Adapter>
-            <TextCentered>true</TextCentered>
-        </ScalarLabelDef>
-
-
-        <ScalarLabelDef>
-            <Position>
-                <X>480</X>
-                <Y>5</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <FontName>_whatisthisfont14pxst</FontName>
             <Width>40</Width>
             <Height>20</Height>
@@ -417,64 +346,37 @@
         </ScalarLabelDef>
 
 
-        <ScalarLabelDef>
+        <LabelDef>
             <Position>
-                <X>220</X>
-                <Y>-16</Y>
+                <X>40</X>
+                <Y>5</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <FontName>_whatisthisfont14pxst</FontName>
-            <Width>240</Width>
-            <Height>20</Height>
-            <MaxCharacters>4</MaxCharacters>
             <Color>
-                <R>65</R>
-                <G>204</G>
-                <B>61</B>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
-            <Adapter>summary_player_end</Adapter>
-            <TextCentered>true</TextCentered>
-            <EndAligned>true</EndAligned>
-        </ScalarLabelDef>
-
-
-        <ScalarLabelDef>
-            <Position>
-                <X>260</X>
-                <Y>-16</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <FontName>_whatisthisfont14pxst</FontName>
-            <Width>240</Width>
+            <Width>160</Width>
             <Height>20</Height>
-            <MaxCharacters>4</MaxCharacters>
-            <Color>
-                <R>247</R>
-                <G>216</G>
-                <B>44</B>
-                <A>255</A>
-            </Color>
-            <Adapter>summary_player_power</Adapter>
+            <MaxCharacters>64</MaxCharacters>
+            <ColorAdapter>summary_target_color</ColorAdapter>
+            <Adapter>summary_target</Adapter>
             <TextCentered>true</TextCentered>
-            <EndAligned>true</EndAligned>
-        </ScalarLabelDef>
+        </LabelDef>
 
 
         <ScalarLabelDef>
             <Position>
-                <X>240</X>
-                <Y>-16</Y>
+                <X>0</X>
+                <Y>30</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
             <FontName>_whatisthisfont14pxst</FontName>
-            <Width>240</Width>
+            <Width>40</Width>
             <Height>20</Height>
             <MaxCharacters>4</MaxCharacters>
             <Color>
@@ -483,16 +385,16 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <Data>I</Data>
+            <Adapter>summary_player_hits</Adapter>
             <TextCentered>true</TextCentered>
-            <EndAligned>true</EndAligned>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
 
 
         <StatusIconDef>
             <Position>
                 <X>1</X>
-                <Y>1</Y>
+                <Y>26</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -500,6 +402,54 @@
             <TemplateName>_witt_combatmode</TemplateName>
             <AdapterName>combat_mode</AdapterName>
         </StatusIconDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>0</X>
+                <Y>51</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>40</Width>
+            <Height>12</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_player_end</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>0</X>
+                <Y>63</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>40</Width>
+            <Height>12</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_player_power</Adapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
 
 
     </WindowTemplate>

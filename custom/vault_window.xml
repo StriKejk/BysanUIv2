@@ -110,7 +110,7 @@
         <VerticalResizeImageDef>
             <Position>
                 <X>4</X>
-                <Y>22</Y>
+                <Y>23</Y>
             </Position>
             <Alignment>
                 <GrowHeight>true</GrowHeight>
@@ -124,7 +124,7 @@
             <ControlId>1000</ControlId>
             <Position>
                 <X>0</X>
-                <Y>19</Y>
+                <Y>18</Y>
             </Position>
             <Alignment>
                 <GrowWidth>true</GrowWidth>

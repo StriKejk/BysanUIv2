@@ -14853,15 +14853,15 @@
             <TextureName>_whatisthistexture</TextureName>
             <Left>
                 <X>0</X>
-                <Y>0</Y>
+                <Y>79</Y>
             </Left>
             <Repeat>
                 <X>1</X>
-                <Y>29</Y>
+                <Y>79</Y>
             </Repeat>
             <Right>
                 <X>0</X>
-                <Y>0</Y>
+                <Y>79</Y>
             </Right>
         </Texture>
     </HorizontalResizeImageTemplate>
@@ -15054,7 +15054,7 @@
         <Width>6</Width>
         <TopHeight>2</TopHeight>
         <RepeatHeight>14</RepeatHeight>
-        <BottomHeight>2</BottomHeight>
+        <BottomHeight>1</BottomHeight>
         <Texture>
             <TextureName>_whatisthistexture</TextureName>
             <Top>
@@ -15078,7 +15078,7 @@
         <Width>6</Width>
         <TopHeight>2</TopHeight>
         <RepeatHeight>14</RepeatHeight>
-        <BottomHeight>2</BottomHeight>
+        <BottomHeight>1</BottomHeight>
         <Texture>
             <TextureName>_whatisthistexture</TextureName>
             <Top>
@@ -16656,15 +16656,15 @@
             <TextureName>_whatisthistexture</TextureName>
             <Left>
                 <X>43</X>
-                <Y>29</Y>
+                <Y>79</Y>
             </Left>
             <Repeat>
                 <X>44</X>
-                <Y>29</Y>
+                <Y>79</Y>
             </Repeat>
             <Right>
                 <X>48</X>
-                <Y>29</Y>
+                <Y>79</Y>
             </Right>
         </Texture>
     </HorizontalResizeImageTemplate>
@@ -17122,7 +17122,7 @@
         <Texture>
             <TextureName>_whatisthistexture</TextureName>
             <Left>
-                <X>47</X>
+                <X>59</X>
                 <Y>0</Y>
             </Left>
             <Repeat>
@@ -17130,7 +17130,7 @@
                 <Y>0</Y>
             </Repeat>
             <Right>
-                <X>53</X>
+                <X>65</X>
                 <Y>0</Y>
             </Right>
         </Texture>
@@ -17154,7 +17154,7 @@
                 <Y>0</Y>
             </Repeat>
             <Right>
-                <X>53</X>
+                <X>59</X>
                 <Y>0</Y>
             </Right>
         </Texture>
@@ -17170,7 +17170,7 @@
         <Texture>
             <TextureName>_whatisthistexture</TextureName>
             <Left>
-                <X>53</X>
+                <X>65</X>
                 <Y>0</Y>
             </Left>
             <Repeat>
@@ -17178,7 +17178,7 @@
                 <Y>0</Y>
             </Repeat>
             <Right>
-                <X>53</X>
+                <X>71</X>
                 <Y>0</Y>
             </Right>
         </Texture>
@@ -17195,15 +17195,15 @@
             <TextureName>_whatisthistexture</TextureName>
             <Left>
                 <X>27</X>
-                <Y>29</Y>
+                <Y>79</Y>
             </Left>
             <Repeat>
                 <X>28</X>
-                <Y>29</Y>
+                <Y>79</Y>
             </Repeat>
             <Right>
                 <X>33</X>
-                <Y>29</Y>
+                <Y>79</Y>
             </Right>
         </Texture>
     </HorizontalResizeImageTemplate>
@@ -17236,7 +17236,7 @@
     <StatusBarTemplate>
         <Name>_witt_statusbar_tiny_green</Name>
         <ForegroundHResizeTemplate>_witt_statusbar_tiny_greenfg</ForegroundHResizeTemplate>
-        <BackgroundHResizeTemplate>_witt_statusbard_tiny_backgroundh</BackgroundHResizeTemplate>
+        <BackgroundHResizeTemplate>_witt_statusbar_tiny_bg</BackgroundHResizeTemplate>
         <Height>5</Height>
         <ForegroundOffset>
             <X>0</X>
@@ -17248,7 +17248,7 @@
     <StatusBarTemplate>
         <Name>_witt_statusbar_tiny_yellow</Name>
         <ForegroundHResizeTemplate>_witt_statusbar_tiny_yellowfg</ForegroundHResizeTemplate>
-        <BackgroundHResizeTemplate>_witt_statusbard_tiny_backgroundh</BackgroundHResizeTemplate>
+        <BackgroundHResizeTemplate>_witt_statusbar_tiny_bg</BackgroundHResizeTemplate>
         <Height>5</Height>
         <ForegroundOffset>
             <X>0</X>
@@ -17673,15 +17673,15 @@
             <TextureName>_whatisthistexture</TextureName>
             <Left>
                 <X>36</X>
-                <Y>29</Y>
+                <Y>79</Y>
             </Left>
             <Repeat>
                 <X>38</X>
-                <Y>29</Y>
+                <Y>79</Y>
             </Repeat>
             <Right>
                 <X>41</X>
-                <Y>29</Y>
+                <Y>79</Y>
             </Right>
         </Texture>
     </HorizontalResizeImageTemplate>
@@ -18037,15 +18037,15 @@
             <TextureName>_whatisthishh2</TextureName>
             <Top>
                 <X>14</X>
-                <Y>30</Y>
+                <Y>50</Y>
             </Top>
             <Repeat>
                 <X>14</X>
-                <Y>31</Y>
+                <Y>51</Y>
             </Repeat>
             <Bottom>
                 <X>14</X>
-                <Y>55</Y>
+                <Y>75</Y>
             </Bottom>
         </Texture>
     </VerticalResizeImageTemplate>
@@ -19271,54 +19271,6 @@
     </ButtonTemplate>
 
 
-    <HorizontalResizeImageTemplate>
-        <Name>_witt_statusbard_tiny_backgroundH</Name>
-        <Height>1</Height>
-        <LeftWidth>5</LeftWidth>
-        <RepeatWidth>5</RepeatWidth>
-        <RightWidth>5</RightWidth>
-        <Texture>
-            <TextureName>_whatisthishh2</TextureName>
-            <Left>
-                <X>10</X>
-                <Y>40</Y>
-            </Left>
-            <Repeat>
-                <X>10</X>
-                <Y>40</Y>
-            </Repeat>
-            <Right>
-                <X>10</X>
-                <Y>40</Y>
-            </Right>
-        </Texture>
-    </HorizontalResizeImageTemplate>
-
-
-    <VerticalResizeImageTemplate>
-        <Name>_witt_statusbard_tiny_backgroundV</Name>
-        <Width>1</Width>
-        <TopHeight>5</TopHeight>
-        <RepeatHeight>5</RepeatHeight>
-        <BottomHeight>5</BottomHeight>
-        <Texture>
-            <TextureName>_whatisthishh2</TextureName>
-            <Top>
-                <X>10</X>
-                <Y>40</Y>
-            </Top>
-            <Repeat>
-                <X>10</X>
-                <Y>40</Y>
-            </Repeat>
-            <Bottom>
-                <X>10</X>
-                <Y>40</Y>
-            </Bottom>
-        </Texture>
-    </VerticalResizeImageTemplate>
-
-
     <StatusIconTemplate>
         <Name>_witt_hh_endu</Name>
         <TextureName>_whatisthishe</TextureName>
@@ -19430,8 +19382,8 @@
                 <B>204</B>
                 <A>255</A>
             </ColorGreyed>
-            <TextTopOffset>3</TextTopOffset>
-            <TextBottomOffset>3</TextBottomOffset>
+            <TextTopOffset>4</TextTopOffset>
+            <TextBottomOffset>1</TextBottomOffset>
             <TextLeftOffset>1</TextLeftOffset>
             <TextRightOffset>2</TextRightOffset>
             <LineOffset>0</LineOffset>

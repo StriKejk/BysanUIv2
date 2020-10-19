@@ -80,14 +80,14 @@
             <ControlId>1002</ControlId>
             <Position>
                 <X>0</X>
-                <Y>19</Y>
+                <Y>18</Y>
             </Position>
             <Alignment>
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
             <Width>150</Width>
-            <Height>160</Height>
+            <Height>159</Height>
             <TemplateName>_witt_listbox_0</TemplateName>
             <AdapterName>titles_available_titles</AdapterName>
             <Sorting>false</Sorting>
@@ -104,7 +104,7 @@
             <ControlId>1001</ControlId>
             <Position>
                 <X>150</X>
-                <Y>19</Y>
+                <Y>18</Y>
             </Position>
             <Alignment>
                 <GrowWidth>true</GrowWidth>
@@ -115,7 +115,7 @@
             <HasHotspots>false</HasHotspots>
             <MaxCharacters>32768</MaxCharacters>
             <Width>150</Width>
-            <Height>160</Height>
+            <Height>159</Height>
         </TextAreaDef>
 
 
