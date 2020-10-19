@@ -11,7 +11,7 @@
         <CloseButton>true</CloseButton>
         <MoveButton>false</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>
-        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomRightResizeButton>true</BottomRightResizeButton>
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>

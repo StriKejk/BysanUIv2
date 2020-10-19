@@ -7,9 +7,9 @@
 
     <VerticalResizeImageTemplate>
         <Name>vault_blank</Name>
-        <Width>18</Width>
+        <Width>16</Width>
         <TopHeight>1</TopHeight>
-        <RepeatHeight>18</RepeatHeight>
+        <RepeatHeight>17</RepeatHeight>
         <BottomHeight>1</BottomHeight>
         <Texture>
             <TextureName>_whatisthistexture</TextureName>
@@ -18,8 +18,8 @@
                 <Y>969</Y>
             </Top>
             <Repeat>
-                <X>1004</X>
-                <Y>867</Y>
+                <X>1005</X>
+                <Y>868</Y>
             </Repeat>
             <Bottom>
                 <X>753</X>
@@ -50,22 +50,6 @@
         <MinWidth>260</MinWidth>
         <MinHeight>400</MinHeight>
         <ContextTemplateName></ContextTemplateName>
-
-
-        <FullResizeImageDef>
-            <ControlId>Background</ControlId>
-            <Position>
-                <X>0</X>
-                <Y>0</Y>
-            </Position>
-            <Alignment>
-                <GrowWidth>true</GrowWidth>
-                <GrowHeight>true</GrowHeight>
-            </Alignment>
-            <TemplateName>_witt_bg_80</TemplateName>
-            <Width>260</Width>
-            <Height>400</Height>
-        </FullResizeImageDef>
 
 
         <FullResizeImageDef>
@@ -108,9 +92,9 @@
 
 
         <FullResizeImageDef>
-            <ControlId>Inner Window</ControlId>
+            <ControlId>Background</ControlId>
             <Position>
-                <X>5</X>
+                <X>0</X>
                 <Y>19</Y>
             </Position>
             <Alignment>
@@ -118,14 +102,14 @@
                 <GrowHeight>true</GrowHeight>
             </Alignment>
             <TemplateName>_witt_bg_90</TemplateName>
-            <Width>250</Width>
-            <Height>362</Height>
+            <Width>260</Width>
+            <Height>381</Height>
         </FullResizeImageDef>
 
 
         <VerticalResizeImageDef>
             <Position>
-                <X>9</X>
+                <X>4</X>
                 <Y>22</Y>
             </Position>
             <Alignment>
@@ -139,14 +123,14 @@
         <ListBoxDef>
             <ControlId>1000</ControlId>
             <Position>
-                <X>5</X>
+                <X>0</X>
                 <Y>19</Y>
             </Position>
             <Alignment>
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <Width>250</Width>
+            <Width>260</Width>
             <Height>362</Height>
             <TemplateName>_witt_listbox_0</TemplateName>
             <AdapterName>vault_items</AdapterName>
@@ -163,7 +147,7 @@
         <LabelDef>
             <ControlId>1005</ControlId>
             <Position>
-                <X>18</X>
+                <X>13</X>
                 <Y>1</Y>
             </Position>
             <Alignment>
@@ -189,7 +173,7 @@
         <ButtonDef>
             <ControlId>1003</ControlId>
             <Position>
-                <X>59</X>
+                <X>54</X>
                 <Y>5</Y>
             </Position>
             <Alignment>
@@ -203,7 +187,7 @@
         <ButtonDef>
             <ControlId>1004</ControlId>
             <Position>
-                <X>10</X>
+                <X>5</X>
                 <Y>5</Y>
             </Position>
             <Alignment>
@@ -217,7 +201,7 @@
         <ButtonDef>
             <ControlId>1002</ControlId>
             <Position>
-                <X>5</X>
+                <X>2</X>
                 <Y>0</Y>
             </Position>
             <Alignment>

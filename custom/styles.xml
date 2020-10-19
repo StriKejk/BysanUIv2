@@ -16577,7 +16577,7 @@
 
     <TextAreaTemplate>
         <Name>_witt_textarea</Name>
-        <BackgroundTemplate>_witt_bg_0</BackgroundTemplate>
+        <BackgroundTemplate>none</BackgroundTemplate>
         <ScrollbarTemplate>_witt_scroll_nobutton</ScrollbarTemplate>
         <LinePadding>0</LinePadding>
         <TextOffset>
@@ -19399,8 +19399,8 @@
 
     <ListBoxTemplate>
         <Name>_witt_listbox_0</Name>
-        <LinePadding>2</LinePadding>
-        <CellPadding>4</CellPadding>
+        <LinePadding>1</LinePadding>
+        <CellPadding>3</CellPadding>
         <LabelLength>128</LabelLength>
         <ScrollbarTemplate>_witt_scroll_nobutton</ScrollbarTemplate>
         <DrawScroll>true</DrawScroll>
@@ -19433,7 +19433,7 @@
             <TextTopOffset>3</TextTopOffset>
             <TextBottomOffset>3</TextBottomOffset>
             <TextLeftOffset>1</TextLeftOffset>
-            <TextRightOffset>1</TextRightOffset>
+            <TextRightOffset>2</TextRightOffset>
             <LineOffset>0</LineOffset>
         </TextFont>
             <IconSize>

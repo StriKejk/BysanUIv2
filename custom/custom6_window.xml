@@ -7,7 +7,7 @@
 
     <WindowTemplate>
         <Name>custom6_window</Name>
-        <WindowId>custom6_window</WindowId>
+        <WindowId>MiniPet</WindowId>
         <CloseButton>false</CloseButton>
         <MoveButton>false</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>

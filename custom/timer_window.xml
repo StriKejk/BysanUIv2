@@ -11,24 +11,25 @@
         <CloseButton>false</CloseButton>
         <MoveButton>false</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>
-        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomRightResizeButton>true</BottomRightResizeButton>
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>190</TitleWidth>
-        <TitleHeight>11</TitleHeight>
-        <Width>197</Width>
-        <Height>29</Height>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>194</Width>
+        <Height>30</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>0</MinWidth>
-        <MinHeight>0</MinHeight>
+        <MinWidth>194</MinWidth>
+        <MinHeight>30</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
+            <ControlId>Background</ControlId>
             <Position>
                 <X>0</X>
                 <Y>0</Y>
@@ -37,37 +38,41 @@
                 <GrowWidth>true</GrowWidth>
             </Alignment>
             <TemplateName>_witt_bg_90</TemplateName>
-            <Width>197</Width>
-            <Height>29</Height>
+            <Width>194</Width>
+            <Height>30</Height>
         </FullResizeImageDef>
 
 
-        <StatusBarDef>
-            <ControlId>timer</ControlId>
+        <LabelDef>
             <Position>
                 <X>3</X>
-                <Y>17</Y>
+                <Y>3</Y>
             </Position>
-            <Alignment>
-                <GrowWidth>true</GrowWidth>
-            </Alignment>
-            <TemplateName>_witt_statusbar_medium_green</TemplateName>
-            <AdapterName>timer_time</AdapterName>
-            <Width>190</Width>
-        </StatusBarDef>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>100</Width>
+            <Height>15</Height>
+            <MaxCharacters>100</MaxCharacters>
+            <Adapter>timer_text</Adapter>
+        </LabelDef>
 
 
         <ScalarLabelDef>
             <Position>
-                <X>0</X>
+                <X>3</X>
                 <Y>3</Y>
             </Position>
             <Alignment>
                 <OffsetRight>true</OffsetRight>
             </Alignment>
             <FontName>_whatisthisfont2</FontName>
-            <Width>32</Width>
-            <Height>13</Height>
+            <Width>30</Width>
+            <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
             <Color>
                 <R>255</R>
@@ -76,39 +81,24 @@
                 <A>255</A>
             </Color>
             <Adapter>timer_time</Adapter>
+            <TextCentered>true</TextCentered>
             <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
 
 
-        <LabelDef>
+        <StatusBarDef>
+            <ControlId>timer</ControlId>
             <Position>
-                <X>4</X>
-                <Y>3</Y>
+                <X>2</X>
+                <Y>15</Y>
             </Position>
-            <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </Color>
-            <FontName>_whatisthisfont2</FontName>
-            <Width>156</Width>
-            <Height>13</Height>
-            <MaxCharacters>100</MaxCharacters>
-            <Adapter>timer_text</Adapter>
-        </LabelDef>
-
-
-        <InvisibleButtonDef>
-            <Position>
-                <X>0</X>
-                <Y>1</Y>
-            </Position>
-            <Label></Label>
-            <OnClickEvent>Release</OnClickEvent>
-            <Width>197</Width>
-            <Height>14</Height>
-        </InvisibleButtonDef>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+            </Alignment>
+            <TemplateName>_witt_statusbar_medium_green</TemplateName>
+            <AdapterName>timer_time</AdapterName>
+            <Width>190</Width>
+        </StatusBarDef>
 
 
     </WindowTemplate>
