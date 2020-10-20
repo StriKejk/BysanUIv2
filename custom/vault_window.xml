@@ -147,7 +147,7 @@
         <LabelDef>
             <ControlId>1005</ControlId>
             <Position>
-                <X>13</X>
+                <X>23</X>
                 <Y>1</Y>
             </Position>
             <Alignment>
@@ -173,7 +173,7 @@
         <ButtonDef>
             <ControlId>1003</ControlId>
             <Position>
-                <X>54</X>
+                <X>64</X>
                 <Y>5</Y>
             </Position>
             <Alignment>
@@ -187,7 +187,7 @@
         <ButtonDef>
             <ControlId>1004</ControlId>
             <Position>
-                <X>5</X>
+                <X>15</X>
                 <Y>5</Y>
             </Position>
             <Alignment>

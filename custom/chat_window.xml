@@ -133,7 +133,7 @@
         <ButtonDef>
             <ControlId>TwoWayResizeTopRight</ControlId>
             <Position>
-                <X>0</X>
+                <X>-8</X>
                 <Y>6</Y>
             </Position>
             <Alignment>
