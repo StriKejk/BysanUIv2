@@ -85,37 +85,25 @@
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
         <TitleWidth>0</TitleWidth>
         <TitleHeight>0</TitleHeight>
-        <Width>370</Width>
-        <Height>450</Height>
+        <Width>360</Width>
+        <Height>444</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>370</MinWidth>
-        <MinHeight>450</MinHeight>
+        <MinWidth>360</MinWidth>
+        <MinHeight>444</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
-            <ControlId>Background</ControlId>
-            <Position>
-                <X>0</X>
-                <Y>0</Y>
-            </Position>
-            <TemplateName>_witt_bg_80</TemplateName>
-            <Width>370</Width>
-            <Height>450</Height>
-        </FullResizeImageDef>
-
-
-        <FullResizeImageDef>
-            <ControlId>Title</ControlId>
+            <ControlId>Titel</ControlId>
             <Position>
                 <X>0</X>
                 <Y>0</Y>
             </Position>
             <TemplateName>_witt_bg_90</TemplateName>
-            <Width>370</Width>
+            <Width>360</Width>
             <Height>20</Height>
         </FullResizeImageDef>
 
@@ -135,7 +123,7 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont2</FontName>
-            <Width>370</Width>
+            <Width>360</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
             <Data>TRAINING</Data>
@@ -144,20 +132,20 @@
 
 
         <FullResizeImageDef>
-            <ControlId>Inner Window</ControlId>
+            <ControlId>Background</ControlId>
             <Position>
-                <X>5</X>
+                <X>0</X>
                 <Y>19</Y>
             </Position>
             <TemplateName>_witt_bg_90</TemplateName>
             <Width>360</Width>
-            <Height>395</Height>
+            <Height>425</Height>
         </FullResizeImageDef>
 
 
         <LabelDef>
             <Position>
-                <X>16</X>
+                <X>11</X>
                 <Y>23</Y>
             </Position>
             <Color>
@@ -177,7 +165,7 @@
 
         <LabelDef>
             <Position>
-                <X>49</X>
+                <X>44</X>
                 <Y>38</Y>
             </Position>
             <Color>
@@ -196,7 +184,7 @@
 
         <LabelDef>
             <Position>
-                <X>49</X>
+                <X>44</X>
                 <Y>52</Y>
             </Position>
             <Color>
@@ -215,7 +203,7 @@
 
         <LabelDef>
             <Position>
-                <X>49</X>
+                <X>44</X>
                 <Y>66</Y>
             </Position>
             <Color>
@@ -234,7 +222,7 @@
 
         <ScalarLabelDef>
             <Position>
-                <X>121</X>
+                <X>116</X>
                 <Y>38</Y>
             </Position>
             <FontName>_whatisthisfont2</FontName>
@@ -253,7 +241,7 @@
 
         <ScalarLabelDef>
             <Position>
-                <X>121</X>
+                <X>116</X>
                 <Y>52</Y>
             </Position>
             <FontName>_whatisthisfont2</FontName>
@@ -273,7 +261,7 @@
 
         <ScalarLabelDef>
             <Position>
-                <X>121</X>
+                <X>116</X>
                 <Y>66</Y>
             </Position>
             <FontName>_whatisthisfont2</FontName>
@@ -293,7 +281,7 @@
 
         <LabelDef>
             <Position>
-                <X>189</X>
+                <X>184</X>
                 <Y>23</Y>
             </Position>
             <Color>
@@ -313,7 +301,7 @@
 
         <LabelDef>
             <Position>
-                <X>222</X>
+                <X>217</X>
                 <Y>38</Y>
             </Position>
             <Color>
@@ -332,7 +320,7 @@
 
         <LabelDef>
             <Position>
-                <X>222</X>
+                <X>217</X>
                 <Y>52</Y>
             </Position>
             <Color>
@@ -351,7 +339,7 @@
 
         <LabelDef>
             <Position>
-                <X>222</X>
+                <X>217</X>
                 <Y>66</Y>
             </Position>
             <Color>
@@ -370,7 +358,7 @@
 
         <ScalarLabelDef>
             <Position>
-                <X>294</X>
+                <X>289</X>
                 <Y>38</Y>
             </Position>
             <FontName>_whatisthisfont2</FontName>
@@ -389,7 +377,7 @@
 
         <ScalarLabelDef>
             <Position>
-                <X>294</X>
+                <X>289</X>
                 <Y>52</Y>
             </Position>
             <FontName>_whatisthisfont2</FontName>
@@ -409,7 +397,7 @@
 
         <ScalarLabelDef>
             <Position>
-                <X>294</X>
+                <X>289</X>
                 <Y>66</Y>
             </Position>
             <FontName>_whatisthisfont2</FontName>
@@ -429,7 +417,7 @@
 
         <LabelDef>
             <Position>
-                <X>124</X>
+                <X>119</X>
                 <Y>83</Y>
             </Position>
             <Color>
@@ -448,7 +436,7 @@
 
         <ScalarLabelDef>
             <Position>
-                <X>227</X>
+                <X>222</X>
                 <Y>83</Y>
             </Position>
             <FontName>_whatisthisfont2</FontName>
@@ -476,11 +464,11 @@
             <TemplateName>_witt_tab_transparent</TemplateName>
             <ControlId>1000</ControlId>
             <Position>
-                <X>5</X>
+                <X>0</X>
                 <Y>49</Y>
             </Position>
-            <Width>350</Width>
-            <Height>308</Height>
+            <Width>360</Width>
+            <Height>309</Height>
         <Tab>
             <Id>1</Id>
             <Name> Spec</Name>
@@ -1274,7 +1262,7 @@
         <LabelDef>
             <ControlId>1101</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>120</Y>
             </Position>
             <Color>
@@ -1295,7 +1283,7 @@
         <InvisibleButtonDef>
             <ControlId>1100</ControlId>
             <Position>
-                <X>9</X>
+                <X>4</X>
                 <Y>118</Y>
             </Position>
             <Label></Label>
@@ -1308,7 +1296,7 @@
         <HorizontalSliderDef>
             <ControlId>1102</ControlId>
             <Position>
-                <X>116</X>
+                <X>111</X>
                 <Y>124</Y>
             </Position>
             <Adaptername>spec_level0</Adaptername>
@@ -1322,7 +1310,7 @@
         <ScalarLabelDef>
             <ControlId>1103</ControlId>
             <Position>
-                <X>296</X>
+                <X>291</X>
                 <Y>120</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -1346,7 +1334,7 @@
         <LabelDef>
             <ControlId>1105</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>140</Y>
             </Position>
             <Color>
@@ -1367,7 +1355,7 @@
         <InvisibleButtonDef>
             <ControlId>1104</ControlId>
             <Position>
-                <X>9</X>
+                <X>4</X>
                 <Y>138</Y>
             </Position>
             <Label></Label>
@@ -1380,7 +1368,7 @@
         <HorizontalSliderDef>
             <ControlId>1106</ControlId>
             <Position>
-                <X>116</X>
+                <X>111</X>
                 <Y>144</Y>
             </Position>
             <Adaptername>spec_level1</Adaptername>
@@ -1394,7 +1382,7 @@
         <ScalarLabelDef>
             <ControlId>1107</ControlId>
             <Position>
-                <X>296</X>
+                <X>291</X>
                 <Y>140</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -1418,7 +1406,7 @@
         <LabelDef>
             <ControlId>1109</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>160</Y>
             </Position>
             <Color>
@@ -1439,7 +1427,7 @@
         <InvisibleButtonDef>
             <ControlId>1108</ControlId>
             <Position>
-                <X>9</X>
+                <X>4</X>
                 <Y>158</Y>
             </Position>
             <Label></Label>
@@ -1452,7 +1440,7 @@
         <HorizontalSliderDef>
             <ControlId>1110</ControlId>
             <Position>
-                <X>116</X>
+                <X>111</X>
                 <Y>164</Y>
             </Position>
             <Adaptername>spec_level2</Adaptername>
@@ -1466,7 +1454,7 @@
         <ScalarLabelDef>
             <ControlId>1111</ControlId>
             <Position>
-                <X>296</X>
+                <X>291</X>
                 <Y>160</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -1490,7 +1478,7 @@
         <LabelDef>
             <ControlId>1113</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>180</Y>
             </Position>
             <Color>
@@ -1511,7 +1499,7 @@
         <InvisibleButtonDef>
             <ControlId>1112</ControlId>
             <Position>
-                <X>9</X>
+                <X>4</X>
                 <Y>178</Y>
             </Position>
             <Label></Label>
@@ -1524,7 +1512,7 @@
         <HorizontalSliderDef>
             <ControlId>1114</ControlId>
             <Position>
-                <X>116</X>
+                <X>111</X>
                 <Y>184</Y>
             </Position>
             <Adaptername>spec_level3</Adaptername>
@@ -1538,7 +1526,7 @@
         <ScalarLabelDef>
             <ControlId>1115</ControlId>
             <Position>
-                <X>296</X>
+                <X>291</X>
                 <Y>180</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -1562,7 +1550,7 @@
         <LabelDef>
             <ControlId>1117</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>200</Y>
             </Position>
             <Color>
@@ -1583,7 +1571,7 @@
         <InvisibleButtonDef>
             <ControlId>1116</ControlId>
             <Position>
-                <X>9</X>
+                <X>4</X>
                 <Y>198</Y>
             </Position>
             <Label></Label>
@@ -1596,7 +1584,7 @@
         <HorizontalSliderDef>
             <ControlId>1118</ControlId>
             <Position>
-                <X>116</X>
+                <X>111</X>
                 <Y>204</Y>
             </Position>
             <Adaptername>spec_level4</Adaptername>
@@ -1610,7 +1598,7 @@
         <ScalarLabelDef>
             <ControlId>1119</ControlId>
             <Position>
-                <X>296</X>
+                <X>291</X>
                 <Y>200</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -1634,7 +1622,7 @@
         <LabelDef>
             <ControlId>1121</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>220</Y>
             </Position>
             <Color>
@@ -1655,7 +1643,7 @@
         <InvisibleButtonDef>
             <ControlId>1120</ControlId>
             <Position>
-                <X>9</X>
+                <X>4</X>
                 <Y>218</Y>
             </Position>
             <Label></Label>
@@ -1668,7 +1656,7 @@
         <HorizontalSliderDef>
             <ControlId>1122</ControlId>
             <Position>
-                <X>116</X>
+                <X>111</X>
                 <Y>224</Y>
             </Position>
             <Adaptername>spec_level5</Adaptername>
@@ -1682,7 +1670,7 @@
         <ScalarLabelDef>
             <ControlId>1123</ControlId>
             <Position>
-                <X>296</X>
+                <X>291</X>
                 <Y>220</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -1706,7 +1694,7 @@
         <InvisibleButtonDef>
             <ControlId>1124</ControlId>
             <Position>
-                <X>9</X>
+                <X>4</X>
                 <Y>238</Y>
             </Position>
             <Label></Label>
@@ -1719,7 +1707,7 @@
         <LabelDef>
             <ControlId>1125</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>240</Y>
             </Position>
             <Color>
@@ -1740,7 +1728,7 @@
         <HorizontalSliderDef>
             <ControlId>1126</ControlId>
             <Position>
-                <X>116</X>
+                <X>111</X>
                 <Y>244</Y>
             </Position>
             <Adaptername>spec_level6</Adaptername>
@@ -1754,7 +1742,7 @@
         <ScalarLabelDef>
             <ControlId>1127</ControlId>
             <Position>
-                <X>296</X>
+                <X>291</X>
                 <Y>240</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -1778,7 +1766,7 @@
         <LabelDef>
             <ControlId>1129</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>260</Y>
             </Position>
             <Color>
@@ -1799,7 +1787,7 @@
         <InvisibleButtonDef>
             <ControlId>1128</ControlId>
             <Position>
-                <X>9</X>
+                <X>4</X>
                 <Y>258</Y>
             </Position>
             <Label></Label>
@@ -1812,7 +1800,7 @@
         <HorizontalSliderDef>
             <ControlId>1130</ControlId>
             <Position>
-                <X>116</X>
+                <X>111</X>
                 <Y>264</Y>
             </Position>
             <Adaptername>spec_level7</Adaptername>
@@ -1826,7 +1814,7 @@
         <ScalarLabelDef>
             <ControlId>1131</ControlId>
             <Position>
-                <X>296</X>
+                <X>291</X>
                 <Y>260</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -1850,7 +1838,7 @@
         <LabelDef>
             <ControlId>1151</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>278</Y>
             </Position>
             <Color>
@@ -1870,18 +1858,16 @@
         <IconDef>
             <ControlId>1160</ControlId>
             <Position>
-                <X>11</X>
+                <X>6</X>
                 <Y>293</Y>
             </Position>
-            <ToolTipID>139</ToolTipID>
+            <ToolTipID>39</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>spec_icon0</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>spec_icon_desc0</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -1890,18 +1876,16 @@
         <IconDef>
             <ControlId>1161</ControlId>
             <Position>
-                <X>45</X>
+                <X>40</X>
                 <Y>293</Y>
             </Position>
-            <ToolTipID>139</ToolTipID>
+            <ToolTipID>39</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>spec_icon1</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>spec_icon_desc1</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -1910,18 +1894,16 @@
         <IconDef>
             <ControlId>1162</ControlId>
             <Position>
-                <X>79</X>
+                <X>74</X>
                 <Y>293</Y>
             </Position>
-            <ToolTipID>139</ToolTipID>
+            <ToolTipID>39</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>spec_icon2</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>spec_icon_desc2</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -1930,18 +1912,16 @@
         <IconDef>
             <ControlId>1163</ControlId>
             <Position>
-                <X>113</X>
+                <X>108</X>
                 <Y>293</Y>
             </Position>
-            <ToolTipID>139</ToolTipID>
+            <ToolTipID>39</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>spec_icon3</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>spec_icon_desc3</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -1950,18 +1930,16 @@
         <IconDef>
             <ControlId>1164</ControlId>
             <Position>
-                <X>147</X>
+                <X>142</X>
                 <Y>293</Y>
             </Position>
-            <ToolTipID>139</ToolTipID>
+            <ToolTipID>39</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>spec_icon4</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>spec_icon_desc4</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -1970,18 +1948,16 @@
         <IconDef>
             <ControlId>1165</ControlId>
             <Position>
-                <X>181</X>
+                <X>176</X>
                 <Y>293</Y>
             </Position>
-            <ToolTipID>139</ToolTipID>
+            <ToolTipID>39</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>spec_icon5</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>spec_icon_desc5</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -1990,18 +1966,16 @@
         <IconDef>
             <ControlId>1166</ControlId>
             <Position>
-                <X>215</X>
+                <X>210</X>
                 <Y>293</Y>
             </Position>
-            <ToolTipID>139</ToolTipID>
+            <ToolTipID>39</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>spec_icon6</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>spec_icon_desc6</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2010,18 +1984,16 @@
         <IconDef>
             <ControlId>1167</ControlId>
             <Position>
-                <X>249</X>
+                <X>244</X>
                 <Y>293</Y>
             </Position>
-            <ToolTipID>139</ToolTipID>
+            <ToolTipID>39</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>spec_icon7</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>spec_icon_desc7</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2030,18 +2002,16 @@
         <IconDef>
             <ControlId>1168</ControlId>
             <Position>
-                <X>283</X>
+                <X>278</X>
                 <Y>293</Y>
             </Position>
-            <ToolTipID>139</ToolTipID>
+            <ToolTipID>39</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>spec_icon8</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>spec_icon_desc8</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2050,18 +2020,16 @@
         <IconDef>
             <ControlId>1169</ControlId>
             <Position>
-                <X>317</X>
+                <X>312</X>
                 <Y>293</Y>
             </Position>
-            <ToolTipID>139</ToolTipID>
+            <ToolTipID>39</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>spec_icon9</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>spec_icon_desc9</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2070,18 +2038,16 @@
         <IconDef>
             <ControlId>1170</ControlId>
             <Position>
-                <X>11</X>
+                <X>6</X>
                 <Y>327</Y>
             </Position>
-            <ToolTipID>139</ToolTipID>
+            <ToolTipID>39</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>spec_icon10</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>spec_icon_desc10</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2090,18 +2056,16 @@
         <IconDef>
             <ControlId>1171</ControlId>
             <Position>
-                <X>45</X>
+                <X>40</X>
                 <Y>327</Y>
             </Position>
-            <ToolTipID>139</ToolTipID>
+            <ToolTipID>39</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>spec_icon11</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>spec_icon_desc11</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2110,18 +2074,16 @@
         <IconDef>
             <ControlId>1172</ControlId>
             <Position>
-                <X>79</X>
+                <X>74</X>
                 <Y>327</Y>
             </Position>
-            <ToolTipID>139</ToolTipID>
+            <ToolTipID>39</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>spec_icon12</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>spec_icon_desc12</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2130,18 +2092,16 @@
         <IconDef>
             <ControlId>1173</ControlId>
             <Position>
-                <X>113</X>
+                <X>108</X>
                 <Y>327</Y>
             </Position>
-            <ToolTipID>139</ToolTipID>
+            <ToolTipID>39</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>spec_icon13</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>spec_icon_desc13</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2150,18 +2110,16 @@
         <IconDef>
             <ControlId>1174</ControlId>
             <Position>
-                <X>147</X>
+                <X>142</X>
                 <Y>327</Y>
             </Position>
-            <ToolTipID>139</ToolTipID>
+            <ToolTipID>39</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>spec_icon14</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>spec_icon_desc14</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2170,18 +2128,16 @@
         <IconDef>
             <ControlId>1175</ControlId>
             <Position>
-                <X>181</X>
+                <X>176</X>
                 <Y>327</Y>
             </Position>
-            <ToolTipID>139</ToolTipID>
+            <ToolTipID>39</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>spec_icon15</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>spec_icon_desc15</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2190,18 +2146,16 @@
         <IconDef>
             <ControlId>1176</ControlId>
             <Position>
-                <X>215</X>
+                <X>210</X>
                 <Y>327</Y>
             </Position>
-            <ToolTipID>139</ToolTipID>
+            <ToolTipID>39</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>spec_icon16</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>spec_icon_desc16</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2210,18 +2164,16 @@
         <IconDef>
             <ControlId>1177</ControlId>
             <Position>
-                <X>249</X>
+                <X>244</X>
                 <Y>327</Y>
             </Position>
-            <ToolTipID>139</ToolTipID>
+            <ToolTipID>39</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>spec_icon17</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>spec_icon_desc17</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2230,18 +2182,16 @@
         <IconDef>
             <ControlId>1178</ControlId>
             <Position>
-                <X>283</X>
+                <X>278</X>
                 <Y>327</Y>
             </Position>
-            <ToolTipID>139</ToolTipID>
+            <ToolTipID>39</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>spec_icon18</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>spec_icon_desc18</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2250,18 +2200,16 @@
         <IconDef>
             <ControlId>1179</ControlId>
             <Position>
-                <X>317</X>
+                <X>312</X>
                 <Y>327</Y>
             </Position>
-            <ToolTipID>139</ToolTipID>
+            <ToolTipID>39</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>spec_icon19</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>spec_icon_desc19</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2276,7 +2224,7 @@
         <LabelDef>
             <ControlId>1200</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>116</Y>
             </Position>
             <Color>
@@ -2297,7 +2245,7 @@
         <ScalarLabelDef>
             <ControlId>1201</ControlId>
             <Position>
-                <X>138</X>
+                <X>133</X>
                 <Y>116</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -2318,7 +2266,7 @@
         <ScalarLabelDef>
             <ControlId>1202</ControlId>
             <Position>
-                <X>218</X>
+                <X>213</X>
                 <Y>116</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -2339,7 +2287,7 @@
         <IconDef>
             <ControlId>1203</ControlId>
             <Position>
-                <X>15</X>
+                <X>10</X>
                 <Y>132</Y>
             </Position>
             <ToolTipID>140</ToolTipID>
@@ -2349,8 +2297,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc00</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2359,7 +2305,7 @@
         <IconDef>
             <ControlId>1204</ControlId>
             <Position>
-                <X>49</X>
+                <X>44</X>
                 <Y>132</Y>
             </Position>
             <ToolTipID>140</ToolTipID>
@@ -2369,8 +2315,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc01</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2379,7 +2323,7 @@
         <IconDef>
             <ControlId>1205</ControlId>
             <Position>
-                <X>83</X>
+                <X>78</X>
                 <Y>132</Y>
             </Position>
             <ToolTipID>140</ToolTipID>
@@ -2389,8 +2333,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc02</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2399,7 +2341,7 @@
         <IconDef>
             <ControlId>1206</ControlId>
             <Position>
-                <X>117</X>
+                <X>112</X>
                 <Y>132</Y>
             </Position>
             <ToolTipID>140</ToolTipID>
@@ -2409,8 +2351,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc03</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2419,7 +2359,7 @@
         <IconDef>
             <ControlId>1207</ControlId>
             <Position>
-                <X>151</X>
+                <X>146</X>
                 <Y>132</Y>
             </Position>
             <ToolTipID>140</ToolTipID>
@@ -2429,8 +2369,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc04</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2439,7 +2377,7 @@
         <IconDef>
             <ControlId>1208</ControlId>
             <Position>
-                <X>185</X>
+                <X>180</X>
                 <Y>132</Y>
             </Position>
             <ToolTipID>140</ToolTipID>
@@ -2449,8 +2387,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc05</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2459,7 +2395,7 @@
         <IconDef>
             <ControlId>1209</ControlId>
             <Position>
-                <X>219</X>
+                <X>214</X>
                 <Y>132</Y>
             </Position>
             <ToolTipID>140</ToolTipID>
@@ -2469,8 +2405,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc06</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2479,7 +2413,7 @@
         <IconDef>
             <ControlId>1210</ControlId>
             <Position>
-                <X>253</X>
+                <X>248</X>
                 <Y>132</Y>
             </Position>
             <ToolTipID>140</ToolTipID>
@@ -2489,8 +2423,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc07</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2499,7 +2431,7 @@
         <IconDef>
             <ControlId>1211</ControlId>
             <Position>
-                <X>287</X>
+                <X>282</X>
                 <Y>132</Y>
             </Position>
             <ToolTipID>140</ToolTipID>
@@ -2509,8 +2441,6 @@
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc08</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2519,7 +2449,7 @@
         <ButtonDef>
             <ControlId>1212</ControlId>
             <Position>
-                <X>68</X>
+                <X>63</X>
                 <Y>167</Y>
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
@@ -2530,7 +2460,7 @@
         <ButtonDef>
             <ControlId>1213</ControlId>
             <Position>
-                <X>210</X>
+                <X>205</X>
                 <Y>167</Y>
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
@@ -2541,7 +2471,7 @@
         <ScalarLabelDef>
             <ControlId>1214</ControlId>
             <Position>
-                <X>148</X>
+                <X>143</X>
                 <Y>167</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -2561,7 +2491,7 @@
         <ScalarLabelDef>
             <ControlId>1215</ControlId>
             <Position>
-                <X>163</X>
+                <X>158</X>
                 <Y>167</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -2585,7 +2515,7 @@
         <LabelDef>
             <ControlId>1220</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>189</Y>
             </Position>
             <Color>
@@ -2606,7 +2536,7 @@
         <ScalarLabelDef>
             <ControlId>1221</ControlId>
             <Position>
-                <X>138</X>
+                <X>133</X>
                 <Y>189</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -2627,7 +2557,7 @@
         <ScalarLabelDef>
             <ControlId>1222</ControlId>
             <Position>
-                <X>218</X>
+                <X>213</X>
                 <Y>189</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -2648,18 +2578,16 @@
         <IconDef>
             <ControlId>1223</ControlId>
             <Position>
-                <X>15</X>
+                <X>10</X>
                 <Y>205</Y>
             </Position>
-            <ToolTipID>140</ToolTipID>
+            <ToolTipID>40</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>summary_icon10</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc10</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2668,18 +2596,16 @@
         <IconDef>
             <ControlId>1224</ControlId>
             <Position>
-                <X>49</X>
+                <X>44</X>
                 <Y>205</Y>
             </Position>
-            <ToolTipID>140</ToolTipID>
+            <ToolTipID>40</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>summary_icon11</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc11</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2688,18 +2614,16 @@
         <IconDef>
             <ControlId>1225</ControlId>
             <Position>
-                <X>83</X>
+                <X>78</X>
                 <Y>205</Y>
             </Position>
-            <ToolTipID>140</ToolTipID>
+            <ToolTipID>40</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>summary_icon12</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc12</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2708,18 +2632,16 @@
         <IconDef>
             <ControlId>1226</ControlId>
             <Position>
-                <X>117</X>
+                <X>112</X>
                 <Y>205</Y>
             </Position>
-            <ToolTipID>140</ToolTipID>
+            <ToolTipID>40</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>summary_icon13</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc13</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2728,18 +2650,16 @@
         <IconDef>
             <ControlId>1227</ControlId>
             <Position>
-                <X>151</X>
+                <X>146</X>
                 <Y>205</Y>
             </Position>
-            <ToolTipID>140</ToolTipID>
+            <ToolTipID>40</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>summary_icon14</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc14</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2748,18 +2668,16 @@
         <IconDef>
             <ControlId>1228</ControlId>
             <Position>
-                <X>185</X>
+                <X>180</X>
                 <Y>205</Y>
             </Position>
-            <ToolTipID>140</ToolTipID>
+            <ToolTipID>40</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>summary_icon15</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc15</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2768,18 +2686,16 @@
         <IconDef>
             <ControlId>1229</ControlId>
             <Position>
-                <X>219</X>
+                <X>214</X>
                 <Y>205</Y>
             </Position>
-            <ToolTipID>140</ToolTipID>
+            <ToolTipID>40</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>summary_icon16</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc16</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2788,18 +2704,16 @@
         <IconDef>
             <ControlId>1230</ControlId>
             <Position>
-                <X>253</X>
+                <X>248</X>
                 <Y>205</Y>
             </Position>
-            <ToolTipID>140</ToolTipID>
+            <ToolTipID>40</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>summary_icon17</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc17</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2808,18 +2722,16 @@
         <IconDef>
             <ControlId>1231</ControlId>
             <Position>
-                <X>287</X>
+                <X>282</X>
                 <Y>205</Y>
             </Position>
-            <ToolTipID>140</ToolTipID>
+            <ToolTipID>40</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>summary_icon18</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc18</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2828,7 +2740,7 @@
         <ButtonDef>
             <ControlId>1232</ControlId>
             <Position>
-                <X>68</X>
+                <X>63</X>
                 <Y>240</Y>
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
@@ -2839,7 +2751,7 @@
         <ButtonDef>
             <ControlId>1233</ControlId>
             <Position>
-                <X>210</X>
+                <X>205</X>
                 <Y>240</Y>
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
@@ -2850,7 +2762,7 @@
         <ScalarLabelDef>
             <ControlId>1234</ControlId>
             <Position>
-                <X>148</X>
+                <X>143</X>
                 <Y>240</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -2870,7 +2782,7 @@
         <ScalarLabelDef>
             <ControlId>1235</ControlId>
             <Position>
-                <X>163</X>
+                <X>158</X>
                 <Y>240</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -2894,7 +2806,7 @@
         <LabelDef>
             <ControlId>1240</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>262</Y>
             </Position>
             <Color>
@@ -2915,7 +2827,7 @@
         <ScalarLabelDef>
             <ControlId>1241</ControlId>
             <Position>
-                <X>138</X>
+                <X>133</X>
                 <Y>262</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -2936,7 +2848,7 @@
         <ScalarLabelDef>
             <ControlId>1242</ControlId>
             <Position>
-                <X>218</X>
+                <X>213</X>
                 <Y>262</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -2957,18 +2869,16 @@
         <IconDef>
             <ControlId>1243</ControlId>
             <Position>
-                <X>15</X>
+                <X>10</X>
                 <Y>278</Y>
             </Position>
-            <ToolTipID>140</ToolTipID>
+            <ToolTipID>40</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>summary_icon20</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc20</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2977,18 +2887,16 @@
         <IconDef>
             <ControlId>1244</ControlId>
             <Position>
-                <X>49</X>
+                <X>44</X>
                 <Y>278</Y>
             </Position>
-            <ToolTipID>140</ToolTipID>
+            <ToolTipID>40</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>summary_icon21</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc21</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -2997,18 +2905,16 @@
         <IconDef>
             <ControlId>1245</ControlId>
             <Position>
-                <X>83</X>
+                <X>78</X>
                 <Y>278</Y>
             </Position>
-            <ToolTipID>140</ToolTipID>
+            <ToolTipID>40</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>summary_icon22</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc22</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -3017,18 +2923,16 @@
         <IconDef>
             <ControlId>1246</ControlId>
             <Position>
-                <X>117</X>
+                <X>112</X>
                 <Y>278</Y>
             </Position>
-            <ToolTipID>140</ToolTipID>
+            <ToolTipID>40</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>summary_icon23</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc23</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -3037,18 +2941,16 @@
         <IconDef>
             <ControlId>1247</ControlId>
             <Position>
-                <X>151</X>
+                <X>146</X>
                 <Y>278</Y>
             </Position>
-            <ToolTipID>140</ToolTipID>
+            <ToolTipID>40</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>summary_icon24</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc24</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -3057,18 +2959,16 @@
         <IconDef>
             <ControlId>1248</ControlId>
             <Position>
-                <X>185</X>
+                <X>180</X>
                 <Y>278</Y>
             </Position>
-            <ToolTipID>140</ToolTipID>
+            <ToolTipID>40</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>summary_icon25</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc25</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -3077,18 +2977,16 @@
         <IconDef>
             <ControlId>1249</ControlId>
             <Position>
-                <X>219</X>
+                <X>214</X>
                 <Y>278</Y>
             </Position>
-            <ToolTipID>140</ToolTipID>
+            <ToolTipID>40</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>summary_icon26</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc26</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -3097,18 +2995,16 @@
         <IconDef>
             <ControlId>1250</ControlId>
             <Position>
-                <X>253</X>
+                <X>248</X>
                 <Y>278</Y>
             </Position>
-            <ToolTipID>140</ToolTipID>
+            <ToolTipID>40</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>summary_icon27</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc27</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -3117,18 +3013,16 @@
         <IconDef>
             <ControlId>1251</ControlId>
             <Position>
-                <X>287</X>
+                <X>282</X>
                 <Y>278</Y>
             </Position>
-            <ToolTipID>140</ToolTipID>
+            <ToolTipID>40</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>summary_icon28</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc28</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -3137,7 +3031,7 @@
         <ButtonDef>
             <ControlId>1252</ControlId>
             <Position>
-                <X>68</X>
+                <X>63</X>
                 <Y>313</Y>
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
@@ -3148,7 +3042,7 @@
         <ButtonDef>
             <ControlId>1253</ControlId>
             <Position>
-                <X>210</X>
+                <X>205</X>
                 <Y>313</Y>
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
@@ -3159,7 +3053,7 @@
         <ScalarLabelDef>
             <ControlId>1254</ControlId>
             <Position>
-                <X>148</X>
+                <X>143</X>
                 <Y>313</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -3179,7 +3073,7 @@
         <ScalarLabelDef>
             <ControlId>1255</ControlId>
             <Position>
-                <X>163</X>
+                <X>158</X>
                 <Y>313</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -3203,7 +3097,7 @@
         <LabelDef>
             <ControlId>1260</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>335</Y>
             </Position>
             <Color>
@@ -3224,7 +3118,7 @@
         <ScalarLabelDef>
             <ControlId>1261</ControlId>
             <Position>
-                <X>138</X>
+                <X>133</X>
                 <Y>335</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -3245,7 +3139,7 @@
         <ScalarLabelDef>
             <ControlId>1262</ControlId>
             <Position>
-                <X>218</X>
+                <X>213</X>
                 <Y>335</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -3266,18 +3160,16 @@
         <IconDef>
             <ControlId>1263</ControlId>
             <Position>
-                <X>15</X>
+                <X>10</X>
                 <Y>351</Y>
             </Position>
-            <ToolTipID>140</ToolTipID>
+            <ToolTipID>40</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>summary_icon30</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc30</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -3286,18 +3178,16 @@
         <IconDef>
             <ControlId>1264</ControlId>
             <Position>
-                <X>49</X>
+                <X>44</X>
                 <Y>351</Y>
             </Position>
-            <ToolTipID>140</ToolTipID>
+            <ToolTipID>40</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>summary_icon31</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc31</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -3306,18 +3196,16 @@
         <IconDef>
             <ControlId>1265</ControlId>
             <Position>
-                <X>83</X>
+                <X>78</X>
                 <Y>351</Y>
             </Position>
-            <ToolTipID>140</ToolTipID>
+            <ToolTipID>40</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>summary_icon32</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc32</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -3326,18 +3214,16 @@
         <IconDef>
             <ControlId>1266</ControlId>
             <Position>
-                <X>117</X>
+                <X>112</X>
                 <Y>351</Y>
             </Position>
-            <ToolTipID>140</ToolTipID>
+            <ToolTipID>40</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>summary_icon33</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc33</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -3346,18 +3232,16 @@
         <IconDef>
             <ControlId>1267</ControlId>
             <Position>
-                <X>151</X>
+                <X>146</X>
                 <Y>351</Y>
             </Position>
-            <ToolTipID>140</ToolTipID>
+            <ToolTipID>40</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>summary_icon34</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc34</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -3366,18 +3250,16 @@
         <IconDef>
             <ControlId>1268</ControlId>
             <Position>
-                <X>185</X>
+                <X>180</X>
                 <Y>351</Y>
             </Position>
-            <ToolTipID>140</ToolTipID>
+            <ToolTipID>40</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>summary_icon35</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc35</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -3386,18 +3268,16 @@
         <IconDef>
             <ControlId>1269</ControlId>
             <Position>
-                <X>219</X>
+                <X>214</X>
                 <Y>351</Y>
             </Position>
-            <ToolTipID>140</ToolTipID>
+            <ToolTipID>40</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>summary_icon36</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc36</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -3406,18 +3286,16 @@
         <IconDef>
             <ControlId>1270</ControlId>
             <Position>
-                <X>253</X>
+                <X>248</X>
                 <Y>351</Y>
             </Position>
-            <ToolTipID>140</ToolTipID>
+            <ToolTipID>40</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>summary_icon37</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc37</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -3426,18 +3304,16 @@
         <IconDef>
             <ControlId>1271</ControlId>
             <Position>
-                <X>287</X>
+                <X>282</X>
                 <Y>351</Y>
             </Position>
-            <ToolTipID>140</ToolTipID>
+            <ToolTipID>40</ToolTipID>
             <TemplateName>plain_icon_large</TemplateName>
             <AdapterName>summary_icon38</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
             <Width>32</Width>
             <Height>32</Height>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
             <LabelAdapterName>summary_icon_desc38</LabelAdapterName>
             <HideLabel>1</HideLabel>
         </IconDef>
@@ -3446,7 +3322,7 @@
         <ButtonDef>
             <ControlId>1272</ControlId>
             <Position>
-                <X>68</X>
+                <X>63</X>
                 <Y>386</Y>
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
@@ -3457,7 +3333,7 @@
         <ButtonDef>
             <ControlId>1273</ControlId>
             <Position>
-                <X>210</X>
+                <X>205</X>
                 <Y>386</Y>
             </Position>
             <TemplateName>_witt_hr_button</TemplateName>
@@ -3468,7 +3344,7 @@
         <ScalarLabelDef>
             <ControlId>1274</ControlId>
             <Position>
-                <X>148</X>
+                <X>143</X>
                 <Y>386</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -3488,7 +3364,7 @@
         <ScalarLabelDef>
             <ControlId>1275</ControlId>
             <Position>
-                <X>163</X>
+                <X>158</X>
                 <Y>386</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -3512,12 +3388,12 @@
         <VerticalSliderDef>
             <ControlId>1299</ControlId>
             <Position>
-                <X>358</X>
-                <Y>19</Y>
+                <X>353</X>
+                <Y>97</Y>
             </Position>
             <Adaptername>summary_slider</Adaptername>
-            <Height>395</Height>
-            <Numticks>10</Numticks>
+            <Height>306</Height>
+            <Numticks>0</Numticks>
             <OnClickEvent></OnClickEvent>
             <Templatename>_witt_vslider_nobutton</Templatename>
         </VerticalSliderDef>
@@ -3532,7 +3408,7 @@
         <LabelDef>
             <ControlId>1301</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>120</Y>
             </Position>
             <Color>
@@ -3553,7 +3429,7 @@
         <InvisibleButtonDef>
             <ControlId>1300</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>118</Y>
             </Position>
             <Label></Label>
@@ -3566,7 +3442,7 @@
         <HorizontalSliderDef>
             <ControlId>1302</ControlId>
             <Position>
-                <X>156</X>
+                <X>151</X>
                 <Y>123</Y>
             </Position>
             <Adaptername>realm_level0</Adaptername>
@@ -3580,7 +3456,7 @@
         <ScalarLabelDef>
             <ControlId>1303</ControlId>
             <Position>
-                <X>273</X>
+                <X>268</X>
                 <Y>120</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -3601,7 +3477,7 @@
         <ScalarLabelDef>
             <ControlId>1304</ControlId>
             <Position>
-                <X>293</X>
+                <X>288</X>
                 <Y>120</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -3625,7 +3501,7 @@
         <LabelDef>
             <ControlId>1306</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>140</Y>
             </Position>
             <Color>
@@ -3646,7 +3522,7 @@
         <InvisibleButtonDef>
             <ControlId>1305</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>138</Y>
             </Position>
             <Label></Label>
@@ -3659,7 +3535,7 @@
         <HorizontalSliderDef>
             <ControlId>1307</ControlId>
             <Position>
-                <X>156</X>
+                <X>151</X>
                 <Y>143</Y>
             </Position>
             <Adaptername>realm_level1</Adaptername>
@@ -3673,7 +3549,7 @@
         <ScalarLabelDef>
             <ControlId>1308</ControlId>
             <Position>
-                <X>273</X>
+                <X>268</X>
                 <Y>140</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -3694,7 +3570,7 @@
         <ScalarLabelDef>
             <ControlId>1309</ControlId>
             <Position>
-                <X>293</X>
+                <X>288</X>
                 <Y>140</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -3718,7 +3594,7 @@
         <LabelDef>
             <ControlId>1311</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>160</Y>
             </Position>
             <Color>
@@ -3739,7 +3615,7 @@
         <InvisibleButtonDef>
             <ControlId>1310</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>158</Y>
             </Position>
             <Label></Label>
@@ -3752,7 +3628,7 @@
         <HorizontalSliderDef>
             <ControlId>1312</ControlId>
             <Position>
-                <X>156</X>
+                <X>151</X>
                 <Y>163</Y>
             </Position>
             <Adaptername>realm_level2</Adaptername>
@@ -3766,7 +3642,7 @@
         <ScalarLabelDef>
             <ControlId>1313</ControlId>
             <Position>
-                <X>273</X>
+                <X>268</X>
                 <Y>160</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -3787,7 +3663,7 @@
         <ScalarLabelDef>
             <ControlId>1314</ControlId>
             <Position>
-                <X>293</X>
+                <X>288</X>
                 <Y>160</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -3811,7 +3687,7 @@
         <LabelDef>
             <ControlId>1316</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>180</Y>
             </Position>
             <Color>
@@ -3832,7 +3708,7 @@
         <InvisibleButtonDef>
             <ControlId>1315</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>178</Y>
             </Position>
             <Label></Label>
@@ -3845,7 +3721,7 @@
         <HorizontalSliderDef>
             <ControlId>1317</ControlId>
             <Position>
-                <X>156</X>
+                <X>151</X>
                 <Y>183</Y>
             </Position>
             <Adaptername>realm_level3</Adaptername>
@@ -3859,7 +3735,7 @@
         <ScalarLabelDef>
             <ControlId>1318</ControlId>
             <Position>
-                <X>273</X>
+                <X>268</X>
                 <Y>180</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -3880,7 +3756,7 @@
         <ScalarLabelDef>
             <ControlId>1319</ControlId>
             <Position>
-                <X>293</X>
+                <X>288</X>
                 <Y>180</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -3904,7 +3780,7 @@
         <LabelDef>
             <ControlId>1321</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>200</Y>
             </Position>
             <Color>
@@ -3925,7 +3801,7 @@
         <InvisibleButtonDef>
             <ControlId>1320</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>198</Y>
             </Position>
             <Label></Label>
@@ -3938,7 +3814,7 @@
         <HorizontalSliderDef>
             <ControlId>1322</ControlId>
             <Position>
-                <X>156</X>
+                <X>151</X>
                 <Y>203</Y>
             </Position>
             <Adaptername>realm_level4</Adaptername>
@@ -3952,7 +3828,7 @@
         <ScalarLabelDef>
             <ControlId>1323</ControlId>
             <Position>
-                <X>273</X>
+                <X>268</X>
                 <Y>200</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -3973,7 +3849,7 @@
         <ScalarLabelDef>
             <ControlId>1324</ControlId>
             <Position>
-                <X>293</X>
+                <X>288</X>
                 <Y>200</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -3997,7 +3873,7 @@
         <LabelDef>
             <ControlId>1326</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>220</Y>
             </Position>
             <Color>
@@ -4018,7 +3894,7 @@
         <InvisibleButtonDef>
             <ControlId>1325</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>218</Y>
             </Position>
             <Label></Label>
@@ -4031,7 +3907,7 @@
         <HorizontalSliderDef>
             <ControlId>1327</ControlId>
             <Position>
-                <X>156</X>
+                <X>151</X>
                 <Y>223</Y>
             </Position>
             <Adaptername>realm_level5</Adaptername>
@@ -4045,7 +3921,7 @@
         <ScalarLabelDef>
             <ControlId>1328</ControlId>
             <Position>
-                <X>273</X>
+                <X>268</X>
                 <Y>220</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -4066,7 +3942,7 @@
         <ScalarLabelDef>
             <ControlId>1329</ControlId>
             <Position>
-                <X>293</X>
+                <X>288</X>
                 <Y>220</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -4090,7 +3966,7 @@
         <LabelDef>
             <ControlId>1331</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>240</Y>
             </Position>
             <Color>
@@ -4111,7 +3987,7 @@
         <InvisibleButtonDef>
             <ControlId>1330</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>238</Y>
             </Position>
             <Label></Label>
@@ -4124,7 +4000,7 @@
         <HorizontalSliderDef>
             <ControlId>1332</ControlId>
             <Position>
-                <X>156</X>
+                <X>151</X>
                 <Y>243</Y>
             </Position>
             <Adaptername>realm_level6</Adaptername>
@@ -4138,7 +4014,7 @@
         <ScalarLabelDef>
             <ControlId>1333</ControlId>
             <Position>
-                <X>273</X>
+                <X>268</X>
                 <Y>240</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -4159,7 +4035,7 @@
         <ScalarLabelDef>
             <ControlId>1334</ControlId>
             <Position>
-                <X>293</X>
+                <X>288</X>
                 <Y>240</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -4183,7 +4059,7 @@
         <LabelDef>
             <ControlId>1336</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>260</Y>
             </Position>
             <Color>
@@ -4204,7 +4080,7 @@
         <InvisibleButtonDef>
             <ControlId>1335</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>258</Y>
             </Position>
             <Label></Label>
@@ -4217,7 +4093,7 @@
         <HorizontalSliderDef>
             <ControlId>1337</ControlId>
             <Position>
-                <X>156</X>
+                <X>151</X>
                 <Y>263</Y>
             </Position>
             <Adaptername>realm_level7</Adaptername>
@@ -4231,7 +4107,7 @@
         <ScalarLabelDef>
             <ControlId>1338</ControlId>
             <Position>
-                <X>273</X>
+                <X>268</X>
                 <Y>260</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -4252,7 +4128,7 @@
         <ScalarLabelDef>
             <ControlId>1339</ControlId>
             <Position>
-                <X>293</X>
+                <X>288</X>
                 <Y>260</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -4276,7 +4152,7 @@
         <LabelDef>
             <ControlId>1341</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>280</Y>
             </Position>
             <Color>
@@ -4297,7 +4173,7 @@
         <InvisibleButtonDef>
             <ControlId>1340</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>278</Y>
             </Position>
             <Label></Label>
@@ -4310,7 +4186,7 @@
         <HorizontalSliderDef>
             <ControlId>1342</ControlId>
             <Position>
-                <X>156</X>
+                <X>151</X>
                 <Y>283</Y>
             </Position>
             <Adaptername>realm_level8</Adaptername>
@@ -4324,7 +4200,7 @@
         <ScalarLabelDef>
             <ControlId>1343</ControlId>
             <Position>
-                <X>273</X>
+                <X>268</X>
                 <Y>280</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -4345,7 +4221,7 @@
         <ScalarLabelDef>
             <ControlId>1344</ControlId>
             <Position>
-                <X>293</X>
+                <X>288</X>
                 <Y>280</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -4369,7 +4245,7 @@
         <LabelDef>
             <ControlId>1346</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>300</Y>
             </Position>
             <Color>
@@ -4390,7 +4266,7 @@
         <InvisibleButtonDef>
             <ControlId>1345</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>298</Y>
             </Position>
             <Label></Label>
@@ -4403,7 +4279,7 @@
         <HorizontalSliderDef>
             <ControlId>1347</ControlId>
             <Position>
-                <X>156</X>
+                <X>151</X>
                 <Y>303</Y>
             </Position>
             <Adaptername>realm_level9</Adaptername>
@@ -4417,7 +4293,7 @@
         <ScalarLabelDef>
             <ControlId>1348</ControlId>
             <Position>
-                <X>273</X>
+                <X>268</X>
                 <Y>300</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -4438,7 +4314,7 @@
         <ScalarLabelDef>
             <ControlId>1349</ControlId>
             <Position>
-                <X>293</X>
+                <X>288</X>
                 <Y>300</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -4462,7 +4338,7 @@
         <LabelDef>
             <ControlId>1351</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>320</Y>
             </Position>
             <Color>
@@ -4483,7 +4359,7 @@
         <InvisibleButtonDef>
             <ControlId>1350</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>318</Y>
             </Position>
             <Label></Label>
@@ -4496,7 +4372,7 @@
         <HorizontalSliderDef>
             <ControlId>1352</ControlId>
             <Position>
-                <X>156</X>
+                <X>151</X>
                 <Y>323</Y>
             </Position>
             <Adaptername>realm_level10</Adaptername>
@@ -4510,7 +4386,7 @@
         <ScalarLabelDef>
             <ControlId>1353</ControlId>
             <Position>
-                <X>273</X>
+                <X>268</X>
                 <Y>320</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -4531,7 +4407,7 @@
         <ScalarLabelDef>
             <ControlId>1354</ControlId>
             <Position>
-                <X>293</X>
+                <X>288</X>
                 <Y>320</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -4555,7 +4431,7 @@
         <LabelDef>
             <ControlId>1356</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>340</Y>
             </Position>
             <Color>
@@ -4576,7 +4452,7 @@
         <InvisibleButtonDef>
             <ControlId>1355</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>338</Y>
             </Position>
             <Label></Label>
@@ -4589,7 +4465,7 @@
         <HorizontalSliderDef>
             <ControlId>1357</ControlId>
             <Position>
-                <X>156</X>
+                <X>151</X>
                 <Y>343</Y>
             </Position>
             <Adaptername>realm_level11</Adaptername>
@@ -4603,7 +4479,7 @@
         <ScalarLabelDef>
             <ControlId>1358</ControlId>
             <Position>
-                <X>273</X>
+                <X>268</X>
                 <Y>340</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -4624,7 +4500,7 @@
         <ScalarLabelDef>
             <ControlId>1359</ControlId>
             <Position>
-                <X>293</X>
+                <X>288</X>
                 <Y>340</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -4648,7 +4524,7 @@
         <LabelDef>
             <ControlId>1361</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>360</Y>
             </Position>
             <Color>
@@ -4669,7 +4545,7 @@
         <InvisibleButtonDef>
             <ControlId>1360</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>358</Y>
             </Position>
             <Label></Label>
@@ -4682,7 +4558,7 @@
         <HorizontalSliderDef>
             <ControlId>1362</ControlId>
             <Position>
-                <X>156</X>
+                <X>151</X>
                 <Y>363</Y>
             </Position>
             <Adaptername>realm_level12</Adaptername>
@@ -4696,7 +4572,7 @@
         <ScalarLabelDef>
             <ControlId>1363</ControlId>
             <Position>
-                <X>273</X>
+                <X>268</X>
                 <Y>360</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -4717,7 +4593,7 @@
         <ScalarLabelDef>
             <ControlId>1364</ControlId>
             <Position>
-                <X>293</X>
+                <X>288</X>
                 <Y>360</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -4741,7 +4617,7 @@
         <LabelDef>
             <ControlId>1366</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>380</Y>
             </Position>
             <Color>
@@ -4762,7 +4638,7 @@
         <InvisibleButtonDef>
             <ControlId>1365</ControlId>
             <Position>
-                <X>13</X>
+                <X>8</X>
                 <Y>378</Y>
             </Position>
             <Label></Label>
@@ -4775,7 +4651,7 @@
         <HorizontalSliderDef>
             <ControlId>1367</ControlId>
             <Position>
-                <X>156</X>
+                <X>151</X>
                 <Y>383</Y>
             </Position>
             <Adaptername>realm_level13</Adaptername>
@@ -4789,7 +4665,7 @@
         <ScalarLabelDef>
             <ControlId>1368</ControlId>
             <Position>
-                <X>273</X>
+                <X>268</X>
                 <Y>380</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -4810,7 +4686,7 @@
         <ScalarLabelDef>
             <ControlId>1369</ControlId>
             <Position>
-                <X>293</X>
+                <X>288</X>
                 <Y>380</Y>
             </Position>
             <FontName>_whatisthisfont3</FontName>
@@ -4834,12 +4710,12 @@
         <VerticalSliderDef>
             <ControlId>1399</ControlId>
             <Position>
-                <X>358</X>
-                <Y>19</Y>
+                <X>353</X>
+                <Y>97</Y>
             </Position>
             <Adaptername>realm_slider</Adaptername>
-            <Height>395</Height>
-            <Numticks>10</Numticks>
+            <Height>306</Height>
+            <Numticks>0</Numticks>
             <OnClickEvent></OnClickEvent>
             <Templatename>_witt_vslider_nobutton</Templatename>
         </VerticalSliderDef>
@@ -4851,7 +4727,7 @@
         <ButtonDef>
             <ControlId>1900</ControlId>
             <Position>
-                <X>5</X>
+                <X>2</X>
                 <Y>0</Y>
             </Position>
             <Alignment>
@@ -4866,7 +4742,7 @@
         <ButtonDef>
             <ControlId>1901</ControlId>
             <Position>
-                <X>136</X>
+                <X>131</X>
                 <Y>0</Y>
             </Position>
             <Alignment>
@@ -4881,7 +4757,7 @@
         <ButtonDef>
             <ControlId>1902</ControlId>
             <Position>
-                <X>5</X>
+                <X>2</X>
                 <Y>0</Y>
             </Position>
             <Alignment>
@@ -4896,7 +4772,7 @@
         <ButtonDef>
             <ControlId>1900</ControlId>
             <Position>
-                <X>5</X>
+                <X>2</X>
                 <Y>17</Y>
             </Position>
             <Alignment>
@@ -4912,7 +4788,7 @@
         <ButtonDef>
             <ControlId>1900</ControlId>
             <Position>
-                <X>5</X>
+                <X>2</X>
                 <Y>17</Y>
             </Position>
             <Alignment>
@@ -4927,7 +4803,7 @@
         <ButtonDef>
             <ControlId>1900</ControlId>
             <Position>
-                <X>136</X>
+                <X>131</X>
                 <Y>17</Y>
             </Position>
             <Alignment>

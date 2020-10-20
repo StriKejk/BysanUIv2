@@ -28,28 +28,15 @@
         <ContextTemplateName></ContextTemplateName>
 
 
-        <!--&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;Height&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;390&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/Height&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;-->
-
-
         <FullResizeImageDef>
+            <ControlId>Title1</ControlId>
             <Position>
                 <X>0</X>
                 <Y>0</Y>
             </Position>
             <TemplateName>_witt_bg_90</TemplateName>
             <Width>198</Width>
-            <Height>380</Height>
-        </FullResizeImageDef>
-
-
-        <FullResizeImageDef>
-            <Position>
-                <X>0</X>
-                <Y>0</Y>
-            </Position>
-            <TemplateName>_witt_bg_100</TemplateName>
-            <Width>198</Width>
-            <Height>19</Height>
+            <Height>20</Height>
         </FullResizeImageDef>
 
 
@@ -69,11 +56,23 @@
             </Color>
             <FontName>_whatisthisfont2</FontName>
             <Width>198</Width>
-            <Height>15</Height>
+            <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
             <Data>OVERVIEW</Data>
             <TextCentered>true</TextCentered>
         </LabelDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background1</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>19</Y>
+            </Position>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>198</Width>
+            <Height>71</Height>
+        </FullResizeImageDef>
 
 
         <LabelDef>
@@ -366,13 +365,14 @@
 
 
         <FullResizeImageDef>
+            <ControlId>Title2</ControlId>
             <Position>
                 <X>0</X>
                 <Y>89</Y>
             </Position>
-            <TemplateName>_witt_bg_100</TemplateName>
+            <TemplateName>_witt_bg_90</TemplateName>
             <Width>198</Width>
-            <Height>19</Height>
+            <Height>20</Height>
         </FullResizeImageDef>
 
 
@@ -392,11 +392,23 @@
             </Color>
             <FontName>_whatisthisfont2</FontName>
             <Width>198</Width>
-            <Height>15</Height>
+            <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
             <Data>STATS</Data>
             <TextCentered>true</TextCentered>
         </LabelDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background2</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>108</Y>
+            </Position>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>198</Width>
+            <Height>66</Height>
+        </FullResizeImageDef>
 
 
         <LabelDef>
@@ -720,13 +732,14 @@
 
 
         <FullResizeImageDef>
+            <ControlId>Title3</ControlId>
             <Position>
                 <X>0</X>
                 <Y>173</Y>
             </Position>
-            <TemplateName>_witt_bg_100</TemplateName>
+            <TemplateName>_witt_bg_90</TemplateName>
             <Width>198</Width>
-            <Height>19</Height>
+            <Height>20</Height>
         </FullResizeImageDef>
 
 
@@ -746,11 +759,23 @@
             </Color>
             <FontName>_whatisthisfont2</FontName>
             <Width>198</Width>
-            <Height>15</Height>
+            <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
             <Data>RESISTS</Data>
             <TextCentered>true</TextCentered>
         </LabelDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background3</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>192</Y>
+            </Position>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>198</Width>
+            <Height>187</Height>
+        </FullResizeImageDef>
 
 
         <LabelDef>
@@ -1125,7 +1150,7 @@
             </Alignment>
             <Width>198</Width>
             <Height>110</Height>
-            <TemplateName>_witt_listbox_80</TemplateName>
+            <TemplateName>_witt_listbox_0</TemplateName>
             <AdapterName>stats_additional_info</AdapterName>
             <Sorting>false</Sorting>
             <Columns>2</Columns>

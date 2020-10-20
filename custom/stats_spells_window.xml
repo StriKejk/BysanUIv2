@@ -90,30 +90,20 @@
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>0</MinWidth>
-        <MinHeight>0</MinHeight>
+        <MinWidth>198</MinWidth>
+        <MinHeight>380</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
+            <ControlId>Title</ControlId>
             <Position>
                 <X>0</X>
                 <Y>0</Y>
             </Position>
             <TemplateName>_witt_bg_90</TemplateName>
             <Width>198</Width>
-            <Height>380</Height>
-        </FullResizeImageDef>
-
-
-        <FullResizeImageDef>
-            <Position>
-                <X>0</X>
-                <Y>0</Y>
-            </Position>
-            <TemplateName>_witt_bg_100</TemplateName>
-            <Width>198</Width>
-            <Height>19</Height>
+            <Height>20</Height>
         </FullResizeImageDef>
 
 
@@ -133,11 +123,23 @@
             </Color>
             <FontName>_whatisthisfont2</FontName>
             <Width>198</Width>
-            <Height>15</Height>
+            <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
             <Data>SPELLS</Data>
             <TextCentered>true</TextCentered>
         </LabelDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>19</Y>
+            </Position>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>198</Width>
+            <Height>361</Height>
+        </FullResizeImageDef>
 
 
         <TreeControlDef>
@@ -152,7 +154,7 @@
             <TemplateName>_witt_listbox_noscroll</TemplateName>
             <AdapterName>stats_spells</AdapterName>
             <Width>198</Width>
-            <Height>362</Height>
+            <Height>363</Height>
             <Column1Width>100</Column1Width>
             <Column1Offset>10</Column1Offset>
             <Column2Width>100</Column2Width>

@@ -51,27 +51,27 @@
         <Name>quest</Name>
         <WindowId>Quest</WindowId>
         <CloseButton>true</CloseButton>
-        <MoveButton>true</MoveButton>
+        <MoveButton>false</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>
         <BottomRightResizeButton>true</BottomRightResizeButton>
-        <BottomLeftResizeButton>true</BottomLeftResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>512</TitleWidth>
-        <TitleHeight>18</TitleHeight>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
         <Width>512</Width>
         <Height>256</Height>
-        <ResizeableWidth>6</ResizeableWidth>
-        <ResizeableHeight>6</ResizeableHeight>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>200</MinWidth>
-        <MinHeight>50</MinHeight>
+        <MinWidth>512</MinWidth>
+        <MinHeight>256</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
-            <ControlId>Background</ControlId>
+            <ControlId>Title</ControlId>
             <Position>
                 <X>0</X>
                 <Y>0</Y>
@@ -80,36 +80,16 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>dlg_background_1px</TemplateName>
+            <TemplateName>_witt_bg_90</TemplateName>
             <Width>512</Width>
-            <Height>256</Height>
+            <Height>20</Height>
         </FullResizeImageDef>
-
-
-        <TextAreaDef>
-            <ControlId>1001</ControlId>
-            <Position>
-                <X>7</X>
-                <Y>28</Y>
-            </Position>
-            <Alignment>
-                <GrowWidth>true</GrowWidth>
-                <GrowHeight>true</GrowHeight>
-            </Alignment>
-            <TemplateName>_witt_textarea_80</TemplateName>
-            <AdapterName>quest_text</AdapterName>
-            <HasHotspots>true</HasHotspots>
-            <HotspotDelineator>{</HotspotDelineator>
-            <MaxCharacters>32768</MaxCharacters>
-            <Width>500</Width>
-            <Height>200</Height>
-        </TextAreaDef>
 
 
         <LabelDef>
             <Position>
                 <X>0</X>
-                <Y>6</Y>
+                <Y>4</Y>
             </Position>
             <Alignment>
                 <CenterHorizontally>true</CenterHorizontally>
@@ -120,24 +100,61 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11b</FontName>
-            <Width>140</Width>
-            <Height>20</Height>
-            <MaxCharacters>999</MaxCharacters>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>512</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
             <Data>Quest Journal</Data>
+            <TextCentered>true</TextCentered>
         </LabelDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>19</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>512</Width>
+            <Height>237</Height>
+        </FullResizeImageDef>
+
+
+        <TextAreaDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>18</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>_witt_textarea</TemplateName>
+            <AdapterName>quest_text</AdapterName>
+            <HasHotspots>true</HasHotspots>
+            <HotspotDelineator>{</HotspotDelineator>
+            <MaxCharacters>32768</MaxCharacters>
+            <Width>512</Width>
+            <Height>218</Height>
+        </TextAreaDef>
 
 
         <ButtonDef>
             <ControlId>1000</ControlId>
             <Position>
-                <X>5</X>
-                <Y>5</Y>
+                <X>2</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <TemplateName>button_tab</TemplateName>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>Remove</Label>
             <OnClickEvent>RemoveQuest</OnClickEvent>
         </ButtonDef>
@@ -146,8 +163,8 @@
         <LabelDef>
             <ControlId>1005</ControlId>
             <Position>
-                <X>74</X>
-                <Y>3</Y>
+                <X>70</X>
+                <Y>2</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
@@ -158,9 +175,9 @@
                 <B>192</B>
                 <A>192</A>
             </Color>
-            <FontName>arial9</FontName>
-            <Width>300</Width>
-            <Height>18</Height>
+            <FontName>_whatisthisfont11pxds</FontName>
+            <Width>430</Width>
+            <Height>15</Height>
             <MaxCharacters>256</MaxCharacters>
             <Data>No Quest Selected</Data>
         </LabelDef>

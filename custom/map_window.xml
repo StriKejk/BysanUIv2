@@ -128,18 +128,6 @@
         <ContextTemplateName></ContextTemplateName>
 
 
-        <FullResizeImageDef>
-            <ControlId>Background</ControlId>
-            <Position>
-                <X>0</X>
-                <Y>0</Y>
-            </Position>
-            <TemplateName>dlg_background_transparent</TemplateName>
-            <Width>256</Width>
-            <Height>20</Height>
-        </FullResizeImageDef>
-
-
         <LabelDef>
             <Position>
                 <X>0</X>
@@ -391,18 +379,30 @@
         </ComboBoxDef>
 
 
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>276</Y>
+            </Position>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>256</Width>
+            <Height>78</Height>
+        </FullResizeImageDef>
+
+
         <TextAreaDef>
             <ControlId>1005</ControlId>
             <Position>
                 <X>0</X>
-                <Y>276</Y>
+                <Y>275</Y>
             </Position>
             <TemplateName>_witt_textarea</TemplateName>
             <AdapterName>map_info</AdapterName>
             <HasHotSpots>false</HasHotSpots>
             <MaxCharacters>32768</MaxCharacters>
             <Width>256</Width>
-            <Height>78</Height>
+            <Height>80</Height>
         </TextAreaDef>
 
 

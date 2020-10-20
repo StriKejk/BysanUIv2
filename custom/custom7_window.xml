@@ -36,41 +36,39 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_hh_endu</TemplateName>
-            <AdapterName>group_endurance0</AdapterName>
-        </StatusIconDef>
-
-
-        <StatusIconDef>
-            <Position>
-                <X>0</X>
-                <Y>5</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <TemplateName>_witt_hh_standard</TemplateName>
             <AdapterName>group_health0</AdapterName>
         </StatusIconDef>
 
 
-        <StatusIconDef>
+        <VerticalStatusbarDef>
             <Position>
-                <X>0</X>
-                <Y>41</Y>
+                <X>87</X>
+                <Y>0</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_witt_hh_power</TemplateName>
+            <TemplateName>_witt_statusbar_v_green</TemplateName>
+            <AdapterName>group_endurance0</AdapterName>
+            <Height>46</Height>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </VerticalStatusbarDef>
+
+
+        <VerticalStatusbarDef>
+            <Position>
+                <X>82</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_witt_statusbar_v_yellow</TemplateName>
             <AdapterName>group_power0</AdapterName>
-        </StatusIconDef>
+            <Height>46</Height>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </VerticalStatusbarDef>
 
 
         <LabelDef>
             <Position>
-                <X>4</X>
-                <Y>4</Y>
+                <X>3</X>
+                <Y>3</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -82,11 +80,11 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont2</FontName>
-            <Width>68</Width>
-            <Height>16</Height>
-            <MaxCharacters>25</MaxCharacters>
+            <Width>77</Width>
+            <Height>15</Height>
+            <MaxCharacters>30</MaxCharacters>
             <ColorAdapter>group_color0</ColorAdapter>
-            <Adapter>group_class0</Adapter>
+            <Adapter>group_name0</Adapter>
         </LabelDef>
 
 
@@ -106,7 +104,7 @@
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
-                <A>196</A>
+                <A>255</A>
             </Color>
             <Adapter>group_level0</Adapter>
             <ColorAdapter>group_color0</ColorAdapter>
@@ -117,7 +115,7 @@
 
         <LabelDef>
             <Position>
-                <X>4</X>
+                <X>3</X>
                 <Y>30</Y>
             </Position>
             <Alignment>
@@ -130,87 +128,12 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont11pxds</FontName>
-            <Width>68</Width>
-            <Height>16</Height>
-            <MaxCharacters>25</MaxCharacters>
+            <Width>77</Width>
+            <Height>15</Height>
+            <MaxCharacters>30</MaxCharacters>
             <ColorAdapter>group_color0</ColorAdapter>
-            <Adapter>group_name0</Adapter>
+            <Adapter>group_class0</Adapter>
         </LabelDef>
-
-
-        <ScalarLabelDef>
-            <Position>
-                <X>65</X>
-                <Y>2</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
-            <Width>32</Width>
-            <Height>32</Height>
-            <MaxCharacters>4</MaxCharacters>
-            <Color>
-                <R>65</R>
-                <G>204</G>
-                <B>61</B>
-                <A>255</A>
-            </Color>
-            <Adapter>group_endurance0</Adapter>
-            <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero>
-            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
-        </ScalarLabelDef>
-
-
-        <ScalarLabelDef>
-            <Position>
-                <X>65</X>
-                <Y>16</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
-            <Width>32</Width>
-            <Height>32</Height>
-            <MaxCharacters>4</MaxCharacters>
-            <Color>
-                <R>255</R>
-                <G>32</G>
-                <B>32</B>
-                <A>196</A>
-            </Color>
-            <Adapter>group_health0</Adapter>
-            <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero>
-            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
-        </ScalarLabelDef>
-
-
-        <ScalarLabelDef>
-            <Position>
-                <X>65</X>
-                <Y>30</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
-            <Width>32</Width>
-            <Height>32</Height>
-            <MaxCharacters>4</MaxCharacters>
-            <Color>
-                <R>255</R>
-                <G>252</G>
-                <B>32</B>
-                <A>196</A>
-            </Color>
-            <Adapter>group_power0</Adapter>
-            <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero>
-            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
-        </ScalarLabelDef>
 
 
         <StatusIconDef>
@@ -247,41 +170,39 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_hh_endu</TemplateName>
-            <AdapterName>group_endurance1</AdapterName>
-        </StatusIconDef>
-
-
-        <StatusIconDef>
-            <Position>
-                <X>94</X>
-                <Y>5</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <TemplateName>_witt_hh_standard</TemplateName>
             <AdapterName>group_health1</AdapterName>
         </StatusIconDef>
 
 
-        <StatusIconDef>
+        <VerticalStatusbarDef>
             <Position>
-                <X>94</X>
-                <Y>41</Y>
+                <X>181</X>
+                <Y>0</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_witt_hh_power</TemplateName>
+            <TemplateName>_witt_statusbar_v_green</TemplateName>
+            <AdapterName>group_endurance1</AdapterName>
+            <Height>46</Height>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </VerticalStatusbarDef>
+
+
+        <VerticalStatusbarDef>
+            <Position>
+                <X>176</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_witt_statusbar_v_yellow</TemplateName>
             <AdapterName>group_power1</AdapterName>
-        </StatusIconDef>
+            <Height>46</Height>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </VerticalStatusbarDef>
 
 
         <LabelDef>
             <Position>
-                <X>98</X>
-                <Y>4</Y>
+                <X>97</X>
+                <Y>3</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -293,11 +214,11 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont2</FontName>
-            <Width>68</Width>
-            <Height>16</Height>
-            <MaxCharacters>25</MaxCharacters>
+            <Width>77</Width>
+            <Height>15</Height>
+            <MaxCharacters>30</MaxCharacters>
             <ColorAdapter>group_color1</ColorAdapter>
-            <Adapter>group_class1</Adapter>
+            <Adapter>group_name1</Adapter>
         </LabelDef>
 
 
@@ -317,7 +238,7 @@
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
-                <A>196</A>
+                <A>255</A>
             </Color>
             <Adapter>group_level1</Adapter>
             <ColorAdapter>group_color1</ColorAdapter>
@@ -328,7 +249,7 @@
 
         <LabelDef>
             <Position>
-                <X>98</X>
+                <X>97</X>
                 <Y>30</Y>
             </Position>
             <Alignment>
@@ -341,87 +262,12 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont11pxds</FontName>
-            <Width>68</Width>
-            <Height>16</Height>
-            <MaxCharacters>25</MaxCharacters>
+            <Width>77</Width>
+            <Height>15</Height>
+            <MaxCharacters>30</MaxCharacters>
             <ColorAdapter>group_color1</ColorAdapter>
-            <Adapter>group_name1</Adapter>
+            <Adapter>group_class1</Adapter>
         </LabelDef>
-
-
-        <ScalarLabelDef>
-            <Position>
-                <X>159</X>
-                <Y>2</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
-            <Width>32</Width>
-            <Height>32</Height>
-            <MaxCharacters>4</MaxCharacters>
-            <Color>
-                <R>65</R>
-                <G>204</G>
-                <B>61</B>
-                <A>255</A>
-            </Color>
-            <Adapter>group_endurance1</Adapter>
-            <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero>
-            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
-        </ScalarLabelDef>
-
-
-        <ScalarLabelDef>
-            <Position>
-                <X>159</X>
-                <Y>16</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
-            <Width>32</Width>
-            <Height>32</Height>
-            <MaxCharacters>4</MaxCharacters>
-            <Color>
-                <R>255</R>
-                <G>32</G>
-                <B>32</B>
-                <A>196</A>
-            </Color>
-            <Adapter>group_health1</Adapter>
-            <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero>
-            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
-        </ScalarLabelDef>
-
-
-        <ScalarLabelDef>
-            <Position>
-                <X>159</X>
-                <Y>30</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
-            <Width>32</Width>
-            <Height>32</Height>
-            <MaxCharacters>4</MaxCharacters>
-            <Color>
-                <R>255</R>
-                <G>252</G>
-                <B>32</B>
-                <A>196</A>
-            </Color>
-            <Adapter>group_power1</Adapter>
-            <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero>
-            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
-        </ScalarLabelDef>
 
 
         <StatusIconDef>
@@ -458,41 +304,39 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_hh_endu</TemplateName>
-            <AdapterName>group_endurance2</AdapterName>
-        </StatusIconDef>
-
-
-        <StatusIconDef>
-            <Position>
-                <X>188</X>
-                <Y>5</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <TemplateName>_witt_hh_standard</TemplateName>
             <AdapterName>group_health2</AdapterName>
         </StatusIconDef>
 
 
-        <StatusIconDef>
+        <VerticalStatusbarDef>
             <Position>
-                <X>188</X>
-                <Y>41</Y>
+                <X>275</X>
+                <Y>0</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_witt_hh_power</TemplateName>
+            <TemplateName>_witt_statusbar_v_green</TemplateName>
+            <AdapterName>group_endurance2</AdapterName>
+            <Height>46</Height>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </VerticalStatusbarDef>
+
+
+        <VerticalStatusbarDef>
+            <Position>
+                <X>270</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_witt_statusbar_v_yellow</TemplateName>
             <AdapterName>group_power2</AdapterName>
-        </StatusIconDef>
+            <Height>46</Height>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </VerticalStatusbarDef>
 
 
         <LabelDef>
             <Position>
-                <X>192</X>
-                <Y>4</Y>
+                <X>191</X>
+                <Y>3</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -504,11 +348,11 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont2</FontName>
-            <Width>68</Width>
-            <Height>16</Height>
-            <MaxCharacters>25</MaxCharacters>
+            <Width>77</Width>
+            <Height>15</Height>
+            <MaxCharacters>30</MaxCharacters>
             <ColorAdapter>group_color2</ColorAdapter>
-            <Adapter>group_class2</Adapter>
+            <Adapter>group_name2</Adapter>
         </LabelDef>
 
 
@@ -528,7 +372,7 @@
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
-                <A>196</A>
+                <A>255</A>
             </Color>
             <Adapter>group_level2</Adapter>
             <ColorAdapter>group_color2</ColorAdapter>
@@ -539,7 +383,7 @@
 
         <LabelDef>
             <Position>
-                <X>192</X>
+                <X>191</X>
                 <Y>30</Y>
             </Position>
             <Alignment>
@@ -552,87 +396,12 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont11pxds</FontName>
-            <Width>68</Width>
-            <Height>16</Height>
-            <MaxCharacters>25</MaxCharacters>
+            <Width>77</Width>
+            <Height>15</Height>
+            <MaxCharacters>30</MaxCharacters>
             <ColorAdapter>group_color2</ColorAdapter>
-            <Adapter>group_name2</Adapter>
+            <Adapter>group_class2</Adapter>
         </LabelDef>
-
-
-        <ScalarLabelDef>
-            <Position>
-                <X>253</X>
-                <Y>2</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
-            <Width>32</Width>
-            <Height>32</Height>
-            <MaxCharacters>4</MaxCharacters>
-            <Color>
-                <R>65</R>
-                <G>204</G>
-                <B>61</B>
-                <A>255</A>
-            </Color>
-            <Adapter>group_endurance2</Adapter>
-            <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero>
-            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
-        </ScalarLabelDef>
-
-
-        <ScalarLabelDef>
-            <Position>
-                <X>253</X>
-                <Y>16</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
-            <Width>32</Width>
-            <Height>32</Height>
-            <MaxCharacters>4</MaxCharacters>
-            <Color>
-                <R>255</R>
-                <G>32</G>
-                <B>32</B>
-                <A>196</A>
-            </Color>
-            <Adapter>group_health2</Adapter>
-            <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero>
-            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
-        </ScalarLabelDef>
-
-
-        <ScalarLabelDef>
-            <Position>
-                <X>253</X>
-                <Y>30</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
-            <Width>32</Width>
-            <Height>32</Height>
-            <MaxCharacters>4</MaxCharacters>
-            <Color>
-                <R>255</R>
-                <G>252</G>
-                <B>32</B>
-                <A>196</A>
-            </Color>
-            <Adapter>group_power2</Adapter>
-            <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero>
-            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
-        </ScalarLabelDef>
 
 
         <StatusIconDef>
@@ -669,41 +438,39 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_hh_endu</TemplateName>
-            <AdapterName>group_endurance3</AdapterName>
-        </StatusIconDef>
-
-
-        <StatusIconDef>
-            <Position>
-                <X>282</X>
-                <Y>5</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <TemplateName>_witt_hh_standard</TemplateName>
             <AdapterName>group_health3</AdapterName>
         </StatusIconDef>
 
 
-        <StatusIconDef>
+        <VerticalStatusbarDef>
             <Position>
-                <X>282</X>
-                <Y>41</Y>
+                <X>369</X>
+                <Y>0</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_witt_hh_power</TemplateName>
+            <TemplateName>_witt_statusbar_v_green</TemplateName>
+            <AdapterName>group_endurance3</AdapterName>
+            <Height>46</Height>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </VerticalStatusbarDef>
+
+
+        <VerticalStatusbarDef>
+            <Position>
+                <X>364</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_witt_statusbar_v_yellow</TemplateName>
             <AdapterName>group_power3</AdapterName>
-        </StatusIconDef>
+            <Height>46</Height>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </VerticalStatusbarDef>
 
 
         <LabelDef>
             <Position>
-                <X>286</X>
-                <Y>4</Y>
+                <X>285</X>
+                <Y>3</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -715,11 +482,11 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont2</FontName>
-            <Width>68</Width>
-            <Height>16</Height>
-            <MaxCharacters>25</MaxCharacters>
+            <Width>77</Width>
+            <Height>15</Height>
+            <MaxCharacters>30</MaxCharacters>
             <ColorAdapter>group_color3</ColorAdapter>
-            <Adapter>group_class3</Adapter>
+            <Adapter>group_name3</Adapter>
         </LabelDef>
 
 
@@ -739,7 +506,7 @@
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
-                <A>196</A>
+                <A>255</A>
             </Color>
             <Adapter>group_level3</Adapter>
             <ColorAdapter>group_color3</ColorAdapter>
@@ -750,7 +517,7 @@
 
         <LabelDef>
             <Position>
-                <X>286</X>
+                <X>285</X>
                 <Y>30</Y>
             </Position>
             <Alignment>
@@ -763,87 +530,12 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont11pxds</FontName>
-            <Width>68</Width>
-            <Height>16</Height>
-            <MaxCharacters>25</MaxCharacters>
+            <Width>77</Width>
+            <Height>15</Height>
+            <MaxCharacters>30</MaxCharacters>
             <ColorAdapter>group_color3</ColorAdapter>
-            <Adapter>group_name3</Adapter>
+            <Adapter>group_class3</Adapter>
         </LabelDef>
-
-
-        <ScalarLabelDef>
-            <Position>
-                <X>347</X>
-                <Y>2</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
-            <Width>32</Width>
-            <Height>32</Height>
-            <MaxCharacters>4</MaxCharacters>
-            <Color>
-                <R>65</R>
-                <G>204</G>
-                <B>61</B>
-                <A>255</A>
-            </Color>
-            <Adapter>group_endurance3</Adapter>
-            <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero>
-            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
-        </ScalarLabelDef>
-
-
-        <ScalarLabelDef>
-            <Position>
-                <X>347</X>
-                <Y>16</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
-            <Width>32</Width>
-            <Height>32</Height>
-            <MaxCharacters>4</MaxCharacters>
-            <Color>
-                <R>255</R>
-                <G>32</G>
-                <B>32</B>
-                <A>196</A>
-            </Color>
-            <Adapter>group_health3</Adapter>
-            <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero>
-            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
-        </ScalarLabelDef>
-
-
-        <ScalarLabelDef>
-            <Position>
-                <X>347</X>
-                <Y>30</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
-            <Width>32</Width>
-            <Height>32</Height>
-            <MaxCharacters>4</MaxCharacters>
-            <Color>
-                <R>255</R>
-                <G>252</G>
-                <B>32</B>
-                <A>196</A>
-            </Color>
-            <Adapter>group_power3</Adapter>
-            <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero>
-            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
-        </ScalarLabelDef>
 
 
         <StatusIconDef>
@@ -880,40 +572,38 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_hh_endu</TemplateName>
-            <AdapterName>group_endurance4</AdapterName>
-        </StatusIconDef>
-
-
-        <StatusIconDef>
-            <Position>
-                <X>0</X>
-                <Y>52</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <TemplateName>_witt_hh_standard</TemplateName>
             <AdapterName>group_health4</AdapterName>
         </StatusIconDef>
 
 
-        <StatusIconDef>
+        <VerticalStatusbarDef>
             <Position>
-                <X>0</X>
-                <Y>88</Y>
+                <X>87</X>
+                <Y>47</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_witt_hh_power</TemplateName>
+            <TemplateName>_witt_statusbar_v_green</TemplateName>
+            <AdapterName>group_endurance4</AdapterName>
+            <Height>46</Height>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </VerticalStatusbarDef>
+
+
+        <VerticalStatusbarDef>
+            <Position>
+                <X>82</X>
+                <Y>47</Y>
+            </Position>
+            <TemplateName>_witt_statusbar_v_yellow</TemplateName>
             <AdapterName>group_power4</AdapterName>
-        </StatusIconDef>
+            <Height>46</Height>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </VerticalStatusbarDef>
 
 
         <LabelDef>
             <Position>
-                <X>4</X>
+                <X>3</X>
                 <Y>50</Y>
             </Position>
             <Alignment>
@@ -926,11 +616,11 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont2</FontName>
-            <Width>68</Width>
-            <Height>16</Height>
-            <MaxCharacters>25</MaxCharacters>
+            <Width>77</Width>
+            <Height>15</Height>
+            <MaxCharacters>30</MaxCharacters>
             <ColorAdapter>group_color4</ColorAdapter>
-            <Adapter>group_class4</Adapter>
+            <Adapter>group_name4</Adapter>
         </LabelDef>
 
 
@@ -950,7 +640,7 @@
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
-                <A>196</A>
+                <A>255</A>
             </Color>
             <Adapter>group_level4</Adapter>
             <ColorAdapter>group_color4</ColorAdapter>
@@ -961,7 +651,7 @@
 
         <LabelDef>
             <Position>
-                <X>4</X>
+                <X>3</X>
                 <Y>77</Y>
             </Position>
             <Alignment>
@@ -974,87 +664,12 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont11pxds</FontName>
-            <Width>68</Width>
-            <Height>16</Height>
-            <MaxCharacters>25</MaxCharacters>
+            <Width>77</Width>
+            <Height>15</Height>
+            <MaxCharacters>30</MaxCharacters>
             <ColorAdapter>group_color4</ColorAdapter>
-            <Adapter>group_name4</Adapter>
+            <Adapter>group_class4</Adapter>
         </LabelDef>
-
-
-        <ScalarLabelDef>
-            <Position>
-                <X>65</X>
-                <Y>49</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
-            <Width>32</Width>
-            <Height>32</Height>
-            <MaxCharacters>4</MaxCharacters>
-            <Color>
-                <R>65</R>
-                <G>204</G>
-                <B>61</B>
-                <A>255</A>
-            </Color>
-            <Adapter>group_endurance4</Adapter>
-            <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero>
-            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
-        </ScalarLabelDef>
-
-
-        <ScalarLabelDef>
-            <Position>
-                <X>65</X>
-                <Y>63</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
-            <Width>32</Width>
-            <Height>32</Height>
-            <MaxCharacters>4</MaxCharacters>
-            <Color>
-                <R>255</R>
-                <G>32</G>
-                <B>32</B>
-                <A>196</A>
-            </Color>
-            <Adapter>group_health4</Adapter>
-            <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero>
-            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
-        </ScalarLabelDef>
-
-
-        <ScalarLabelDef>
-            <Position>
-                <X>65</X>
-                <Y>77</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
-            <Width>32</Width>
-            <Height>32</Height>
-            <MaxCharacters>4</MaxCharacters>
-            <Color>
-                <R>255</R>
-                <G>252</G>
-                <B>32</B>
-                <A>196</A>
-            </Color>
-            <Adapter>group_power4</Adapter>
-            <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero>
-            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
-        </ScalarLabelDef>
 
 
         <StatusIconDef>
@@ -1091,40 +706,38 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_hh_endu</TemplateName>
-            <AdapterName>group_endurance5</AdapterName>
-        </StatusIconDef>
-
-
-        <StatusIconDef>
-            <Position>
-                <X>94</X>
-                <Y>52</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <TemplateName>_witt_hh_standard</TemplateName>
             <AdapterName>group_health5</AdapterName>
         </StatusIconDef>
 
 
-        <StatusIconDef>
+        <VerticalStatusbarDef>
             <Position>
-                <X>94</X>
-                <Y>88</Y>
+                <X>181</X>
+                <Y>47</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_witt_hh_power</TemplateName>
+            <TemplateName>_witt_statusbar_v_green</TemplateName>
+            <AdapterName>group_endurance5</AdapterName>
+            <Height>46</Height>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </VerticalStatusbarDef>
+
+
+        <VerticalStatusbarDef>
+            <Position>
+                <X>176</X>
+                <Y>47</Y>
+            </Position>
+            <TemplateName>_witt_statusbar_v_yellow</TemplateName>
             <AdapterName>group_power5</AdapterName>
-        </StatusIconDef>
+            <Height>46</Height>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </VerticalStatusbarDef>
 
 
         <LabelDef>
             <Position>
-                <X>98</X>
+                <X>97</X>
                 <Y>50</Y>
             </Position>
             <Alignment>
@@ -1137,11 +750,11 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont2</FontName>
-            <Width>68</Width>
-            <Height>16</Height>
-            <MaxCharacters>25</MaxCharacters>
+            <Width>77</Width>
+            <Height>15</Height>
+            <MaxCharacters>30</MaxCharacters>
             <ColorAdapter>group_color5</ColorAdapter>
-            <Adapter>group_class5</Adapter>
+            <Adapter>group_name5</Adapter>
         </LabelDef>
 
 
@@ -1161,7 +774,7 @@
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
-                <A>196</A>
+                <A>255</A>
             </Color>
             <Adapter>group_level5</Adapter>
             <ColorAdapter>group_color5</ColorAdapter>
@@ -1172,7 +785,7 @@
 
         <LabelDef>
             <Position>
-                <X>98</X>
+                <X>97</X>
                 <Y>77</Y>
             </Position>
             <Alignment>
@@ -1185,87 +798,12 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont11pxds</FontName>
-            <Width>68</Width>
-            <Height>16</Height>
-            <MaxCharacters>25</MaxCharacters>
+            <Width>77</Width>
+            <Height>15</Height>
+            <MaxCharacters>30</MaxCharacters>
             <ColorAdapter>group_color5</ColorAdapter>
-            <Adapter>group_name5</Adapter>
+            <Adapter>group_class5</Adapter>
         </LabelDef>
-
-
-        <ScalarLabelDef>
-            <Position>
-                <X>159</X>
-                <Y>49</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
-            <Width>32</Width>
-            <Height>32</Height>
-            <MaxCharacters>4</MaxCharacters>
-            <Color>
-                <R>65</R>
-                <G>204</G>
-                <B>61</B>
-                <A>255</A>
-            </Color>
-            <Adapter>group_endurance5</Adapter>
-            <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero>
-            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
-        </ScalarLabelDef>
-
-
-        <ScalarLabelDef>
-            <Position>
-                <X>159</X>
-                <Y>63</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
-            <Width>32</Width>
-            <Height>32</Height>
-            <MaxCharacters>4</MaxCharacters>
-            <Color>
-                <R>255</R>
-                <G>32</G>
-                <B>32</B>
-                <A>196</A>
-            </Color>
-            <Adapter>group_health5</Adapter>
-            <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero>
-            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
-        </ScalarLabelDef>
-
-
-        <ScalarLabelDef>
-            <Position>
-                <X>159</X>
-                <Y>77</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
-            <Width>32</Width>
-            <Height>32</Height>
-            <MaxCharacters>4</MaxCharacters>
-            <Color>
-                <R>255</R>
-                <G>252</G>
-                <B>32</B>
-                <A>196</A>
-            </Color>
-            <Adapter>group_power5</Adapter>
-            <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero>
-            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
-        </ScalarLabelDef>
 
 
         <StatusIconDef>
@@ -1302,40 +840,38 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_hh_endu</TemplateName>
-            <AdapterName>group_endurance6</AdapterName>
-        </StatusIconDef>
-
-
-        <StatusIconDef>
-            <Position>
-                <X>188</X>
-                <Y>52</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <TemplateName>_witt_hh_standard</TemplateName>
             <AdapterName>group_health6</AdapterName>
         </StatusIconDef>
 
 
-        <StatusIconDef>
+        <VerticalStatusbarDef>
             <Position>
-                <X>188</X>
-                <Y>88</Y>
+                <X>275</X>
+                <Y>47</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_witt_hh_power</TemplateName>
+            <TemplateName>_witt_statusbar_v_green</TemplateName>
+            <AdapterName>group_endurance6</AdapterName>
+            <Height>46</Height>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </VerticalStatusbarDef>
+
+
+        <VerticalStatusbarDef>
+            <Position>
+                <X>270</X>
+                <Y>47</Y>
+            </Position>
+            <TemplateName>_witt_statusbar_v_yellow</TemplateName>
             <AdapterName>group_power6</AdapterName>
-        </StatusIconDef>
+            <Height>46</Height>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </VerticalStatusbarDef>
 
 
         <LabelDef>
             <Position>
-                <X>192</X>
+                <X>191</X>
                 <Y>50</Y>
             </Position>
             <Alignment>
@@ -1348,11 +884,11 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont2</FontName>
-            <Width>68</Width>
-            <Height>16</Height>
-            <MaxCharacters>25</MaxCharacters>
+            <Width>77</Width>
+            <Height>15</Height>
+            <MaxCharacters>30</MaxCharacters>
             <ColorAdapter>group_color6</ColorAdapter>
-            <Adapter>group_class6</Adapter>
+            <Adapter>group_name6</Adapter>
         </LabelDef>
 
 
@@ -1372,7 +908,7 @@
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
-                <A>196</A>
+                <A>255</A>
             </Color>
             <Adapter>group_level6</Adapter>
             <ColorAdapter>group_color6</ColorAdapter>
@@ -1383,7 +919,7 @@
 
         <LabelDef>
             <Position>
-                <X>192</X>
+                <X>191</X>
                 <Y>77</Y>
             </Position>
             <Alignment>
@@ -1396,87 +932,12 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont11pxds</FontName>
-            <Width>68</Width>
-            <Height>16</Height>
-            <MaxCharacters>25</MaxCharacters>
+            <Width>77</Width>
+            <Height>15</Height>
+            <MaxCharacters>30</MaxCharacters>
             <ColorAdapter>group_color6</ColorAdapter>
-            <Adapter>group_name6</Adapter>
+            <Adapter>group_class6</Adapter>
         </LabelDef>
-
-
-        <ScalarLabelDef>
-            <Position>
-                <X>253</X>
-                <Y>49</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
-            <Width>32</Width>
-            <Height>32</Height>
-            <MaxCharacters>4</MaxCharacters>
-            <Color>
-                <R>65</R>
-                <G>204</G>
-                <B>61</B>
-                <A>255</A>
-            </Color>
-            <Adapter>group_endurance6</Adapter>
-            <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero>
-            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
-        </ScalarLabelDef>
-
-
-        <ScalarLabelDef>
-            <Position>
-                <X>253</X>
-                <Y>63</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
-            <Width>32</Width>
-            <Height>32</Height>
-            <MaxCharacters>4</MaxCharacters>
-            <Color>
-                <R>255</R>
-                <G>32</G>
-                <B>32</B>
-                <A>196</A>
-            </Color>
-            <Adapter>group_health6</Adapter>
-            <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero>
-            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
-        </ScalarLabelDef>
-
-
-        <ScalarLabelDef>
-            <Position>
-                <X>253</X>
-                <Y>77</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
-            <Width>32</Width>
-            <Height>32</Height>
-            <MaxCharacters>4</MaxCharacters>
-            <Color>
-                <R>255</R>
-                <G>252</G>
-                <B>32</B>
-                <A>196</A>
-            </Color>
-            <Adapter>group_power6</Adapter>
-            <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero>
-            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
-        </ScalarLabelDef>
 
 
         <StatusIconDef>
@@ -1513,35 +974,33 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_hh_endu</TemplateName>
-            <AdapterName>group_endurance7</AdapterName>
-        </StatusIconDef>
-
-
-        <StatusIconDef>
-            <Position>
-                <X>282</X>
-                <Y>52</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <TemplateName>_witt_hh_standard</TemplateName>
             <AdapterName>group_health7</AdapterName>
         </StatusIconDef>
 
 
-        <StatusIconDef>
+        <VerticalStatusbarDef>
             <Position>
-                <X>282</X>
-                <Y>88</Y>
+                <X>369</X>
+                <Y>47</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_witt_hh_power</TemplateName>
+            <TemplateName>_witt_statusbar_v_green</TemplateName>
+            <AdapterName>group_endurance7</AdapterName>
+            <Height>46</Height>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </VerticalStatusbarDef>
+
+
+        <VerticalStatusbarDef>
+            <Position>
+                <X>364</X>
+                <Y>47</Y>
+            </Position>
+            <TemplateName>_witt_statusbar_v_yellow</TemplateName>
             <AdapterName>group_power7</AdapterName>
-        </StatusIconDef>
+            <Height>46</Height>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </VerticalStatusbarDef>
 
 
         <LabelDef>
@@ -1559,11 +1018,11 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont2</FontName>
-            <Width>68</Width>
-            <Height>16</Height>
-            <MaxCharacters>25</MaxCharacters>
+            <Width>77</Width>
+            <Height>15</Height>
+            <MaxCharacters>30</MaxCharacters>
             <ColorAdapter>group_color7</ColorAdapter>
-            <Adapter>group_class7</Adapter>
+            <Adapter>group_name7</Adapter>
         </LabelDef>
 
 
@@ -1583,7 +1042,7 @@
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
-                <A>196</A>
+                <A>255</A>
             </Color>
             <Adapter>group_level7</Adapter>
             <ColorAdapter>group_color7</ColorAdapter>
@@ -1607,87 +1066,12 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont11pxds</FontName>
-            <Width>68</Width>
-            <Height>16</Height>
-            <MaxCharacters>25</MaxCharacters>
+            <Width>77</Width>
+            <Height>15</Height>
+            <MaxCharacters>30</MaxCharacters>
             <ColorAdapter>group_color7</ColorAdapter>
-            <Adapter>group_name7</Adapter>
+            <Adapter>group_class7</Adapter>
         </LabelDef>
-
-
-        <ScalarLabelDef>
-            <Position>
-                <X>347</X>
-                <Y>49</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
-            <Width>32</Width>
-            <Height>32</Height>
-            <MaxCharacters>4</MaxCharacters>
-            <Color>
-                <R>65</R>
-                <G>204</G>
-                <B>61</B>
-                <A>255</A>
-            </Color>
-            <Adapter>group_endurance7</Adapter>
-            <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero>
-            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
-        </ScalarLabelDef>
-
-
-        <ScalarLabelDef>
-            <Position>
-                <X>347</X>
-                <Y>63</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
-            <Width>32</Width>
-            <Height>32</Height>
-            <MaxCharacters>4</MaxCharacters>
-            <Color>
-                <R>255</R>
-                <G>32</G>
-                <B>32</B>
-                <A>196</A>
-            </Color>
-            <Adapter>group_health7</Adapter>
-            <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero>
-            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
-        </ScalarLabelDef>
-
-
-        <ScalarLabelDef>
-            <Position>
-                <X>347</X>
-                <Y>77</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <FontName>_whatisthisfont11pxds</FontName>
-            <Width>32</Width>
-            <Height>32</Height>
-            <MaxCharacters>4</MaxCharacters>
-            <Color>
-                <R>255</R>
-                <G>252</G>
-                <B>32</B>
-                <A>196</A>
-            </Color>
-            <Adapter>group_power7</Adapter>
-            <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero>
-            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
-        </ScalarLabelDef>
 
 
         <StatusIconDef>

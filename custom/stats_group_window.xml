@@ -17,25 +17,26 @@
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
         <TitleWidth>0</TitleWidth>
         <TitleHeight>0</TitleHeight>
-        <Width>192</Width>
-        <Height>361</Height>
+        <Width>198</Width>
+        <Height>380</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>0</MinWidth>
-        <MinHeight>0</MinHeight>
+        <MinWidth>198</MinWidth>
+        <MinHeight>380</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
+            <ControlId>Title</ControlId>
             <Position>
                 <X>0</X>
                 <Y>0</Y>
             </Position>
-            <TemplateName>_witt_bg_100</TemplateName>
+            <TemplateName>_witt_bg_90</TemplateName>
             <Width>198</Width>
-            <Height>19</Height>
+            <Height>20</Height>
         </FullResizeImageDef>
 
 
@@ -55,7 +56,7 @@
             </Color>
             <FontName>_whatisthisfont2</FontName>
             <Width>198</Width>
-            <Height>15</Height>
+            <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
             <Data>GROUP</Data>
             <TextCentered>true</TextCentered>
@@ -68,7 +69,7 @@
         <StatusBarDef>
             <Position>
                 <X>0</X>
-                <Y>27</Y>
+                <Y>33</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -82,7 +83,7 @@
         <StatusBarDef>
             <Position>
                 <X>0</X>
-                <Y>36</Y>
+                <Y>42</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -96,7 +97,7 @@
         <StatusBarDef>
             <Position>
                 <X>99</X>
-                <Y>36</Y>
+                <Y>42</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -107,10 +108,35 @@
         </StatusBarDef>
 
 
+        <ScalarLabelDef>
+            <ControlId>2000</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>22</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>20</Width>
+            <Height>16</Height>
+            <MaxCharacters>3</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_level0</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
         <LabelDef>
             <Position>
-                <X>24</X>
-                <Y>20</Y>
+                <X>25</X>
+                <Y>22</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -122,8 +148,8 @@
                 <A>200</A>
             </Color>
             <FontName>_whatisthisfont2</FontName>
-            <Width>112</Width>
-            <Height>18</Height>
+            <Width>118</Width>
+            <Height>16</Height>
             <MaxCharacters>32</MaxCharacters>
             <ColorAdapter>group_color0</ColorAdapter>
             <Adapter>group_name0</Adapter>
@@ -133,7 +159,7 @@
         <LabelDef>
             <Position>
                 <X>146</X>
-                <Y>20</Y>
+                <Y>22</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -146,40 +172,16 @@
             </Color>
             <FontName>_whatisthisfont2</FontName>
             <Width>50</Width>
-            <Height>18</Height>
+            <Height>16</Height>
             <MaxCharacters>32</MaxCharacters>
             <Adapter>group_class0</Adapter>
         </LabelDef>
 
 
-        <ScalarLabelDef>
-            <ControlId>2000</ControlId>
-            <Position>
-                <X>4</X>
-                <Y>20</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <FontName>_whatisthisfont2</FontName>
-            <Width>64</Width>
-            <Height>16</Height>
-            <MaxCharacters>16</MaxCharacters>
-            <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </Color>
-            <Adapter>group_level0</Adapter>
-            <DontDrawWhenZero>true</DontDrawWhenZero>
-        </ScalarLabelDef>
-
-
         <IconDef>
             <Position>
-                <X>4</X>
-                <Y>42</Y>
+                <X>6</X>
+                <Y>48</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -193,8 +195,8 @@
 
         <IconDef>
             <Position>
-                <X>21</X>
-                <Y>42</Y>
+                <X>23</X>
+                <Y>48</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -208,8 +210,8 @@
 
         <IconDef>
             <Position>
-                <X>38</X>
-                <Y>42</Y>
+                <X>40</X>
+                <Y>48</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -223,8 +225,8 @@
 
         <IconDef>
             <Position>
-                <X>55</X>
-                <Y>42</Y>
+                <X>57</X>
+                <Y>48</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -238,8 +240,8 @@
 
         <IconDef>
             <Position>
-                <X>72</X>
-                <Y>42</Y>
+                <X>74</X>
+                <Y>48</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -253,8 +255,8 @@
 
         <IconDef>
             <Position>
-                <X>89</X>
-                <Y>42</Y>
+                <X>91</X>
+                <Y>48</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -268,8 +270,8 @@
 
         <IconDef>
             <Position>
-                <X>106</X>
-                <Y>42</Y>
+                <X>108</X>
+                <Y>48</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -283,8 +285,8 @@
 
         <IconDef>
             <Position>
-                <X>123</X>
-                <Y>42</Y>
+                <X>125</X>
+                <Y>48</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -298,8 +300,8 @@
 
         <IconDef>
             <Position>
-                <X>140</X>
-                <Y>42</Y>
+                <X>142</X>
+                <Y>48</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -313,8 +315,8 @@
 
         <IconDef>
             <Position>
-                <X>157</X>
-                <Y>42</Y>
+                <X>159</X>
+                <Y>48</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -328,8 +330,8 @@
 
         <IconDef>
             <Position>
-                <X>174</X>
-                <Y>42</Y>
+                <X>176</X>
+                <Y>48</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -344,15 +346,15 @@
         <InvisibleButtonDef>
             <Position>
                 <X>0</X>
-                <Y>21</Y>
+                <Y>20</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Label></Label>
             <OnClickEvent>SelectGroupMember0</OnClickEvent>
-            <Width>196</Width>
-            <Height>38</Height>
+            <Width>198</Width>
+            <Height>45</Height>
         </InvisibleButtonDef>
 
 
@@ -362,7 +364,7 @@
         <StatusBarDef>
             <Position>
                 <X>0</X>
-                <Y>69</Y>
+                <Y>78</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -376,7 +378,7 @@
         <StatusBarDef>
             <Position>
                 <X>0</X>
-                <Y>78</Y>
+                <Y>87</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -390,7 +392,7 @@
         <StatusBarDef>
             <Position>
                 <X>99</X>
-                <Y>78</Y>
+                <Y>87</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -401,10 +403,35 @@
         </StatusBarDef>
 
 
+        <ScalarLabelDef>
+            <ControlId>2000</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>67</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>20</Width>
+            <Height>16</Height>
+            <MaxCharacters>3</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_level1</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
         <LabelDef>
             <Position>
-                <X>24</X>
-                <Y>62</Y>
+                <X>25</X>
+                <Y>67</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -416,8 +443,8 @@
                 <A>200</A>
             </Color>
             <FontName>_whatisthisfont2</FontName>
-            <Width>112</Width>
-            <Height>18</Height>
+            <Width>118</Width>
+            <Height>16</Height>
             <MaxCharacters>32</MaxCharacters>
             <ColorAdapter>group_color1</ColorAdapter>
             <Adapter>group_name1</Adapter>
@@ -427,7 +454,7 @@
         <LabelDef>
             <Position>
                 <X>146</X>
-                <Y>62</Y>
+                <Y>67</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -440,40 +467,16 @@
             </Color>
             <FontName>_whatisthisfont2</FontName>
             <Width>50</Width>
-            <Height>18</Height>
+            <Height>16</Height>
             <MaxCharacters>32</MaxCharacters>
             <Adapter>group_class1</Adapter>
         </LabelDef>
 
 
-        <ScalarLabelDef>
-            <ControlId>2000</ControlId>
-            <Position>
-                <X>4</X>
-                <Y>62</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <FontName>_whatisthisfont2</FontName>
-            <Width>64</Width>
-            <Height>16</Height>
-            <MaxCharacters>16</MaxCharacters>
-            <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </Color>
-            <Adapter>group_level1</Adapter>
-            <DontDrawWhenZero>true</DontDrawWhenZero>
-        </ScalarLabelDef>
-
-
         <IconDef>
             <Position>
-                <X>4</X>
-                <Y>84</Y>
+                <X>6</X>
+                <Y>93</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -487,8 +490,8 @@
 
         <IconDef>
             <Position>
-                <X>21</X>
-                <Y>84</Y>
+                <X>23</X>
+                <Y>93</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -502,8 +505,8 @@
 
         <IconDef>
             <Position>
-                <X>38</X>
-                <Y>84</Y>
+                <X>40</X>
+                <Y>93</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -517,8 +520,8 @@
 
         <IconDef>
             <Position>
-                <X>55</X>
-                <Y>84</Y>
+                <X>57</X>
+                <Y>93</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -532,8 +535,8 @@
 
         <IconDef>
             <Position>
-                <X>72</X>
-                <Y>84</Y>
+                <X>74</X>
+                <Y>93</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -547,8 +550,8 @@
 
         <IconDef>
             <Position>
-                <X>89</X>
-                <Y>84</Y>
+                <X>91</X>
+                <Y>93</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -562,8 +565,8 @@
 
         <IconDef>
             <Position>
-                <X>106</X>
-                <Y>84</Y>
+                <X>108</X>
+                <Y>93</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -577,8 +580,8 @@
 
         <IconDef>
             <Position>
-                <X>123</X>
-                <Y>84</Y>
+                <X>125</X>
+                <Y>93</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -592,8 +595,8 @@
 
         <IconDef>
             <Position>
-                <X>140</X>
-                <Y>84</Y>
+                <X>142</X>
+                <Y>93</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -607,8 +610,8 @@
 
         <IconDef>
             <Position>
-                <X>157</X>
-                <Y>84</Y>
+                <X>158</X>
+                <Y>93</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -622,8 +625,8 @@
 
         <IconDef>
             <Position>
-                <X>174</X>
-                <Y>84</Y>
+                <X>176</X>
+                <Y>93</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -638,15 +641,15 @@
         <InvisibleButtonDef>
             <Position>
                 <X>0</X>
-                <Y>63</Y>
+                <Y>65</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Label></Label>
             <OnClickEvent>SelectGroupMember1</OnClickEvent>
-            <Width>196</Width>
-            <Height>38</Height>
+            <Width>198</Width>
+            <Height>45</Height>
         </InvisibleButtonDef>
 
 
@@ -656,7 +659,7 @@
         <StatusBarDef>
             <Position>
                 <X>0</X>
-                <Y>111</Y>
+                <Y>123</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -670,7 +673,7 @@
         <StatusBarDef>
             <Position>
                 <X>0</X>
-                <Y>120</Y>
+                <Y>132</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -684,7 +687,7 @@
         <StatusBarDef>
             <Position>
                 <X>99</X>
-                <Y>120</Y>
+                <Y>132</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -695,10 +698,35 @@
         </StatusBarDef>
 
 
+        <ScalarLabelDef>
+            <ControlId>2000</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>112</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>20</Width>
+            <Height>16</Height>
+            <MaxCharacters>3</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_level2</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
         <LabelDef>
             <Position>
-                <X>24</X>
-                <Y>104</Y>
+                <X>25</X>
+                <Y>112</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -710,8 +738,8 @@
                 <A>200</A>
             </Color>
             <FontName>_whatisthisfont2</FontName>
-            <Width>112</Width>
-            <Height>18</Height>
+            <Width>118</Width>
+            <Height>16</Height>
             <MaxCharacters>32</MaxCharacters>
             <ColorAdapter>group_color2</ColorAdapter>
             <Adapter>group_name2</Adapter>
@@ -721,7 +749,7 @@
         <LabelDef>
             <Position>
                 <X>146</X>
-                <Y>104</Y>
+                <Y>112</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -734,40 +762,16 @@
             </Color>
             <FontName>_whatisthisfont2</FontName>
             <Width>50</Width>
-            <Height>18</Height>
+            <Height>16</Height>
             <MaxCharacters>32</MaxCharacters>
             <Adapter>group_class2</Adapter>
         </LabelDef>
 
 
-        <ScalarLabelDef>
-            <ControlId>2000</ControlId>
-            <Position>
-                <X>4</X>
-                <Y>104</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <FontName>_whatisthisfont2</FontName>
-            <Width>64</Width>
-            <Height>16</Height>
-            <MaxCharacters>16</MaxCharacters>
-            <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </Color>
-            <Adapter>group_level2</Adapter>
-            <DontDrawWhenZero>true</DontDrawWhenZero>
-        </ScalarLabelDef>
-
-
         <IconDef>
             <Position>
-                <X>4</X>
-                <Y>126</Y>
+                <X>6</X>
+                <Y>138</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -781,8 +785,8 @@
 
         <IconDef>
             <Position>
-                <X>21</X>
-                <Y>126</Y>
+                <X>23</X>
+                <Y>138</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -796,8 +800,8 @@
 
         <IconDef>
             <Position>
-                <X>38</X>
-                <Y>126</Y>
+                <X>40</X>
+                <Y>138</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -811,8 +815,8 @@
 
         <IconDef>
             <Position>
-                <X>55</X>
-                <Y>126</Y>
+                <X>57</X>
+                <Y>138</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -826,8 +830,8 @@
 
         <IconDef>
             <Position>
-                <X>72</X>
-                <Y>126</Y>
+                <X>74</X>
+                <Y>138</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -841,8 +845,8 @@
 
         <IconDef>
             <Position>
-                <X>89</X>
-                <Y>126</Y>
+                <X>91</X>
+                <Y>138</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -856,8 +860,8 @@
 
         <IconDef>
             <Position>
-                <X>106</X>
-                <Y>126</Y>
+                <X>108</X>
+                <Y>138</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -871,8 +875,8 @@
 
         <IconDef>
             <Position>
-                <X>123</X>
-                <Y>126</Y>
+                <X>125</X>
+                <Y>138</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -886,8 +890,8 @@
 
         <IconDef>
             <Position>
-                <X>140</X>
-                <Y>126</Y>
+                <X>142</X>
+                <Y>138</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -901,8 +905,8 @@
 
         <IconDef>
             <Position>
-                <X>157</X>
-                <Y>126</Y>
+                <X>159</X>
+                <Y>138</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -916,8 +920,8 @@
 
         <IconDef>
             <Position>
-                <X>174</X>
-                <Y>126</Y>
+                <X>176</X>
+                <Y>138</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -932,15 +936,15 @@
         <InvisibleButtonDef>
             <Position>
                 <X>0</X>
-                <Y>105</Y>
+                <Y>100</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Label></Label>
             <OnClickEvent>SelectGroupMember2</OnClickEvent>
-            <Width>196</Width>
-            <Height>38</Height>
+            <Width>198</Width>
+            <Height>45</Height>
         </InvisibleButtonDef>
 
 
@@ -950,7 +954,7 @@
         <StatusBarDef>
             <Position>
                 <X>0</X>
-                <Y>153</Y>
+                <Y>168</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -964,7 +968,7 @@
         <StatusBarDef>
             <Position>
                 <X>0</X>
-                <Y>162</Y>
+                <Y>177</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -978,7 +982,7 @@
         <StatusBarDef>
             <Position>
                 <X>99</X>
-                <Y>162</Y>
+                <Y>177</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -989,10 +993,35 @@
         </StatusBarDef>
 
 
+        <ScalarLabelDef>
+            <ControlId>2000</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>157</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>20</Width>
+            <Height>16</Height>
+            <MaxCharacters>3</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_level3</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
         <LabelDef>
             <Position>
-                <X>24</X>
-                <Y>146</Y>
+                <X>25</X>
+                <Y>157</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1004,8 +1033,8 @@
                 <A>200</A>
             </Color>
             <FontName>_whatisthisfont2</FontName>
-            <Width>112</Width>
-            <Height>18</Height>
+            <Width>118</Width>
+            <Height>16</Height>
             <MaxCharacters>32</MaxCharacters>
             <ColorAdapter>group_color3</ColorAdapter>
             <Adapter>group_name3</Adapter>
@@ -1015,7 +1044,7 @@
         <LabelDef>
             <Position>
                 <X>146</X>
-                <Y>146</Y>
+                <Y>157</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1028,40 +1057,16 @@
             </Color>
             <FontName>_whatisthisfont2</FontName>
             <Width>50</Width>
-            <Height>18</Height>
+            <Height>16</Height>
             <MaxCharacters>32</MaxCharacters>
             <Adapter>group_class3</Adapter>
         </LabelDef>
 
 
-        <ScalarLabelDef>
-            <ControlId>2000</ControlId>
-            <Position>
-                <X>4</X>
-                <Y>146</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <FontName>_whatisthisfont2</FontName>
-            <Width>64</Width>
-            <Height>16</Height>
-            <MaxCharacters>16</MaxCharacters>
-            <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </Color>
-            <Adapter>group_level3</Adapter>
-            <DontDrawWhenZero>true</DontDrawWhenZero>
-        </ScalarLabelDef>
-
-
         <IconDef>
             <Position>
-                <X>4</X>
-                <Y>168</Y>
+                <X>6</X>
+                <Y>183</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1075,8 +1080,8 @@
 
         <IconDef>
             <Position>
-                <X>21</X>
-                <Y>168</Y>
+                <X>23</X>
+                <Y>183</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1090,8 +1095,8 @@
 
         <IconDef>
             <Position>
-                <X>38</X>
-                <Y>168</Y>
+                <X>40</X>
+                <Y>183</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1105,8 +1110,8 @@
 
         <IconDef>
             <Position>
-                <X>55</X>
-                <Y>168</Y>
+                <X>57</X>
+                <Y>183</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1120,8 +1125,8 @@
 
         <IconDef>
             <Position>
-                <X>72</X>
-                <Y>168</Y>
+                <X>74</X>
+                <Y>183</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1135,8 +1140,8 @@
 
         <IconDef>
             <Position>
-                <X>89</X>
-                <Y>168</Y>
+                <X>91</X>
+                <Y>183</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1150,8 +1155,8 @@
 
         <IconDef>
             <Position>
-                <X>106</X>
-                <Y>168</Y>
+                <X>108</X>
+                <Y>183</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1165,8 +1170,8 @@
 
         <IconDef>
             <Position>
-                <X>123</X>
-                <Y>168</Y>
+                <X>125</X>
+                <Y>183</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1180,8 +1185,8 @@
 
         <IconDef>
             <Position>
-                <X>140</X>
-                <Y>168</Y>
+                <X>142</X>
+                <Y>183</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1195,8 +1200,8 @@
 
         <IconDef>
             <Position>
-                <X>157</X>
-                <Y>168</Y>
+                <X>159</X>
+                <Y>183</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1210,8 +1215,8 @@
 
         <IconDef>
             <Position>
-                <X>174</X>
-                <Y>168</Y>
+                <X>176</X>
+                <Y>183</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1226,15 +1231,15 @@
         <InvisibleButtonDef>
             <Position>
                 <X>0</X>
-                <Y>147</Y>
+                <Y>155</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Label></Label>
             <OnClickEvent>SelectGroupMember3</OnClickEvent>
-            <Width>196</Width>
-            <Height>38</Height>
+            <Width>198</Width>
+            <Height>45</Height>
         </InvisibleButtonDef>
 
 
@@ -1244,7 +1249,7 @@
         <StatusBarDef>
             <Position>
                 <X>0</X>
-                <Y>195</Y>
+                <Y>213</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1258,7 +1263,7 @@
         <StatusBarDef>
             <Position>
                 <X>0</X>
-                <Y>204</Y>
+                <Y>222</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1272,7 +1277,7 @@
         <StatusBarDef>
             <Position>
                 <X>99</X>
-                <Y>204</Y>
+                <Y>222</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1283,10 +1288,35 @@
         </StatusBarDef>
 
 
+        <ScalarLabelDef>
+            <ControlId>2000</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>202</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>20</Width>
+            <Height>16</Height>
+            <MaxCharacters>3</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_level4</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
         <LabelDef>
             <Position>
-                <X>24</X>
-                <Y>188</Y>
+                <X>25</X>
+                <Y>202</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1298,8 +1328,8 @@
                 <A>200</A>
             </Color>
             <FontName>_whatisthisfont2</FontName>
-            <Width>112</Width>
-            <Height>18</Height>
+            <Width>118</Width>
+            <Height>16</Height>
             <MaxCharacters>32</MaxCharacters>
             <ColorAdapter>group_color4</ColorAdapter>
             <Adapter>group_name4</Adapter>
@@ -1309,7 +1339,7 @@
         <LabelDef>
             <Position>
                 <X>146</X>
-                <Y>188</Y>
+                <Y>202</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1322,40 +1352,16 @@
             </Color>
             <FontName>_whatisthisfont2</FontName>
             <Width>50</Width>
-            <Height>18</Height>
+            <Height>16</Height>
             <MaxCharacters>32</MaxCharacters>
             <Adapter>group_class4</Adapter>
         </LabelDef>
 
 
-        <ScalarLabelDef>
-            <ControlId>2000</ControlId>
-            <Position>
-                <X>4</X>
-                <Y>188</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <FontName>_whatisthisfont2</FontName>
-            <Width>64</Width>
-            <Height>16</Height>
-            <MaxCharacters>16</MaxCharacters>
-            <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </Color>
-            <Adapter>group_level4</Adapter>
-            <DontDrawWhenZero>true</DontDrawWhenZero>
-        </ScalarLabelDef>
-
-
         <IconDef>
             <Position>
-                <X>4</X>
-                <Y>210</Y>
+                <X>6</X>
+                <Y>228</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1369,8 +1375,8 @@
 
         <IconDef>
             <Position>
-                <X>21</X>
-                <Y>210</Y>
+                <X>23</X>
+                <Y>228</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1384,8 +1390,8 @@
 
         <IconDef>
             <Position>
-                <X>38</X>
-                <Y>210</Y>
+                <X>40</X>
+                <Y>228</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1399,8 +1405,8 @@
 
         <IconDef>
             <Position>
-                <X>55</X>
-                <Y>210</Y>
+                <X>57</X>
+                <Y>228</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1414,8 +1420,8 @@
 
         <IconDef>
             <Position>
-                <X>72</X>
-                <Y>210</Y>
+                <X>74</X>
+                <Y>228</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1429,8 +1435,8 @@
 
         <IconDef>
             <Position>
-                <X>89</X>
-                <Y>210</Y>
+                <X>91</X>
+                <Y>228</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1444,8 +1450,8 @@
 
         <IconDef>
             <Position>
-                <X>106</X>
-                <Y>210</Y>
+                <X>108</X>
+                <Y>228</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1459,8 +1465,8 @@
 
         <IconDef>
             <Position>
-                <X>123</X>
-                <Y>210</Y>
+                <X>125</X>
+                <Y>228</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1474,8 +1480,8 @@
 
         <IconDef>
             <Position>
-                <X>140</X>
-                <Y>210</Y>
+                <X>142</X>
+                <Y>228</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1489,8 +1495,8 @@
 
         <IconDef>
             <Position>
-                <X>157</X>
-                <Y>210</Y>
+                <X>159</X>
+                <Y>228</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1504,8 +1510,8 @@
 
         <IconDef>
             <Position>
-                <X>174</X>
-                <Y>210</Y>
+                <X>176</X>
+                <Y>228</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1520,15 +1526,15 @@
         <InvisibleButtonDef>
             <Position>
                 <X>0</X>
-                <Y>189</Y>
+                <Y>200</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Label></Label>
             <OnClickEvent>SelectGroupMember4</OnClickEvent>
-            <Width>196</Width>
-            <Height>38</Height>
+            <Width>198</Width>
+            <Height>45</Height>
         </InvisibleButtonDef>
 
 
@@ -1538,7 +1544,7 @@
         <StatusBarDef>
             <Position>
                 <X>0</X>
-                <Y>237</Y>
+                <Y>258</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1552,7 +1558,7 @@
         <StatusBarDef>
             <Position>
                 <X>0</X>
-                <Y>246</Y>
+                <Y>267</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1566,7 +1572,7 @@
         <StatusBarDef>
             <Position>
                 <X>99</X>
-                <Y>246</Y>
+                <Y>267</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1577,10 +1583,35 @@
         </StatusBarDef>
 
 
+        <ScalarLabelDef>
+            <ControlId>2000</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>247</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>20</Width>
+            <Height>16</Height>
+            <MaxCharacters>3</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_level5</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
         <LabelDef>
             <Position>
-                <X>24</X>
-                <Y>230</Y>
+                <X>25</X>
+                <Y>247</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1592,8 +1623,8 @@
                 <A>200</A>
             </Color>
             <FontName>_whatisthisfont2</FontName>
-            <Width>112</Width>
-            <Height>18</Height>
+            <Width>118</Width>
+            <Height>16</Height>
             <MaxCharacters>32</MaxCharacters>
             <ColorAdapter>group_color5</ColorAdapter>
             <Adapter>group_name5</Adapter>
@@ -1603,7 +1634,7 @@
         <LabelDef>
             <Position>
                 <X>146</X>
-                <Y>230</Y>
+                <Y>247</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1616,40 +1647,16 @@
             </Color>
             <FontName>_whatisthisfont2</FontName>
             <Width>50</Width>
-            <Height>18</Height>
+            <Height>16</Height>
             <MaxCharacters>32</MaxCharacters>
             <Adapter>group_class5</Adapter>
         </LabelDef>
 
 
-        <ScalarLabelDef>
-            <ControlId>2000</ControlId>
-            <Position>
-                <X>4</X>
-                <Y>230</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <FontName>_whatisthisfont2</FontName>
-            <Width>64</Width>
-            <Height>16</Height>
-            <MaxCharacters>16</MaxCharacters>
-            <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </Color>
-            <Adapter>group_level5</Adapter>
-            <DontDrawWhenZero>true</DontDrawWhenZero>
-        </ScalarLabelDef>
-
-
         <IconDef>
             <Position>
-                <X>4</X>
-                <Y>252</Y>
+                <X>6</X>
+                <Y>273</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1663,8 +1670,8 @@
 
         <IconDef>
             <Position>
-                <X>21</X>
-                <Y>252</Y>
+                <X>23</X>
+                <Y>273</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1678,8 +1685,8 @@
 
         <IconDef>
             <Position>
-                <X>38</X>
-                <Y>252</Y>
+                <X>40</X>
+                <Y>273</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1693,8 +1700,8 @@
 
         <IconDef>
             <Position>
-                <X>55</X>
-                <Y>252</Y>
+                <X>57</X>
+                <Y>273</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1708,8 +1715,8 @@
 
         <IconDef>
             <Position>
-                <X>72</X>
-                <Y>252</Y>
+                <X>74</X>
+                <Y>273</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1723,8 +1730,8 @@
 
         <IconDef>
             <Position>
-                <X>89</X>
-                <Y>252</Y>
+                <X>91</X>
+                <Y>273</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1738,8 +1745,8 @@
 
         <IconDef>
             <Position>
-                <X>106</X>
-                <Y>252</Y>
+                <X>108</X>
+                <Y>273</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1753,8 +1760,8 @@
 
         <IconDef>
             <Position>
-                <X>123</X>
-                <Y>252</Y>
+                <X>125</X>
+                <Y>273</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1768,8 +1775,8 @@
 
         <IconDef>
             <Position>
-                <X>140</X>
-                <Y>252</Y>
+                <X>142</X>
+                <Y>273</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1783,8 +1790,8 @@
 
         <IconDef>
             <Position>
-                <X>157</X>
-                <Y>252</Y>
+                <X>159</X>
+                <Y>273</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1798,8 +1805,8 @@
 
         <IconDef>
             <Position>
-                <X>174</X>
-                <Y>252</Y>
+                <X>176</X>
+                <Y>273</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1814,15 +1821,15 @@
         <InvisibleButtonDef>
             <Position>
                 <X>0</X>
-                <Y>231</Y>
+                <Y>245</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Label></Label>
             <OnClickEvent>SelectGroupMember5</OnClickEvent>
-            <Width>196</Width>
-            <Height>38</Height>
+            <Width>198</Width>
+            <Height>45</Height>
         </InvisibleButtonDef>
 
 
@@ -1832,7 +1839,7 @@
         <StatusBarDef>
             <Position>
                 <X>0</X>
-                <Y>279</Y>
+                <Y>303</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1846,7 +1853,7 @@
         <StatusBarDef>
             <Position>
                 <X>0</X>
-                <Y>288</Y>
+                <Y>312</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1860,7 +1867,7 @@
         <StatusBarDef>
             <Position>
                 <X>99</X>
-                <Y>288</Y>
+                <Y>312</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1871,10 +1878,35 @@
         </StatusBarDef>
 
 
+        <ScalarLabelDef>
+            <ControlId>2000</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>292</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>20</Width>
+            <Height>16</Height>
+            <MaxCharacters>3</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_level6</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
         <LabelDef>
             <Position>
-                <X>24</X>
-                <Y>272</Y>
+                <X>25</X>
+                <Y>292</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1886,8 +1918,8 @@
                 <A>200</A>
             </Color>
             <FontName>_whatisthisfont2</FontName>
-            <Width>112</Width>
-            <Height>18</Height>
+            <Width>118</Width>
+            <Height>16</Height>
             <MaxCharacters>32</MaxCharacters>
             <ColorAdapter>group_color6</ColorAdapter>
             <Adapter>group_name6</Adapter>
@@ -1897,7 +1929,7 @@
         <LabelDef>
             <Position>
                 <X>146</X>
-                <Y>272</Y>
+                <Y>292</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1910,40 +1942,16 @@
             </Color>
             <FontName>_whatisthisfont2</FontName>
             <Width>50</Width>
-            <Height>18</Height>
+            <Height>16</Height>
             <MaxCharacters>32</MaxCharacters>
             <Adapter>group_class6</Adapter>
         </LabelDef>
 
 
-        <ScalarLabelDef>
-            <ControlId>2000</ControlId>
-            <Position>
-                <X>4</X>
-                <Y>272</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <FontName>_whatisthisfont2</FontName>
-            <Width>64</Width>
-            <Height>16</Height>
-            <MaxCharacters>16</MaxCharacters>
-            <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </Color>
-            <Adapter>group_level6</Adapter>
-            <DontDrawWhenZero>true</DontDrawWhenZero>
-        </ScalarLabelDef>
-
-
         <IconDef>
             <Position>
-                <X>4</X>
-                <Y>294</Y>
+                <X>6</X>
+                <Y>318</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1957,8 +1965,8 @@
 
         <IconDef>
             <Position>
-                <X>21</X>
-                <Y>294</Y>
+                <X>23</X>
+                <Y>318</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1972,8 +1980,8 @@
 
         <IconDef>
             <Position>
-                <X>38</X>
-                <Y>294</Y>
+                <X>40</X>
+                <Y>318</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1987,8 +1995,8 @@
 
         <IconDef>
             <Position>
-                <X>55</X>
-                <Y>294</Y>
+                <X>57</X>
+                <Y>318</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -2002,8 +2010,8 @@
 
         <IconDef>
             <Position>
-                <X>72</X>
-                <Y>294</Y>
+                <X>74</X>
+                <Y>318</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -2017,8 +2025,8 @@
 
         <IconDef>
             <Position>
-                <X>89</X>
-                <Y>294</Y>
+                <X>91</X>
+                <Y>318</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -2032,8 +2040,8 @@
 
         <IconDef>
             <Position>
-                <X>106</X>
-                <Y>294</Y>
+                <X>108</X>
+                <Y>318</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -2047,8 +2055,8 @@
 
         <IconDef>
             <Position>
-                <X>123</X>
-                <Y>294</Y>
+                <X>125</X>
+                <Y>318</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -2062,8 +2070,8 @@
 
         <IconDef>
             <Position>
-                <X>140</X>
-                <Y>294</Y>
+                <X>142</X>
+                <Y>318</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -2077,8 +2085,8 @@
 
         <IconDef>
             <Position>
-                <X>157</X>
-                <Y>294</Y>
+                <X>159</X>
+                <Y>318</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -2092,8 +2100,8 @@
 
         <IconDef>
             <Position>
-                <X>174</X>
-                <Y>294</Y>
+                <X>176</X>
+                <Y>318</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -2108,15 +2116,15 @@
         <InvisibleButtonDef>
             <Position>
                 <X>0</X>
-                <Y>273</Y>
+                <Y>290</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Label></Label>
             <OnClickEvent>SelectGroupMember6</OnClickEvent>
-            <Width>196</Width>
-            <Height>38</Height>
+            <Width>198</Width>
+            <Height>45</Height>
         </InvisibleButtonDef>
 
 
@@ -2126,7 +2134,7 @@
         <StatusBarDef>
             <Position>
                 <X>0</X>
-                <Y>321</Y>
+                <Y>348</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -2140,7 +2148,7 @@
         <StatusBarDef>
             <Position>
                 <X>0</X>
-                <Y>330</Y>
+                <Y>357</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -2154,7 +2162,7 @@
         <StatusBarDef>
             <Position>
                 <X>99</X>
-                <Y>330</Y>
+                <Y>357</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -2165,10 +2173,35 @@
         </StatusBarDef>
 
 
+        <ScalarLabelDef>
+            <ControlId>2000</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>337</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>20</Width>
+            <Height>16</Height>
+            <MaxCharacters>3</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>group_level7</Adapter>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
         <LabelDef>
             <Position>
-                <X>24</X>
-                <Y>314</Y>
+                <X>25</X>
+                <Y>337</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -2180,8 +2213,8 @@
                 <A>200</A>
             </Color>
             <FontName>_whatisthisfont2</FontName>
-            <Width>112</Width>
-            <Height>18</Height>
+            <Width>118</Width>
+            <Height>16</Height>
             <MaxCharacters>32</MaxCharacters>
             <ColorAdapter>group_color7</ColorAdapter>
             <Adapter>group_name7</Adapter>
@@ -2191,7 +2224,7 @@
         <LabelDef>
             <Position>
                 <X>146</X>
-                <Y>314</Y>
+                <Y>337</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -2204,40 +2237,16 @@
             </Color>
             <FontName>_whatisthisfont2</FontName>
             <Width>50</Width>
-            <Height>18</Height>
+            <Height>16</Height>
             <MaxCharacters>32</MaxCharacters>
             <Adapter>group_class7</Adapter>
         </LabelDef>
 
 
-        <ScalarLabelDef>
-            <ControlId>2000</ControlId>
-            <Position>
-                <X>4</X>
-                <Y>314</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <FontName>_whatisthisfont2</FontName>
-            <Width>64</Width>
-            <Height>16</Height>
-            <MaxCharacters>16</MaxCharacters>
-            <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </Color>
-            <Adapter>group_level7</Adapter>
-            <DontDrawWhenZero>true</DontDrawWhenZero>
-        </ScalarLabelDef>
-
-
         <IconDef>
             <Position>
-                <X>4</X>
-                <Y>336</Y>
+                <X>6</X>
+                <Y>363</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -2251,8 +2260,8 @@
 
         <IconDef>
             <Position>
-                <X>21</X>
-                <Y>336</Y>
+                <X>23</X>
+                <Y>363</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -2266,8 +2275,8 @@
 
         <IconDef>
             <Position>
-                <X>38</X>
-                <Y>336</Y>
+                <X>40</X>
+                <Y>363</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -2281,8 +2290,8 @@
 
         <IconDef>
             <Position>
-                <X>55</X>
-                <Y>336</Y>
+                <X>57</X>
+                <Y>363</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -2296,8 +2305,8 @@
 
         <IconDef>
             <Position>
-                <X>72</X>
-                <Y>336</Y>
+                <X>74</X>
+                <Y>363</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -2311,8 +2320,8 @@
 
         <IconDef>
             <Position>
-                <X>89</X>
-                <Y>336</Y>
+                <X>91</X>
+                <Y>363</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -2326,8 +2335,8 @@
 
         <IconDef>
             <Position>
-                <X>106</X>
-                <Y>336</Y>
+                <X>108</X>
+                <Y>363</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -2341,8 +2350,8 @@
 
         <IconDef>
             <Position>
-                <X>123</X>
-                <Y>336</Y>
+                <X>125</X>
+                <Y>363</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -2356,8 +2365,8 @@
 
         <IconDef>
             <Position>
-                <X>140</X>
-                <Y>336</Y>
+                <X>142</X>
+                <Y>363</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -2371,8 +2380,8 @@
 
         <IconDef>
             <Position>
-                <X>157</X>
-                <Y>336</Y>
+                <X>159</X>
+                <Y>363</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -2386,8 +2395,8 @@
 
         <IconDef>
             <Position>
-                <X>174</X>
-                <Y>336</Y>
+                <X>176</X>
+                <Y>363</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -2402,15 +2411,15 @@
         <InvisibleButtonDef>
             <Position>
                 <X>0</X>
-                <Y>315</Y>
+                <Y>335</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Label></Label>
             <OnClickEvent>SelectGroupMember7</OnClickEvent>
-            <Width>196</Width>
-            <Height>38</Height>
+            <Width>198</Width>
+            <Height>45</Height>
         </InvisibleButtonDef>
 
 

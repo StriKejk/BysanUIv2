@@ -11,42 +11,32 @@
         <CloseButton>true</CloseButton>
         <MoveButton>false</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>
-        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomRightResizeButton>true</BottomRightResizeButton>
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>300</TitleWidth>
-        <TitleHeight>10</TitleHeight>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
         <Width>300</Width>
-        <Height>199</Height>
+        <Height>197</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>0</MinWidth>
-        <MinHeight>0</MinHeight>
+        <MinWidth>300</MinWidth>
+        <MinHeight>197</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
+            <ControlId>Title</ControlId>
             <Position>
                 <X>0</X>
                 <Y>0</Y>
             </Position>
             <TemplateName>_witt_bg_90</TemplateName>
             <Width>300</Width>
-            <Height>199</Height>
-        </FullResizeImageDef>
-
-
-        <FullResizeImageDef>
-            <Position>
-                <X>0</X>
-                <Y>0</Y>
-            </Position>
-            <TemplateName>_witt_bg_100</TemplateName>
-            <Width>300</Width>
-            <Height>19</Height>
+            <Height>20</Height>
         </FullResizeImageDef>
 
 
@@ -67,11 +57,23 @@
             </Color>
             <FontName>_whatisthisfont2</FontName>
             <Width>300</Width>
-            <Height>15</Height>
+            <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
             <Data>TITLE</Data>
             <TextCentered>true</TextCentered>
         </LabelDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>19</Y>
+            </Position>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>300</Width>
+            <Height>178</Height>
+        </FullResizeImageDef>
 
 
         <ListBoxDef>
@@ -85,8 +87,8 @@
                 <GrowHeight>true</GrowHeight>
             </Alignment>
             <Width>150</Width>
-            <Height>160</Height>
-            <TemplateName>_witt_listbox_80</TemplateName>
+            <Height>159</Height>
+            <TemplateName>_witt_listbox_0</TemplateName>
             <AdapterName>titles_available_titles</AdapterName>
             <Sorting>false</Sorting>
             <Columns>2</Columns>
@@ -101,27 +103,27 @@
         <TextAreaDef>
             <ControlId>1001</ControlId>
             <Position>
-                <X>149</X>
+                <X>150</X>
                 <Y>18</Y>
             </Position>
             <Alignment>
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>_witt_textarea_80</TemplateName>
+            <TemplateName>_witt_textarea</TemplateName>
             <AdapterName>titles_stats</AdapterName>
             <HasHotspots>false</HasHotspots>
             <MaxCharacters>32768</MaxCharacters>
             <Width>150</Width>
-            <Height>160</Height>
+            <Height>159</Height>
         </TextAreaDef>
 
 
         <ButtonDef>
             <ControlId>1003</ControlId>
             <Position>
-                <X>3</X>
-                <Y>1</Y>
+                <X>2</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
@@ -135,8 +137,8 @@
         <ButtonDef>
             <ControlId>1004</ControlId>
             <Position>
-                <X>3</X>
-                <Y>1</Y>
+                <X>2</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>

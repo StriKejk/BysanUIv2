@@ -158,17 +158,18 @@
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>0</MinWidth>
-        <MinHeight>0</MinHeight>
+        <MinWidth>422</MinWidth>
+        <MinHeight>256</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
+            <ControlId>Background</ControlId>
             <Position>
                 <X>293</X>
                 <Y>0</Y>
             </Position>
-            <TemplateName>_witt_bg_80</TemplateName>
+            <TemplateName>_witt_bg_90</TemplateName>
             <Width>129</Width>
             <Height>127</Height>
         </FullResizeImageDef>
@@ -237,7 +238,7 @@
 
         <LabelDef>
             <Position>
-                <X>300</X>
+                <X>301</X>
                 <Y>3</Y>
             </Position>
             <Alignment>
@@ -250,8 +251,8 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont2</FontName>
-            <Width>112</Width>
-            <Height>16</Height>
+            <Width>110</Width>
+            <Height>15</Height>
             <MaxCharacters>64</MaxCharacters>
             <Data>Keep Name</Data>
             <ColorAdapter>realmwar_info_mid</ColorAdapter>
@@ -261,7 +262,7 @@
 
         <LabelDef>
             <Position>
-                <X>302</X>
+                <X>303</X>
                 <Y>16</Y>
             </Position>
             <Alignment>
@@ -275,7 +276,7 @@
             </Color>
             <FontName>_whatisthisfont3</FontName>
             <Width>110</Width>
-            <Height>16</Height>
+            <Height>15</Height>
             <MaxCharacters>64</MaxCharacters>
             <Data>Realm</Data>
             <ColorAdapter>realmwar_info_mid</ColorAdapter>
@@ -285,7 +286,7 @@
 
         <LabelDef>
             <Position>
-                <X>302</X>
+                <X>303</X>
                 <Y>31</Y>
             </Position>
             <Color>
@@ -296,7 +297,7 @@
             </Color>
             <FontName>_whatisthisfont3</FontName>
             <Width>110</Width>
-            <Height>16</Height>
+            <Height>15</Height>
             <MaxCharacters>64</MaxCharacters>
             <Data>Claimed by:</Data>
             <ColorAdapter>realmwar_info_mid</ColorAdapter>
@@ -306,7 +307,7 @@
 
         <LabelDef>
             <Position>
-                <X>302</X>
+                <X>303</X>
                 <Y>46</Y>
             </Position>
             <Alignment>
@@ -320,7 +321,7 @@
             </Color>
             <FontName>_whatisthisfont3</FontName>
             <Width>110</Width>
-            <Height>16</Height>
+            <Height>15</Height>
             <MaxCharacters>64</MaxCharacters>
             <Data>Claiming Guild</Data>
             <ColorAdapter>realmwar_info_mid</ColorAdapter>
@@ -330,7 +331,7 @@
 
         <LabelDef>
             <Position>
-                <X>302</X>
+                <X>303</X>
                 <Y>61</Y>
             </Position>
             <Alignment>
@@ -344,7 +345,7 @@
             </Color>
             <FontName>_whatisthisfont3</FontName>
             <Width>110</Width>
-            <Height>16</Height>
+            <Height>15</Height>
             <MaxCharacters>64</MaxCharacters>
             <Data>Under Siege</Data>
             <ColorAdapter>realmwar_info_mid</ColorAdapter>
@@ -354,7 +355,7 @@
 
         <LabelDef>
             <Position>
-                <X>302</X>
+                <X>303</X>
                 <Y>76</Y>
             </Position>
             <Alignment>
@@ -368,7 +369,7 @@
             </Color>
             <FontName>_whatisthisfont3</FontName>
             <Width>110</Width>
-            <Height>16</Height>
+            <Height>15</Height>
             <MaxCharacters>64</MaxCharacters>
             <Data>More Stuff Here</Data>
             <ColorAdapter>realmwar_info_mid</ColorAdapter>

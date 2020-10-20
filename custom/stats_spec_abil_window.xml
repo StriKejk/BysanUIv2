@@ -69,30 +69,20 @@
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>0</MinWidth>
-        <MinHeight>0</MinHeight>
+        <MinWidth>198</MinWidth>
+        <MinHeight>380</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
+            <ControlId>Title1</ControlId>
             <Position>
                 <X>0</X>
                 <Y>0</Y>
             </Position>
             <TemplateName>_witt_bg_90</TemplateName>
             <Width>198</Width>
-            <Height>380</Height>
-        </FullResizeImageDef>
-
-
-        <FullResizeImageDef>
-            <Position>
-                <X>0</X>
-                <Y>0</Y>
-            </Position>
-            <TemplateName>_witt_bg_100</TemplateName>
-            <Width>198</Width>
-            <Height>19</Height>
+            <Height>20</Height>
         </FullResizeImageDef>
 
 
@@ -112,11 +102,23 @@
             </Color>
             <FontName>_whatisthisfont2</FontName>
             <Width>198</Width>
-            <Height>15</Height>
+            <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
             <Data>SPECIALIZATIONS</Data>
             <TextCentered>true</TextCentered>
         </LabelDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background1</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>19</Y>
+            </Position>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>198</Width>
+            <Height>99</Height>
+        </FullResizeImageDef>
 
 
         <ListBoxDef>
@@ -131,7 +133,7 @@
             </Alignment>
             <Width>198</Width>
             <Height>84</Height>
-            <TemplateName>_witt_listbox_80</TemplateName>
+            <TemplateName>_witt_listbox_0</TemplateName>
             <AdapterName>stats_specs</AdapterName>
             <Sorting>false</Sorting>
             <Columns>2</Columns>
@@ -169,13 +171,14 @@
 
 
         <FullResizeImageDef>
+            <ControlId>Title2</ControlId>
             <Position>
                 <X>0</X>
                 <Y>117</Y>
             </Position>
-            <TemplateName>_witt_bg_100</TemplateName>
+            <TemplateName>_witt_bg_90</TemplateName>
             <Width>198</Width>
-            <Height>19</Height>
+            <Height>20</Height>
         </FullResizeImageDef>
 
 
@@ -195,11 +198,23 @@
             </Color>
             <FontName>_whatisthisfont2</FontName>
             <Width>198</Width>
-            <Height>15</Height>
+            <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
             <Data>ABILITIES</Data>
             <TextCentered>true</TextCentered>
         </LabelDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background2</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>136</Y>
+            </Position>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>198</Width>
+            <Height>113</Height>
+        </FullResizeImageDef>
 
 
         <ListBoxDef>
@@ -213,8 +228,8 @@
                 <GrowHeight>true</GrowHeight>
             </Alignment>
             <Width>198</Width>
-            <Height>114</Height>
-            <TemplateName>_witt_listbox_80</TemplateName>
+            <Height>115</Height>
+            <TemplateName>_witt_listbox_0</TemplateName>
             <AdapterName>stats_abil</AdapterName>
             <Sorting>false</Sorting>
             <Columns>3</Columns>
@@ -227,13 +242,14 @@
 
 
         <FullResizeImageDef>
+            <ControlId>Title3</ControlId>
             <Position>
                 <X>0</X>
                 <Y>248</Y>
             </Position>
-            <TemplateName>_witt_bg_100</TemplateName>
+            <TemplateName>_witt_bg_90</TemplateName>
             <Width>198</Width>
-            <Height>19</Height>
+            <Height>20</Height>
         </FullResizeImageDef>
 
 
@@ -253,11 +269,23 @@
             </Color>
             <FontName>_whatisthisfont2</FontName>
             <Width>198</Width>
-            <Height>15</Height>
+            <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
             <Data>TRADESKILLS</Data>
             <TextCentered>true</TextCentered>
         </LabelDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background3</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>267</Y>
+            </Position>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>198</Width>
+            <Height>112</Height>
+        </FullResizeImageDef>
 
 
         <ListBoxDef>
@@ -272,7 +300,7 @@
             </Alignment>
             <Width>198</Width>
             <Height>114</Height>
-            <TemplateName>_witt_listbox_80</TemplateName>
+            <TemplateName>_witt_listbox_0</TemplateName>
             <AdapterName>stats_trades</AdapterName>
             <Sorting>false</Sorting>
             <Columns>2</Columns>

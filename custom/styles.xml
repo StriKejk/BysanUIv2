@@ -14853,15 +14853,15 @@
             <TextureName>_whatisthistexture</TextureName>
             <Left>
                 <X>0</X>
-                <Y>0</Y>
+                <Y>79</Y>
             </Left>
             <Repeat>
                 <X>1</X>
-                <Y>29</Y>
+                <Y>79</Y>
             </Repeat>
             <Right>
                 <X>0</X>
-                <Y>0</Y>
+                <Y>79</Y>
             </Right>
         </Texture>
     </HorizontalResizeImageTemplate>
@@ -15053,12 +15053,12 @@
         <Name>_witt_vscroll_thumb</Name>
         <Width>6</Width>
         <TopHeight>2</TopHeight>
-        <RepeatHeight>14</RepeatHeight>
-        <BottomHeight>2</BottomHeight>
+        <RepeatHeight>15</RepeatHeight>
+        <BottomHeight>1</BottomHeight>
         <Texture>
             <TextureName>_whatisthistexture</TextureName>
             <Top>
-                <X>883</X>
+                <X>989</X>
                 <Y>933</Y>
             </Top>
             <Repeat>
@@ -15066,8 +15066,8 @@
                 <Y>936</Y>
             </Repeat>
             <Bottom>
-                <X>883</X>
-                <Y>951</Y>
+                <X>989</X>
+                <Y>934</Y>
             </Bottom>
         </Texture>
     </VerticalResizeImageTemplate>
@@ -15078,7 +15078,7 @@
         <Width>6</Width>
         <TopHeight>2</TopHeight>
         <RepeatHeight>14</RepeatHeight>
-        <BottomHeight>2</BottomHeight>
+        <BottomHeight>1</BottomHeight>
         <Texture>
             <TextureName>_whatisthistexture</TextureName>
             <Top>
@@ -16577,7 +16577,7 @@
 
     <TextAreaTemplate>
         <Name>_witt_textarea</Name>
-        <BackgroundTemplate>_witt_bg_0</BackgroundTemplate>
+        <BackgroundTemplate>none</BackgroundTemplate>
         <ScrollbarTemplate>_witt_scroll_nobutton</ScrollbarTemplate>
         <LinePadding>0</LinePadding>
         <TextOffset>
@@ -16656,15 +16656,15 @@
             <TextureName>_whatisthistexture</TextureName>
             <Left>
                 <X>43</X>
-                <Y>29</Y>
+                <Y>79</Y>
             </Left>
             <Repeat>
                 <X>44</X>
-                <Y>29</Y>
+                <Y>79</Y>
             </Repeat>
             <Right>
                 <X>48</X>
-                <Y>29</Y>
+                <Y>79</Y>
             </Right>
         </Texture>
     </HorizontalResizeImageTemplate>
@@ -17122,7 +17122,7 @@
         <Texture>
             <TextureName>_whatisthistexture</TextureName>
             <Left>
-                <X>47</X>
+                <X>59</X>
                 <Y>0</Y>
             </Left>
             <Repeat>
@@ -17130,7 +17130,7 @@
                 <Y>0</Y>
             </Repeat>
             <Right>
-                <X>53</X>
+                <X>65</X>
                 <Y>0</Y>
             </Right>
         </Texture>
@@ -17154,7 +17154,7 @@
                 <Y>0</Y>
             </Repeat>
             <Right>
-                <X>53</X>
+                <X>59</X>
                 <Y>0</Y>
             </Right>
         </Texture>
@@ -17170,7 +17170,7 @@
         <Texture>
             <TextureName>_whatisthistexture</TextureName>
             <Left>
-                <X>53</X>
+                <X>65</X>
                 <Y>0</Y>
             </Left>
             <Repeat>
@@ -17178,7 +17178,7 @@
                 <Y>0</Y>
             </Repeat>
             <Right>
-                <X>53</X>
+                <X>71</X>
                 <Y>0</Y>
             </Right>
         </Texture>
@@ -17195,15 +17195,15 @@
             <TextureName>_whatisthistexture</TextureName>
             <Left>
                 <X>27</X>
-                <Y>29</Y>
+                <Y>79</Y>
             </Left>
             <Repeat>
                 <X>28</X>
-                <Y>29</Y>
+                <Y>79</Y>
             </Repeat>
             <Right>
                 <X>33</X>
-                <Y>29</Y>
+                <Y>79</Y>
             </Right>
         </Texture>
     </HorizontalResizeImageTemplate>
@@ -17236,7 +17236,7 @@
     <StatusBarTemplate>
         <Name>_witt_statusbar_tiny_green</Name>
         <ForegroundHResizeTemplate>_witt_statusbar_tiny_greenfg</ForegroundHResizeTemplate>
-        <BackgroundHResizeTemplate>_witt_statusbard_tiny_backgroundh</BackgroundHResizeTemplate>
+        <BackgroundHResizeTemplate>_witt_statusbar_tiny_bg</BackgroundHResizeTemplate>
         <Height>5</Height>
         <ForegroundOffset>
             <X>0</X>
@@ -17248,7 +17248,7 @@
     <StatusBarTemplate>
         <Name>_witt_statusbar_tiny_yellow</Name>
         <ForegroundHResizeTemplate>_witt_statusbar_tiny_yellowfg</ForegroundHResizeTemplate>
-        <BackgroundHResizeTemplate>_witt_statusbard_tiny_backgroundh</BackgroundHResizeTemplate>
+        <BackgroundHResizeTemplate>_witt_statusbar_tiny_bg</BackgroundHResizeTemplate>
         <Height>5</Height>
         <ForegroundOffset>
             <X>0</X>
@@ -17673,15 +17673,15 @@
             <TextureName>_whatisthistexture</TextureName>
             <Left>
                 <X>36</X>
-                <Y>29</Y>
+                <Y>79</Y>
             </Left>
             <Repeat>
                 <X>38</X>
-                <Y>29</Y>
+                <Y>79</Y>
             </Repeat>
             <Right>
                 <X>41</X>
-                <Y>29</Y>
+                <Y>79</Y>
             </Right>
         </Texture>
     </HorizontalResizeImageTemplate>
@@ -17716,10 +17716,10 @@
         <TextureName>_whatisthishh</TextureName>
         <TextureStart>
             <X>0</X>
-            <Y>87</Y>
+            <Y>82</Y>
         </TextureStart>
         <Width>93</Width>
-        <Height>36</Height>
+        <Height>46</Height>
         <MaxLevels>31</MaxLevels>
         <Horizontal>true</Horizontal>
     </StatusIconTemplate>
@@ -18037,15 +18037,15 @@
             <TextureName>_whatisthishh2</TextureName>
             <Top>
                 <X>14</X>
-                <Y>0</Y>
+                <Y>50</Y>
             </Top>
             <Repeat>
                 <X>14</X>
-                <Y>1</Y>
+                <Y>51</Y>
             </Repeat>
             <Bottom>
                 <X>14</X>
-                <Y>25</Y>
+                <Y>75</Y>
             </Bottom>
         </Texture>
     </VerticalResizeImageTemplate>
@@ -19271,54 +19271,6 @@
     </ButtonTemplate>
 
 
-    <HorizontalResizeImageTemplate>
-        <Name>_witt_statusbard_tiny_backgroundH</Name>
-        <Height>1</Height>
-        <LeftWidth>5</LeftWidth>
-        <RepeatWidth>5</RepeatWidth>
-        <RightWidth>5</RightWidth>
-        <Texture>
-            <TextureName>_whatisthishh2</TextureName>
-            <Left>
-                <X>10</X>
-                <Y>40</Y>
-            </Left>
-            <Repeat>
-                <X>10</X>
-                <Y>40</Y>
-            </Repeat>
-            <Right>
-                <X>10</X>
-                <Y>40</Y>
-            </Right>
-        </Texture>
-    </HorizontalResizeImageTemplate>
-
-
-    <VerticalResizeImageTemplate>
-        <Name>_witt_statusbard_tiny_backgroundV</Name>
-        <Width>1</Width>
-        <TopHeight>5</TopHeight>
-        <RepeatHeight>5</RepeatHeight>
-        <BottomHeight>5</BottomHeight>
-        <Texture>
-            <TextureName>_whatisthishh2</TextureName>
-            <Top>
-                <X>10</X>
-                <Y>40</Y>
-            </Top>
-            <Repeat>
-                <X>10</X>
-                <Y>40</Y>
-            </Repeat>
-            <Bottom>
-                <X>10</X>
-                <Y>40</Y>
-            </Bottom>
-        </Texture>
-    </VerticalResizeImageTemplate>
-
-
     <StatusIconTemplate>
         <Name>_witt_hh_endu</Name>
         <TextureName>_whatisthishe</TextureName>
@@ -19399,8 +19351,8 @@
 
     <ListBoxTemplate>
         <Name>_witt_listbox_0</Name>
-        <LinePadding>2</LinePadding>
-        <CellPadding>4</CellPadding>
+        <LinePadding>1</LinePadding>
+        <CellPadding>3</CellPadding>
         <LabelLength>128</LabelLength>
         <ScrollbarTemplate>_witt_scroll_nobutton</ScrollbarTemplate>
         <DrawScroll>true</DrawScroll>
@@ -19430,10 +19382,10 @@
                 <B>204</B>
                 <A>255</A>
             </ColorGreyed>
-            <TextTopOffset>3</TextTopOffset>
-            <TextBottomOffset>3</TextBottomOffset>
+            <TextTopOffset>4</TextTopOffset>
+            <TextBottomOffset>1</TextBottomOffset>
             <TextLeftOffset>1</TextLeftOffset>
-            <TextRightOffset>1</TextRightOffset>
+            <TextRightOffset>2</TextRightOffset>
             <LineOffset>0</LineOffset>
         </TextFont>
             <IconSize>
