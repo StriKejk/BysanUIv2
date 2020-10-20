@@ -23,8 +23,8 @@
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>10</MinWidth>
-        <MinHeight>10</MinHeight>
+        <MinWidth>62</MinWidth>
+        <MinHeight>16</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
 

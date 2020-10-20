@@ -3114,9 +3114,9 @@
 
     <ChatControlTemplate>
         <Name>chat</Name>
-        <FontName>_whatisthisfont5</FontName>
-        <BackgroundTemplate>_witt_bg_50</BackgroundTemplate>
-        <ScrollbarTemplate>vscroll_no_gutter</ScrollbarTemplate>
+        <FontName>_whatisthisfont11pxds</FontName>
+        <BackgroundTemplate>_witt_bg_90</BackgroundTemplate>
+        <ScrollbarTemplate>_witt_scroll_nobackground</ScrollbarTemplate>
     </ChatControlTemplate>
 
 
@@ -16923,7 +16923,7 @@
 
     <HorizontalResizeImageTemplate>
         <Name>_witt_statusbar_xp_bluefg</Name>
-        <Height>7</Height>
+        <Height>9</Height>
         <LeftWidth>0</LeftWidth>
         <RepeatWidth>10</RepeatWidth>
         <RightWidth>0</RightWidth>
@@ -16935,7 +16935,7 @@
             </Left>
             <Repeat>
                 <X>36</X>
-                <Y>1</Y>
+                <Y>0</Y>
             </Repeat>
             <Right>
                 <X>0</X>
@@ -16947,7 +16947,7 @@
 
     <HorizontalResizeImageTemplate>
         <Name>_witt_statusbar_xp_yellowfg</Name>
-        <Height>7</Height>
+        <Height>9</Height>
         <LeftWidth>0</LeftWidth>
         <RepeatWidth>10</RepeatWidth>
         <RightWidth>0</RightWidth>
@@ -16959,7 +16959,7 @@
             </Left>
             <Repeat>
                 <X>36</X>
-                <Y>9</Y>
+                <Y>8</Y>
             </Repeat>
             <Right>
                 <X>0</X>
@@ -16971,7 +16971,7 @@
 
     <HorizontalResizeImageTemplate>
         <Name>_witt_statusbar_xp_redfg</Name>
-        <Height>7</Height>
+        <Height>9</Height>
         <LeftWidth>0</LeftWidth>
         <RepeatWidth>10</RepeatWidth>
         <RightWidth>0</RightWidth>
@@ -16983,7 +16983,7 @@
             </Left>
             <Repeat>
                 <X>47</X>
-                <Y>17</Y>
+                <Y>16</Y>
             </Repeat>
             <Right>
                 <X>0</X>
@@ -16995,7 +16995,7 @@
 
     <HorizontalResizeImageTemplate>
         <Name>_witt_statusbar_xp_greenfg</Name>
-        <Height>7</Height>
+        <Height>9</Height>
         <LeftWidth>0</LeftWidth>
         <RepeatWidth>10</RepeatWidth>
         <RightWidth>0</RightWidth>
@@ -17007,7 +17007,7 @@
             </Left>
             <Repeat>
                 <X>36</X>
-                <Y>17</Y>
+                <Y>16</Y>
             </Repeat>
             <Right>
                 <X>0</X>
@@ -17027,15 +17027,15 @@
             <TextureName>_whatisthistexture</TextureName>
             <Left>
                 <X>0</X>
-                <Y>0</Y>
+                <Y>100</Y>
             </Left>
             <Repeat>
                 <X>16</X>
-                <Y>29</Y>
+                <Y>129</Y>
             </Repeat>
             <Right>
                 <X>0</X>
-                <Y>0</Y>
+                <Y>100</Y>
             </Right>
         </Texture>
     </HorizontalResizeImageTemplate>
@@ -17048,7 +17048,7 @@
         <Height>9</Height>
         <ForegroundOffset>
             <X>0</X>
-            <Y>1</Y>
+            <Y>0</Y>
         </ForegroundOffset>
     </StatusBarTemplate>
 
@@ -17060,7 +17060,7 @@
         <Height>9</Height>
         <ForegroundOffset>
             <X>0</X>
-            <Y>1</Y>
+            <Y>0</Y>
         </ForegroundOffset>
     </StatusBarTemplate>
 
@@ -17072,7 +17072,7 @@
         <Height>9</Height>
         <ForegroundOffset>
             <X>0</X>
-            <Y>1</Y>
+            <Y>0</Y>
         </ForegroundOffset>
     </StatusBarTemplate>
 
@@ -17084,7 +17084,7 @@
         <Height>9</Height>
         <ForegroundOffset>
             <X>0</X>
-            <Y>1</Y>
+            <Y>0</Y>
         </ForegroundOffset>
     </StatusBarTemplate>
 
@@ -19454,6 +19454,56 @@
             <Y>9999</Y>
         </ActiveZoneOffset>
     </VerticalScrollbarTemplate>
+
+
+    <VerticalScrollbarTemplate>
+        <Name>_witt_scroll_nobackground</Name>
+        <UpButtonTemplate>none</UpButtonTemplate>
+        <DownButtonTemplate>none</DownButtonTemplate>
+        <ThumbVResizeTemplate>_witt_vscroll_thumb2</ThumbVResizeTemplate>
+        <GutterVResizeTemplate>none</GutterVResizeTemplate>
+        <Width>7</Width>
+        <UpButtonOffset>
+            <X>0</X>
+            <Y>0</Y>
+        </UpButtonOffset>
+        <DownButtonOffset>
+            <X>0</X>
+            <Y>0</Y>
+        </DownButtonOffset>
+        <ThumbOffset>
+            <X>1</X>
+            <Y>0</Y>
+        </ThumbOffset>
+        <ActiveZoneOffset>
+            <X>9999</X>
+            <Y>9999</Y>
+        </ActiveZoneOffset>
+    </VerticalScrollbarTemplate>
+
+
+    <VerticalResizeImageTemplate>
+        <Name>_witt_vscroll_thumb2</Name>
+        <Width>7</Width>
+        <TopHeight>1</TopHeight>
+        <RepeatHeight>10</RepeatHeight>
+        <BottomHeight>1</BottomHeight>
+        <Texture>
+            <TextureName>_whatisthistexture</TextureName>
+            <Top>
+                <X>947</X>
+                <Y>913</Y>
+            </Top>
+            <Repeat>
+                <X>947</X>
+                <Y>917</Y>
+            </Repeat>
+            <Bottom>
+                <X>947</X>
+                <Y>913</Y>
+            </Bottom>
+        </Texture>
+    </VerticalResizeImageTemplate>
 
 
 </Root_Element>

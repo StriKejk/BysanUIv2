@@ -18,13 +18,13 @@
         <TitleWidth>0</TitleWidth>
         <TitleHeight>0</TitleHeight>
         <Width>100</Width>
-        <Height>20</Height>
+        <Height>27</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>0</MinWidth>
-        <MinHeight>0</MinHeight>
+        <MinWidth>100</MinWidth>
+        <MinHeight>27</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
 
@@ -67,7 +67,7 @@
                 <Y>16</Y>
             </Position>
             <FontName>_whatisthisfont2</FontName>
-            <Width>150</Width>
+            <Width>30</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
             <Color>
@@ -78,6 +78,26 @@
             </Color>
             <Adapter>realm_rank</Adapter>
             <Data>R</Data>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>49</X>
+                <Y>16</Y>
+            </Position>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>30</Width>
+            <Height>15</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>realm_level</Adapter>
+            <Data>L</Data>
         </ScalarLabelDef>
 
 
@@ -104,26 +124,6 @@
         </ScalarLabelDef>
 
 
-        <ScalarLabelDef>
-            <Position>
-                <X>49</X>
-                <Y>16</Y>
-            </Position>
-            <FontName>_whatisthisfont2</FontName>
-            <Width>150</Width>
-            <Height>15</Height>
-            <MaxCharacters>999</MaxCharacters>
-            <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </Color>
-            <Adapter>realm_level</Adapter>
-            <Data>L</Data>
-        </ScalarLabelDef>
-
-
         <InvisibleButtonDef>
             <Position>
                 <X>0</X>
@@ -132,7 +132,7 @@
             <Label></Label>
             <OnClickEvent>ToggleCustom8</OnClickEvent>
             <Width>100</Width>
-            <Height>20</Height>
+            <Height>27</Height>
         </InvisibleButtonDef>
 
 

@@ -15,43 +15,28 @@
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>196</TitleWidth>
-        <TitleHeight>6</TitleHeight>
-        <Width>196</Width>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>192</Width>
         <Height>90</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>0</MinWidth>
-        <MinHeight>0</MinHeight>
+        <MinWidth>192</MinWidth>
+        <MinHeight>90</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
-            <ControlId>Background</ControlId>
+            <ControlId>Title1</ControlId>
             <Position>
                 <X>0</X>
                 <Y>0</Y>
             </Position>
-            <Alignment>
-                <GrowWidth>true</GrowWidth>
-                <GrowHeight>true</GrowHeight>
-            </Alignment>
             <TemplateName>_witt_bg_90</TemplateName>
-            <Width>196</Width>
-            <Height>90</Height>
-        </FullResizeImageDef>
-
-
-        <FullResizeImageDef>
-            <Position>
-                <X>0</X>
-                <Y>0</Y>
-            </Position>
-            <TemplateName>_witt_bg_100</TemplateName>
-            <Width>196</Width>
-            <Height>19</Height>
+            <Width>192</Width>
+            <Height>20</Height>
         </FullResizeImageDef>
 
 
@@ -71,11 +56,27 @@
             </Color>
             <FontName>_whatisthisfont2</FontName>
             <Width>196</Width>
-            <Height>15</Height>
+            <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
             <Adapter>keep_upgrade_title</Adapter>
             <TextCentered>true</TextCentered>
         </LabelDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>19</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>192</Width>
+            <Height>71</Height>
+        </FullResizeImageDef>
 
 
         <LabelDef>
@@ -244,12 +245,12 @@
         <ButtonDef>
             <ControlId>1004</ControlId>
             <Position>
-                <X>0</X>
-                <Y>1</Y>
+                <X>65</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
+                <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
-                <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Release</Label>
@@ -259,8 +260,8 @@
 
         <ButtonDef>
             <Position>
-                <X>3</X>
-                <Y>1</Y>
+                <X>2</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
@@ -274,8 +275,8 @@
 
         <ButtonDef>
             <Position>
-                <X>3</X>
-                <Y>1</Y>
+                <X>2</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>

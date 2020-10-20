@@ -799,7 +799,7 @@
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>166</TitleWidth>
+        <TitleWidth>0</TitleWidth>
         <TitleHeight>0</TitleHeight>
         <Width>166</Width>
         <Height>146</Height>
@@ -807,13 +807,13 @@
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>0</MinWidth>
-        <MinHeight>0</MinHeight>
+        <MinWidth>166</MinWidth>
+        <MinHeight>146</MinHeight>
         <ContextTemplateName>emoticon_context</ContextTemplateName>
 
 
         <FullResizeImageDef>
-            <ControlId>BackgroundImage</ControlId>
+            <ControlId>Background</ControlId>
             <Position>
                 <X>0</X>
                 <Y>0</Y>

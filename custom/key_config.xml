@@ -61,59 +61,31 @@
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>310</TitleWidth>
-        <TitleHeight>18</TitleHeight>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
         <Width>310</Width>
-        <Height>355</Height>
+        <Height>353</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>0</MinWidth>
-        <MinHeight>0</MinHeight>
+        <MinWidth>310</MinWidth>
+        <MinHeight>353</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
+            <ControlId>Title</ControlId>
             <Position>
                 <X>0</X>
                 <Y>0</Y>
             </Position>
             <Alignment>
                 <GrowWidth>true</GrowWidth>
-                <GrowHeight>true</GrowHeight>
             </Alignment>
             <TemplateName>_witt_bg_90</TemplateName>
             <Width>310</Width>
-            <Height>355</Height>
-        </FullResizeImageDef>
-
-
-        <FullResizeImageDef>
-            <Position>
-                <X>0</X>
-                <Y>298</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_witt_bg_80</TemplateName>
-            <Width>310</Width>
-            <Height>36</Height>
-        </FullResizeImageDef>
-
-
-        <FullResizeImageDef>
-            <Position>
-                <X>0</X>
-                <Y>0</Y>
-            </Position>
-            <Alignment>
-                <GrowWidth>true</GrowWidth>
-            </Alignment>
-            <TemplateName>_witt_bg_100</TemplateName>
-            <Width>310</Width>
-            <Height>19</Height>
+            <Height>20</Height>
         </FullResizeImageDef>
 
 
@@ -133,11 +105,27 @@
             </Color>
             <FontName>_whatisthisfont2</FontName>
             <Width>310</Width>
-            <Height>15</Height>
+            <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
             <Data>KEY CONFIG</Data>
             <TextCentered>true</TextCentered>
         </LabelDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>19</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>310</Width>
+            <Height>280</Height>
+        </FullResizeImageDef>
 
 
         <ListBoxDef>
@@ -150,8 +138,8 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Width>310</Width>
-            <Height>260</Height>
-            <TemplateName>_witt_listbox_80</TemplateName>
+            <Height>261</Height>
+            <TemplateName>_witt_listbox_0</TemplateName>
             <AdapterName>key_config</AdapterName>
             <Sorting>false</Sorting>
             <Columns>2</Columns>
@@ -163,10 +151,27 @@
         </ListBoxDef>
 
 
+        <FullResizeImageDef>
+            <ControlId>Background2</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>298</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>310</Width>
+            <Height>36</Height>
+        </FullResizeImageDef>
+
+
         <ButtonDef>
             <Position>
-                <X>3</X>
-                <Y>280</Y>
+                <X>2</X>
+                <Y>281</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -179,37 +184,8 @@
 
         <ButtonDef>
             <Position>
-                <X>181</X>
-                <Y>280</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_witt_hr_button</TemplateName>
-            <Label>RPG</Label>
-            <OnClickEvent>InGameKeyConfigResetRPG</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>3</X>
-                <Y>280</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-                <OffsetRight>true</OffsetRight>
-            </Alignment>
-            <TemplateName>_witt_hr_button</TemplateName>
-            <Label>FPS</Label>
-            <OnClickEvent>InGameKeyConfigResetFPS</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>117</X>
-                <Y>280</Y>
+                <X>120</X>
+                <Y>281</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -222,31 +198,30 @@
 
         <ButtonDef>
             <Position>
-                <X>3</X>
-                <Y>1</Y>
+                <X>183</X>
+                <Y>281</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
-                <OffsetBottom>true</OffsetBottom>
-                <OffsetRight>true</OffsetRight>
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
-            <Label>CANCEL</Label>
-            <OnClickEvent>InGameKeyConfigCancel</OnClickEvent>
+            <Label>RPG</Label>
+            <OnClickEvent>InGameKeyConfigResetRPG</OnClickEvent>
         </ButtonDef>
 
 
         <ButtonDef>
             <Position>
-                <X>3</X>
-                <Y>1</Y>
+                <X>2</X>
+                <Y>281</Y>
             </Position>
             <Alignment>
-                <OffsetBottom>true</OffsetBottom>
+                <TopLeft>true</TopLeft>
+                <OffsetRight>true</OffsetRight>
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
-            <Label>ACCEPT</Label>
-            <OnClickEvent>InGameKeyConfigAccept</OnClickEvent>
+            <Label>FPS</Label>
+            <OnClickEvent>InGameKeyConfigResetFPS</OnClickEvent>
         </ButtonDef>
 
 
@@ -263,24 +238,6 @@
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data>CTRL Key as Modifier</Data>
-            <LabelWidth>120</LabelWidth>
-            <OnClickEvent></OnClickEvent>
-        </CheckBoxDef>
-
-
-        <CheckBoxDef>
-            <ControlId>1011</ControlId>
-            <Position>
-                <X>0</X>
-                <Y>316</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_witt_checkbox</TemplateName>
-            <AdapterName></AdapterName>
-            <TextAdapterName></TextAdapterName>
-            <Data>ALT Key as Modifier</Data>
             <LabelWidth>120</LabelWidth>
             <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
@@ -305,6 +262,24 @@
 
 
         <CheckBoxDef>
+            <ControlId>1011</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>316</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>ALT Key as Modifier</Data>
+            <LabelWidth>120</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
             <ControlId>1013</ControlId>
             <Position>
                 <X>138</X>
@@ -320,6 +295,52 @@
             <LabelWidth>120</LabelWidth>
             <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background3</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>333</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>310</Width>
+            <Height>20</Height>
+        </FullResizeImageDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>2</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>ACCEPT</Label>
+            <OnClickEvent>InGameKeyConfigAccept</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>2</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>CANCEL</Label>
+            <OnClickEvent>InGameKeyConfigCancel</OnClickEvent>
+        </ButtonDef>
 
 
     </WindowTemplate>

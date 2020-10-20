@@ -15,8 +15,8 @@
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>395</TitleWidth>
-        <TitleHeight>19</TitleHeight>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
         <Width>395</Width>
         <Height>306</Height>
         <ResizeableWidth>0</ResizeableWidth>
@@ -29,41 +29,14 @@
 
 
         <FullResizeImageDef>
-            <ControlId>Background</ControlId>
+            <ControlId>Title</ControlId>
             <Position>
                 <X>0</X>
                 <Y>0</Y>
             </Position>
-            <Alignment>
-                <GrowWidth>true</GrowWidth>
-                <GrowHeight>true</GrowHeight>
-            </Alignment>
-            <TemplateName>_witt_bg_80</TemplateName>
+            <TemplateName>_witt_bg_90</TemplateName>
             <Width>395</Width>
-            <Height>306</Height>
-        </FullResizeImageDef>
-
-
-        <ImageAreaDef>
-            <Position>
-                <X>24</X>
-                <Y>22</Y>
-            </Position>
-            <Alignment>
-                <CenterHorizontally>true</CenterHorizontally>
-            </Alignment>
-            <TemplateName>_witt_iel</TemplateName>
-        </ImageAreaDef>
-
-
-        <FullResizeImageDef>
-            <Position>
-                <X>0</X>
-                <Y>0</Y>
-            </Position>
-            <TemplateName>_witt_bg_100</TemplateName>
-            <Width>395</Width>
-            <Height>19</Height>
+            <Height>20</Height>
         </FullResizeImageDef>
 
 
@@ -84,11 +57,39 @@
             </Color>
             <FontName>_whatisthisfont2</FontName>
             <Width>395</Width>
-            <Height>15</Height>
+            <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
             <Data>INTERFACE ELEMENTS</Data>
             <TextCentered>true</TextCentered>
         </LabelDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>19</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>395</Width>
+            <Height>256</Height>
+        </FullResizeImageDef>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>24</X>
+                <Y>22</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <TemplateName>_witt_iel</TemplateName>
+        </ImageAreaDef>
 
 
         <LabelDef>
@@ -703,11 +704,12 @@
 
 
         <FullResizeImageDef>
+            <ControlId>Background2</ControlId>
             <Position>
                 <X>0</X>
                 <Y>274</Y>
             </Position>
-            <TemplateName>_witt_bg_80</TemplateName>
+            <TemplateName>_witt_bg_90</TemplateName>
             <Width>395</Width>
             <Height>32</Height>
         </FullResizeImageDef>
@@ -731,7 +733,7 @@
             <Width>395</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
-            <Data>Beta 0.4 of BysanUI v2 edit by StriKejk. Expect things to not work.</Data>
+            <Data>Beta 0.4 of BysanUI v2 edit by StriKejk. Expect things to not work</Data>
             <TextCentered>true</TextCentered>
         </LabelDef>
 
@@ -754,7 +756,7 @@
             <Width>395</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
-            <Data>Report bugs on discord @ https://discord.gg/TqX3b3G.</Data>
+            <Data>Report bugs on discord @ https://discord.gg/TqX3b3G</Data>
             <TextCentered>true</TextCentered>
         </LabelDef>
 

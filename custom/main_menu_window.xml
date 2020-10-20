@@ -15,39 +15,28 @@
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>166</TitleWidth>
-        <TitleHeight>16</TitleHeight>
-        <Width>166</Width>
-        <Height>118</Height>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>164</Width>
+        <Height>107</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>0</MinWidth>
-        <MinHeight>0</MinHeight>
+        <MinWidth>164</MinWidth>
+        <MinHeight>107</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
-            <ControlId>ImageBackground</ControlId>
+            <ControlId>Title</ControlId>
             <Position>
                 <X>0</X>
                 <Y>0</Y>
             </Position>
             <TemplateName>_witt_bg_90</TemplateName>
-            <Width>166</Width>
-            <Height>118</Height>
-        </FullResizeImageDef>
-
-
-        <FullResizeImageDef>
-            <Position>
-                <X>0</X>
-                <Y>0</Y>
-            </Position>
-            <TemplateName>_witt_bg_100</TemplateName>
-            <Width>166</Width>
-            <Height>19</Height>
+            <Width>164</Width>
+            <Height>20</Height>
         </FullResizeImageDef>
 
 
@@ -67,20 +56,33 @@
             </Color>
             <FontName>_whatisthisfont2</FontName>
             <Width>166</Width>
-            <Height>15</Height>
+            <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
             <Data>MAIN MENU</Data>
             <TextCentered>true</TextCentered>
         </LabelDef>
 
 
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>19</Y>
+            </Position>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>164</Width>
+            <Height>88</Height>
+        </FullResizeImageDef>
+
+
         <ButtonDef>
             <ControlId>20</ControlId>
             <Position>
-                <X>3</X>
+                <X>2</X>
                 <Y>21</Y>
             </Position>
             <Alignment>
+                <TopLeft>true</TopLeft>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
             <TemplateName>_witt_hr160_button</TemplateName>
@@ -92,8 +94,8 @@
         <ButtonDef>
             <ControlId>20</ControlId>
             <Position>
-                <X>3</X>
-                <Y>39</Y>
+                <X>2</X>
+                <Y>38</Y>
             </Position>
             <Alignment>
                 <CenterHorizontally>true</CenterHorizontally>
@@ -107,8 +109,8 @@
         <ButtonDef>
             <ControlId>20</ControlId>
             <Position>
-                <X>3</X>
-                <Y>57</Y>
+                <X>2</X>
+                <Y>55</Y>
             </Position>
             <Alignment>
                 <CenterHorizontally>true</CenterHorizontally>
@@ -122,8 +124,8 @@
         <ButtonDef>
             <ControlId>20</ControlId>
             <Position>
-                <X>3</X>
-                <Y>75</Y>
+                <X>2</X>
+                <Y>72</Y>
             </Position>
             <Alignment>
                 <CenterHorizontally>true</CenterHorizontally>
@@ -138,10 +140,10 @@
             <ControlId>20</ControlId>
             <Position>
                 <X>2</X>
-                <Y>1</Y>
+                <Y>89</Y>
             </Position>
             <Alignment>
-                <OffsetBottom>true</OffsetBottom>
+                <TopLeft>true</TopLeft>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
             <TemplateName>_witt_hr160_button</TemplateName>

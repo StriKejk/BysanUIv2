@@ -12,38 +12,24 @@
         <MoveButton>false</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>
         <BottomRightResizeButton>true</BottomRightResizeButton>
-        <BottomLeftResizeButton>true</BottomLeftResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>290</TitleWidth>
-        <TitleHeight>18</TitleHeight>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
         <Width>290</Width>
         <Height>400</Height>
-        <ResizeableWidth>5</ResizeableWidth>
-        <ResizeableHeight>5</ResizeableHeight>
-        <ResizeableTwoWayWidth>8</ResizeableTwoWayWidth>
-        <ResizeableTwoWayHeight>8</ResizeableTwoWayHeight>
-        <MinWidth>250</MinWidth>
-        <MinHeight>150</MinHeight>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>290</MinWidth>
+        <MinHeight>400</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
-            <Position>
-                <X>0</X>
-                <Y>18</Y>
-            </Position>
-            <Alignment>
-                <GrowWidth>true</GrowWidth>
-                <GrowHeight>true</GrowHeight>
-            </Alignment>
-            <TemplateName>_witt_bg_90</TemplateName>
-            <Width>290</Width>
-            <Height>382</Height>
-        </FullResizeImageDef>
-
-
-        <FullResizeImageDef>
+            <ControlId>Title</ControlId>
             <Position>
                 <X>0</X>
                 <Y>0</Y>
@@ -51,9 +37,9 @@
             <Alignment>
                 <GrowWidth>true</GrowWidth>
             </Alignment>
-            <TemplateName>_witt_bg_100</TemplateName>
+            <TemplateName>_witt_bg_90</TemplateName>
             <Width>290</Width>
-            <Height>19</Height>
+            <Height>20</Height>
         </FullResizeImageDef>
 
 
@@ -78,25 +64,24 @@
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
             <Data>HELP</Data>
+            <TextCentered>true</TextCentered>
         </LabelDef>
 
 
-        <CheckBoxDef>
-            <ControlId>1001</ControlId>
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
             <Position>
-                <X>2</X>
-                <Y>3</Y>
+                <X>0</X>
+                <Y>19</Y>
             </Position>
             <Alignment>
-                <OffsetBottom>true</OffsetBottom>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>_witt_checkbox</TemplateName>
-            <AdapterName></AdapterName>
-            <TextAdapterName></TextAdapterName>
-            <Data>Show help on startup?</Data>
-            <LabelWidth>120</LabelWidth>
-            <OnClickEvent></OnClickEvent>
-        </CheckBoxDef>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>290</Width>
+            <Height>381</Height>
+        </FullResizeImageDef>
 
 
         <TextAreaDef>
@@ -112,17 +97,36 @@
             <TemplateName>_witt_textarea</TemplateName>
             <AdapterName>help_text</AdapterName>
             <HasHotspots>true</HasHotspots>
+            <HotspotDelineator></HotspotDelineator>
             <MaxCharacters>32768</MaxCharacters>
             <Width>290</Width>
-            <Height>361</Height>
+            <Height>362</Height>
         </TextAreaDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
+            <TemplateName>_witt_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>Show help on startup?</Data>
+            <LabelWidth>120</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
 
 
         <ButtonDef>
             <ControlId>1002</ControlId>
             <Position>
-                <X>3</X>
-                <Y>1</Y>
+                <X>2</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>

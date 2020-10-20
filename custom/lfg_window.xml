@@ -56,22 +56,22 @@
         <Name>looking_for_group</Name>
         <WindowId>c_windowInvalid</WindowId>
         <CloseButton>true</CloseButton>
-        <MoveButton>true</MoveButton>
+        <MoveButton>false</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>
-        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomRightResizeButton>true</BottomRightResizeButton>
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>416</TitleWidth>
-        <TitleHeight>3</TitleHeight>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
         <Width>380</Width>
-        <Height>296</Height>
+        <Height>298</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>0</MinWidth>
-        <MinHeight>0</MinHeight>
+        <MinWidth>380</MinWidth>
+        <MinHeight>298</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
 
@@ -79,7 +79,7 @@
 
 
         <FullResizeImageDef>
-            <ControlId>BackgroundImage</ControlId>
+            <ControlId>Background</ControlId>
             <Position>
                 <X>0</X>
                 <Y>0</Y>
@@ -87,7 +87,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>dlg_background_5px</TemplateName>
+            <TemplateName>_witt_bg_90</TemplateName>
             <Width>380</Width>
             <Height>298</Height>
         </FullResizeImageDef>

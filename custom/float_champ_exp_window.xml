@@ -15,16 +15,16 @@
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>100</TitleWidth>
-        <TitleHeight>28</TitleHeight>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
         <Width>100</Width>
-        <Height>28</Height>
+        <Height>27</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>0</MinWidth>
-        <MinHeight>0</MinHeight>
+        <MinWidth>100</MinWidth>
+        <MinHeight>27</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
 
@@ -61,93 +61,9 @@
         </StatusBarDef>
 
 
-        <ScalarLabelDef>
-            <Position>
-                <X>110</X>
-                <Y>2</Y>
-            </Position>
-            <FontName>_whatisthisfont2</FontName>
-            <Width>150</Width>
-            <Height>15</Height>
-            <MaxCharacters>999</MaxCharacters>
-            <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </Color>
-            <Adapter>summary_champ_exp_coarse</Adapter>
-        </ScalarLabelDef>
-
-
-        <LabelDef>
-            <ControlId>dash</ControlId>
-            <Position>
-                <X>128</X>
-                <Y>2</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </Color>
-            <FontName>_whatisthisfont2</FontName>
-            <Width>10</Width>
-            <Height>14</Height>
-            <MaxCharacters>999</MaxCharacters>
-            <Data>-</Data>
-        </LabelDef>
-
-
-        <ScalarLabelDef>
-            <Position>
-                <X>138</X>
-                <Y>2</Y>
-            </Position>
-            <FontName>_whatisthisfont2</FontName>
-            <Width>150</Width>
-            <Height>15</Height>
-            <MaxCharacters>999</MaxCharacters>
-            <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </Color>
-            <Adapter>summary_champ_exp_fine</Adapter>
-        </ScalarLabelDef>
-
-
-        <ScalarLabelDef>
-            <Position>
-                <X>48</X>
-                <Y>16</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <FontName>_whatisthisfont2</FontName>
-            <Width>40</Width>
-            <Height>14</Height>
-            <MaxCharacters>999</MaxCharacters>
-            <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </Color>
-            <Adapter>summary_champ_level</Adapter>
-            <Data>25</Data>
-        </ScalarLabelDef>
-
-
         <LabelDef>
             <Position>
-                <X>26</X>
+                <X>0</X>
                 <Y>16</Y>
             </Position>
             <Color>
@@ -162,6 +78,90 @@
             <MaxCharacters>128</MaxCharacters>
             <Data>CL:</Data>
         </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>21</X>
+                <Y>16</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>40</Width>
+            <Height>16</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_champ_level</Adapter>
+            <Data>25</Data>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>49</X>
+                <Y>16</Y>
+            </Position>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>30</Width>
+            <Height>16</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_champ_exp_coarse</Adapter>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <ControlId>dash</ControlId>
+            <Position>
+                <X>66</X>
+                <Y>16</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>10</Width>
+            <Height>16</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>-</Data>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>75</X>
+                <Y>16</Y>
+            </Position>
+            <FontName>_whatisthisfont2</FontName>
+            <Width>30</Width>
+            <Height>16</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_champ_exp_fine</Adapter>
+        </ScalarLabelDef>
 
 
     </WindowTemplate>
