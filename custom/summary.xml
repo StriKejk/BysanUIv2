@@ -407,14 +407,14 @@
         <ScalarLabelDef>
             <Position>
                 <X>0</X>
-                <Y>51</Y>
+                <Y>50</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
             <FontName>_whatisthisfont2</FontName>
             <Width>40</Width>
-            <Height>12</Height>
+            <Height>13</Height>
             <MaxCharacters>4</MaxCharacters>
             <Color>
                 <R>255</R>
@@ -431,14 +431,14 @@
         <ScalarLabelDef>
             <Position>
                 <X>0</X>
-                <Y>63</Y>
+                <Y>62</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
             <FontName>_whatisthisfont2</FontName>
             <Width>40</Width>
-            <Height>12</Height>
+            <Height>13</Height>
             <MaxCharacters>4</MaxCharacters>
             <Color>
                 <R>255</R>
