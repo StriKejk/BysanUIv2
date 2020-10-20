@@ -97,7 +97,6 @@
             <TemplateName>_witt_textarea</TemplateName>
             <AdapterName>help_text</AdapterName>
             <HasHotspots>true</HasHotspots>
-            <HotspotDelineator></HotspotDelineator>
             <MaxCharacters>32768</MaxCharacters>
             <Width>290</Width>
             <Height>362</Height>

@@ -40,7 +40,7 @@
 
 
     <WindowTemplate>
-        <Name>ChatRename</Name>
+        <Name>chatRename</Name>
         <WindowId>chatRenameWindow</WindowId>
         <CloseButton>false</CloseButton>
         <MoveButton>false</MoveButton>

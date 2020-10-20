@@ -1966,42 +1966,42 @@
         <MiddleWidth>5</MiddleWidth>
         <RightWidth>5</RightWidth>
         <Texture>
-            <TextureName>uielements</TextureName>
+            <TextureName>_whatisthistexture</TextureName>
             <TopLeft>
-                <X>1</X>
-                <Y>56</Y>
+                <X>992</X>
+                <Y>0</Y>
             </TopLeft>
             <TopMiddle>
-                <X>25</X>
-                <Y>56</Y>
+                <X>1000</X>
+                <Y>0</Y>
             </TopMiddle>
             <TopRight>
-                <X>52</X>
-                <Y>56</Y>
+                <X>1019</X>
+                <Y>0</Y>
             </TopRight>
             <MiddleLeft>
-                <X>1</X>
-                <Y>80</Y>
+                <X>992</X>
+                <Y>10</Y>
             </MiddleLeft>
             <MiddleMiddle>
-                <X>25</X>
-                <Y>80</Y>
+                <X>1000</X>
+                <Y>10</Y>
             </MiddleMiddle>
             <MiddleRight>
-                <X>52</X>
-                <Y>80</Y>
+                <X>1019</X>
+                <Y>10</Y>
             </MiddleRight>
             <BottomLeft>
-                <X>1</X>
-                <Y>105</Y>
+                <X>992</X>
+                <Y>27</Y>
             </BottomLeft>
             <BottomMiddle>
-                <X>20</X>
-                <Y>105</Y>
+                <X>1000</X>
+                <Y>27</Y>
             </BottomMiddle>
             <BottomRight>
-                <X>52</X>
-                <Y>105</Y>
+                <X>1019</X>
+                <Y>26</Y>
             </BottomRight>
         </Texture>
     </FullResizeImageTemplate>
@@ -2016,42 +2016,42 @@
         <MiddleWidth>20</MiddleWidth>
         <RightWidth>8</RightWidth>
         <Texture>
-            <TextureName>page3</TextureName>
+            <TextureName>_whatisthistexture</TextureName>
             <TopLeft>
-                <X>0</X>
-                <Y>89</Y>
+                <X>992</X>
+                <Y>0</Y>
             </TopLeft>
             <TopMiddle>
-                <X>9</X>
-                <Y>89</Y>
+                <X>1001</X>
+                <Y>0</Y>
             </TopMiddle>
             <TopRight>
-                <X>30</X>
-                <Y>89</Y>
+                <X>1016</X>
+                <Y>0</Y>
             </TopRight>
             <MiddleLeft>
-                <X>0</X>
-                <Y>98</Y>
+                <X>992</X>
+                <Y>9</Y>
             </MiddleLeft>
             <MiddleMiddle>
-                <X>9</X>
-                <Y>98</Y>
+                <X>1001</X>
+                <Y>9</Y>
             </MiddleMiddle>
             <MiddleRight>
-                <X>30</X>
-                <Y>98</Y>
+                <X>1016</X>
+                <Y>9</Y>
             </MiddleRight>
             <BottomLeft>
-                <X>0</X>
-                <Y>119</Y>
+                <X>992</X>
+                <Y>24</Y>
             </BottomLeft>
             <BottomMiddle>
-                <X>9</X>
-                <Y>119</Y>
+                <X>1001</X>
+                <Y>24</Y>
             </BottomMiddle>
             <BottomRight>
-                <X>30</X>
-                <Y>119</Y>
+                <X>1016</X>
+                <Y>24</Y>
             </BottomRight>
         </Texture>
     </FullResizeImageTemplate>
