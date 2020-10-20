@@ -3114,7 +3114,7 @@
 
     <ChatControlTemplate>
         <Name>chat</Name>
-        <FontName>_whatisthisfont11pxds</FontName>
+        <FontName>_whatisthisfont2</FontName>
         <BackgroundTemplate>_witt_bg_90</BackgroundTemplate>
         <ScrollbarTemplate>_witt_scroll_nobackground</ScrollbarTemplate>
     </ChatControlTemplate>
