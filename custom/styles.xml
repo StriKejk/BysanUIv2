@@ -14930,7 +14930,7 @@
 
 
     <FullResizeImageTemplate>
-        <Name>_witt_bg_80</Name>
+        <Name>_witt_bg_90</Name>
         <TopHeight>5</TopHeight>
         <MiddleHeight>5</MiddleHeight>
         <BottomHeight>5</BottomHeight>
@@ -15176,7 +15176,7 @@
 
 
     <FullResizeImageTemplate>
-        <Name>_witt_bg_90</Name>
+        <Name>_witt_bg_90T</Name>
         <TopHeight>5</TopHeight>
         <MiddleHeight>5</MiddleHeight>
         <BottomHeight>5</BottomHeight>
