@@ -70,7 +70,7 @@
         <ChatControlDef>
             <ControlId>1000</ControlId>
             <Position>
-                <X>5</X>
+                <X>0</X>
                 <Y>14</Y>
             </Position>
             <Alignment>
@@ -81,9 +81,9 @@
             <LinePadding>0</LinePadding>
             <TextOffset>
                 <X>3</X>
-                <Y>1</Y>
+                <Y>2</Y>
             </TextOffset>
-            <Width>340</Width>
+            <Width>350</Width>
             <Height>165</Height>
             <BufferName>chat</BufferName>
         </ChatControlDef>
@@ -99,8 +99,8 @@
                 <TopLeft>true</TopLeft>
                 <GrowWidth>true</GrowWidth>
             </Alignment>
-            <TemplateName>_witt_bg_50</TemplateName>
-            <Width>345</Width>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>350</Width>
             <Height>18</Height>
         </FullResizeImageDef>
 
@@ -133,7 +133,7 @@
         <ButtonDef>
             <ControlId>TwoWayResizeTopRight</ControlId>
             <Position>
-                <X>-3</X>
+                <X>-8</X>
                 <Y>6</Y>
             </Position>
             <Alignment>

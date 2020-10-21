@@ -15,39 +15,28 @@
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>286</TitleWidth>
-        <TitleHeight>8</TitleHeight>
-        <Width>286</Width>
-        <Height>337</Height>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>285</Width>
+        <Height>335</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>286</MinWidth>
-        <MinHeight>337</MinHeight>
+        <MinWidth>285</MinWidth>
+        <MinHeight>335</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
-            <ControlId>Background</ControlId>
+            <ControlId>Title</ControlId>
             <Position>
                 <X>0</X>
                 <Y>0</Y>
             </Position>
             <TemplateName>_witt_bg_90</TemplateName>
-            <Width>286</Width>
-            <Height>337</Height>
-        </FullResizeImageDef>
-
-
-        <FullResizeImageDef>
-            <Position>
-                <X>0</X>
-                <Y>0</Y>
-            </Position>
-            <TemplateName>_witt_bg_100</TemplateName>
-            <Width>286</Width>
-            <Height>19</Height>
+            <Width>285</Width>
+            <Height>20</Height>
         </FullResizeImageDef>
 
 
@@ -67,7 +56,7 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont2</FontName>
-            <Width>286</Width>
+            <Width>285</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
             <Data>CHAT CONFIG</Data>
@@ -76,43 +65,58 @@
 
 
         <FullResizeImageDef>
+            <ControlId>Background1</ControlId>
             <Position>
-                <X>3</X>
-                <Y>21</Y>
+                <X>0</X>
+                <Y>19</Y>
             </Position>
-            <TemplateName>_witt_bg_80</TemplateName>
-            <Width>139</Width>
-            <Height>245</Height>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>142</Width>
+            <Height>250</Height>
         </FullResizeImageDef>
 
 
         <FullResizeImageDef>
+            <ControlId>Background2</ControlId>
             <Position>
-                <X>144</X>
-                <Y>21</Y>
+                <X>141</X>
+                <Y>19</Y>
             </Position>
-            <TemplateName>_witt_bg_80</TemplateName>
-            <Width>139</Width>
-            <Height>245</Height>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>144</Width>
+            <Height>250</Height>
         </FullResizeImageDef>
 
 
         <FullResizeImageDef>
+            <ControlId>Background3</ControlId>
             <Position>
-                <X>3</X>
+                <X>0</X>
                 <Y>268</Y>
             </Position>
-            <TemplateName>_witt_bg_80</TemplateName>
-            <Width>280</Width>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>285</Width>
             <Height>48</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background4</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>315</Y>
+            </Position>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>285</Width>
+            <Height>20</Height>
         </FullResizeImageDef>
 
 
         <ButtonDef>
             <ControlId>2000</ControlId>
             <Position>
-                <X>3</X>
-                <Y>1</Y>
+                <X>2</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
@@ -125,8 +129,8 @@
         <ButtonDef>
             <ControlId>2001</ControlId>
             <Position>
-                <X>3</X>
-                <Y>1</Y>
+                <X>2</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>

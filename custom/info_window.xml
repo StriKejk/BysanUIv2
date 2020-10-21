@@ -15,49 +15,31 @@
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>280</TitleWidth>
-        <TitleHeight>20</TitleHeight>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
         <Width>280</Width>
         <Height>320</Height>
-        <ResizeableWidth>5</ResizeableWidth>
-        <ResizeableHeight>5</ResizeableHeight>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>80</MinWidth>
-        <MinHeight>80</MinHeight>
+        <MinWidth>280</MinWidth>
+        <MinHeight>320</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
-            <ControlId>Title Background</ControlId>
+            <ControlId>Title</ControlId>
             <Position>
                 <X>0</X>
                 <Y>0</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
                 <GrowWidth>true</GrowWidth>
-            </Alignment>
-            <TemplateName>_witt_bg_100</TemplateName>
-            <Width>280</Width>
-            <Height>20</Height>
-        </FullResizeImageDef>
-
-
-        <FullResizeImageDef>
-            <ControlId>Window Background</ControlId>
-            <Position>
-                <X>0</X>
-                <Y>0</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-                <GrowWidth>true</GrowWidth>
-                <GrowHeight>true</GrowHeight>
             </Alignment>
             <TemplateName>_witt_bg_90</TemplateName>
             <Width>280</Width>
-            <Height>320</Height>
+            <Height>20</Height>
         </FullResizeImageDef>
 
 
@@ -85,23 +67,38 @@
         </LabelDef>
 
 
-        <TextAreaDef>
-            <ControlId>1001</ControlId>
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
             <Position>
-                <X>5</X>
+                <X>0</X>
                 <Y>19</Y>
             </Position>
             <Alignment>
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
-                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>280</Width>
+            <Height>301</Height>
+        </FullResizeImageDef>
+
+
+        <TextAreaDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>18</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
             </Alignment>
             <TemplateName>_witt_textarea</TemplateName>
             <AdapterName>info_text</AdapterName>
             <HasHotspots>false</HasHotspots>
             <MaxCharacters>32768</MaxCharacters>
-            <Width>270</Width>
-            <Height>296</Height>
+            <Width>280</Width>
+            <Height>303</Height>
         </TextAreaDef>
 
 

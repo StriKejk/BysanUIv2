@@ -23,17 +23,18 @@
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>0</MinWidth>
-        <MinHeight>0</MinHeight>
+        <MinWidth>68</MinWidth>
+        <MinHeight>112</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
+            <ControlId>Background</ControlId>
             <Position>
                 <X>0</X>
                 <Y>0</Y>
             </Position>
-            <TemplateName>_witt_bg_80</TemplateName>
+            <TemplateName>_witt_bg_90</TemplateName>
             <Width>68</Width>
             <Height>112</Height>
         </FullResizeImageDef>

@@ -58,11 +58,11 @@
         <MoveButton>false</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>
         <BottomRightResizeButton>true</BottomRightResizeButton>
-        <BottomLeftResizeButton>true</BottomLeftResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>300</TitleWidth>
-        <TitleHeight>2</TitleHeight>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
         <Width>464</Width>
         <Height>206</Height>
         <ResizeableWidth>0</ResizeableWidth>
@@ -70,7 +70,7 @@
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
         <MinWidth>464</MinWidth>
-        <MinHeight>100</MinHeight>
+        <MinHeight>206</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
 
@@ -84,7 +84,7 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>dlg_background_5px</TemplateName>
+            <TemplateName>_witt_bg_90</TemplateName>
             <Width>465</Width>
             <Height>206</Height>
         </FullResizeImageDef>
@@ -93,15 +93,15 @@
         <ListBoxDef>
             <ControlId>1000</ControlId>
             <Position>
-                <X>4</X>
+                <X>0</X>
                 <Y>18</Y>
             </Position>
             <Alignment>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <Width>456</Width>
-            <Height>160</Height>
-            <TemplateName>listbox_nobg</TemplateName>
+            <Width>465</Width>
+            <Height>168</Height>
+            <TemplateName>_witt_listbox_0</TemplateName>
             <AdapterName>group_results</AdapterName>
             <Sorting>false</Sorting>
             <Columns>2</Columns>
@@ -116,13 +116,13 @@
         <ButtonDef>
             <ControlId>1001</ControlId>
             <Position>
-                <X>5</X>
-                <Y>4</Y>
+                <X>2</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <TemplateName>button_tab</TemplateName>
+            <TemplateName>_witt_hr_button</TemplateName>
             <Label>SEND</Label>
         </ButtonDef>
 
@@ -166,7 +166,7 @@
                 <B>229</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>_whatisthisfont3</FontName>
             <Width>124</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -188,7 +188,7 @@
                 <B>229</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>_whatisthisfont3</FontName>
             <Width>124</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -210,7 +210,7 @@
                 <B>229</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>_whatisthisfont3</FontName>
             <Width>124</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -232,7 +232,7 @@
                 <B>229</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>_whatisthisfont3</FontName>
             <Width>124</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -254,7 +254,7 @@
                 <B>229</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>_whatisthisfont3</FontName>
             <Width>124</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -276,7 +276,7 @@
                 <B>229</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>_whatisthisfont3</FontName>
             <Width>124</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -298,7 +298,7 @@
                 <B>229</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>_whatisthisfont3</FontName>
             <Width>124</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>

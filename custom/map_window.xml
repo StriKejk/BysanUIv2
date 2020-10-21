@@ -124,72 +124,8 @@
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
         <MinWidth>256</MinWidth>
-        <MinHeight>0</MinHeight>
+        <MinHeight>354</MinHeight>
         <ContextTemplateName></ContextTemplateName>
-
-
-        <LabelDef>
-            <Position>
-                <X>0</X>
-                <Y>280</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <Color>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
-                <A>255</A>
-            </Color>
-            <FontName>arial9</FontName>
-            <Width>256</Width>
-            <Height>15</Height>
-            <MaxCharacters>128</MaxCharacters>
-            <Adapter>map_info0</Adapter>
-            <TextCentered>true</TextCentered>
-        </LabelDef>
-
-
-        <ButtonDef>
-            <ControlId>1006</ControlId>
-            <Position>
-                <X>0</X>
-                <Y>0</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-                <OffsetRight>true</OffsetRight>
-            </Alignment>
-            <TemplateName>b_button_gps</TemplateName>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <ControlId>1003</ControlId>
-            <Position>
-                <X>38</X>
-                <Y>0</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-                <OffsetRight>true</OffsetRight>
-            </Alignment>
-            <TemplateName>b_button_inf</TemplateName>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <ControlId>1009</ControlId>
-            <Position>
-                <X>19</X>
-                <Y>0</Y>
-            </Position>
-            <Alignment>
-                <OffsetRight>true</OffsetRight>
-            </Alignment>
-            <TemplateName>b_button_qst</TemplateName>
-        </ButtonDef>
 
 
         <DynamicImageDef>
@@ -354,19 +290,6 @@
 
 
         <ComboBoxDef>
-            <ControlId>1002</ControlId>
-            <Position>
-                <X>92</X>
-                <Y>2</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_witt_combo_nobg</TemplateName>
-        </ComboBoxDef>
-
-
-        <ComboBoxDef>
             <ControlId>1001</ControlId>
             <Position>
                 <X>0</X>
@@ -379,16 +302,58 @@
         </ComboBoxDef>
 
 
-        <FullResizeImageDef>
-            <ControlId>Background</ControlId>
+        <ComboBoxDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>92</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_witt_combo_nobg</TemplateName>
+        </ComboBoxDef>
+
+
+        <ButtonDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>38</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>b_button_inf</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1009</ControlId>
+            <Position>
+                <X>19</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>b_button_qst</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1006</ControlId>
             <Position>
                 <X>0</X>
-                <Y>276</Y>
+                <Y>0</Y>
             </Position>
-            <TemplateName>_witt_bg_90</TemplateName>
-            <Width>256</Width>
-            <Height>78</Height>
-        </FullResizeImageDef>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>b_button_gps</TemplateName>
+        </ButtonDef>
 
 
         <TextAreaDef>

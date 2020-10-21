@@ -11,47 +11,32 @@
         <CloseButton>true</CloseButton>
         <MoveButton>false</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>
-        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomRightResizeButton>true</BottomRightResizeButton>
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
-        <ResizeButtonOffsetX>9</ResizeButtonOffsetX>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>241</TitleWidth>
-        <TitleHeight>18</TitleHeight>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
         <Width>241</Width>
         <Height>345</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>250</MinWidth>
-        <MinHeight>360</MinHeight>
+        <MinWidth>241</MinWidth>
+        <MinHeight>345</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
-            <ControlId>BackgroundImage</ControlId>
+            <ControlId>Title</ControlId>
             <Position>
                 <X>0</X>
                 <Y>0</Y>
             </Position>
-            <Alignment>
-                <GrowWidth>true</GrowWidth>
-                <GrowHeight>true</GrowHeight>
-            </Alignment>
             <TemplateName>_witt_bg_90</TemplateName>
             <Width>241</Width>
-            <Height>345</Height>
-        </FullResizeImageDef>
-
-
-        <FullResizeImageDef>
-            <Position>
-                <X>0</X>
-                <Y>0</Y>
-            </Position>
-            <TemplateName>_witt_bg_100</TemplateName>
-            <Width>241</Width>
-            <Height>19</Height>
+            <Height>20</Height>
         </FullResizeImageDef>
 
 
@@ -79,6 +64,22 @@
         </LabelDef>
 
 
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>19</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>241</Width>
+            <Height>326</Height>
+        </FullResizeImageDef>
+
+
         <LabelDef>
             <ControlId>1001</ControlId>
             <Position>
@@ -104,25 +105,10 @@
 
 
         <ButtonDef>
-            <ControlId>1100</ControlId>
-            <Position>
-                <X>3</X>
-                <Y>1</Y>
-            </Position>
-            <Alignment>
-                <OffsetBottom>true</OffsetBottom>
-                <OffsetRight>true</OffsetRight>
-            </Alignment>
-            <TemplateName>_witt_hr_button</TemplateName>
-            <Label>Cancel</Label>
-        </ButtonDef>
-
-
-        <ButtonDef>
             <ControlId>1101</ControlId>
             <Position>
-                <X>3</X>
-                <Y>1</Y>
+                <X>2</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
@@ -136,8 +122,8 @@
         <ButtonDef>
             <ControlId>1102</ControlId>
             <Position>
-                <X>0</X>
-                <Y>1</Y>
+                <X>89</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
@@ -146,6 +132,21 @@
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>Info</Label>
             <OnClickEvent>SubclassDelve</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1100</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>Cancel</Label>
         </ButtonDef>
 
 

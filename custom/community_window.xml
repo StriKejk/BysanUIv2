@@ -67,48 +67,48 @@
     <FullResizeImageTemplate>
         <Name>listbox_header_background</Name>
         <TopHeight>10</TopHeight>
-        <MiddleHeight>40</MiddleHeight>
+        <MiddleHeight>10</MiddleHeight>
         <BottomHeight>10</BottomHeight>
         <LeftWidth>10</LeftWidth>
-        <MiddleWidth>40</MiddleWidth>
+        <MiddleWidth>10</MiddleWidth>
         <RightWidth>10</RightWidth>
         <Texture>
-            <TextureName>page1</TextureName>
+            <TextureName>_whatisthistexture</TextureName>
             <TopLeft>
-                <X>0</X>
-                <Y>41</Y>
+                <X>992</X>
+                <Y>0</Y>
             </TopLeft>
             <TopMiddle>
-                <X>41</X>
-                <Y>41</Y>
+                <X>1000</X>
+                <Y>0</Y>
             </TopMiddle>
             <TopRight>
-                <X>112</X>
-                <Y>41</Y>
+                <X>1014</X>
+                <Y>0</Y>
             </TopRight>
             <MiddleLeft>
-                <X>0</X>
-                <Y>82</Y>
+                <X>992</X>
+                <Y>10</Y>
             </MiddleLeft>
             <MiddleMiddle>
-                <X>41</X>
-                <Y>82</Y>
+                <X>1000</X>
+                <Y>10</Y>
             </MiddleMiddle>
             <MiddleRight>
-                <X>112</X>
-                <Y>82</Y>
+                <X>1014</X>
+                <Y>10</Y>
             </MiddleRight>
             <BottomLeft>
-                <X>0</X>
-                <Y>153</Y>
+                <X>992</X>
+                <Y>22</Y>
             </BottomLeft>
             <BottomMiddle>
-                <X>41</X>
-                <Y>153</Y>
+                <X>1000</X>
+                <Y>22</Y>
             </BottomMiddle>
             <BottomRight>
-                <X>112</X>
-                <Y>153</Y>
+                <X>1014</X>
+                <Y>22</Y>
             </BottomRight>
         </Texture>
     </FullResizeImageTemplate>
@@ -821,22 +821,22 @@
         <Name>community</Name>
         <WindowId>Community</WindowId>
         <CloseButton>true</CloseButton>
-        <MoveButton>true</MoveButton>
+        <MoveButton>false</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>
-        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomRightResizeButton>true</BottomRightResizeButton>
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>605</TitleWidth>
-        <TitleHeight>18</TitleHeight>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
         <Width>600</Width>
         <Height>405</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>0</MinWidth>
-        <MinHeight>0</MinHeight>
+        <MinWidth>400</MinWidth>
+        <MinHeight>405</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
 

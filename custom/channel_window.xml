@@ -15,7 +15,7 @@
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>78</TitleWidth>
+        <TitleWidth>0</TitleWidth>
         <TitleHeight>0</TitleHeight>
         <Width>78</Width>
         <Height>192</Height>
@@ -23,18 +23,18 @@
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>0</MinWidth>
-        <MinHeight>0</MinHeight>
+        <MinWidth>78</MinWidth>
+        <MinHeight>192</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
-            <ControlId>BackgroundImage</ControlId>
+            <ControlId>Background</ControlId>
             <Position>
                 <X>0</X>
                 <Y>0</Y>
             </Position>
-            <TemplateName>_witt_bg_80</TemplateName>
+            <TemplateName>_witt_bg_90</TemplateName>
             <Width>78</Width>
             <Height>192</Height>
         </FullResizeImageDef>

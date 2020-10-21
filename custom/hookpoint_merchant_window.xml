@@ -11,20 +11,20 @@
         <CloseButton>true</CloseButton>
         <MoveButton>false</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>
-        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomRightResizeButton>true</BottomRightResizeButton>
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>261</TitleWidth>
-        <TitleHeight>18</TitleHeight>
-        <Width>261</Width>
-        <Height>296</Height>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>255</Width>
+        <Height>294</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>0</MinWidth>
-        <MinHeight>0</MinHeight>
+        <MinWidth>255</MinWidth>
+        <MinHeight>294</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
 
@@ -32,32 +32,17 @@
 
 
         <FullResizeImageDef>
-            <ControlId>Background</ControlId>
+            <ControlId>Title</ControlId>
             <Position>
                 <X>0</X>
                 <Y>0</Y>
             </Position>
             <Alignment>
                 <GrowWidth>true</GrowWidth>
-                <GrowHeight>true</GrowHeight>
             </Alignment>
             <TemplateName>_witt_bg_90</TemplateName>
-            <Width>261</Width>
-            <Height>296</Height>
-        </FullResizeImageDef>
-
-
-        <FullResizeImageDef>
-            <Position>
-                <X>0</X>
-                <Y>0</Y>
-            </Position>
-            <Alignment>
-                <GrowWidth>true</GrowWidth>
-            </Alignment>
-            <TemplateName>_witt_bg_100</TemplateName>
-            <Width>261</Width>
-            <Height>19</Height>
+            <Width>255</Width>
+            <Height>20</Height>
         </FullResizeImageDef>
 
 
@@ -78,14 +63,55 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont2</FontName>
-            <Width>261</Width>
+            <Width>255</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
             <Data>HOOKPOINT STORE</Data>
+            <TextCentered>true</TextCentered>
         </LabelDef>
 
 
         <FullResizeImageDef>
+            <ControlId>Background1</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>19</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>255</Width>
+            <Height>220</Height>
+        </FullResizeImageDef>
+
+
+        <ListBoxDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>18</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+            </Alignment>
+            <Width>255</Width>
+            <Height>160</Height>
+            <TemplateName>_witt_listbox_0</TemplateName>
+            <AdapterName>hookpoint_store_list</AdapterName>
+            <Sorting>false</Sorting>
+            <Columns>2</Columns>
+            <IconTemplate></IconTemplate>
+            <ShowIndicator>false</ShowIndicator>
+            <ShowDefaultToolTips>false</ShowDefaultToolTips>
+            <OnHeaderClickEvent></OnHeaderClickEvent>
+            <OnClickEvent></OnClickEvent>
+        </ListBoxDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>Title2</ControlId>
             <Position>
                 <X>0</X>
                 <Y>238</Y>
@@ -93,9 +119,9 @@
             <Alignment>
                 <GrowWidth>true</GrowWidth>
             </Alignment>
-            <TemplateName>_witt_bg_100</TemplateName>
-            <Width>261</Width>
-            <Height>19</Height>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>255</Width>
+            <Height>20</Height>
         </FullResizeImageDef>
 
 
@@ -116,41 +142,35 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont2</FontName>
-            <Width>261</Width>
+            <Width>255</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
             <Data>SET PRICES</Data>
+            <TextCentered>true</TextCentered>
         </LabelDef>
 
 
-        <ListBoxDef>
-            <ControlId>1000</ControlId>
+        <FullResizeImageDef>
+            <ControlId>Background2</ControlId>
             <Position>
                 <X>0</X>
-                <Y>18</Y>
+                <Y>257</Y>
             </Position>
             <Alignment>
                 <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
             </Alignment>
-            <Width>261</Width>
-            <Height>160</Height>
-            <TemplateName>_witt_listbox_80</TemplateName>
-            <AdapterName>hookpoint_store_list</AdapterName>
-            <Sorting>false</Sorting>
-            <Columns>2</Columns>
-            <IconTemplate></IconTemplate>
-            <ShowIndicator>false</ShowIndicator>
-            <ShowDefaultToolTips>false</ShowDefaultToolTips>
-            <OnHeaderClickEvent></OnHeaderClickEvent>
-            <OnClickEvent></OnClickEvent>
-        </ListBoxDef>
+            <TemplateName>_witt_bg_90</TemplateName>
+            <Width>255</Width>
+            <Height>37</Height>
+        </FullResizeImageDef>
 
 
         <ButtonDef>
             <ControlId>1002</ControlId>
             <Position>
-                <X>3</X>
-                <Y>19</Y>
+                <X>2</X>
+                <Y>17</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
@@ -164,8 +184,8 @@
         <ButtonDef>
             <ControlId>1003</ControlId>
             <Position>
-                <X>67</X>
-                <Y>19</Y>
+                <X>65</X>
+                <Y>17</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
@@ -179,12 +199,11 @@
         <ButtonDef>
             <ControlId>1000</ControlId>
             <Position>
-                <X>68</X>
-                <Y>19</Y>
+                <X>128</X>
+                <Y>17</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
-                <OffsetRight>true</OffsetRight>
             </Alignment>
             <TemplateName>_witt_hr_button</TemplateName>
             <Label>GBP</Label>
@@ -195,8 +214,8 @@
         <ButtonDef>
             <ControlId>1005</ControlId>
             <Position>
-                <X>3</X>
-                <Y>19</Y>
+                <X>2</X>
+                <Y>17</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
@@ -238,8 +257,8 @@
 
         <ButtonDef>
             <Position>
-                <X>3</X>
-                <Y>1</Y>
+                <X>2</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
@@ -255,7 +274,7 @@
 
         <LabelDef>
             <Position>
-                <X>33</X>
+                <X>30</X>
                 <Y>181</Y>
             </Position>
             <Alignment>
@@ -302,7 +321,7 @@
 
         <LabelDef>
             <Position>
-                <X>33</X>
+                <X>30</X>
                 <Y>195</Y>
             </Position>
             <Alignment>
