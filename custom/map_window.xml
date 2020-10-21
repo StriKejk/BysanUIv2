@@ -124,7 +124,7 @@
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
         <MinWidth>256</MinWidth>
-        <MinHeight>354</MinHeight>
+        <MinHeight>276</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
 
