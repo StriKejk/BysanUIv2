@@ -80,7 +80,6 @@
                 <A>255</A>
             </Color>
             <Adapter>release_timer_time</Adapter>
-            <Data>100</Data>
             <TextCentered>true</TextCentered>
         </ScalarLabelDef>
 
