@@ -399,6 +399,20 @@
 
         <ButtonDef>
             <Position>
+                <X>2</X>
+                <Y>159</Y>
+            </Position>
+            <Alignment>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>_witt_hr_button</TemplateName>
+            <Label>Summary2</Label>
+            <OnClickEvent>ToggleCustom15</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
                 <X>66</X>
                 <Y>159</Y>
             </Position>
