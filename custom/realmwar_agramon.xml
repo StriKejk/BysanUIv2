@@ -430,6 +430,16 @@
         </ImageAreaDef>
 
 
+        <ImageAreaDef>
+            <ControlId>1203</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>realmwar_siege</TemplateName>
+        </ImageAreaDef>
+
+
         <StatusIconDef>
             <ControlId>1400</ControlId>
             <Position>
@@ -459,6 +469,17 @@
                 <Y>0</Y>
             </Position>
             <TemplateName>realmwar_ruined_tower</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId>1403</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>realmwar_ruined_keep</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
 
@@ -549,6 +570,19 @@
             </Position>
             <Label></Label>
             <OnClickEvent>WarmapKeepSelect2</OnClickEvent>
+            <Width>16</Width>
+            <Height>16</Height>
+        </InvisibleButtonDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>3403</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>WarmapKeepSelect3</OnClickEvent>
             <Width>16</Width>
             <Height>16</Height>
         </InvisibleButtonDef>
