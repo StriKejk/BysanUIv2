@@ -8,7 +8,7 @@
     <WindowTemplate>
         <Name>siege</Name>
         <WindowId></WindowId>
-        <CloseButton>true</CloseButton>
+        <CloseButton>false</CloseButton>
         <MoveButton>false</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>
         <BottomRightResizeButton>false</BottomRightResizeButton>
@@ -142,7 +142,6 @@
 
 
         <ButtonDef>
-            <ControlId>1101</ControlId>
             <Position>
                 <X>2</X>
                 <Y>31</Y>
@@ -157,7 +156,6 @@
 
 
         <ButtonDef>
-            <ControlId>1102</ControlId>
             <Position>
                 <X>2</X>
                 <Y>59</Y>
@@ -172,7 +170,6 @@
 
 
         <ButtonDef>
-            <ControlId>1100</ControlId>
             <Position>
                 <X>2</X>
                 <Y>76</Y>
@@ -187,7 +184,6 @@
 
 
         <ButtonDef>
-            <ControlId>1104</ControlId>
             <Position>
                 <X>2</X>
                 <Y>93</Y>
@@ -216,7 +212,6 @@
 
 
         <ButtonDef>
-            <ControlId>1103</ControlId>
             <Position>
                 <X>2</X>
                 <Y>127</Y>
