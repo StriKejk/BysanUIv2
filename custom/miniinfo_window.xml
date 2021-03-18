@@ -17,13 +17,13 @@
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
         <TitleWidth>0</TitleWidth>
         <TitleHeight>0</TitleHeight>
-        <Width>209</Width>
+        <Width>230</Width>
         <Height>142</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>209</MinWidth>
+        <MinWidth>230</MinWidth>
         <MinHeight>142</MinHeight>
         <ContextTemplateName></ContextTemplateName>
 
@@ -35,7 +35,7 @@
                 <Y>0</Y>
             </Position>
             <TemplateName>_witt_bg_90</TemplateName>
-            <Width>209</Width>
+            <Width>230</Width>
             <Height>142</Height>
         </FullResizeImageDef>
 
@@ -53,7 +53,7 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont3</FontName>
-            <Width>175</Width>
+            <Width>210</Width>
             <Height>26</Height>
             <MaxCharacters>64</MaxCharacters>
             <Data>MiniInfo0</Data>
@@ -64,7 +64,7 @@
         <LabelDef>
             <ControlId>1001</ControlId>
             <Position>
-                <X>39</X>
+                <X>40</X>
                 <Y>15</Y>
             </Position>
             <Color>
@@ -74,7 +74,7 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont3</FontName>
-            <Width>102</Width>
+            <Width>175</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
             <Data>MiniInfo1</Data>
@@ -85,7 +85,7 @@
         <LabelDef>
             <ControlId>1002</ControlId>
             <Position>
-                <X>39</X>
+                <X>40</X>
                 <Y>27</Y>
             </Position>
             <Color>
@@ -95,7 +95,7 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont3</FontName>
-            <Width>102</Width>
+            <Width>125</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
             <Data>MiniInfo2</Data>
@@ -106,7 +106,7 @@
         <LabelDef>
             <ControlId>1003</ControlId>
             <Position>
-                <X>39</X>
+                <X>40</X>
                 <Y>39</Y>
             </Position>
             <Color>
@@ -116,7 +116,7 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont3</FontName>
-            <Width>102</Width>
+            <Width>125</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
             <Data>MiniInfo3</Data>
@@ -137,7 +137,7 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont3</FontName>
-            <Width>136</Width>
+            <Width>160</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
             <Data>MiniInfo4</Data>
@@ -158,7 +158,7 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont3</FontName>
-            <Width>136</Width>
+            <Width>160</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
             <Data>Mini Info 5</Data>
@@ -179,7 +179,7 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont3</FontName>
-            <Width>136</Width>
+            <Width>160</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
             <Data>Mini Info6</Data>
@@ -200,7 +200,7 @@
                 <A>255</A>
             </Color>
             <FontName>_whatisthisfont3</FontName>
-            <Width>136</Width>
+            <Width>160</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
             <Data>Mini Info7</Data>
@@ -290,7 +290,7 @@
                 <X>0</X>
                 <Y>101</Y>
             </Position>
-            <Width>209</Width>
+            <Width>230</Width>
             <Height>42</Height>
             <TemplateName>_witt_listbox_0</TemplateName>
             <AdapterName>mini_info_use_list</AdapterName>
